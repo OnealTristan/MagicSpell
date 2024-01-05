@@ -10,8 +10,9 @@ public class Keyboard : MonoBehaviour
     [SerializeField] private RectTransform rectTransform;
     [SerializeField] private Key keyPrefab;
     [SerializeField] private Key backspaceKeyPrefab;
+	[SerializeField] private Key enterKeyPrefab;
 
-    [Header(" Settings ")]
+	[Header(" Settings ")]
     [Range(0f, 1f)]
     [SerializeField] private float widthPercent;
     [Range(0f, 1f)]
@@ -29,8 +30,9 @@ public class Keyboard : MonoBehaviour
     [SerializeField] private float keyXSpacing;
 
     [Header(" Events ")]
-    public Action<char> onKeyPressed;
+    public Action<string> onKeyPressed;
     public Action onBackspacePressed;
+    public Action onEnterPressed;
     
     // Start is called before the first frame update
     IEnumerator Start()
@@ -43,11 +45,6 @@ public class Keyboard : MonoBehaviour
 
         rectTransform.sizeDelta = new Vector2(Screen.width, Screen.height/2);
     }
-
-    public void OnClickButton() {
-        TouchScreenKeyboard.hideInput = true;
-		TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default, false, false, true);
-	}
 
 	// Update is called once per frame
 	void Update()
@@ -76,21 +73,24 @@ public class Keyboard : MonoBehaviour
             for (int j = 0; j < lines[i].keys.Length; j++) {
                 char key = lines[i].keys[j];
 
-                if (key == '.')
-                {
-					Key keyInstance = Instantiate(backspaceKeyPrefab, rectTransform);
+                if (key == '.') {
+                    Key keyInstance = Instantiate(backspaceKeyPrefab, rectTransform);
 
                     keyInstance.GetButton().onClick.AddListener(() => BackspacePressedCallback());
+                } else if (key == ',') {
+					Key keyInstance = Instantiate(enterKeyPrefab, rectTransform);
+
+					keyInstance.GetButton().onClick.AddListener(() => EnterPressedCallback());
 				} else {
 					Key keyInstance = Instantiate(keyPrefab, rectTransform);
 					keyInstance.SetKey(key);
-					keyInstance.GetButton().onClick.AddListener(() => KeyPressedCallback(key));
+					keyInstance.GetButton().onClick.AddListener(() => KeyPressedCallback(key.ToString().ToLower().Trim()));
 				}
             }
         }
     }
 
-    private void PlaceKeys() {
+	private void PlaceKeys() {
         int lineCount = lines.Length;
 
         float lineHeight = rectTransform.rect.height / lineCount;
@@ -142,15 +142,15 @@ public class Keyboard : MonoBehaviour
         }
     }
 
-    private void BackspacePressedCallback () {
-        Debug.Log("Backspace Pressed");
+	private void EnterPressedCallback() {
+        onEnterPressed?.Invoke();
+	}
 
+	private void BackspacePressedCallback () {
         onBackspacePressed?.Invoke();
     }
 
-    private void KeyPressedCallback(char key) {
-        Debug.Log("Key pressed : " + key);
-
+    private void KeyPressedCallback(string key) {
         onKeyPressed?.Invoke(key);
     }
 }

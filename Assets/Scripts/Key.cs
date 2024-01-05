@@ -11,6 +11,7 @@ public class Key : MonoBehaviour
 
     [Header(" Settings ")]
     [SerializeField] private bool isBackSpace;
+    [SerializeField] private bool isEnter;
 
     public void SetKey(char key) {
         this.key = key;
@@ -23,5 +24,9 @@ public class Key : MonoBehaviour
 
     public bool IsBackSpace () {
         return isBackSpace;
+    }
+
+    public bool IsEnter() {
+        return isEnter;
     }
 }
