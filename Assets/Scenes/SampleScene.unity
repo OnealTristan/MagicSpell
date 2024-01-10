@@ -849,8 +849,9 @@ GameObject:
   - component: {fileID: 1327674887}
   - component: {fileID: 1327674889}
   - component: {fileID: 1327674888}
+  - component: {fileID: 1327674890}
   m_Layer: 5
-  m_Name: Guess Text Continer
+  m_Name: Guess Text Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -914,6 +915,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327674886}
   m_CullTransparentMesh: 1
+--- !u!114 &1327674890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327674886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b1bba490e5193489bc09cb7973f79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rectTransform: {fileID: 1327674887}
+  inputManager: {fileID: 1039244780}
+  letterPrefab: {fileID: -9137659371314028788, guid: 9dac60c2b7e757e41a637475d245c4a8, type: 3}
+  widthPercent: 0.477
+  heightPercent: 0.165
+  scale: 0.371
+  letterSpacing: 5.16
 --- !u!1 &1613442845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1259,6 +1279,8 @@ MonoBehaviour:
   playerHealth: {fileID: 1692234414}
   enemyHealth: {fileID: 524734424}
   inputManager: {fileID: 1039244780}
+  maxPlayerHealth: 100
+  maxEnemyHealth: 100
 --- !u!1 &2008388044
 GameObject:
   m_ObjectHideFlags: 0

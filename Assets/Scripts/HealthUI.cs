@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,12 +11,20 @@ public class HealthUI : MonoBehaviour
     [SerializeField] private Slider enemyHealth;
     [SerializeField] private InputManager inputManager;
 
-    private void Awake() {
-      
-    }
+    [Header(" Settings ")]
+    [Range(0, 100)]
+    [SerializeField] private float maxPlayerHealth;
+	[Range(0, 100)]
+	[SerializeField] private float maxEnemyHealth;
+
     private void Start() {
         inputManager.OnDecreaseHPEnemy += InputManager_OnDecreaseHPEnemy;
         inputManager.OnDecreaseHPPlayer += InputManager_OnDecreaseHPPlayer;
+
+        playerHealth.maxValue = maxPlayerHealth;
+        enemyHealth.maxValue = maxEnemyHealth;
+        playerHealth.value = maxPlayerHealth;
+        enemyHealth.value = maxEnemyHealth;
     }
 
     private void InputManager_OnDecreaseHPPlayer(float damage) {
@@ -25,5 +34,6 @@ public class HealthUI : MonoBehaviour
 
     private void InputManager_OnDecreaseHPEnemy(float damage) {
         enemyHealth.value -= damage;
-    }
+		Debug.Log(damage);
+	}
 }

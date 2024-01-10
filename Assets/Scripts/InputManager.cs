@@ -9,6 +9,7 @@ public class InputManager : MonoBehaviour
 {
     public Action<float> OnDecreaseHPPlayer;
     public Action<float> OnDecreaseHPEnemy;
+    public Action<string> OnShowLetterLine;
     
 
     [Header(" Elements ")]
@@ -33,6 +34,9 @@ public class InputManager : MonoBehaviour
         keyboard.onKeyPressed += KeyPressedCallback;
 
         LoadData();
+        for (int i = 0; i < huruf.Length; i++) {
+            OnShowLetterLine?.Invoke(huruf[i]);
+        }
     }
 
     private void LoadData() {
@@ -50,14 +54,15 @@ public class InputManager : MonoBehaviour
                 // Equals() diperuntukan 1 kata penuh
                 // Contains(i[0]) diperuntukan untuk setiap huruf dalam kata
 				if (word.ToLower().Trim().Equals(txt)) {
+                    // Menguji apakah kata tersebut mengandung 2 huruf yang harus di ketik?
                     if (txt.Contains(huruf[0]) && txt.Contains(huruf[1]))
                     {
+                        // Jika benar maka damage akan diterima oleh musuh
                         correctLetterCount = 0;
-                        CorrectLetter();
-
                         Debug.Log("Type: " + txt + " Found!!");
+                        CorrectLetter();
                         text.text = string.Empty;
-                        damage = countDamage(correctLetterCount);
+                        damage = correctLetterCount;
                         OnDecreaseHPEnemy?.Invoke(damage);
                         stringFound = true;
                         break;
@@ -65,11 +70,12 @@ public class InputManager : MonoBehaviour
 				}
 			}
 
+            //Jika salah maka damage akan diterima oleh player
             if (!stringFound) {
-				Debug.Log("Type: " + txt + " Not Found!!");
                 correctLetterCount = 0;
+				Debug.Log("Type: " + txt + " Not Found!!");
                 CorrectLetter();
-                damage = countDamage(correctLetterCount);
+                damage = correctLetterCount;
                 OnDecreaseHPPlayer?.Invoke(damage);
                 text.text = string.Empty;
             }
@@ -84,11 +90,6 @@ public class InputManager : MonoBehaviour
 
     private void KeyPressedCallback(string key) {
         text.text += key.ToUpper().Trim();
-    }
-
-    public float countDamage(float correctLetterCount) {
-        damage = 1 * correctLetterCount; // Contoh: damage minimum adalah 5
-        return damage;
     }
 
     private void CorrectLetter() {
