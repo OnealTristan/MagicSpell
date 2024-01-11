@@ -9,8 +9,6 @@ public class InputManager : MonoBehaviour
 {
     public Action<float> OnDecreaseHPPlayer;
     public Action<float> OnDecreaseHPEnemy;
-    public Action<string> OnShowLetterLine;
-    
 
     [Header(" Elements ")]
     [SerializeField] private Text text;
@@ -18,25 +16,21 @@ public class InputManager : MonoBehaviour
     [SerializeField] private Slider enemyHealthBar;
     [SerializeField] private Slider playerHealthBar;
 
-
-    private string[] validWords;
-    private float damage;
-    private float correctLetterCount;
-
     [Header(" Settings ")]
     [SerializeField] private string[] huruf;
 
-    // Start is called before the first frame update
-    void Start()
+	private string[] validWords;
+	private float damage;
+	private float correctLetterCount;
+
+	// Start is called before the first frame update
+	void Start()
     {
         keyboard.onEnterPressed += EnterPressedCallback;
         keyboard.onBackspacePressed += BackspacePressedCallback;
         keyboard.onKeyPressed += KeyPressedCallback;
 
         LoadData();
-        for (int i = 0; i < huruf.Length; i++) {
-            OnShowLetterLine?.Invoke(huruf[i]);
-        }
     }
 
     private void LoadData() {
@@ -96,5 +90,9 @@ public class InputManager : MonoBehaviour
        for (int i = 0; i < (text.text.Length); i++) {
           correctLetterCount++;
        }
+    }
+
+    public string[] GetHuruf() {
+        return huruf;
     }
 }
