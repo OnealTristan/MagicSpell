@@ -20,6 +20,7 @@ public class InputManager : MonoBehaviour
     [SerializeField] private string[] huruf;
 
 	private string[] validWords;
+    private string[] usedWords;
 	private float damage;
 	private float correctLetterCount;
 
@@ -44,33 +45,47 @@ public class InputManager : MonoBehaviour
         bool stringFound = false;
 
 		if (validWords != null) {
-            foreach (string word in validWords) {
-                // Equals() diperuntukan 1 kata penuh
-                // Contains(i[0]) diperuntukan untuk setiap huruf dalam kata
-				if (word.ToLower().Trim().Equals(txt)) {
-                    // Menguji apakah kata tersebut mengandung 2 huruf yang harus di ketik?
-                    if (txt.Contains(huruf[0]) && txt.Contains(huruf[1]))
-                    {
-                        // Jika benar maka damage akan diterima oleh musuh
-                        correctLetterCount = 0;
-                        Debug.Log("Type: " + txt + " Found!!");
-                        CorrectLetter();
-                        text.text = string.Empty;
-                        damage = correctLetterCount;
-                        OnDecreaseHPEnemy?.Invoke(damage);
-                        stringFound = true;
-                        break;
+            // Menguji jika kata yang sudah digunakan tidak dapat digunakan kembail
+            if (usedWords == null || Array.IndexOf(usedWords, txt) == -1) {
+                foreach (string word in validWords) {
+                    // Equals() diperuntukan 1 kata penuh
+                    // Contains(i[0]) diperuntukan untuk setiap huruf dalam kata
+                    if (word.ToLower().Trim().Equals(txt)) {
+                        // Menguji apakah kata tersebut mengandung 2 huruf yang harus di ketik?
+                        if (txt.Contains(huruf[0]) && txt.Contains(huruf[1])) {
+                            // Jika benar maka damage akan diterima oleh musuh
+                            correctLetterCount = 0;
+                            Debug.Log("Type: " + txt + " Found!!");
+
+                            CorrectLetter();
+                            damage = correctLetterCount;
+                            OnDecreaseHPEnemy?.Invoke(damage);
+
+                            if (usedWords == null) {
+                                usedWords = new string[0];
+                            }
+
+                            Array.Resize(ref usedWords, usedWords.Length + 1);
+                            usedWords[usedWords.Length - 1] = txt;
+
+                            stringFound = true;
+                            text.text = string.Empty;
+                            break;
+                        }
                     }
-				}
-			}
+			    }
+            }
 
             //Jika salah maka damage akan diterima oleh player
             if (!stringFound) {
                 correctLetterCount = 0;
 				Debug.Log("Type: " + txt + " Not Found!!");
+
                 CorrectLetter();
                 damage = correctLetterCount;
                 OnDecreaseHPPlayer?.Invoke(damage);
+
+
                 text.text = string.Empty;
             }
         }

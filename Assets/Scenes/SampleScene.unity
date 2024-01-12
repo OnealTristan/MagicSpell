@@ -880,8 +880,8 @@ MonoBehaviour:
   enemyHealthBar: {fileID: 524734424}
   playerHealthBar: {fileID: 1692234414}
   huruf:
+  - b
   - a
-  - c
 --- !u!4 &1039244781
 Transform:
   m_ObjectHideFlags: 0
@@ -1701,8 +1701,8 @@ MonoBehaviour:
   playerHealth: {fileID: 1692234414}
   enemyHealth: {fileID: 524734424}
   inputManager: {fileID: 1039244780}
-  maxPlayerHealth: 100
-  maxEnemyHealth: 100
+  maxPlayerHealth: 20
+  maxEnemyHealth: 20
 --- !u!1 &2008388044
 GameObject:
   m_ObjectHideFlags: 0
