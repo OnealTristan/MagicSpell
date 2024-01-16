@@ -17,8 +17,10 @@ public class InputManager : MonoBehaviour
     [SerializeField] private Slider playerHealthBar;
 
     [Header(" Settings ")]
-    [SerializeField] private string[] huruf;
+    [SerializeField] private string[] letter;
+    [SerializeField] private bool randomLetter;
 
+    private string alphabet = "abcdefghijklmnopqrstuvwxyz";
 	private string[] validWords;
     private string[] usedWords;
 	private float damage;
@@ -27,6 +29,16 @@ public class InputManager : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
+        if (randomLetter == true) {
+			letter[0] = GetRandomLetter().ToString();
+			letter[1] = GetRandomLetter().ToString();
+			if (letter[1] == letter[0]) {
+				letter[1] = GetRandomLetter().ToString();
+			}
+		}
+        Debug.Log(letter[0]);
+        Debug.Log(letter[1]);
+
         keyboard.onEnterPressed += EnterPressedCallback;
         keyboard.onBackspacePressed += BackspacePressedCallback;
         keyboard.onKeyPressed += KeyPressedCallback;
@@ -34,7 +46,11 @@ public class InputManager : MonoBehaviour
         LoadData();
     }
 
-    private void LoadData() {
+	private void Update() {
+        GetCorrectRandomLetter();
+	}
+
+	private void LoadData() {
         TextAsset textFile = Resources.Load("words") as TextAsset;
         validWords = textFile.text.Split("\n");
     }
@@ -52,7 +68,7 @@ public class InputManager : MonoBehaviour
                     // Contains(i[0]) diperuntukan untuk setiap huruf dalam kata
                     if (word.ToLower().Trim().Equals(txt)) {
                         // Menguji apakah kata tersebut mengandung 2 huruf yang harus di ketik?
-                        if (txt.Contains(huruf[0]) && txt.Contains(huruf[1])) {
+                        if (txt.Contains(letter[0]) && txt.Contains(letter[1])) {
                             // Jika benar maka damage akan diterima oleh musuh
                             correctLetterCount = 0;
                             Debug.Log("Type: " + txt + " Found!!");
@@ -107,7 +123,28 @@ public class InputManager : MonoBehaviour
        }
     }
 
-    public string[] GetHuruf() {
-        return huruf;
+    public string[] GetLetter() {
+        return letter;
+    }
+
+    private char GetRandomLetter() {
+        int randomIndex = UnityEngine.Random.Range(0, alphabet.Length);
+        return alphabet[randomIndex];
+    }
+
+    private int GetCorrectRandomLetter() {
+        int akhir;
+        int ada = 0;
+
+        foreach (string words in validWords) {
+            if (words.Contains(letter[0]) && words.Contains(letter[1])) {
+                ada++;
+                //Debug.Log(ada);
+            }
+        }
+
+        akhir = ada;
+		Debug.Log(akhir);
+		return akhir;
     }
 }

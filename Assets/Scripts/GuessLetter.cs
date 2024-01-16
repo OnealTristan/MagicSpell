@@ -15,7 +15,7 @@ public class GuessLetter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        letter = inputManager.GetHuruf();
+        letter = inputManager.GetLetter();
         textHuruf1.text = letter[0].ToUpper();
         textHuruf2.text = letter[1].ToUpper();
 	}
