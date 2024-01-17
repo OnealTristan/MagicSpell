@@ -877,12 +877,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 498366475}
   keyboard: {fileID: 1613442847}
-  enemyHealthBar: {fileID: 524734424}
-  playerHealthBar: {fileID: 1692234414}
   letter:
   - a
   - b
-  randomLetter: 0
+  exceptions:
+  - a,q
+  - a,j
+  - b,z
+  - b,f
+  - c,x
+  - d,j
+  - e,z
+  - f,x
+  - f,x
+  - f,b
+  - g,q
+  - g,z
+  - h,k
+  - h,v
+  - i,z
+  - j,d
+  - i,q
+  - j,p
+  - j,a
+  - j,z
+  - k,h
+  - k,x
+  - l,z
+  - l,x
+  - n,q
+  - p,j
+  - p,x
+  - q,r
+  - q,t
+  - q,c
+  - q,y
+  - q,n
+  - q,a
+  - q,g
+  - q,z
+  - r,q
+  - r,z
+  - t,q
+  - u,w
+  - u,z
+  - v,y
+  - v,w
+  - v,m
+  - v,k
+  - v,f
+  - w,u
+  - w,v
+  - x,f
+  - x,z
+  - x,p
+  - x,l
+  - x,g
+  - y,q
+  - y,v
+  - z,b
+  - z,u
+  - z,r
+  - z,x
+  - z,i
+  - z,e
+  - z,l
+  - z,j
+  - z,w
+  - h,q
+  randomLetter: 1
 --- !u!4 &1039244781
 Transform:
   m_ObjectHideFlags: 0

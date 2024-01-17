@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Unity.Profiling.Editor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,11 +14,10 @@ public class InputManager : MonoBehaviour
     [Header(" Elements ")]
     [SerializeField] private Text text;
     [SerializeField] private Keyboard keyboard;
-    [SerializeField] private Slider enemyHealthBar;
-    [SerializeField] private Slider playerHealthBar;
 
     [Header(" Settings ")]
     [SerializeField] private string[] letter;
+    [SerializeField] private string[] exceptions;
     [SerializeField] private bool randomLetter;
 
     private string alphabet = "abcdefghijklmnopqrstuvwxyz";
@@ -25,16 +25,13 @@ public class InputManager : MonoBehaviour
     private string[] usedWords;
 	private float damage;
 	private float correctLetterCount;
+    int resultCorrectLetter;
 
-	// Start is called before the first frame update
-	void Start()
+    // Start is called before the first frame update
+    void Start()
     {
         if (randomLetter == true) {
-			letter[0] = GetRandomLetter().ToString();
-			letter[1] = GetRandomLetter().ToString();
-			if (letter[1] == letter[0]) {
-				letter[1] = GetRandomLetter().ToString();
-			}
+			GetException();
 		}
         Debug.Log(letter[0]);
         Debug.Log(letter[1]);
@@ -133,18 +130,36 @@ public class InputManager : MonoBehaviour
     }
 
     private int GetCorrectRandomLetter() {
-        int akhir;
+        
         int ada = 0;
 
         foreach (string words in validWords) {
             if (words.Contains(letter[0]) && words.Contains(letter[1])) {
                 ada++;
-                //Debug.Log(ada);
             }
         }
 
-        akhir = ada;
-		Debug.Log(akhir);
-		return akhir;
+        resultCorrectLetter = ada;
+        Debug.Log("correct letter = " +resultCorrectLetter);
+        return resultCorrectLetter;
+    }
+
+    private void RandomLetter () {
+        letter[0] = GetRandomLetter().ToString();
+        letter[1] = GetRandomLetter().ToString();
+
+        if (letter[0] == letter[1]) {
+            RandomLetter();
+        }
+    }
+
+    private void GetException() {
+        RandomLetter();
+        foreach (string exception in exceptions) {
+            string[] parts = exception.Split(",");
+            if (letter[0].Contains(parts[0]) && letter[1].Contains(parts[1]) || letter[0].Contains(parts[1]) && letter[1].Contains(parts[0])) {
+                RandomLetter();
+            }
+        }
     }
 }
