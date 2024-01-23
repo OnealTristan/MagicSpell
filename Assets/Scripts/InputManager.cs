@@ -8,23 +8,20 @@ using UnityEngine.UI;
 
 public class InputManager : MonoBehaviour
 {
-    public Action<float> OnDecreaseHPPlayer;
-    public Action<float> OnDecreaseHPEnemy;
-
     [Header(" Elements ")]
     [SerializeField] private Text text;
     [SerializeField] private Keyboard keyboard;
+    [SerializeField] private Player player;
+    [SerializeField] private Enemy enemy;
 
     [Header(" Settings ")]
     [SerializeField] private string[] letter;
-    [SerializeField] private string[] exceptions;
     [SerializeField] private bool randomLetter;
+    [SerializeField] private string[] exceptions;
 
     private string alphabet = "abcdefghijklmnopqrstuvwxyz";
 	private string[] validWords;
     private string[] usedWords;
-	private float damage;
-	private float correctLetterCount;
     int resultCorrectLetter;
 
     // Start is called before the first frame update
@@ -36,6 +33,8 @@ public class InputManager : MonoBehaviour
         Debug.Log(letter[0]);
         Debug.Log(letter[1]);
 
+        
+
         keyboard.onEnterPressed += EnterPressedCallback;
         keyboard.onBackspacePressed += BackspacePressedCallback;
         keyboard.onKeyPressed += KeyPressedCallback;
@@ -44,7 +43,7 @@ public class InputManager : MonoBehaviour
     }
 
 	private void Update() {
-        GetCorrectRandomLetter();
+        //GetCorrectRandomLetter();
 	}
 
 	private void LoadData() {
@@ -67,14 +66,15 @@ public class InputManager : MonoBehaviour
                         // Menguji apakah kata tersebut mengandung 2 huruf yang harus di ketik?
                         if (txt.Contains(letter[0]) && txt.Contains(letter[1])) {
                             // Jika benar maka damage akan diterima oleh musuh
-                            correctLetterCount = 0;
                             Debug.Log("Type: " + txt + " Found!!");
 
-                            CorrectLetter();
-                            damage = correctLetterCount;
-                            OnDecreaseHPEnemy?.Invoke(damage);
+                            if (player.weapon1IsActive == true) {
+							    player.Weapon1(1);
+                            } else {
+                                player.Weapon5();
+                            }
 
-                            if (usedWords == null) {
+							if (usedWords == null) {
                                 usedWords = new string[0];
                             }
 
@@ -91,13 +91,13 @@ public class InputManager : MonoBehaviour
 
             //Jika salah maka damage akan diterima oleh player
             if (!stringFound) {
-                correctLetterCount = 0;
 				Debug.Log("Type: " + txt + " Not Found!!");
 
-                CorrectLetter();
-                damage = correctLetterCount;
-                OnDecreaseHPPlayer?.Invoke(damage);
-
+                if (enemy.skitterfangIsActive == true) {
+                    enemy.Skitterfang();
+                } else if (enemy.shadowfangIsActive == true) {
+                    enemy.Shadowfang();
+                }
 
                 text.text = string.Empty;
             }
@@ -112,12 +112,6 @@ public class InputManager : MonoBehaviour
 
     private void KeyPressedCallback(string key) {
         text.text += key.ToUpper().Trim();
-    }
-
-    private void CorrectLetter() {
-       for (int i = 0; i < (text.text.Length); i++) {
-          correctLetterCount++;
-       }
     }
 
     public string[] GetLetter() {

@@ -9,7 +9,8 @@ public class HealthUI : MonoBehaviour
     [Header("Refrences")]
     [SerializeField] private Slider playerHealth;
     [SerializeField] private Slider enemyHealth;
-    [SerializeField] private InputManager inputManager;
+    [SerializeField] private Player player;
+    [SerializeField] private Enemy enemy;
 
     [Header(" Settings ")]
     [Range(0, 100)]
@@ -18,21 +19,21 @@ public class HealthUI : MonoBehaviour
 	[SerializeField] private float maxEnemyHealth;
 
     private void Start() {
-        inputManager.OnDecreaseHPEnemy += InputManager_OnDecreaseHPEnemy;
-        inputManager.OnDecreaseHPPlayer += InputManager_OnDecreaseHPPlayer;
+        player.OnDecreaseHPEnemy += OnDecreaseHPEnemy;
+        enemy.OnDecreaseHPPlayer += OnDecreaseHPPlayer;
 
-        playerHealth.maxValue = maxPlayerHealth;
+		playerHealth.maxValue = maxPlayerHealth;
         enemyHealth.maxValue = maxEnemyHealth;
         playerHealth.value = maxPlayerHealth;
         enemyHealth.value = maxEnemyHealth;
     }
 
-    private void InputManager_OnDecreaseHPPlayer(float damage) {
+    private void OnDecreaseHPPlayer(float damage) {
         playerHealth.value -= damage;
         Debug.Log(damage);
     }
 
-    private void InputManager_OnDecreaseHPEnemy(float damage) {
+    private void OnDecreaseHPEnemy(float damage) {
         enemyHealth.value -= damage;
 		Debug.Log(damage);
 	}
