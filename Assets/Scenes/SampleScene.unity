@@ -1071,8 +1071,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skitterfangIsActive: 0
   skitterfangDamage: 2
-  shadowfangIsActive: 1
+  shadowfangIsActive: 0
   shadowfangDamage: 5
+  towerfangIsActive: 0
+  towerfangDamage: 10
+  voidbaneIsActive: 1
+  voidbaneDamage: 999
 --- !u!212 &1127911468
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1939,8 +1943,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 498366475}
-  weapon1IsActive: 1
-  weapon5IsActive: 0
+  weapon1IsActive: 0
+  weapon1Damage: 1
+  weapon2IsActive: 0
+  weapon2Damage: 3
+  weapon3IsActive: 0
+  weapon3Damage: 5
+  unicornWandIsActive: 0
+  bookIsActive: 1
 --- !u!212 &2085176657
 SpriteRenderer:
   m_ObjectHideFlags: 0
