@@ -11,6 +11,7 @@ public class HealthUI : MonoBehaviour
     [SerializeField] private Slider enemyHealth;
     [SerializeField] private Player player;
     [SerializeField] private Enemy enemy;
+    [SerializeField] private Potion potion;
 
     [Header(" Settings ")]
     [Range(0, 100)]
@@ -21,6 +22,7 @@ public class HealthUI : MonoBehaviour
     private void Start() {
         player.OnDecreaseHPEnemy += OnDecreaseHPEnemy;
         enemy.OnDecreaseHPPlayer += OnDecreaseHPPlayer;
+        potion.OnEncreaseHPPlayer += OnEncreaseHPPlayer;
 
 		playerHealth.maxValue = maxPlayerHealth;
         enemyHealth.maxValue = maxEnemyHealth;
@@ -37,4 +39,9 @@ public class HealthUI : MonoBehaviour
         enemyHealth.value -= damage;
 		Debug.Log(damage);
 	}
+
+    private void OnEncreaseHPPlayer(float heal) {
+        playerHealth.value += heal;
+        Debug.Log("Heal: " + heal);
+    }
 }
