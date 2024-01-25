@@ -68,11 +68,7 @@ public class InputManager : MonoBehaviour
                             // Jika benar maka damage akan diterima oleh musuh
                             Debug.Log("Type: " + txt + " Found!!");
 
-                            if (player.weapon1IsActive == true) {
-							    player.Weapon1(1);
-                            } else {
-                                player.Weapon5();
-                            }
+                            player.ActivatedWeapon();
 
 							if (usedWords == null) {
                                 usedWords = new string[0];
@@ -93,11 +89,7 @@ public class InputManager : MonoBehaviour
             if (!stringFound) {
 				Debug.Log("Type: " + txt + " Not Found!!");
 
-                if (enemy.skitterfangIsActive == true) {
-                    enemy.Skitterfang();
-                } else if (enemy.shadowfangIsActive == true) {
-                    enemy.Shadowfang();
-                }
+                enemy.ActivatedEnemy();
 
                 text.text = string.Empty;
             }
