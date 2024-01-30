@@ -1301,7 +1301,7 @@ MonoBehaviour:
   letter:
   - a
   - b
-  randomLetter: 0
+  randomLetter: 1
   exceptions:
   - a,q
   - a,j
@@ -1489,13 +1489,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0020d486c9f62694d866dcc84344615d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skitterfangIsActive: 0
+  skitterfangIsActive: 1
   skitterfangDamage: 2
   shadowfangIsActive: 0
   shadowfangDamage: 5
   towerfangIsActive: 0
   towerfangDamage: 10
-  voidbaneIsActive: 1
+  voidbaneIsActive: 0
   voidbaneDamage: 999
 --- !u!212 &1127911468
 SpriteRenderer:
@@ -2271,14 +2271,14 @@ MonoBehaviour:
   backspaceKeyPrefab: {fileID: 4052607385161323044, guid: 7164e4acbace33d42a0a11f363d18ea4, type: 3}
   enterKeyPrefab: {fileID: 4052607385161323044, guid: 9472be91173363746a21748e0ce9406b, type: 3}
   widthPercent: 1
-  heightPercent: 0.146
+  heightPercent: 0.184
   bottomOffset: 0.076
   lines:
   - keys: QWERTYUIOP
   - keys: ASDFGHJKL.
   - keys: ZXCVBNM,
-  keyToLineRatio: 0.901
-  keyXSpacing: 0.02
+  keyToLineRatio: 0.512
+  keyXSpacing: 0.243
 --- !u!114 &1613442848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2550,11 +2550,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1280, y: 720}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 720, y: 1280}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -3146,8 +3146,8 @@ MonoBehaviour:
   weapon2Damage: 3
   weapon3IsActive: 0
   weapon3Damage: 5
-  unicornWandIsActive: 0
-  bookIsActive: 1
+  unicornWandIsActive: 1
+  bookIsActive: 0
 --- !u!212 &2085176657
 SpriteRenderer:
   m_ObjectHideFlags: 0

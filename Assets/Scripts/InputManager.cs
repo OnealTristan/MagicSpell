@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using Unity.Profiling.Editor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -43,7 +42,7 @@ public class InputManager : MonoBehaviour
     }
 
 	private void Update() {
-        //GetCorrectRandomLetter();
+        GetCorrectRandomLetter();
 	}
 
 	private void LoadData() {

@@ -44,7 +44,6 @@ public class Keyboard : MonoBehaviour
         UpdateRectTransform();
 
         rectTransform.sizeDelta = new Vector2(Screen.width, Screen.height/2);
-
     }
 
 	// Update is called once per frame
@@ -101,7 +100,7 @@ public class Keyboard : MonoBehaviour
 
         int currentKeyIndex = 0;
 
-        for (int i = 0; i <= lineCount; i++) {
+        for (int i = 0; i < lineCount; i++) {
             bool containsBackspace = lines[i].keys.Contains(".");
 
             float halfKeyCount = (float)lines[i].keys.Length / 2;
