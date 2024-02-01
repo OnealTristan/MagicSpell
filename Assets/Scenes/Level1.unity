@@ -1298,10 +1298,11 @@ MonoBehaviour:
   keyboard: {fileID: 1613442847}
   player: {fileID: 2085176656}
   enemy: {fileID: 1127911467}
+  playerAnimation: {fileID: 2085176660}
   letter:
   - a
   - b
-  randomLetter: 1
+  randomLetter: 0
   exceptions:
   - a,q
   - a,j
@@ -3127,6 +3128,7 @@ GameObject:
   - component: {fileID: 2085176658}
   - component: {fileID: 2085176657}
   - component: {fileID: 2085176656}
+  - component: {fileID: 2085176660}
   - component: {fileID: 2085176659}
   m_Layer: 0
   m_Name: Player
@@ -3243,6 +3245,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2085176660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085176655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b647925a834104d97d2f935527ed04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2085176659}
 --- !u!1 &2113570471
 GameObject:
   m_ObjectHideFlags: 0

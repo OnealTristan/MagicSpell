@@ -12,6 +12,7 @@ public class InputManager : MonoBehaviour
     [SerializeField] private Keyboard keyboard;
     [SerializeField] private Player player;
     [SerializeField] private Enemy enemy;
+    [SerializeField] private PlayerAnimation playerAnimation;
 
     [Header(" Settings ")]
     [SerializeField] private string[] letter;
@@ -52,6 +53,7 @@ public class InputManager : MonoBehaviour
      
     // Method Actions jika enter ditekan/pencet
     private void EnterPressedCallback() {
+        
         string txt = text.text.ToLower().Trim();
         bool stringFound = false;
 
@@ -67,7 +69,9 @@ public class InputManager : MonoBehaviour
                             // Jika benar maka damage akan diterima oleh musuh
                             Debug.Log("Type: " + txt + " Found!!");
 
-                            player.ActivatedWeapon();
+							playerAnimation.PlayerAttack();
+
+							player.ActivatedWeapon();
 
 							if (usedWords == null) {
                                 usedWords = new string[0];
@@ -87,23 +91,30 @@ public class InputManager : MonoBehaviour
             //Jika salah maka damage akan diterima oleh player
             if (!stringFound) {
 				Debug.Log("Type: " + txt + " Not Found!!");
+				playerAnimation.PlayerIdle();
 
-                enemy.ActivatedEnemy();
+				enemy.ActivatedEnemy();
 
                 text.text = string.Empty;
             }
-        }
-    }
+		}
+	}
     private void BackspacePressedCallback() {
         if (text.text.Length > 0)
         {
 			text.text = text.text.Substring(0, text.text.Length - 1);
+			if (text.text.Length < 1) {
+                playerAnimation.PlayerIdle();
+			}
+		} else {
+			playerAnimation.PlayerIdle();
 		}
     }
 
     private void KeyPressedCallback(string key) {
         text.text += key.ToUpper().Trim();
-    }
+        playerAnimation.PlayerSpelling();
+	}
 
     public string[] GetLetter() {
         return letter;
