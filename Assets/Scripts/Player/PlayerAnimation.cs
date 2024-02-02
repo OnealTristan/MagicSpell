@@ -5,6 +5,21 @@ using UnityEngine;
 public class PlayerAnimation : MonoBehaviour {
     [Header(" Elements ")]
     [SerializeField] private Animator animator;
+	[SerializeField] private Animator[] randomAnimator;
+
+	public void RandomizeAnimator() {
+		int randomAnim = Random.Range(0, randomAnimator.Length);
+
+		switch (randomAnim) {
+			case 0:
+				PlayerAttackMeteor();
+				break;
+		}
+	}
+
+	public void PlayerAttackMeteor() {
+		// 
+	}
 
     public void PlayerIdle() {
         animator.SetBool("IsIdle", true);
