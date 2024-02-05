@@ -1,14 +1,19 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HealthUI : MonoBehaviour
 {
+
+
     [Header("Refrences")]
     [SerializeField] private Slider playerHealth;
     [SerializeField] private GameObject playerFill;
+    [SerializeField] private TextMeshProUGUI amountPlayer;
+    [SerializeField] private TextMeshProUGUI amountEnemy;
 
     [Space(10)]
     [SerializeField] private Slider enemyHealth;
@@ -37,6 +42,9 @@ public class HealthUI : MonoBehaviour
     }
 
 	private void Update() {
+		amountPlayer.text = playerHealth.value.ToString();
+		amountEnemy.text = enemyHealth.value.ToString();
+
 		if (playerHealth.value < 1) {
 			playerFill.SetActive(false);
 		}

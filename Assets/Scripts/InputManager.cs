@@ -55,7 +55,12 @@ public class InputManager : MonoBehaviour
     private void EnterPressedCallback() {
         
         string txt = text.text.ToLower().Trim();
-        bool stringFound = false;
+
+		if (string.IsNullOrEmpty(txt)) {
+			return;
+		}
+
+		bool stringFound = false;
 
 		if (validWords != null) {
             // Menguji jika kata yang sudah digunakan tidak dapat digunakan kembail
@@ -99,6 +104,7 @@ public class InputManager : MonoBehaviour
             }
 		}
 	}
+
     private void BackspacePressedCallback() {
         if (text.text.Length > 0)
         {

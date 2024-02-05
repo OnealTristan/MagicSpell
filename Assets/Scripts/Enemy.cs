@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
 	public Action<float> OnDecreaseHPPlayer;
 
     [Header(" Skitterfang ")]
+    [SerializeField] private SkitterfangAnimation skitterfangAnim;
     [SerializeField] private bool skitterfangIsActive;
     [SerializeField] private float skitterfangDamage;
     
@@ -37,6 +38,7 @@ public class Enemy : MonoBehaviour
 
     private void Skitterfang() {
         Debug.Log("Skitterfang Attack!");
+        skitterfangAnim.Attack();
         OnDecreaseHPPlayer?.Invoke(skitterfangDamage);
     }
 
