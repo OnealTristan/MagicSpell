@@ -11,8 +11,8 @@ public class InputManager : MonoBehaviour
     [SerializeField] private Text text;
     [SerializeField] private Keyboard keyboard;
     [SerializeField] private Player player;
-    [SerializeField] private Enemy enemy;
     [SerializeField] private PlayerAnimation playerAnimation;
+    [SerializeField] private EnemyDisplay enemyDisplay;
 
     [Header(" Settings ")]
     [SerializeField] private string[] letter;
@@ -76,7 +76,7 @@ public class InputManager : MonoBehaviour
 
 							playerAnimation.PlayerAttack();
 
-							player.ActivatedWeapon();
+                            player.ActivatedWeapon();
 
 							if (usedWords == null) {
                                 usedWords = new string[0];
@@ -98,7 +98,7 @@ public class InputManager : MonoBehaviour
 				Debug.Log("Type: " + txt + " Not Found!!");
 				playerAnimation.PlayerIdle();
 
-				enemy.ActivatedEnemy();
+                enemyDisplay.OnEnemyAttack();
 
                 text.text = string.Empty;
             }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SkitterfangAnimation : MonoBehaviour
+public class EnemyAnimation : MonoBehaviour
 {
     [SerializeField] private Animator animator;
 
