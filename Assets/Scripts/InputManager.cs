@@ -14,15 +14,20 @@ public class InputManager : MonoBehaviour
     [SerializeField] private PlayerAnimation playerAnimation;
     [SerializeField] private EnemyDisplay enemyDisplay;
 
+    private Dictionary dictionary;
+
     [Header(" Settings ")]
     [SerializeField] private string[] letter;
     [SerializeField] private bool randomLetter;
     [SerializeField] private string[] exceptions;
 
     private string alphabet = "abcdefghijklmnopqrstuvwxyz";
-	private string[] validWords;
     private string[] usedWords;
     int resultCorrectLetter;
+
+    private void Awake() {
+        dictionary = GetComponent<Dictionary>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -33,23 +38,14 @@ public class InputManager : MonoBehaviour
         Debug.Log(letter[0]);
         Debug.Log(letter[1]);
 
-        
-
         keyboard.onEnterPressed += EnterPressedCallback;
         keyboard.onBackspacePressed += BackspacePressedCallback;
         keyboard.onKeyPressed += KeyPressedCallback;
-
-        LoadData();
     }
 
 	private void Update() {
         GetCorrectRandomLetter();
 	}
-
-	private void LoadData() {
-        TextAsset textFile = Resources.Load("words") as TextAsset;
-        validWords = textFile.text.Split("\n");
-    }
      
     // Method Actions jika enter ditekan/pencet
     private void EnterPressedCallback() {
@@ -62,10 +58,10 @@ public class InputManager : MonoBehaviour
 
 		bool stringFound = false;
 
-		if (validWords != null) {
+		if (dictionary.GetValidWords() != null) {
             // Menguji jika kata yang sudah digunakan tidak dapat digunakan kembail
             if (usedWords == null || Array.IndexOf(usedWords, txt) == -1) {
-                foreach (string word in validWords) {
+                foreach (string word in dictionary.GetValidWords()) {
                     // Equals() diperuntukan 1 kata penuh
                     // Contains(i[0]) diperuntukan untuk setiap huruf dalam kata
                     if (word.ToLower().Trim().Equals(txt)) {
@@ -135,7 +131,7 @@ public class InputManager : MonoBehaviour
         
         int ada = 0;
 
-        foreach (string words in validWords) {
+        foreach (string words in dictionary.GetValidWords()) {
             if (words.Contains(letter[0]) && words.Contains(letter[1])) {
                 ada++;
             }
