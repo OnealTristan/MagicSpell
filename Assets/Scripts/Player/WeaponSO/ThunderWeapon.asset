@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd72e2c118cf7544a0dbb1d3aa62355, type: 3}
   m_Name: ThunderWeapon
   m_EditorClassIdentifier: 
-  name: 
-  damage: 0
+  name: Thunder Weapon
+  damage: 5

@@ -16,18 +16,18 @@ public class Keyboard : MonoBehaviour
     [Range(0f, 1f)]
     [SerializeField] private float widthPercent;
     [Range(0f, 1f)]
-    [SerializeField] private float heightPercent;
+    public float heightPercent;
     [Range(0f, .5f)]
-    [SerializeField] private float bottomOffset;
+    public float bottomOffset;
 
     [Header(" Keyboard Lines ")]
     [SerializeField] private KeyboardLine[] lines;
 
     [Header(" Key Settings ")]
     [Range(0f, 1f)]
-    [SerializeField] private float keyToLineRatio;
+    public float keyToLineRatio;
     [Range(0f, 1f)]
-    [SerializeField] private float keyXSpacing;
+    public float keyXSpacing;
 
     [Header(" Events ")]
     public Action<string> onKeyPressed;
