@@ -4,7 +4,8 @@ using UnityEngine.UI;
 public class UserInputDisplay : MonoBehaviour
 {
     [Header(" Elements ")]
-    [SerializeField] private Text text;
+    [SerializeField] private Text textContainer;
+    [SerializeField] private PlayerAnimation playerAnimation;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,7 @@ public class UserInputDisplay : MonoBehaviour
             // Subscribe to events
             newKeyboard.onBackspacePressed += BackspacePressedCallback;
             newKeyboard.onKeyPressed += KeyPressedCallback;
+            newKeyboard.onEnterPressed += EnterPressedCallback;
         }
         else
         {
@@ -25,17 +27,32 @@ public class UserInputDisplay : MonoBehaviour
 
     private void BackspacePressedCallback()
     {
-        if (text.text.Length > 0)
+        if (textContainer.text.Length > 0)
         {
-            text.text = text.text.Substring(0, text.text.Length - 1);
-        }
-    }
+            textContainer.text = textContainer.text.Substring(0, textContainer.text.Length - 1);
+			if (textContainer.text.Length < 1) {
+				playerAnimation.PlayerIdle();
+			}
+		} else {
+			playerAnimation.PlayerIdle();
+		}
+	}
 
     private void KeyPressedCallback(string key)
     {
-        text.text += key;
+        textContainer.text += key;
+		playerAnimation.PlayerSpelling();
+	}
+
+    private void EnterPressedCallback() {
+
+    }
+
+    public void DeleteText() {
+        textContainer.text = string.Empty;
+    }
+
+    public string DisplayText() {
+        return textContainer.text.ToLower().Trim();
     }
 }
-
-
-

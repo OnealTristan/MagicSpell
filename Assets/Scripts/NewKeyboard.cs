@@ -6,48 +6,44 @@ using UnityEngine.UI;
 
 public class NewKeyboard : MonoBehaviour
 {
-    [Header(" Elements ")]
-    [SerializeField] private Text text;
+    // Event untuk memberitahu game bahwa sebuah karakter diketik
+    public Action<string> onKeyPressed;
+
+    // Event untuk memberitahu game bahwa tombol backspace ditekan
+    public Action onBackspacePressed;
+
+    // Event untuk memberitahu game bahwa tombol enter ditekan
+    public Action onEnterPressed;
+
+    [Header(" References ")]
     [SerializeField] private Player player;
     [SerializeField] private PlayerAnimation playerAnimation;
     [SerializeField] private EnemyDisplay enemyDisplay;
+    [SerializeField] private GuessLetter guessLetter;
+	// Instance UserInputDisplay
+	public UserInputDisplay userInputDisplay;
+	private Dictionary dictionary;
 
-    private Dictionary dictionary;
-
-    [Header(" Settings ")]
-    [SerializeField] private string[] letter;
-    [SerializeField] private bool randomLetter;
-    [SerializeField] private string[] exceptions;
-
+    private string[] letter;
     private string[] usedWords;
-    [Header(" Events ")]
-  
-    string word = "";
 
-    // Event untuk memberitahu game bahwa sebuah karakter diketik
-    public System.Action<string> onKeyPressed;
+	void Awake() {
+		userInputDisplay = GetComponent<UserInputDisplay>();
+		dictionary = GetComponent<Dictionary>();
+	}
 
-    // Event untuk memberitahu game bahwa tombol backspace ditekan
-    public System.Action onBackspacePressed;
-
-    // Event untuk memberitahu game bahwa tombol enter ditekan
-    public System.Action onEnterPressed;
-
-    // Instans UserInputDisplay
-    public UserInputDisplay userInputDisplay;
-
-    void Start()
+	void Start()
     {
+        letter = guessLetter.GetLetter();
+
         // Mendapatkan referensi UserInputDisplay
-        userInputDisplay = GetComponentInChildren<UserInputDisplay>();
-        dictionary = GetComponent<Dictionary>();
         if (userInputDisplay == null)
         {
             Debug.LogError("UserInputDisplay component not found in children. Make sure it is added to the GameObject.");
         }
     }
 
-    void Update()
+    /*void Update()
     {
         if (Input.touchCount > 0)
         {
@@ -78,43 +74,27 @@ public class NewKeyboard : MonoBehaviour
                                 AlphabetFunction(button.GetComponentInChildren<Text>().text);
                                 break;
                         }
-
-                        // Update tampilan input
-                        UpdateInputDisplay();
                     }
                 }
             }
         }
-    }
+    }*/
 
     public void AlphabetFunction(string alphabet)
     {
-        word += alphabet;
-
         // Memicu event onKeyPressed dan memberikan karakter yang diketik
         onKeyPressed?.Invoke(alphabet);
-
-        // Update tampilan input
-        UpdateInputDisplay();
     }
 
     public void BackspaceFunction()
     {
-        if (word.Length > 0)
-        {
-            word = word.Substring(0, word.Length - 1);
-        }
-
         // Memicu event onBackspacePressed
         onBackspacePressed?.Invoke();
-
-        // Update tampilan input
-        UpdateInputDisplay();
     }
 
     public void EnterFunction()
     {
-        string txt = text.text.ToLower().Trim();
+        string txt = userInputDisplay.DisplayText();
      
         if (string.IsNullOrEmpty(txt))
         {
@@ -156,7 +136,7 @@ public class NewKeyboard : MonoBehaviour
                             usedWords[usedWords.Length - 1] = txt;
 
                             stringFound = true;
-                            text.text = string.Empty;
+                            userInputDisplay.DeleteText();
                             break;
                         }
                     }
@@ -171,17 +151,8 @@ public class NewKeyboard : MonoBehaviour
 
                 enemyDisplay.OnEnemyAttack();
 
-                text.text = string.Empty;
-            }
+				userInputDisplay.DeleteText();
+			}
         }
-    }
-    public string[] GetLetter()
-    {
-        return letter;
-    }
-    void UpdateInputDisplay()
-    {
-        // Memanggil metode UpdateUserInput dari UserInputDisplay untuk memperbarui tampilan input langsung
-        //userInputDisplay.KeyPressedCallback();
     }
 }
