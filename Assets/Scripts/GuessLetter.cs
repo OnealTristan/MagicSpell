@@ -6,7 +6,7 @@ using TMPro;
 public class GuessLetter : MonoBehaviour
 {
     [Header(" Elements ")]
-    [SerializeField] private InputManager inputManager;
+    [SerializeField] private NewKeyboard newKeyboard;
 	[SerializeField] private TextMeshProUGUI textHuruf1;
 	[SerializeField] private TextMeshProUGUI textHuruf2;
 
@@ -15,7 +15,7 @@ public class GuessLetter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        letter = inputManager.GetLetter();
+        letter = newKeyboard.GetLetter();
         textHuruf1.text = letter[0].ToUpper();
         textHuruf2.text = letter[1].ToUpper();
 	}

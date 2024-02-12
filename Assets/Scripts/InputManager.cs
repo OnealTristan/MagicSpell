@@ -138,7 +138,7 @@ public class InputManager : MonoBehaviour
         }
 
         resultCorrectLetter = ada;
-        Debug.Log("correct letter = " +resultCorrectLetter);
+        //Debug.Log("correct letter = " +resultCorrectLetter);
         return resultCorrectLetter;
     }
 
