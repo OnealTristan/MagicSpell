@@ -13,11 +13,11 @@ public class HealthUI : MonoBehaviour
     [SerializeField] private Slider playerHealth;
     [SerializeField] private GameObject playerFill;
     [SerializeField] private TextMeshProUGUI amountPlayer;
-    [SerializeField] private TextMeshProUGUI amountEnemy;
 
     [Space(10)]
     [SerializeField] private Slider enemyHealth;
 	[SerializeField] private GameObject enemyFill;
+    [SerializeField] private TextMeshProUGUI amountEnemy;
 
 	[Space(10)]
     [SerializeField] private Player player;
