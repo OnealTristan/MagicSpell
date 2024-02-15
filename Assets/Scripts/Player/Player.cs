@@ -6,32 +6,33 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-	public Action<float> OnDecreaseHPEnemy;
+	public Action<int> OnDecreaseHPEnemy;
 
-	[Header(" Settings ")]
+	[Header(" References ")]
 	[SerializeField] private Text text;
 
     [Header("Weapon 1")]
     [SerializeField] private bool weapon1IsActive;
-    [SerializeField] private float weapon1Damage;
+    [SerializeField] private int weapon1Damage;
 
 	[Header("Weapon 2")]
 	[SerializeField] private bool weapon2IsActive;
-	[SerializeField] private float weapon2Damage;
+	[SerializeField] private int weapon2Damage;
 
 	[Header("Weapon 3")]
 	[SerializeField] private bool weapon3IsActive;
-	[SerializeField] private float weapon3Damage;
+	[SerializeField] private int weapon3Damage;
 
 	[Header(" Unicorn Wand ")]
     [SerializeField] private bool unicornWandIsActive;
 
 	[Header(" Book ")]
 	[SerializeField] private bool bookIsActive;
-	private float bookDamage;
+	private int bookDamage;
 
 	[Header(" Attributes ")]
-    private float correctLetterCount;
+	[SerializeField] private int health;
+    private int correctLetterCount;
 
 	public void ActivatedWeapon() {
 		if (weapon1IsActive == true) {
@@ -81,5 +82,13 @@ public class Player : MonoBehaviour
 		for (int i = 0; i < (text.text.Length); i++) {
 			correctLetterCount++;
 		}
+	}
+
+	public int GetPlayerHealth() {
+		return health;
+	}
+
+	public int SetPlayerHealth(int health) {
+		return this.health = health;
 	}
 }

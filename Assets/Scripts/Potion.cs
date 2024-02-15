@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class Potion : MonoBehaviour
 {
-    public Action<float> OnEncreaseHPPlayer;
+    public Action<int> OnEncreaseHPPlayer;
 
     [Header(" Elements ")]
-    [SerializeField] private float lowPotionHeal;
-    [SerializeField] private float medPotionHeal;
-    [SerializeField] private float highPotionHeal;
+    [SerializeField] private int lowPotionHeal;
+    [SerializeField] private int medPotionHeal;
+    [SerializeField] private int highPotionHeal;
 
     public void OnClickPotionLow () {
         OnEncreaseHPPlayer?.Invoke(lowPotionHeal);

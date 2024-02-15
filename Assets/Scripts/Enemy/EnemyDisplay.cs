@@ -3,9 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyDisplay : MonoBehaviour
-{
-    public Action<float> OnDecreaseHPPlayer;
+public class EnemyDisplay : MonoBehaviour {
+    public Action<int> OnDecreaseHPPlayer;
 
     [Header(" Elements ")]
     [SerializeField] private EnemySO enemy;
@@ -19,5 +18,13 @@ public class EnemyDisplay : MonoBehaviour
     public void OnEnemyAttack() {
         enemyAnim.Attack();
         OnDecreaseHPPlayer?.Invoke(enemy.damage);
+    }
+
+    public int GetEnemyHealth() {
+        return enemy.health;
+    }
+
+    public int SetEnemyHealth(int health) {
+        return enemy.health = health;
     }
 }

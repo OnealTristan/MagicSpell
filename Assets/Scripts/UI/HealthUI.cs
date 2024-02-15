@@ -7,8 +7,6 @@ using UnityEngine.UI;
 
 public class HealthUI : MonoBehaviour
 {
-
-
     [Header("Refrences")]
     [SerializeField] private Slider playerHealth;
     [SerializeField] private GameObject playerFill;
@@ -24,27 +22,22 @@ public class HealthUI : MonoBehaviour
     [SerializeField] private EnemyDisplay enemy;
     [SerializeField] private Potion potion;
 
-    [Header(" Settings ")]
-    [Range(0, 100)]
-    [SerializeField] private float maxPlayerHealth;
-	[Range(0, 100)]
-	[SerializeField] private float maxEnemyHealth;
-
     private void Start() {
         player.OnDecreaseHPEnemy += OnDecreaseHPEnemy;
         enemy.OnDecreaseHPPlayer += OnDecreaseHPPlayer;
 
         potion.OnEncreaseHPPlayer += OnEncreaseHPPlayer;
 
-		playerHealth.maxValue = maxPlayerHealth;
-        enemyHealth.maxValue = maxEnemyHealth;
-        playerHealth.value = maxPlayerHealth;
-        enemyHealth.value = maxEnemyHealth;
+		playerHealth.maxValue = player.GetPlayerHealth();
+        playerHealth.value = player.GetPlayerHealth();
+
+        enemyHealth.maxValue = enemy.GetEnemyHealth();
+        enemyHealth.value = enemy.GetEnemyHealth();
     }
 
 	private void Update() {
-		amountPlayer.text = playerHealth.value.ToString();
-		amountEnemy.text = enemyHealth.value.ToString();
+		amountPlayer.text = player.GetPlayerHealth().ToString();
+		amountEnemy.text = enemy.GetEnemyHealth().ToString();
 
 		if (playerHealth.value < 1) {
 			playerFill.SetActive(false);
@@ -55,17 +48,19 @@ public class HealthUI : MonoBehaviour
 		}
 	}
 
-	private void OnDecreaseHPPlayer(float damage) {
+	private void OnDecreaseHPPlayer(int damage) {
         playerHealth.value -= damage;
+        player.SetPlayerHealth(((int)playerHealth.value));
         Debug.Log(damage);
     }
 
-    private void OnDecreaseHPEnemy(float damage) {
+    private void OnDecreaseHPEnemy(int damage) {
         enemyHealth.value -= damage;
+        enemy.SetEnemyHealth(((int)enemyHealth.value));
 		Debug.Log(damage);
 	}
 
-    private void OnEncreaseHPPlayer(float heal) {
+    private void OnEncreaseHPPlayer(int heal) {
         playerHealth.value += heal;
         Debug.Log("Heal: " + heal);
     }
