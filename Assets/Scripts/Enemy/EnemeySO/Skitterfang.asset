@@ -15,4 +15,3 @@ MonoBehaviour:
   name: Skitterfang
   damage: 2
   health: 10
-  prefabEnemy: {fileID: 0}

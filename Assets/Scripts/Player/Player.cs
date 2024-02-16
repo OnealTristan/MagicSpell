@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
 
 	[Header(" References ")]
 	[SerializeField] private Text text;
+	[SerializeField] private EnemyDisplay enemy;
 
     [Header("Weapon 1")]
     [SerializeField] private bool weapon1IsActive;
@@ -33,6 +34,10 @@ public class Player : MonoBehaviour
 	[Header(" Attributes ")]
 	[SerializeField] private int health;
     private int correctLetterCount;
+
+	private void Start() {
+
+	}
 
 	public void ActivatedWeapon() {
 		if (weapon1IsActive == true) {

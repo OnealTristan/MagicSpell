@@ -9,7 +9,7 @@ public class PauseScript : MonoBehaviour
 	public event EventHandler OnPauseClick;
 	public event EventHandler OnResumeClick;
 
-    [Header(" Elements ")]
+    [Header(" References ")]
     [SerializeField] private BackgroundMusic bgm;
     
 

@@ -29,34 +29,35 @@ public class HealthUI : MonoBehaviour
         potion.OnEncreaseHPPlayer += OnEncreaseHPPlayer;
 
 		playerHealth.maxValue = player.GetPlayerHealth();
-        playerHealth.value = player.GetPlayerHealth();
+        playerHealth.value = playerHealth.maxValue;
 
-        enemyHealth.maxValue = enemy.GetEnemyHealth();
-        enemyHealth.value = enemy.GetEnemyHealth();
-    }
+		enemyHealth.maxValue = enemy.GetEnemyHealth();
+        enemyHealth.value = enemyHealth.maxValue;
+	}
 
 	private void Update() {
-		amountPlayer.text = player.GetPlayerHealth().ToString();
-		amountEnemy.text = enemy.GetEnemyHealth().ToString();
+		amountPlayer.text = playerHealth.value.ToString();
+		amountEnemy.text = enemyHealth.value.ToString();
 
 		if (playerHealth.value < 1) {
 			playerFill.SetActive(false);
+            GameManager.instance.UpdateGameState(GameManager.GameState.Lose);
 		}
 
 		if (enemyHealth.value < 1) {
 			enemyFill.SetActive(false);
+			GameManager.instance.UpdateGameState(GameManager.GameState.Win);
 		}
 	}
 
 	private void OnDecreaseHPPlayer(int damage) {
         playerHealth.value -= damage;
-        player.SetPlayerHealth(((int)playerHealth.value));
         Debug.Log(damage);
     }
 
     private void OnDecreaseHPEnemy(int damage) {
         enemyHealth.value -= damage;
-        enemy.SetEnemyHealth(((int)enemyHealth.value));
+        enemy.SetEnemyHealth((int)enemyHealth.value);
 		Debug.Log(damage);
 	}
 

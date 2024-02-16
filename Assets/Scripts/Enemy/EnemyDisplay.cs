@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyDisplay : MonoBehaviour {
     public Action<int> OnDecreaseHPPlayer;
 
-    [Header(" Elements ")]
+    [Header(" References ")]
     [SerializeField] private EnemySO enemy;
 
     private EnemyAnimation enemyAnim;
@@ -15,7 +15,11 @@ public class EnemyDisplay : MonoBehaviour {
         enemyAnim = GetComponent<EnemyAnimation>();
     }
 
-    public void OnEnemyAttack() {
+	private void Start() {
+
+	}
+
+	public void EnemyAttack() {
         enemyAnim.Attack();
         OnDecreaseHPPlayer?.Invoke(enemy.damage);
     }
