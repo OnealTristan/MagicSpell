@@ -50,14 +50,13 @@ public class HealthUI : MonoBehaviour
 		}
 	}
 
-	private void OnDecreaseHPPlayer(int damage) {
+    private void OnDecreaseHPPlayer(int damage) {
         playerHealth.value -= damage;
         Debug.Log(damage);
     }
 
     private void OnDecreaseHPEnemy(int damage) {
         enemyHealth.value -= damage;
-        enemy.SetEnemyHealth((int)enemyHealth.value);
 		Debug.Log(damage);
 	}
 

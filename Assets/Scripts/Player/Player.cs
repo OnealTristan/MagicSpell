@@ -10,7 +10,6 @@ public class Player : MonoBehaviour
 
 	[Header(" References ")]
 	[SerializeField] private Text text;
-	[SerializeField] private EnemyDisplay enemy;
 
     [Header("Weapon 1")]
     [SerializeField] private bool weapon1IsActive;
@@ -32,24 +31,33 @@ public class Player : MonoBehaviour
 	private int bookDamage;
 
 	[Header(" Attributes ")]
-	[SerializeField] private int health;
+	[SerializeField] private int maxHealth;
+	private int health;
+
     private int correctLetterCount;
 
-	private void Start() {
+	private void Awake() {
+		health = maxHealth;
+	}
 
+	private void Start() {
+		
 	}
 
 	public void ActivatedWeapon() {
-		if (weapon1IsActive == true) {
-			Weapon1();
-		} else if (weapon2IsActive == true) {
-			Weapon2();
-		} else if (weapon3IsActive == true) {
-			Weapon3();
-		} else if (unicornWandIsActive == true) {
-			Weapon5();
-		} else if (bookIsActive == true) {
-			Book();
+		if (OnDecreaseHPEnemy != null) {
+			if (weapon1IsActive == true) {
+				Weapon1();
+			} else if (weapon2IsActive == true) {
+				Weapon2();
+			} else if (weapon3IsActive == true) {
+				Weapon3();
+			} else if (unicornWandIsActive == true) {
+				CorrectLetter();
+				Weapon5();
+			} else if (bookIsActive == true) {
+				Book();
+			}
 		}
 	}
 
@@ -69,24 +77,27 @@ public class Player : MonoBehaviour
 	}
 
 	private void Weapon5() {
-		correctLetterCount = 0;
 		Debug.Log("Weapon 5 Activated!");
-		CorrectLetter();
+		//CorrectLetter();
 		OnDecreaseHPEnemy?.Invoke(correctLetterCount);
     }
 
 	private void Book() {
-		correctLetterCount = 0;
 		Debug.Log("Weapon 5 Activated!");
 		CorrectLetter();
 		bookDamage = correctLetterCount * 2;
+		Debug.Log("Book Damage: " + bookDamage);
 		OnDecreaseHPEnemy?.Invoke(bookDamage);
 	}
 
 	private void CorrectLetter() {
-		for (int i = 0; i < (text.text.Length); i++) {
+		correctLetterCount = 0;
+		Debug.Log("CorrecLetter Method Active");
+		for (int i = 0; i < text.text.Length; i++) {
 			correctLetterCount++;
+			Debug.Log("Correct Letter ke-" + correctLetterCount);
 		}
+		Debug.Log("Total correct count: " + correctLetterCount);
 	}
 
 	public int GetPlayerHealth() {

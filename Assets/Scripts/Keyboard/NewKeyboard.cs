@@ -19,6 +19,7 @@ public class NewKeyboard : MonoBehaviour
     [SerializeField] private Player player;
     [SerializeField] private PlayerAnimation playerAnimation;
     [SerializeField] private EnemyDisplay enemyDisplay;
+    [SerializeField] private EnemyAnimation enemyAnimation;
     [SerializeField] private GuessLetter guessLetter;
 	// Instance UserInputDisplay
 	public UserInputDisplay userInputDisplay;
@@ -125,7 +126,7 @@ public class NewKeyboard : MonoBehaviour
 
                             playerAnimation.PlayerAttack();
 
-                            player.ActivatedWeapon();
+                            //player.ActivatedWeapon();
 
                             if (usedWords == null)
                             {
@@ -149,7 +150,7 @@ public class NewKeyboard : MonoBehaviour
                 Debug.Log("Type: " + txt + " Not Found!!");
                 playerAnimation.PlayerIdle();
 
-                enemyDisplay.EnemyAttack();
+                enemyAnimation.Attack();
 
 				userInputDisplay.DeleteText();
 			}

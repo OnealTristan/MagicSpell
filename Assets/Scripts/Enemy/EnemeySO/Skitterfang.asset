@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Skitterfang
   damage: 2
-  health: 10
+  maxHealth: 10

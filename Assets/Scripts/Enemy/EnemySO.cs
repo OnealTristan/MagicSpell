@@ -8,5 +8,5 @@ public class EnemySO : ScriptableObject {
     public new string name;
 
     public int damage;
-    public int health;
+    public int maxHealth;
 }

@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerAnimation : MonoBehaviour {
-    [Header(" Elements ")]
+    [Header(" References ")]
     [SerializeField] private Animator animator;
+	[SerializeField] private GameObject keyboard;
 	[SerializeField] private Animator[] randomAnimator;
 
 	public void RandomizeAnimator() {
@@ -36,5 +38,22 @@ public class PlayerAnimation : MonoBehaviour {
 		animator.SetBool("IsAttack", true);
 		animator.SetBool("IsIdle", false);
 		animator.SetBool("IsSpelling", false);
+	}
+
+	private void DisableKeyboard() {
+		Button[] buttons = keyboard.GetComponentsInChildren<Button>();
+
+        foreach (Button button in buttons)
+        {
+			button.interactable = false;
+        }
+    }
+
+	private void EnableKeyboard() {
+		Button[] buttons = keyboard.GetComponentsInChildren<Button>();
+
+		foreach (Button button in buttons) {
+			button.interactable = true;
+		}
 	}
 }

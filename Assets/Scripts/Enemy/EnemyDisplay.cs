@@ -7,12 +7,15 @@ public class EnemyDisplay : MonoBehaviour {
     public Action<int> OnDecreaseHPPlayer;
 
     [Header(" References ")]
-    [SerializeField] private EnemySO enemy;
-
+    [SerializeField] private EnemySO enemySO;
     private EnemyAnimation enemyAnim;
+
+    [Header(" Elements ")]
+    private int health;
 
     private void Awake() {
         enemyAnim = GetComponent<EnemyAnimation>();
+        health = enemySO.maxHealth;
     }
 
 	private void Start() {
@@ -20,15 +23,14 @@ public class EnemyDisplay : MonoBehaviour {
 	}
 
 	public void EnemyAttack() {
-        enemyAnim.Attack();
-        OnDecreaseHPPlayer?.Invoke(enemy.damage);
+        OnDecreaseHPPlayer?.Invoke(enemySO.damage);
     }
 
     public int GetEnemyHealth() {
-        return enemy.health;
+        return health;
     }
 
     public int SetEnemyHealth(int health) {
-        return enemy.health = health;
+        return this.health = health;
     }
 }

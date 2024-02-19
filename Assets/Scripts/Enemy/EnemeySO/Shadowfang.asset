@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Shadowfang
   damage: 5
-  health: 10
+  maxHealth: 20

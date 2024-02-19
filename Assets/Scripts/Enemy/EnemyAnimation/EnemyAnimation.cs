@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class EnemyAnimation : MonoBehaviour
 {
-    [SerializeField] private Animator animator;
+    private Animator animator;
 
-    public void Attack() {
+	private void Awake() {
+		animator = GetComponent<Animator>();
+	}
+
+	public void Attack() {
         animator.SetBool("isAttack", true);
         animator.SetBool("isIdle", false);
         Invoke("Idle", 0.5f);
