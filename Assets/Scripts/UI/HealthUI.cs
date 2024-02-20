@@ -19,7 +19,7 @@ public class HealthUI : MonoBehaviour
 
 	[Space(10)]
     [SerializeField] private Player player;
-    [SerializeField] private EnemyDisplay enemy;
+    [SerializeField] private Enemy enemy;
     [SerializeField] private Potion potion;
 
     private void Start() {
@@ -30,15 +30,14 @@ public class HealthUI : MonoBehaviour
 
 		playerHealth.maxValue = player.GetPlayerHealth();
         playerHealth.value = playerHealth.maxValue;
+		amountPlayer.text = playerHealth.value.ToString();
 
 		enemyHealth.maxValue = enemy.GetEnemyHealth();
         enemyHealth.value = enemyHealth.maxValue;
+        amountEnemy.text = enemyHealth.value.ToString();
 	}
 
 	private void Update() {
-		amountPlayer.text = playerHealth.value.ToString();
-		amountEnemy.text = enemyHealth.value.ToString();
-
 		if (playerHealth.value < 1) {
 			playerFill.SetActive(false);
             GameManager.instance.UpdateGameState(GameManager.GameState.Lose);
@@ -50,14 +49,16 @@ public class HealthUI : MonoBehaviour
 		}
 	}
 
-    private void OnDecreaseHPPlayer(int damage) {
-        playerHealth.value -= damage;
-        Debug.Log(damage);
+    private void OnDecreaseHPPlayer(int health) {
+        playerHealth.value = health;
+		amountPlayer.text = health.ToString();
+		Debug.Log(health);
     }
 
-    private void OnDecreaseHPEnemy(int damage) {
-        enemyHealth.value -= damage;
-		Debug.Log(damage);
+    private void OnDecreaseHPEnemy(int health) {
+        enemyHealth.value = health;
+		amountEnemy.text = enemyHealth.value.ToString();
+		Debug.Log(health);
 	}
 
     private void OnEncreaseHPPlayer(int heal) {

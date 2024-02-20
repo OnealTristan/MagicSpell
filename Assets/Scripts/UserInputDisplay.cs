@@ -3,21 +3,21 @@ using UnityEngine.UI;
 
 public class UserInputDisplay : MonoBehaviour
 {
-    [Header(" Elements ")]
+    [Header(" References ")]
     [SerializeField] private Text textContainer;
+    [SerializeField] private NewKeyboard keyboard;
     [SerializeField] private PlayerAnimation playerAnimation;
 
     // Start is called before the first frame update
     void Start()
     {
         // Get reference to NewKeyboard
-        NewKeyboard newKeyboard = GetComponent<NewKeyboard>();
-        if (newKeyboard != null)
+        if (keyboard != null)
         {
             // Subscribe to events
-            newKeyboard.onBackspacePressed += BackspacePressedCallback;
-            newKeyboard.onKeyPressed += KeyPressedCallback;
-            newKeyboard.onEnterPressed += EnterPressedCallback;
+            keyboard.onBackspacePressed += BackspacePressedCallback;
+            keyboard.onKeyPressed += KeyPressedCallback;
+            keyboard.onEnterPressed += EnterPressedCallback;
         }
         else
         {

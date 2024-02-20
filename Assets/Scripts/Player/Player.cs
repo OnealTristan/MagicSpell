@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
 
 	[Header(" References ")]
 	[SerializeField] private Text text;
+	[SerializeField] private Enemy enemy;
 
     [Header("Weapon 1")]
     [SerializeField] private bool weapon1IsActive;
@@ -41,7 +42,7 @@ public class Player : MonoBehaviour
 	}
 
 	private void Start() {
-		
+
 	}
 
 	public void ActivatedWeapon() {
@@ -63,17 +64,20 @@ public class Player : MonoBehaviour
 
     private void Weapon1() {
 		Debug.Log("Weapon 1 Activated!");
-		OnDecreaseHPEnemy?.Invoke(weapon1Damage);
+		enemy.SetEnemyHealth(enemy.GetEnemyHealth() - weapon1Damage);
+		OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
     }
 
 	private void Weapon2() {
 		Debug.Log("Weapon 2 Activated!");
-		OnDecreaseHPEnemy?.Invoke(weapon2Damage);
+		enemy.SetEnemyHealth(enemy.GetEnemyHealth() - weapon2Damage);
+		OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
 	}
 
 	private void Weapon3() {
 		Debug.Log("Weapon 3 Activated!");
-		OnDecreaseHPEnemy?.Invoke(weapon3Damage);
+		enemy.SetEnemyHealth(enemy.GetEnemyHealth() - weapon3Damage);
+		OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
 	}
 
 	private void Weapon5() {

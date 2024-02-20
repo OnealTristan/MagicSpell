@@ -1,21 +1,38 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
-{
-    [Header(" References ")]
-    [SerializeField] private EnemySO enemySO;
+public class Enemy : MonoBehaviour {
+    public Action<int> OnDecreaseHPPlayer;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    [Header(" References ")]
+    [SerializeField] Player player;
+    [SerializeField] private EnemySO enemySO;
+    private EnemyAnimation enemyAnim;
+
+    [Header(" Elements ")]
+    private int health;
+
+    private void Awake() {
+        enemyAnim = GetComponent<EnemyAnimation>();
+        health = enemySO.maxHealth;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+	private void Start() {
+
+	}
+
+	public void EnemyAttack() {
+        player.SetPlayerHealth(player.GetPlayerHealth() - enemySO.damage);
+        OnDecreaseHPPlayer?.Invoke(player.GetPlayerHealth());
+    }
+
+    public int GetEnemyHealth() {
+        return health;
+    }
+
+    public int SetEnemyHealth(int health) {
+        return this.health = health;
     }
 }

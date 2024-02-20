@@ -12,7 +12,7 @@ public class InputManager : MonoBehaviour
     [SerializeField] private Keyboard keyboard;
     [SerializeField] private Player player;
     [SerializeField] private PlayerAnimation playerAnimation;
-    [SerializeField] private EnemyDisplay enemyDisplay;
+    [SerializeField] private Enemy enemy;
 
     private Dictionary dictionary;
 
@@ -94,7 +94,7 @@ public class InputManager : MonoBehaviour
 				Debug.Log("Type: " + txt + " Not Found!!");
 				playerAnimation.PlayerIdle();
 
-                enemyDisplay.EnemyAttack();
+                enemy.EnemyAttack();
 
                 text.text = string.Empty;
             }

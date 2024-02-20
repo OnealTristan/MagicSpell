@@ -4647,7 +4647,6 @@ GameObject:
   - component: {fileID: 863556263}
   - component: {fileID: 863556262}
   - component: {fileID: 863556265}
-  - component: {fileID: 863556264}
   - component: {fileID: 863556266}
   m_Layer: 5
   m_Name: Keyboard
@@ -4742,20 +4741,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863556260}
   m_CullTransparentMesh: 1
---- !u!114 &863556264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863556260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cb2b4efdb2f48d4ead977eaeca0a52e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textContainer: {fileID: 498366475}
-  playerAnimation: {fileID: 2085176660}
 --- !u!114 &863556265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4770,10 +4755,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2085176656}
   playerAnimation: {fileID: 2085176660}
-  enemyDisplay: {fileID: 1127911472}
+  enemy: {fileID: 1127911472}
   enemyAnimation: {fileID: 1127911471}
   guessLetter: {fileID: 1327674890}
-  userInputDisplay: {fileID: 863556264}
+  userInputDisplay: {fileID: 1245867033}
 --- !u!114 &863556266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5465,7 +5450,7 @@ MonoBehaviour:
   keyboard: {fileID: 1613442847}
   player: {fileID: 2085176656}
   playerAnimation: {fileID: 2085176660}
-  enemyDisplay: {fileID: 1127911472}
+  enemy: {fileID: 0}
   letter:
   - a
   - e
@@ -7468,6 +7453,7 @@ GameObject:
   - component: {fileID: 1245867030}
   - component: {fileID: 1245867032}
   - component: {fileID: 1245867031}
+  - component: {fileID: 1245867033}
   m_Layer: 5
   m_Name: Text Container
   m_TagString: Untagged
@@ -7534,6 +7520,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245867029}
   m_CullTransparentMesh: 1
+--- !u!114 &1245867033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245867029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb2b4efdb2f48d4ead977eaeca0a52e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textContainer: {fileID: 498366475}
+  keyboard: {fileID: 863556265}
+  playerAnimation: {fileID: 2085176660}
 --- !u!1 &1271391234
 GameObject:
   m_ObjectHideFlags: 0
@@ -13660,9 +13661,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 498366475}
-  weapon1IsActive: 1
+  enemy: {fileID: 1127911472}
+  weapon1IsActive: 0
   weapon1Damage: 2
-  weapon2IsActive: 0
+  weapon2IsActive: 1
   weapon2Damage: 5
   weapon3IsActive: 0
   weapon3Damage: 10
@@ -14397,6 +14399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skitterfang
       objectReference: {fileID: 0}
+    - target: {fileID: 3581854274572348377, guid: add9d31cf5dd213469a0af22f855e93d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2085176656}
     - target: {fileID: 3581854274572348377, guid: add9d31cf5dd213469a0af22f855e93d, type: 3}
       propertyPath: enemySO
       value: 

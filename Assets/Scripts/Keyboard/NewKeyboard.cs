@@ -15,33 +15,31 @@ public class NewKeyboard : MonoBehaviour
     // Event untuk memberitahu game bahwa tombol enter ditekan
     public Action onEnterPressed;
 
-    [Header(" References ")]
+    [Header(" Player References ")]
     [SerializeField] private Player player;
     [SerializeField] private PlayerAnimation playerAnimation;
-    [SerializeField] private EnemyDisplay enemyDisplay;
+
+    [Header(" Enemy References ")]
+    [SerializeField] private Enemy enemy;
     [SerializeField] private EnemyAnimation enemyAnimation;
+
+    [Header(" Other References ")]
     [SerializeField] private GuessLetter guessLetter;
+	[SerializeField] private UserInputDisplay userInputDisplay;
 	// Instance UserInputDisplay
-	public UserInputDisplay userInputDisplay;
+
 	private Dictionary dictionary;
 
     private string[] letter;
     private string[] usedWords;
 
 	void Awake() {
-		userInputDisplay = GetComponent<UserInputDisplay>();
 		dictionary = GetComponent<Dictionary>();
 	}
 
 	void Start()
     {
         letter = guessLetter.GetLetter();
-
-        // Mendapatkan referensi UserInputDisplay
-        if (userInputDisplay == null)
-        {
-            Debug.LogError("UserInputDisplay component not found in children. Make sure it is added to the GameObject.");
-        }
     }
 
     /*void Update()
@@ -108,10 +106,9 @@ public class NewKeyboard : MonoBehaviour
         if (dictionary.GetValidWords() != null)
         {
             Debug.Log("wow");
-            // Menguji jika kata yang sudah digunakan tidak dapat digunakan kembail
+            // Menguji jika kata yang sudah digunakan tidak dapat digunakan kembali
             if (usedWords == null || Array.IndexOf(usedWords, txt) == -1)
             {
-                
                 foreach (string word in dictionary.GetValidWords())
                 {
                     // Equals() diperuntukan 1 kata penuh
