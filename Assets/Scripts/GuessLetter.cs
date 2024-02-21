@@ -13,7 +13,7 @@ public class GuessLetter : MonoBehaviour
     [Header(" Settings ")]
 	[SerializeField] private bool checkRandomLetter;
 	[SerializeField] private string[] letter;
-	[SerializeField] private string[] exceptions;
+	[SerializeField] private string[] randomLetter;
 
 	private string alphabet = "abcdefghijklmnopqrstuvwxyz";
 	int resultCorrectLetter;
@@ -39,16 +39,16 @@ public class GuessLetter : MonoBehaviour
 	}
 
 	private void Update() {
-		GetCorrectRandomLetter();
+		//GetCorrectRandomLetter();
 	}
 
 	public string[] GetLetter() {
         return letter;
     }
 
-	private char GetRandomLetter() {
-		int randomIndex = Random.Range(0, alphabet.Length);
-		return alphabet[randomIndex];
+	private string GetRandomLetter() {
+		int randomIndex = Random.Range(0, randomLetter.Length);
+		return randomLetter[randomIndex];
 	}
 
 	private int GetCorrectRandomLetter() {
@@ -66,22 +66,23 @@ public class GuessLetter : MonoBehaviour
 		return resultCorrectLetter;
 	}
 
-	private void RandomLetter() {
+	/*private void RandomLetter() {
 		letter[0] = GetRandomLetter().ToString();
 		letter[1] = GetRandomLetter().ToString();
 
 		if (letter[0] == letter[1]) {
 			RandomLetter();
 		}
-	}
+	}*/
 
-	private void GetRandomLetterException() {
-		RandomLetter();
-		foreach (string exception in exceptions) {
-			string[] parts = exception.Split(",");
+	private void GetRandomLetterException() {		
+		string[] parts = GetRandomLetter().Split(",");
+		letter[0] = parts[0];
+		letter[1] = parts[1];
+		/*foreach (string exception in exceptions) {
 			if (letter[0].Contains(parts[0]) && letter[1].Contains(parts[1]) || letter[0].Contains(parts[1]) && letter[1].Contains(parts[0])) {
-				RandomLetter();
+
 			}
-		}
+		}*/
 	}
 }

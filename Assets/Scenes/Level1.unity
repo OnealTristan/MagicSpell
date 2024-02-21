@@ -8032,89 +8032,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textHuruf1: {fileID: 504162020}
   textHuruf2: {fileID: 1534063082}
-  checkRandomLetter: 0
+  checkRandomLetter: 1
   letter:
   - a
   - e
-  exceptions:
-  - a,q
-  - a,j
+  randomLetter:
+  - a,a
+  - a,b
+  - a,c
+  - a,d
+  - a,e
+  - a,z
   - b,z
-  - b,f
-  - c,x
-  - d,j
-  - d,x
-  - e,z
-  - f,x
-  - f,x
-  - f,b
-  - f,j
-  - f,k
-  - g,q
-  - g,z
-  - h,k
-  - h,v
-  - h,q
-  - h,z
-  - i,z
-  - j,d
-  - i,q
-  - j,p
-  - j,a
-  - j,z
-  - j,k
-  - j,g
-  - k,h
-  - k,x
-  - k,q
-  - k,w
-  - l,z
-  - l,x
-  - n,q
-  - p,j
-  - p,x
-  - q,r
-  - q,t
-  - q,c
-  - q,y
-  - q,n
-  - q,a
-  - q,g
-  - q,z
-  - q,j
-  - q,f
-  - q,p
-  - r,q
-  - r,z
-  - t,q
-  - u,w
-  - u,z
-  - v,y
-  - v,w
-  - v,m
-  - v,k
-  - v,f
-  - v,q
-  - w,u
-  - w,v
-  - x,f
-  - x,z
-  - x,p
-  - x,l
-  - x,g
-  - x,y
-  - x,k
-  - y,q
-  - y,v
-  - z,b
-  - z,u
-  - z,r
-  - z,x
-  - z,i
-  - z,e
-  - z,l
-  - z,j
-  - z,d
+  - b,c
 --- !u!114 &1327674891
 MonoBehaviour:
   m_ObjectHideFlags: 0
