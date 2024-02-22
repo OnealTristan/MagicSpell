@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
 
 	[Header(" References ")]
 	[SerializeField] private Text text;
-	[SerializeField] private Enemy enemy;
+	private Enemy enemy;
 
     [Header("Weapon 1")]
     [SerializeField] private bool weapon1IsActive;
@@ -43,6 +43,12 @@ public class Player : MonoBehaviour
 
 	private void Start() {
 
+	}
+
+	private void Update() {
+		if (enemy == null) {
+			enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
+		}
 	}
 
 	public void ActivatedWeapon() {

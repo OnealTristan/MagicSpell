@@ -22,30 +22,36 @@ public class HealthUI : MonoBehaviour
     [SerializeField] private Enemy enemy;
     [SerializeField] private Potion potion;
 
+    private void Awake() {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        playerHealth.maxValue = player.GetPlayerHealth();
+        playerHealth.value = playerHealth.maxValue;
+        amountPlayer.text = playerHealth.value.ToString();
+    }
+
     private void Start() {
         player.OnDecreaseHPEnemy += OnDecreaseHPEnemy;
         enemy.OnDecreaseHPPlayer += OnDecreaseHPPlayer;
 
         potion.OnEncreaseHPPlayer += OnEncreaseHPPlayer;
-
-		playerHealth.maxValue = player.GetPlayerHealth();
-        playerHealth.value = playerHealth.maxValue;
-		amountPlayer.text = playerHealth.value.ToString();
-
-		enemyHealth.maxValue = enemy.GetEnemyHealth();
-        enemyHealth.value = enemyHealth.maxValue;
-        amountEnemy.text = enemyHealth.value.ToString();
 	}
 
 	private void Update() {
+        if (enemy == null) {
+            enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
+            enemyHealth.maxValue = enemy.GetEnemyHealth();
+            enemyHealth.value = enemyHealth.maxValue;
+            amountEnemy.text = enemyHealth.value.ToString();
+        }
+
 		if (playerHealth.value < 1) {
 			playerFill.SetActive(false);
-            GameManager.instance.UpdateGameState(GameManager.GameState.Lose);
+            //GameManager.instance.UpdateGameState(GameManager.GameState.Lose);
 		}
 
 		if (enemyHealth.value < 1) {
 			enemyFill.SetActive(false);
-			GameManager.instance.UpdateGameState(GameManager.GameState.Win);
+			//GameManager.instance.UpdateGameState(GameManager.GameState.Win);
 		}
 	}
 
@@ -64,5 +70,9 @@ public class HealthUI : MonoBehaviour
     private void OnEncreaseHPPlayer(int heal) {
         playerHealth.value += heal;
         Debug.Log("Heal: " + heal);
+    }
+
+    public void SetHealth () {
+
     }
 }

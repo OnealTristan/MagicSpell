@@ -17,6 +17,7 @@ public class Enemy : MonoBehaviour {
     private void Awake() {
         enemyAnim = GetComponent<EnemyAnimation>();
         health = enemySO.maxHealth;
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
 	private void Start() {

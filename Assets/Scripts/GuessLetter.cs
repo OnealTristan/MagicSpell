@@ -15,7 +15,7 @@ public class GuessLetter : MonoBehaviour
 	[SerializeField] private string[] letter;
 	[SerializeField] private string[] randomLetter;
 
-	private string alphabet = "abcdefghijklmnopqrstuvwxyz";
+	//private string alphabet = "abcdefghijklmnopqrstuvwxyz";
 	int resultCorrectLetter;
 
 	private void Awake() {
