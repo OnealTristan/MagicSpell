@@ -27,8 +27,6 @@ public class GuessLetter : MonoBehaviour
     {
 		if (checkRandomLetter == true) {
 			GetRandomLetterException();
-			textHuruf1.text = letter[0].ToUpper();
-			textHuruf2.text = letter[1].ToUpper();
 		} else {
 			textHuruf1.text = letter[0].ToUpper();
 			textHuruf2.text = letter[1].ToUpper();
@@ -75,14 +73,16 @@ public class GuessLetter : MonoBehaviour
 		}
 	}*/
 
-	private void GetRandomLetterException() {		
+	public void GetRandomLetterException() {		
 		string[] parts = GetRandomLetter().Split(",");
 		letter[0] = parts[0];
 		letter[1] = parts[1];
-		/*foreach (string exception in exceptions) {
+        textHuruf1.text = letter[0].ToUpper();
+        textHuruf2.text = letter[1].ToUpper();
+        /*foreach (string exception in exceptions) {
 			if (letter[0].Contains(parts[0]) && letter[1].Contains(parts[1]) || letter[0].Contains(parts[1]) && letter[1].Contains(parts[0])) {
 
 			}
 		}*/
-	}
+    }
 }

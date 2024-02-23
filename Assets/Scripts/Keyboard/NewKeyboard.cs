@@ -20,8 +20,8 @@ public class NewKeyboard : MonoBehaviour
     [SerializeField] private PlayerAnimation playerAnimation;
 
     [Header(" Enemy References ")]
-    [SerializeField] private Enemy enemy;
-    [SerializeField] private EnemyAnimation enemyAnimation;
+    private Enemy enemy;
+    private EnemyAnimation enemyAnimation;
 
     [Header(" Other References ")]
     [SerializeField] private GuessLetter guessLetter;
@@ -42,42 +42,13 @@ public class NewKeyboard : MonoBehaviour
         letter = guessLetter.GetLetter();
     }
 
-    /*void Update()
+    void Update()
     {
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
-
-            if (touch.phase == TouchPhase.Ended && !UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject(touch.fingerId))
-            {
-                Ray ray = Camera.main.ScreenPointToRay(touch.position);
-                RaycastHit hit;
-
-                if (Physics.Raycast(ray, out hit))
-                {
-                    Button button = hit.collider.GetComponent<Button>();
-
-                    if (button != null)
-                    {
-                        switch (button.name)
-                        {
-                            case "BackspaceButton":
-                                BackspaceFunction();
-                                break;
-
-                            case "EnterButton":
-                                EnterFunction();
-                                break;
-
-                            default:
-                                AlphabetFunction(button.GetComponentInChildren<Text>().text);
-                                break;
-                        }
-                    }
-                }
-            }
+        if (enemy == null && enemyAnimation == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+            enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
+            enemyAnimation = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyAnimation>();
         }
-    }*/
+    }
 
     public void AlphabetFunction(string alphabet)
     {

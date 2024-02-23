@@ -46,8 +46,12 @@ public class Player : MonoBehaviour
 	}
 
 	private void Update() {
-		if (enemy == null) {
+		if (enemy == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
 			enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
+		}
+
+		if (enemy.GetEnemyHealth() < 1 && enemy != null) {
+			enemy.EnemyDeath();
 		}
 	}
 

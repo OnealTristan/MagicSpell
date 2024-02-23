@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
     public Action<int> OnDecreaseHPPlayer;
+    public Action OnDeath;
 
     [Header(" References ")]
-    [SerializeField] Player player;
     [SerializeField] private EnemySO enemySO;
+    Player player;
     private EnemyAnimation enemyAnim;
 
     [Header(" Elements ")]
@@ -27,6 +28,13 @@ public class Enemy : MonoBehaviour {
 	public void EnemyAttack() {
         player.SetPlayerHealth(player.GetPlayerHealth() - enemySO.damage);
         OnDecreaseHPPlayer?.Invoke(player.GetPlayerHealth());
+    }
+
+    public void EnemyDeath() {
+        OnDeath?.Invoke();
+        if (gameObject != null) {
+            Destroy(gameObject);
+        }
     }
 
     public int GetEnemyHealth() {

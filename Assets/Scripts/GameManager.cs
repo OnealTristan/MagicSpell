@@ -6,25 +6,36 @@ public class GameManager : MonoBehaviour
 {
 	[Header(" References ")]
 	[SerializeField] private ConditionUI conditionUI;
+	private EnemySpawner enemySpawner;
+	private Enemy enemy;
+	private Player player;
 
     public static GameManager instance;
 
     public GameState state;
 
+    public enum GameState {
+		OnGoing,
+		Pause,
+		Win,
+		Lose
+	}
+
 	private void Awake() {
-		instance = this;
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+		enemySpawner = GetComponent<EnemySpawner>();
+        instance = this;
 	}
 
 	private void Start() {
 		Time.timeScale = 1f;
 	}
 
-	public enum GameState {
-		OnGoing,
-		Pause,
-		Win,
-		Lose
-	}
+    private void Update() {
+        if (enemy == null && state == GameState.OnGoing) {
+            enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
+        }
+    }
 
 	public void UpdateGameState(GameState newState) {
 		state = newState;

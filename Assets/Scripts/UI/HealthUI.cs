@@ -18,27 +18,30 @@ public class HealthUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI amountEnemy;
 
 	[Space(10)]
-    [SerializeField] private Player player;
-    [SerializeField] private Enemy enemy;
     [SerializeField] private Potion potion;
+    private Player player;
+    private Enemy enemy;
 
     private void Awake() {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        
+    }
+
+    private void Start() {
+        player.OnDecreaseHPEnemy += OnDecreaseHPEnemy;
+        potion.OnEncreaseHPPlayer += OnEncreaseHPPlayer;
+
         playerHealth.maxValue = player.GetPlayerHealth();
         playerHealth.value = playerHealth.maxValue;
         amountPlayer.text = playerHealth.value.ToString();
     }
 
-    private void Start() {
-        player.OnDecreaseHPEnemy += OnDecreaseHPEnemy;
-        enemy.OnDecreaseHPPlayer += OnDecreaseHPPlayer;
-
-        potion.OnEncreaseHPPlayer += OnEncreaseHPPlayer;
-	}
-
 	private void Update() {
-        if (enemy == null) {
+        if (enemy == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
             enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
+
+            enemy.OnDecreaseHPPlayer += OnDecreaseHPPlayer;
+
             enemyHealth.maxValue = enemy.GetEnemyHealth();
             enemyHealth.value = enemyHealth.maxValue;
             amountEnemy.text = enemyHealth.value.ToString();
@@ -46,12 +49,7 @@ public class HealthUI : MonoBehaviour
 
 		if (playerHealth.value < 1) {
 			playerFill.SetActive(false);
-            //GameManager.instance.UpdateGameState(GameManager.GameState.Lose);
-		}
-
-		if (enemyHealth.value < 1) {
-			enemyFill.SetActive(false);
-			//GameManager.instance.UpdateGameState(GameManager.GameState.Win);
+            GameManager.instance.UpdateGameState(GameManager.GameState.Lose);
 		}
 	}
 
@@ -72,7 +70,7 @@ public class HealthUI : MonoBehaviour
         Debug.Log("Heal: " + heal);
     }
 
-    public void SetHealth () {
-
+    public void DisableEnemyFill() {
+        enemyFill.SetActive(false);
     }
 }
