@@ -14,24 +14,24 @@ public class PauseUI : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
-        HidePanel();
+        HidePausePanel();
 		pauseScript.OnPauseClick += PauseScript_OnPauseClick;
 		pauseScript.OnResumeClick += PauseScript_OnResumeClick;
     }
 
 	private void PauseScript_OnResumeClick(object sender, System.EventArgs e) {
-		HidePanel();
+		HidePausePanel();
 	}
 
 	private void PauseScript_OnPauseClick(object sender, System.EventArgs e) {
-		ShowPanel();
+		ShowPausePanel();
 	}
 
-	public void HidePanel() {
+	private void HidePausePanel() {
         pausePanel.SetActive(false);
     }
 
-    public void ShowPanel() {
+    private void ShowPausePanel() {
 		pausePanel.SetActive(true);
 	}
 }

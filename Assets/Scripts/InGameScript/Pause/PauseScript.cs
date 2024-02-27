@@ -11,15 +11,11 @@ public class PauseScript : MonoBehaviour
 
     [Header(" References ")]
     [SerializeField] private BackgroundMusic bgm;
-    
-
-    public static bool gameIsPaused = false;
 
     public void ClickPauseButton() {
 		GameManager.instance.UpdateGameState(GameManager.GameState.Pause);
 		OnPauseClick?.Invoke(this, EventArgs.Empty);
 		Time.timeScale = 0f;
-		gameIsPaused = true;
 		bgm.PauseBgm();
 	}
 
@@ -27,14 +23,12 @@ public class PauseScript : MonoBehaviour
 		GameManager.instance.UpdateGameState(GameManager.GameState.OnGoing);
 		OnResumeClick?.Invoke(this, EventArgs.Empty);
 		Time.timeScale = 1f;
-		gameIsPaused = false;
         bgm.UnpauseBgm();
 	}
 
     public void ClickExitButton() {
         Loader.Load(Loader.Scene.MainMenu);
 		Time.timeScale = 1f;
-		gameIsPaused = false;
 	}
 
     /*public void OnClickSettingButton() {

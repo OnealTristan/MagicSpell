@@ -10,7 +10,8 @@ public class SideMainMenu : MonoBehaviour {
 
     float scrollPos = 0.5f;
     float[] pos;
-    private void Start() {
+
+	private void Start() {
         pos = new float[transform.childCount];
     }
 
@@ -25,8 +26,8 @@ public class SideMainMenu : MonoBehaviour {
             scrollPos = scrollbar.GetComponent<Scrollbar>().value;
         } else {
             for (int i = 0; i < pos.Length; i++) {
-                if (scrollPos < pos[i] + (distance / 2) && scrollPos > pos[i] - (distance / 2)) {
-                    scrollbar.GetComponent<Scrollbar>().value = Mathf.Lerp(scrollbar.GetComponent<Scrollbar>().value, pos[i], 0.1f);
+                if (scrollPos < pos[i] + (distance / 4) && scrollPos > pos[i] - (distance / 4)) {
+					scrollbar.GetComponent<Scrollbar>().value = Mathf.Lerp(scrollbar.GetComponent<Scrollbar>().value, pos[1], 0.1f);
                 }
             }
         }
