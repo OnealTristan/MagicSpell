@@ -10,19 +10,11 @@ public class Player : MonoBehaviour
 
 	[Header(" References ")]
 	[SerializeField] private Text text;
+	[SerializeField] private InventoryInGameScript inventory;
 	private Enemy enemy;
 
-    [Header("Weapon 1")]
-    [SerializeField] private bool weapon1IsActive;
-    [SerializeField] private int weapon1Damage;
-
-	[Header("Weapon 2")]
-	[SerializeField] private bool weapon2IsActive;
-	[SerializeField] private int weapon2Damage;
-
-	[Header("Weapon 3")]
-	[SerializeField] private bool weapon3IsActive;
-	[SerializeField] private int weapon3Damage;
+	[Header(" Default Weapon ")]
+	[SerializeField] private WeaponSO defaultWeapon;
 
 	[Header(" Unicorn Wand ")]
     [SerializeField] private bool unicornWandIsActive;
@@ -37,12 +29,16 @@ public class Player : MonoBehaviour
 
     private int correctLetterCount;
 
+	private WeaponSO equippedWeapon;
+
 	private void Awake() {
 		health = maxHealth;
 	}
 
 	private void Start() {
-
+		if (equippedWeapon == null) {
+			equippedWeapon = defaultWeapon;
+		}
 	}
 
 	private void Update() {
@@ -57,37 +53,15 @@ public class Player : MonoBehaviour
 
 	public void ActivatedWeapon() {
 		if (OnDecreaseHPEnemy != null) {
-			if (weapon1IsActive == true) {
-				Weapon1();
-			} else if (weapon2IsActive == true) {
-				Weapon2();
-			} else if (weapon3IsActive == true) {
-				Weapon3();
-			} else if (unicornWandIsActive == true) {
-				CorrectLetter();
-				Weapon5();
-			} else if (bookIsActive == true) {
-				Book();
+			if (equippedWeapon != null) {
+				enemy.SetEnemyHealth(enemy.GetEnemyHealth() - equippedWeapon.damage);
+				OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
 			}
 		}
 	}
 
-    private void Weapon1() {
-		Debug.Log("Weapon 1 Activated!");
-		enemy.SetEnemyHealth(enemy.GetEnemyHealth() - weapon1Damage);
-		OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
-    }
-
-	private void Weapon2() {
-		Debug.Log("Weapon 2 Activated!");
-		enemy.SetEnemyHealth(enemy.GetEnemyHealth() - weapon2Damage);
-		OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
-	}
-
-	private void Weapon3() {
-		Debug.Log("Weapon 3 Activated!");
-		enemy.SetEnemyHealth(enemy.GetEnemyHealth() - weapon3Damage);
-		OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
+	public void EquipWeapon(WeaponSO weapon) {
+		equippedWeapon = weapon;
 	}
 
 	private void Weapon5() {

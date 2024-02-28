@@ -56,13 +56,11 @@ public class HealthUI : MonoBehaviour
     private void OnDecreaseHPPlayer(int health) {
         playerHealth.value = health;
 		amountPlayer.text = health.ToString();
-		Debug.Log(health);
     }
 
     private void OnDecreaseHPEnemy(int health) {
         enemyHealth.value = health;
 		amountEnemy.text = enemyHealth.value.ToString();
-		Debug.Log(health);
 	}
 
     private void OnEncreaseHPPlayer(int heal) {
