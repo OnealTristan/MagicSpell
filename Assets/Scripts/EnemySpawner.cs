@@ -20,12 +20,6 @@ public class EnemySpawner : MonoBehaviour
         SpawnEnemy();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void SpawnEnemy() {
         if (currentEnemyIndex == 0) {
             Debug.Log("Enemy " + currentEnemyIndex + " Spawn!");
