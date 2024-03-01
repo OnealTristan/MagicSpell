@@ -1,0 +1,2027 @@
+fileFormatVersion: 2
+guid: b6db5fdcec0f6a54d8277c78a6e46266
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b11d11bff542d84394dcce05da4036f
+      internalID: 2022464325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1056
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6b04525e856954d86adf1d642929f8
+      internalID: -214456972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1056
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3820dcdb920aea41963fca0f3aa6e8f
+      internalID: -1086597557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1056
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1602f75e0ad46c84eb7dd29dce097c7d
+      internalID: -663378681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1056
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50670ba9dbec3644ad6dfef4e4f495c
+      internalID: 1447583157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72370066e5a6923448bf9f8cd1ad279d
+      internalID: 1766563388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 960
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ded9a7b73c7ad743a8363d1b21bd981
+      internalID: -591868610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c443686ce46dc124488968ab140ca09c
+      internalID: 861112919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed635d9a8e34fb64c8979168b2c88dd9
+      internalID: 1120602809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_9
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee284e0f448ac3c419506b6b50705184
+      internalID: -471461894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e26bdc414346bd4f8252b3d02a94224
+      internalID: 1040135570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 864
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ac23235d4931b4c98ca98192f03cd0
+      internalID: -731460605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 864
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aafabad42203084fa9f89a11c6453ae
+      internalID: 250217111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 864
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22235ae7e9f52d0489a9661d94f5feec
+      internalID: -1203420011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_14
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 864
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655ecc5136db97641af68023de244456
+      internalID: -1163148747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_15
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 864
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a66f54d32b701142b7204cfc2ecdba3
+      internalID: -1542098494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_16
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 864
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720887c49eb26bc489abd855e8b7a75e
+      internalID: -239519292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e264f1132d4a142bcc693006d99c16
+      internalID: -1981896996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 768
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b48bc4395c9e484fba3f478dde60a37
+      internalID: 1789959349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b67cb622d96e5e46aabf33413a9e9c4
+      internalID: -1339244125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_20
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 768
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0a80d4f3c7b4b4ea8553b3689916a5
+      internalID: -1500546633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc29b37c0cc11749af067f6f203ec96
+      internalID: 1493402055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 768
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dc0f8ae562d5d428228e55677c6cd9
+      internalID: 790206968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_23
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 768
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea8a7bf5429a784986fb5aa0a47093f
+      internalID: 798991579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_24
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 768
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56ccaebfe9a1fc40bf101d3e193eb3e
+      internalID: 1262999797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_25
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de17bd80cd0c84743a79cf1cfb913fc1
+      internalID: 1341448565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc46f67ca82bb7478b7b067183525bf
+      internalID: -1291774641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 672
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c066854404444c4aa819f37f2fb4198
+      internalID: -962627520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 672
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b0e29f38a0c4247ba0539ff479a515
+      internalID: -2040784280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_29
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016ba9bec79c5d949ade8a0a735d5577
+      internalID: -1203501658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_30
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 672
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2612d35c556d5b24b9c9bc9c62e22507
+      internalID: 426905534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_31
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 672
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a3e441a733b89469514ce2f407954c
+      internalID: 591925245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_32
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 672
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1cf0ac70739d245bad3b9d6c66a431
+      internalID: -277324274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_33
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 672
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5214ad0b8eb9e1540ad915116887f386
+      internalID: 1740939991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_34
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 672
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14494afc394fc5b4b877f148fb049765
+      internalID: 1333017046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd466e1424ed6cd49b17bd5d353ef48b
+      internalID: 541237168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 576
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c5520b61a65bb43b31e84429c9f2f2
+      internalID: 1180257041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2dcfb31cfd0124dabc1a76405b1949
+      internalID: 972107191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5f52026fd51834ebe3493394b80983
+      internalID: -1670170762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_39
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f6724fe75b43246bffd8f023f606cb
+      internalID: 1041313139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_40
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 576
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bf9e6a236077547a2ad67f62efa3c5
+      internalID: -1018257254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_41
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 576
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd102c78df5b3f5459c19dc964b6961b
+      internalID: -164592978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_42
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 576
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c8300bad6394b4fb679f5d0090f118
+      internalID: 1255019982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_43
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 576
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7bf874ba2674849b9263c0330e951b
+      internalID: 108271414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9fc42fd5fe04e4a892b654b9a76daa
+      internalID: -677330259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5353d52bfcb91bb41857d076673588c5
+      internalID: -1390374707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c19fbd06b4678c40b3803134907f616
+      internalID: -708895169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352a50fa8ee4c4e459f52e5faea5a114
+      internalID: -155721244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_48
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ea1c6b8f928564c9ed4d28248ed563
+      internalID: 1310055267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_49
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 480
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338caefaa67e99e4d868ead2c5920d87
+      internalID: 2013365272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_50
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66fd976d6fb7a449ae9abf3601c34d2
+      internalID: 72810392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_51
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 480
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e632ca71d442233458d7f150d7239b62
+      internalID: -85090513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_52
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 480
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5108acfff81db74cbc1230be267007f
+      internalID: -11147743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66fa981eec53454390717ff94f0a1e1
+      internalID: 1965518730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbb204de23211d43b02653653d6eb1e
+      internalID: -341797827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_55
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d4fca9edf601747b48022f118a6aea
+      internalID: -13903128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994b96c9ddacdd941a6b491dbb855939
+      internalID: -134714754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_57
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1def6a6b4943234f919be070a3287a2
+      internalID: -614091212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_58
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 384
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01766c78dd1ad064980d98ac5333a7cf
+      internalID: -1872650987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_59
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5babbd3c1e2d1f446a81128251f15fe7
+      internalID: 1412827435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_60
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 384
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed63c0024ecd8f0489ca656f22251030
+      internalID: 478644760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e379d0cb629674c91032f85a3ee8a4
+      internalID: 1681424222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075c39a1144d6c14181a51eab1f5f6ce
+      internalID: 1728476183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_63
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e3d99494e46034ba7154c4b4fe5b1a
+      internalID: -190839395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_64
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc81a39ea746ec49a545527ce2309a1
+      internalID: -26046673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 288
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfedc6ff61620a54ab67efed5dfe6655
+      internalID: 598545328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_66
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 288
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac28a0d58b923054894c728618de583f
+      internalID: 165483427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_67
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 288
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19c9a4984f37c24cbf2a61491e54840
+      internalID: 584575060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_68
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 288
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f03f86eaec1ef4183592f363e60b05
+      internalID: -2015407647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_69
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 288
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe392360a1aec2d489b2f225449f6ce4
+      internalID: 324120221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5e384b498725a49852082f936d6988
+      internalID: 484991479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_71
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abcd58c30a622a4485ecd9f5d5f6cfc
+      internalID: -1234029066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_72
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e158ce74cdcf9a042a47949dcc3f5617
+      internalID: -1521337412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b125f81eb549b44ab9850e3767c4df0
+      internalID: -1892537297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d819a72540732e54f917c8d2daf0ba32
+      internalID: 1415228275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_75
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfa286dfa30ab24bac3a9636f4cfbc9
+      internalID: 316171335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_76
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d560253a1d768b34ca0dfd0f7df1e427
+      internalID: -236152637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_77
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 96
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a6123eef2819e46b23157649a67809
+      internalID: -1841745734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_78
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 96
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da466ddba99c0a43ab4d642afdc910c
+      internalID: 1272365648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e0ca301b4d4554b8ee03912e12b436
+      internalID: -1619443619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_80
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defec98d05ab665458fe762d3574ae5e
+      internalID: 1058212947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_81
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d1a870607fa544088a0ac55a0c10d9
+      internalID: -1860780834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_82
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16e6677f838bd642867fc85879f95ac
+      internalID: 232422201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_83
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5062b7a9253a154189c05d4fda2d863
+      internalID: -1866116756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_84
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579956e9883b58841bd32d7e2545cbef
+      internalID: -1036930090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Riant_Wand_Oakwand_Full_160x96_85
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf663dbd27b9a345a4a7db7d1968a24
+      internalID: 226112985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Riant_Wand_Oakwand_Full_160x96_52: -11147743
+      Riant_Wand_Oakwand_Full_160x96_7: 861112919
+      Riant_Wand_Oakwand_Full_160x96_82: 232422201
+      Riant_Wand_Oakwand_Full_160x96_2: -1086597557
+      Riant_Wand_Oakwand_Full_160x96_0: 2022464325
+      Riant_Wand_Oakwand_Full_160x96_45: -1390374707
+      Riant_Wand_Oakwand_Full_160x96_55: -13903128
+      Riant_Wand_Oakwand_Full_160x96_56: -134714754
+      Riant_Wand_Oakwand_Full_160x96_47: -155721244
+      Riant_Wand_Oakwand_Full_160x96_74: 1415228275
+      Riant_Wand_Oakwand_Full_160x96_60: 478644760
+      Riant_Wand_Oakwand_Full_160x96_9: -471461894
+      Riant_Wand_Oakwand_Full_160x96_32: -277324274
+      Riant_Wand_Oakwand_Full_160x96_41: -164592978
+      Riant_Wand_Oakwand_Full_160x96_26: -1291774641
+      Riant_Wand_Oakwand_Full_160x96_4: 1447583157
+      Riant_Wand_Oakwand_Full_160x96_76: -236152637
+      Riant_Wand_Oakwand_Full_160x96_10: 1040135570
+      Riant_Wand_Oakwand_Full_160x96_21: 1493402055
+      Riant_Wand_Oakwand_Full_160x96_85: 226112985
+      Riant_Wand_Oakwand_Full_160x96_25: 1341448565
+      Riant_Wand_Oakwand_Full_160x96_75: 316171335
+      Riant_Wand_Oakwand_Full_160x96_37: 972107191
+      Riant_Wand_Oakwand_Full_160x96_5: 1766563388
+      Riant_Wand_Oakwand_Full_160x96_48: 1310055267
+      Riant_Wand_Oakwand_Full_160x96_77: -1841745734
+      Riant_Wand_Oakwand_Full_160x96_18: 1789959349
+      Riant_Wand_Oakwand_Full_160x96_36: 1180257041
+      Riant_Wand_Oakwand_Full_160x96_68: -2015407647
+      Riant_Wand_Oakwand_Full_160x96_51: -85090513
+      Riant_Wand_Oakwand_Full_160x96_73: -1892537297
+      Riant_Wand_Oakwand_Full_160x96_27: -962627520
+      Riant_Wand_Oakwand_Full_160x96_43: 108271414
+      Riant_Wand_Oakwand_Full_160x96_61: 1681424222
+      Riant_Wand_Oakwand_Full_160x96_50: 72810392
+      Riant_Wand_Oakwand_Full_160x96_20: -1500546633
+      Riant_Wand_Oakwand_Full_160x96_63: -190839395
+      Riant_Wand_Oakwand_Full_160x96_66: 165483427
+      Riant_Wand_Oakwand_Full_160x96_84: -1036930090
+      Riant_Wand_Oakwand_Full_160x96_40: -1018257254
+      Riant_Wand_Oakwand_Full_160x96_29: -1203501658
+      Riant_Wand_Oakwand_Full_160x96_28: -2040784280
+      Riant_Wand_Oakwand_Full_160x96_15: -1542098494
+      Riant_Wand_Oakwand_Full_160x96_31: 591925245
+      Riant_Wand_Oakwand_Full_160x96_83: -1866116756
+      Riant_Wand_Oakwand_Full_160x96_71: -1234029066
+      Riant_Wand_Oakwand_Full_160x96_69: 324120221
+      Riant_Wand_Oakwand_Full_160x96_58: -1872650987
+      Riant_Wand_Oakwand_Full_160x96_78: 1272365648
+      Riant_Wand_Oakwand_Full_160x96_38: -1670170762
+      Riant_Wand_Oakwand_Full_160x96_22: 790206968
+      Riant_Wand_Oakwand_Full_160x96_64: -26046673
+      Riant_Wand_Oakwand_Full_160x96_12: 250217111
+      Riant_Wand_Oakwand_Full_160x96_23: 798991579
+      Riant_Wand_Oakwand_Full_160x96_67: 584575060
+      Riant_Wand_Oakwand_Full_160x96_34: 1333017046
+      Riant_Wand_Oakwand_Full_160x96_70: 484991479
+      Riant_Wand_Oakwand_Full_160x96_44: -677330259
+      Riant_Wand_Oakwand_Full_160x96_1: -214456972
+      Riant_Wand_Oakwand_Full_160x96_3: -663378681
+      Riant_Wand_Oakwand_Full_160x96_33: 1740939991
+      Riant_Wand_Oakwand_Full_160x96_42: 1255019982
+      Riant_Wand_Oakwand_Full_160x96_30: 426905534
+      Riant_Wand_Oakwand_Full_160x96_49: 2013365272
+      Riant_Wand_Oakwand_Full_160x96_59: 1412827435
+      Riant_Wand_Oakwand_Full_160x96_39: 1041313139
+      Riant_Wand_Oakwand_Full_160x96_19: -1339244125
+      Riant_Wand_Oakwand_Full_160x96_57: -614091212
+      Riant_Wand_Oakwand_Full_160x96_6: -591868610
+      Riant_Wand_Oakwand_Full_160x96_8: 1120602809
+      Riant_Wand_Oakwand_Full_160x96_54: -341797827
+      Riant_Wand_Oakwand_Full_160x96_81: -1860780834
+      Riant_Wand_Oakwand_Full_160x96_17: -1981896996
+      Riant_Wand_Oakwand_Full_160x96_13: -1203420011
+      Riant_Wand_Oakwand_Full_160x96_16: -239519292
+      Riant_Wand_Oakwand_Full_160x96_35: 541237168
+      Riant_Wand_Oakwand_Full_160x96_24: 1262999797
+      Riant_Wand_Oakwand_Full_160x96_14: -1163148747
+      Riant_Wand_Oakwand_Full_160x96_65: 598545328
+      Riant_Wand_Oakwand_Full_160x96_80: 1058212947
+      Riant_Wand_Oakwand_Full_160x96_46: -708895169
+      Riant_Wand_Oakwand_Full_160x96_72: -1521337412
+      Riant_Wand_Oakwand_Full_160x96_62: 1728476183
+      Riant_Wand_Oakwand_Full_160x96_11: -731460605
+      Riant_Wand_Oakwand_Full_160x96_53: 1965518730
+      Riant_Wand_Oakwand_Full_160x96_79: -1619443619
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

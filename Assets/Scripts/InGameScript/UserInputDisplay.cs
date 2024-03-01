@@ -8,8 +8,12 @@ public class UserInputDisplay : MonoBehaviour
     [SerializeField] private NewKeyboard keyboard;
     [SerializeField] private PlayerAnimation playerAnimation;
 
-    // Start is called before the first frame update
-    void Start()
+	private void Awake() {
+		playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
+	}
+
+	// Start is called before the first frame update
+	void Start()
     {
         // Get reference to NewKeyboard
         if (keyboard != null)

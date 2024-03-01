@@ -10,7 +10,6 @@ public class Player : MonoBehaviour
 
 	[Header(" References ")]
 	[SerializeField] private Text text;
-	[SerializeField] private InventoryInGameScript inventory;
 	private Enemy enemy;
 
 	[Header(" Default Weapon ")]

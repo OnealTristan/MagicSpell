@@ -35,6 +35,8 @@ public class NewKeyboard : MonoBehaviour
 
 	void Awake() {
 		dictionary = GetComponent<Dictionary>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
 	}
 
 	void Start()
