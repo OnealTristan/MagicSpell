@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
 	[Header(" References ")]
 	[SerializeField] private ConditionUI conditionUI;
+	private Data data;
 	private EnemySpawner enemySpawner;
 	private Enemy enemy;
 	private Player player;
@@ -23,6 +24,7 @@ public class GameManager : MonoBehaviour
 
 	private void Awake() {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+		data = GameObject.Find("DataManager").GetComponent<Data>();
 		enemySpawner = GetComponent<EnemySpawner>();
         instance = this;
 	}
@@ -49,6 +51,7 @@ public class GameManager : MonoBehaviour
 				break;
 			case GameState.Win:
 				WinCondition();
+				data.level1IsClear = true;
 				break;
 			case GameState.Lose:
 				LoseCondition();

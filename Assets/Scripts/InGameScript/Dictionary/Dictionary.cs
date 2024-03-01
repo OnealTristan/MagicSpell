@@ -12,8 +12,8 @@ public class Dictionary : MonoBehaviour
     }
 
     private void LoadData() {
-        TextAsset textFile = Resources.Load("words") as TextAsset;
-        validWords = textFile.text.Split("\n");
+        TextAsset textFile = Resources.Load("Dictionary") as TextAsset;
+        validWords = textFile.text.ToLower().Split("\n");
     }
 
     public string[] GetValidWords() {
