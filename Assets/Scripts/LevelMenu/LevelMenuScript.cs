@@ -7,26 +7,42 @@ public class LevelMenuScript : MonoBehaviour
 {
 	[Header(" References ")]
 	private Data data;
-    private GameObject level2Button;
+    private Button level2Button;
+	private Button level3Button;
 
 	private void Awake() {
-		level2Button = GameObject.Find("Level2");
+		level2Button = GameObject.Find("Level2").GetComponent<Button>();
+		level3Button = GameObject.Find("Level3").GetComponent<Button>();
 		data = GameObject.Find("DataManager").GetComponent<Data>();
 	}
 
 	private void Update() {
 		if (data.level1IsClear == false) {
-			level2Button.GetComponent<Button>().interactable = false;
+			level2Button.interactable = false;
 		} else {
-			level2Button.GetComponent<Button>().interactable = true;
+			level2Button.interactable = true;
+		}
+
+		if (data.level2IsClear == false) {
+			level3Button.interactable = false;
+		} else {
+			level3Button.interactable = true;
 		}
 	}
 
 	public void ClickLevel1Button () {
-        Loader.Load(Loader.Scene.Level1);
+        Loader.Load(Loader.Scene.Level2);
     }
 
-    public void ClickBackButton () {
+	public void ClickLevel2Button() {
+		Loader.Load(Loader.Scene.Level2);
+	}
+
+	public void ClickLevel3Button() {
+		Loader.Load(Loader.Scene.Level3);
+	}
+
+	public void ClickBackButton () {
         Loader.Load(Loader.Scene.MainMenu);
     }
 }

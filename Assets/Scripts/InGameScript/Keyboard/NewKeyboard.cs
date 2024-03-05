@@ -16,16 +16,16 @@ public class NewKeyboard : MonoBehaviour
     public Action onEnterPressed;
 
     [Header(" Player References ")]
-    [SerializeField] private Player player;
-    [SerializeField] private PlayerAnimation playerAnimation;
+    private Player player;
+    private PlayerAnimation playerAnimation;
 
     [Header(" Enemy References ")]
     private Enemy enemy;
     private EnemyAnimation enemyAnimation;
 
     [Header(" Other References ")]
-    [SerializeField] private GuessLetter guessLetter;
-	[SerializeField] private UserInputDisplay userInputDisplay;
+	private UserInputDisplay userInputDisplay;
+    private GuessLetter guessLetter;
 	// Instance UserInputDisplay
 
 	private Dictionary dictionary;
@@ -37,6 +37,9 @@ public class NewKeyboard : MonoBehaviour
 		dictionary = GetComponent<Dictionary>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
+
+        guessLetter = GameObject.Find("GuessTextContainer").GetComponent<GuessLetter>();
+		userInputDisplay = GameObject.Find("TextContainer").GetComponent<UserInputDisplay>();
 	}
 
 	void Start()

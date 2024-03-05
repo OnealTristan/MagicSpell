@@ -5,9 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 	[Header(" References ")]
-	[SerializeField] private ConditionUI conditionUI;
+	private ConditionUI conditionUI;
 	private Data data;
-	private EnemySpawner enemySpawner;
 	private Enemy enemy;
 	private Player player;
 
@@ -23,9 +22,9 @@ public class GameManager : MonoBehaviour
 	}
 
 	private void Awake() {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+		conditionUI = GameObject.Find("Canvas").GetComponent<ConditionUI>();
 		data = GameObject.Find("DataManager").GetComponent<Data>();
-		enemySpawner = GetComponent<EnemySpawner>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         instance = this;
 	}
 

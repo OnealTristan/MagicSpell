@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PauseUI : MonoBehaviour
 {
+	[SerializeField] private GameObject pausePanel;
     private PauseScript pauseScript;
-    [SerializeField] private GameObject pausePanel;
 
 	private void Awake() {
 		pauseScript = GetComponent<PauseScript>();

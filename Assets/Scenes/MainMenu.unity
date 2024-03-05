@@ -3432,6 +3432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level1IsClear: 0
+  level2IsClear: 0
 --- !u!4 &1269690641
 Transform:
   m_ObjectHideFlags: 0

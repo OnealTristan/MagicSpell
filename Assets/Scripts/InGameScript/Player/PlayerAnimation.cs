@@ -5,9 +5,14 @@ using UnityEngine.UI;
 
 public class PlayerAnimation : MonoBehaviour {
     [Header(" References ")]
-    [SerializeField] private Animator animator;
-	[SerializeField] private GameObject keyboard;
+	private GameObject keyboard;
+    private Animator animator;
 	[SerializeField] private Animator[] randomAnimator;
+
+	private void Awake() {
+		keyboard = GameObject.Find("Keyboard");
+		animator = GetComponent<Animator>();
+	}
 
 	public void RandomizeAnimator() {
 		int randomAnim = Random.Range(0, randomAnimator.Length);

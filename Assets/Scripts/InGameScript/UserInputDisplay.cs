@@ -6,7 +6,7 @@ public class UserInputDisplay : MonoBehaviour
     [Header(" References ")]
     [SerializeField] private Text textContainer;
     [SerializeField] private NewKeyboard keyboard;
-    [SerializeField] private PlayerAnimation playerAnimation;
+    private PlayerAnimation playerAnimation;
 
 	private void Awake() {
 		playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();

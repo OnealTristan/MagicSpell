@@ -6,6 +6,7 @@ public class Data : MonoBehaviour
 {
     [Header(" Elements ")]
     public bool level1IsClear;
+	public bool level2IsClear;
 
 	private void Awake() {
 		DontDestroyOnLoad(this);

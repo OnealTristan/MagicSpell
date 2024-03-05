@@ -14,6 +14,8 @@ public static class Loader
 		MainMenu,
 		LevelMenu,
 		Level1,
+		Level2,
+		Level3,
 	}
 
 	private static Action onLoaderCallBack;

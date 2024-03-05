@@ -79,10 +79,5 @@ public class GuessLetter : MonoBehaviour
 		letter[1] = parts[1];
         textHuruf1.text = letter[0].ToUpper();
         textHuruf2.text = letter[1].ToUpper();
-        /*foreach (string exception in exceptions) {
-			if (letter[0].Contains(parts[0]) && letter[1].Contains(parts[1]) || letter[0].Contains(parts[1]) && letter[1].Contains(parts[0])) {
-
-			}
-		}*/
     }
 }

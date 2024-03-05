@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
 	public Action<int> OnDecreaseHPEnemy;
 
 	[Header(" References ")]
-	[SerializeField] private Text text;
+	private Text text;
 	private Enemy enemy;
 
 	[Header(" Default Weapon ")]
@@ -71,13 +71,13 @@ public class Player : MonoBehaviour
 
 	private void Book() {
 		Debug.Log("Weapon 5 Activated!");
-		CorrectLetter();
+		//CorrectLetter();
 		bookDamage = correctLetterCount * 2;
 		Debug.Log("Book Damage: " + bookDamage);
 		OnDecreaseHPEnemy?.Invoke(bookDamage);
 	}
 
-	private void CorrectLetter() {
+	/*private void CorrectLetter() {
 		correctLetterCount = 0;
 		Debug.Log("CorrecLetter Method Active");
 		for (int i = 0; i < text.text.Length; i++) {
@@ -85,7 +85,7 @@ public class Player : MonoBehaviour
 			Debug.Log("Correct Letter ke-" + correctLetterCount);
 		}
 		Debug.Log("Total correct count: " + correctLetterCount);
-	}
+	}*/
 
 	public int GetPlayerHealth() {
 		return health;

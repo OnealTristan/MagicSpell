@@ -10,9 +10,13 @@ public class PauseScript : MonoBehaviour
 	public event EventHandler OnResumeClick;
 
     [Header(" References ")]
-    [SerializeField] private BackgroundMusic bgm;
+    private BackgroundMusic bgm;
 
-    public void ClickPauseButton() {
+	private void Awake() {
+		bgm = GameObject.Find("BGM").GetComponent<BackgroundMusic>();
+	}
+
+	public void ClickPauseButton() {
 		GameManager.instance.UpdateGameState(GameManager.GameState.Pause);
 		OnPauseClick?.Invoke(this, EventArgs.Empty);
 		Time.timeScale = 0f;

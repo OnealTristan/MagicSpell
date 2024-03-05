@@ -5,11 +5,10 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [Header(" References ")]
-    [SerializeField] private Transform enemySpawnPos;
-    [SerializeField] private HealthUI healthUI;
-    [SerializeField] private GuessLetter guessLetter;
-    [Space(10)]
     [SerializeField] private GameObject[] enemyGameObject;
+    private Transform enemySpawnPos;
+    private HealthUI healthUI;
+    private GuessLetter guessLetter;
 
     private int enemyHealth;
     private int currentEnemyIndex = 0;
@@ -17,10 +16,16 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        SpawnEnemy();
+        enemySpawnPos = GameObject.Find("SpawnEnemyPosition").GetComponent<Transform>();
+        healthUI = GameObject.Find("HPUI_Holder").GetComponent<HealthUI>();
+        guessLetter = GameObject.Find("GuessTextContainer").GetComponent<GuessLetter>();
     }
 
-    private void SpawnEnemy() {
+	private void Start() {
+		SpawnEnemy();
+	}
+
+	private void SpawnEnemy() {
         if (currentEnemyIndex == 0) {
             Debug.Log("Enemy " + currentEnemyIndex + " Spawn!");
             GameObject enemy = Instantiate(enemyGameObject[0], enemySpawnPos);

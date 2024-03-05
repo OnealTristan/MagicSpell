@@ -8,13 +8,16 @@ public class InventoryInGameScript : MonoBehaviour {
     public Action OnBackButtonClick;
 
     [Header(" References ")]
-    [SerializeField] private Player player;
-    [Space(10)]
+    private Player player;
     [SerializeField] private WeaponSO oakWand;
     [SerializeField] private WeaponSO phoenixWand;
     [SerializeField] private WeaponSO thunderWand;
 
-    public void ClickOakWandEquipButton() {
+	private void Awake() {
+		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+	}
+
+	public void ClickOakWandEquipButton() {
         player.EquipWeapon(oakWand);
 		Debug.Log("Weapon " + oakWand.name + " Equipped!");
 	}
