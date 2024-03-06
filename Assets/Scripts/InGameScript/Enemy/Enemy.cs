@@ -44,4 +44,8 @@ public class Enemy : MonoBehaviour {
     public int SetEnemyHealth(int health) {
         return this.health = health;
     }
+
+    public int SetIncrementEnemyHealth(int health) {
+        return this.health += health;
+    }
 }

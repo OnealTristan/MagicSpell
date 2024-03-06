@@ -1137,7 +1137,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 412202141}
         m_TargetAssemblyTypeName: LevelMenuScript, Assembly-CSharp
-        m_MethodName: ClickLevel1Button
+        m_MethodName: ClickLevel2Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

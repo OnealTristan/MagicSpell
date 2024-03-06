@@ -10,8 +10,12 @@ public class GameManager : MonoBehaviour
 	private Enemy enemy;
 	private Player player;
 
+	[Header(" Elements ")]
+	[SerializeField] private int incrementHealthEnemy;
+
     public static GameManager instance;
 
+	[Space(10)]
     public GameState state;
 
     public enum GameState {
@@ -35,7 +39,8 @@ public class GameManager : MonoBehaviour
     private void Update() {
         if (enemy == null && state == GameState.OnGoing) {
             enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
-        }
+			enemy.SetIncrementEnemyHealth(incrementHealthEnemy);
+		}
     }
 
 	public void UpdateGameState(GameState newState) {
