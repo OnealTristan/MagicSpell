@@ -5,6 +5,8 @@ using UnityEngine;
 public class Data : MonoBehaviour
 {
     [Header(" Elements ")]
+    public int coin;
+    [Space(10)]
     public bool level1IsClear;
 	public bool level2IsClear;
 
@@ -22,5 +24,13 @@ public class Data : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public int GetCoin() {
+        return coin;
+    }
+
+    public int SetCoin(int coin) {
+        return this.coin = coin;
     }
 }

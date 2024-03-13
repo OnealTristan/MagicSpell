@@ -1137,7 +1137,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 412202141}
         m_TargetAssemblyTypeName: LevelMenuScript, Assembly-CSharp
-        m_MethodName: ClickLevel3Button
+        m_MethodName: ClickLevel1Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1524,7 +1524,7 @@ GameObject:
   - component: {fileID: 1404975026}
   - component: {fileID: 1404975025}
   m_Layer: 5
-  m_Name: Button
+  m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1597,7 +1597,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 412202141}
         m_TargetAssemblyTypeName: LevelMenuScript, Assembly-CSharp
-        m_MethodName: OnClickBackButton
+        m_MethodName: ClickBackButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

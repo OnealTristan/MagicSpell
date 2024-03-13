@@ -13,7 +13,7 @@ public class LevelMenuScript : MonoBehaviour
 	private void Awake() {
 		level2Button = GameObject.Find("Level2").GetComponent<Button>();
 		level3Button = GameObject.Find("Level3").GetComponent<Button>();
-		data = GameObject.Find("DataManager").GetComponent<Data>();
+		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
 	}
 
 	private void Update() {
@@ -31,7 +31,7 @@ public class LevelMenuScript : MonoBehaviour
 	}
 
 	public void ClickLevel1Button () {
-        Loader.Load(Loader.Scene.Level2);
+        Loader.Load(Loader.Scene.Level1);
     }
 
 	public void ClickLevel2Button() {

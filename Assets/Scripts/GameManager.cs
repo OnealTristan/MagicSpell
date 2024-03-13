@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
 
 	private void Awake() {
 		conditionUI = GameObject.Find("Canvas").GetComponent<ConditionUI>();
-		data = GameObject.Find("DataManager").GetComponent<Data>();
+		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         instance = this;
 	}
