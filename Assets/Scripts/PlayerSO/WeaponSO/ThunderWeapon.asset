@@ -10,7 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bd72e2c118cf7544a0dbb1d3aa62355, type: 3}
-  m_Name: OakWand
+  m_Name: ThunderWeapon
   m_EditorClassIdentifier: 
-  name: Oak Wand
-  damage: 1
+  image: {fileID: 21300000, guid: 6fea8e167ab74bf46a69ef1bc4f4ee9d, type: 3}
+  name: Thunder Weapon
+  damage: 5
+  buyed: 0
