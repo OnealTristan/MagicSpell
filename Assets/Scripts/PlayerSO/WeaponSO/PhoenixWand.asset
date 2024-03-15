@@ -15,4 +15,5 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 6fea8e167ab74bf46a69ef1bc4f4ee9d, type: 3}
   name: Phoenix Wand
   damage: 3
-  buyed: 0
+  price: 100
+  buyed: 1

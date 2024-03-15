@@ -3193,7 +3193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73fd65ea0a6b7e442ad140f977b06613, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: 0
+  coin: 100
   level1IsClear: 0
   level2IsClear: 0
 --- !u!4 &1269690641

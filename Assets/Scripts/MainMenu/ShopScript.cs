@@ -3,13 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
+using System;
 
 public class ShopScript : MonoBehaviour
 {
+    public Action OnBuyWeapon;
+
     [Header(" References ")]
+    private Data data;
     [SerializeField] private Transform parentPosUI;
     [SerializeField] private GameObject contentPanel;
     [SerializeField] private WeaponSO[] weaponSO;
+
+	private void Awake() {
+		if (data == null) {
+            data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
+        }
+	}
 
 	// Start is called before the first frame update
 	void Start()
@@ -40,15 +51,18 @@ public class ShopScript : MonoBehaviour
             TextMeshProUGUI text = panelInstance.GetComponentInChildren<TextMeshProUGUI>();
             text.text = weaponSO[i].name;
 
-            // Set Button properties
-            Button button = panelInstance.GetComponentInChildren<Button>();
-            TextMeshProUGUI textBuyButton = button.GetComponentInChildren<TextMeshProUGUI>();
+			// Set Button properties
+			Button buttonBuy = panelInstance.GetComponentInChildren<Button>();
+			TextMeshProUGUI textBuyButton = buttonBuy.GetComponentInChildren<TextMeshProUGUI>();
             if (weaponSO[i].buyed == true) {
-                button.interactable = false;
+				buttonBuy.interactable = false;
                 textBuyButton.text = "Bought";
             } else {
-                button.interactable = true;
-				textBuyButton.text = "Buy";
+				buttonBuy.interactable = true;
+                textBuyButton.text = "Buy " + weaponSO[i].price.ToString();
+
+                int index = i;
+                buttonBuy.onClick.AddListener(() => BuyWeapon(index, buttonBuy, textBuyButton));
 			}
         }
     }
@@ -57,5 +71,19 @@ public class ShopScript : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void BuyWeapon(int index, Button buttonBuy, TextMeshProUGUI textBuyButton) {
+        if (data.coin >= weaponSO[index].price) {
+            weaponSO[index].buyed = true;
+
+			buttonBuy.interactable = false;
+			textBuyButton.text = "Bought";
+
+            data.SetCoin(data.coin - weaponSO[index].price);
+            OnBuyWeapon?.Invoke();
+		} else {
+            return;
+        }
     }
 }

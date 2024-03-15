@@ -12,6 +12,7 @@ public class WeaponSO : ScriptableObject
     [Header(" Elements ")]
     public new string name;
     public int damage;
+    public int price;
     [Space(10)]
     public bool buyed;
 }

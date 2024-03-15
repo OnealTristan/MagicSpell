@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Data : MonoBehaviour
 {
+    public static Data Instance;
+
     [Header(" Elements ")]
     public int coin;
     [Space(10)]
@@ -11,7 +13,12 @@ public class Data : MonoBehaviour
 	public bool level2IsClear;
 
 	private void Awake() {
-		DontDestroyOnLoad(this);
+		if (Instance == null) {
+			Instance = this;
+			DontDestroyOnLoad(gameObject);
+		} else {
+			Destroy(gameObject);
+		}
 	}
 
 	// Start is called before the first frame update
@@ -23,8 +30,8 @@ public class Data : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
+		
+	}
 
     public int GetCoin() {
         return coin;
