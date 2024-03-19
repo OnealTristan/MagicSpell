@@ -6,14 +6,13 @@ using TMPro;
 public class CoinUI : MonoBehaviour
 {
     [Header(" References ")]
-    private ShopScript shopScript;
+    [SerializeField] private ShopScript shopScript;
     private TextMeshProUGUI coinText;
     private Data data;
 
 	private void Awake() {
 		coinText = GameObject.Find("CoinContainer").GetComponentInChildren<TextMeshProUGUI>();
         data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
-        shopScript = GameObject.Find("ShopPanel").GetComponent<ShopScript>();
 	}
 
 	// Start is called before the first frame update

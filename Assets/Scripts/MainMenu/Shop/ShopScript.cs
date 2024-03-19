@@ -13,7 +13,7 @@ public class ShopScript : MonoBehaviour
     [Header(" References ")]
     private Data data;
     [SerializeField] private Transform parentPosUI;
-    [SerializeField] private GameObject contentPanel;
+    [SerializeField] private GameObject contentPanelPrefab;
     [SerializeField] private WeaponSO[] weaponSO;
 
 	private void Awake() {
@@ -26,7 +26,7 @@ public class ShopScript : MonoBehaviour
 	void Start()
     {
         for (int i = 0; i < weaponSO.Length; i++) {
-            GameObject panelInstance = Instantiate(contentPanel, parentPosUI);
+            GameObject panelInstance = Instantiate(contentPanelPrefab, parentPosUI);
 
             // Mengambil references dari beberapa Image components
             Image[] images = panelInstance.GetComponentsInChildren<Image>();

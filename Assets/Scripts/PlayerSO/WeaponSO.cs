@@ -15,4 +15,5 @@ public class WeaponSO : ScriptableObject
     public int price;
     [Space(10)]
     public bool buyed;
+    public bool equip;
 }
