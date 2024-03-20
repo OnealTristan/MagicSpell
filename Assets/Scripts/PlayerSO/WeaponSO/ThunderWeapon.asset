@@ -17,3 +17,4 @@ MonoBehaviour:
   damage: 5
   price: 200
   buyed: 0
+  equip: 0

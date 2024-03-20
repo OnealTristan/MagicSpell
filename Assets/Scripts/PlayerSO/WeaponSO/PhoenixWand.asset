@@ -16,4 +16,5 @@ MonoBehaviour:
   name: Phoenix Wand
   damage: 3
   price: 100
-  buyed: 0
+  buyed: 1
+  equip: 1

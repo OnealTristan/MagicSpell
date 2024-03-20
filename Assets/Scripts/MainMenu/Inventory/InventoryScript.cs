@@ -6,15 +6,32 @@ using UnityEngine.UI;
 
 public class InventoryScript : MonoBehaviour
 {
-    [Header(" References ")]
+	private static string EQUIPPED = "Equipped";
+	private static string EQUIP = "Equip";
+
+	[Header(" References ")]
+	[SerializeField] private ShopScript shopScript;
 	[SerializeField] private Transform parentPosUI;
 	[SerializeField] private GameObject contentPanelPrefab;
 	[SerializeField] private WeaponSO[] weaponSO;
+	private WeaponSO equippedWeapon;
+
+	private void Awake() {
+		shopScript.OnBuyWeapon += UpdateInventory;
+	}
 
 	// Start is called before the first frame update
 	void Start()
     {
-        foreach (WeaponSO weapon in weaponSO) {
+		UpdateInventory();
+    }
+
+	private void UpdateInventory() {
+		foreach (Transform child in parentPosUI) {
+			Destroy(child.gameObject);
+		}
+
+		foreach (WeaponSO weapon in weaponSO) {
 			if (weapon.buyed == true) {
 				GameObject panelInstance = Instantiate(contentPanelPrefab, parentPosUI);
 
@@ -45,12 +62,38 @@ public class InventoryScript : MonoBehaviour
 				TextMeshProUGUI textBuyButton = buttonBuy.GetComponentInChildren<TextMeshProUGUI>();
 				if (weapon.equip == true) {
 					buttonBuy.interactable = false;
-					textBuyButton.text = "Equipped";
+					textBuyButton.text = EQUIPPED;
+
+					equippedWeapon = weapon;
 				} else {
 					buttonBuy.interactable = true;
-					textBuyButton.text = "Equip";
+					textBuyButton.text = EQUIP;
+
+					buttonBuy.onClick.AddListener(() => EquipWeapon(weapon, textBuyButton));
 				}
 			}
 		}
-    }
+	}
+
+	private void EquipWeapon(WeaponSO weapon, TextMeshProUGUI textBuyButton) {
+		if (equippedWeapon != null) {
+			equippedWeapon.equip = false;
+		}
+		weapon.equip = true;
+		equippedWeapon = weapon;
+
+		textBuyButton.text = EQUIPPED;
+
+		UpdatePreviousEquipButton();
+
+		UpdateInventory();
+	}
+
+	private void UpdatePreviousEquipButton() {
+		foreach (WeaponSO weapon in weaponSO) {
+			if (weapon != equippedWeapon && weapon.equip == true) {
+				weapon.equip = false;
+			}
+		}
+	}
 }

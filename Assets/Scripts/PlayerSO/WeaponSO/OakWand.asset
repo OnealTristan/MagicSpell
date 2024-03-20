@@ -17,4 +17,4 @@ MonoBehaviour:
   damage: 1
   price: 0
   buyed: 1
-  equip: 1
+  equip: 0

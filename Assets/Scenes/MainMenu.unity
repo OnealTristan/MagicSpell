@@ -3005,6 +3005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 196414a999bd17b42a5e1697b7b261a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shopScript: {fileID: 564091866}
   parentPosUI: {fileID: 505083121}
   contentPanelPrefab: {fileID: 7551750416730638169, guid: e835f0361030aee48a550c7cba4d4094, type: 3}
   weaponSO:
@@ -3040,7 +3041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73fd65ea0a6b7e442ad140f977b06613, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: 100
+  coin: 300
   level1IsClear: 0
   level2IsClear: 0
 --- !u!4 &1269690641
