@@ -51,26 +51,28 @@ public class ShopScript : MonoBehaviour
             TextMeshProUGUI text = panelInstance.GetComponentInChildren<TextMeshProUGUI>();
             text.text = weaponSO[i].name;
 
+            // Set price text
+            Text priceText = panelInstance.GetComponentInChildren<Text>();
+            if (weaponSO[i].price == 0) {
+                priceText.text = "FREE";
+            } else {
+				priceText.text = weaponSO[i].price.ToString();
+			}
+
 			// Set Button properties
 			Button buttonBuy = panelInstance.GetComponentInChildren<Button>();
 			TextMeshProUGUI textBuyButton = buttonBuy.GetComponentInChildren<TextMeshProUGUI>();
             if (weaponSO[i].buyed == true) {
 				buttonBuy.interactable = false;
                 textBuyButton.text = "Bought";
-            } else {
+			} else {
 				buttonBuy.interactable = true;
-                textBuyButton.text = "Buy " + weaponSO[i].price.ToString();
+                textBuyButton.text = "Buy";
 
-                int index = i;
+				int index = i;
                 buttonBuy.onClick.AddListener(() => BuyWeapon(index, buttonBuy, textBuyButton));
 			}
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     private void BuyWeapon(int index, Button buttonBuy, TextMeshProUGUI textBuyButton) {
