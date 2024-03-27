@@ -6065,10 +6065,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57d01aa9355115459122ac34cf38d9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  playerAnimation: {fileID: 0}
-  guessLetter: {fileID: 3022692723041573914}
-  userInputDisplay: {fileID: 3022692722997577225}
+  keyButton:
+  - {fileID: 3022692721989913602}
+  - {fileID: 3022692721968885367}
+  - {fileID: 3022692723385896724}
+  - {fileID: 3022692723771743910}
+  - {fileID: 3022692723586648903}
+  - {fileID: 3022692723397852969}
+  - {fileID: 3022692723941795562}
+  - {fileID: 3022692723733826195}
+  - {fileID: 3022692723140940353}
+  - {fileID: 3022692722107848308}
+  - {fileID: 3022692722057462205}
+  - {fileID: 3022692722619547323}
+  - {fileID: 3022692723288836904}
+  - {fileID: 3022692723050420706}
+  - {fileID: 3022692723534986951}
+  - {fileID: 3022692722912748962}
+  - {fileID: 3022692722241891399}
+  - {fileID: 3022692723637193202}
+  - {fileID: 3022692723690779441}
+  - {fileID: 3022692722147848260}
+  - {fileID: 3022692723401103250}
+  - {fileID: 3022692723167520434}
+  - {fileID: 3022692722988830228}
+  - {fileID: 3022692723886905754}
+  - {fileID: 3022692722016261893}
+  - {fileID: 3022692722773173893}
 --- !u!114 &3022692722845120698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7327,7 +7350,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textContainer: {fileID: 3022692722212065819}
   keyboard: {fileID: 3022692722845120697}
-  playerAnimation: {fileID: 0}
 --- !u!1 &3022692723014630975
 GameObject:
   m_ObjectHideFlags: 0
@@ -12172,7 +12194,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b812c3aa0623ca4459d3c156c1fda283, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   oakWand: {fileID: 11400000, guid: c6cb6d8b5e4f06946a91645f0281ff34, type: 2}
   phoenixWand: {fileID: 11400000, guid: 6b3b2c42098ee7d40a97f118819cd629, type: 2}
   thunderWand: {fileID: 11400000, guid: 407959035eb1cea47af378255f209953, type: 2}

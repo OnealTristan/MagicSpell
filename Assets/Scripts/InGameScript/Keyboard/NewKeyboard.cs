@@ -24,8 +24,12 @@ public class NewKeyboard : MonoBehaviour
     private EnemyAnimation enemyAnimation;
 
     [Header(" Other References ")]
+    [SerializeField] private Button[] keyButton;
 	private UserInputDisplay userInputDisplay;
     private GuessLetter guessLetter;
+
+    [Header(" Elements ")]
+    private int currentButtonIndex = 0;
 	// Instance UserInputDisplay
 
 	private Dictionary dictionary;
@@ -127,6 +131,12 @@ public class NewKeyboard : MonoBehaviour
 
 				userInputDisplay.DeleteText();
 			}
+        }
+    }
+
+    public void SetButtonInteractable(int buttonIndex, bool interactable) {
+        if (buttonIndex >= 0 && buttonIndex < keyButton.Length) {
+            keyButton[buttonIndex].interactable = interactable;
         }
     }
 }
