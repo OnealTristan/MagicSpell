@@ -9,13 +9,12 @@ public static class Loader
 	private class LoadingMonoBehaviour : MonoBehaviour { }
 
 	public enum Scene {
-		GameScene,
-		Loading,
 		MainMenu,
-		LevelMenu,
 		Level1,
 		Level2,
 		Level3,
+		Loading,
+		LevelMenu,
 	}
 
 	private static Action onLoaderCallBack;

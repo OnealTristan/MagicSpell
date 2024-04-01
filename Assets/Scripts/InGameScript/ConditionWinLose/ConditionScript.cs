@@ -4,18 +4,12 @@ using UnityEngine;
 
 public class ConditionScript : MonoBehaviour
 {
+    [Header(" Elements ")]
     [SerializeField] private Loader.Scene restartScene;
+    [SerializeField] private Loader.Scene nextLevelScene;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void NextLevel() {
+        Loader.Load(nextLevelScene);
     }
 
     public void RestartLevel() {

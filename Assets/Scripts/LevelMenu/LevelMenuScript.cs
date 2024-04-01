@@ -6,40 +6,29 @@ using UnityEngine.UI;
 public class LevelMenuScript : MonoBehaviour
 {
 	[Header(" References ")]
+	[SerializeField] private Button[] levelButtons;
 	private Data data;
-    private Button level2Button;
-	private Button level3Button;
 
 	private void Awake() {
-		level2Button = GameObject.Find("Level2").GetComponent<Button>();
-		level3Button = GameObject.Find("Level3").GetComponent<Button>();
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
 	}
 
-	private void Update() {
-		if (data.level1IsClear == false) {
-			level2Button.interactable = false;
-		} else {
-			level2Button.interactable = true;
-		}
-
-		if (data.level2IsClear == false) {
-			level3Button.interactable = false;
-		} else {
-			level3Button.interactable = true;
-		}
+	private void Start() {
+		UpdateLevelButtonInteractable();
 	}
 
-	public void ClickLevel1Button () {
-        Loader.Load(Loader.Scene.Level1);
-    }
-
-	public void ClickLevel2Button() {
-		Loader.Load(Loader.Scene.Level2);
+	private void UpdateLevelButtonInteractable() {
+		for (int i = 0; i < data.chapter1LevelClear.Length; i++) {
+			if (data.chapter1LevelClear[i] == true) {
+				levelButtons[i].interactable = true;
+			} else {
+				levelButtons[i].interactable = false;
+			}
+		}
 	}
-
-	public void ClickLevel3Button() {
-		Loader.Load(Loader.Scene.Level3);
+	
+	public void ClickLevelButton(int levelIndex) {
+		Loader.Load((Loader.Scene)levelIndex);
 	}
 
 	public void ClickBackButton () {
