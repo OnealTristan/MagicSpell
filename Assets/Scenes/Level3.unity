@@ -541,6 +541,22 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3022692722609433721, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022692723162572327, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022692723162572331, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+      propertyPath: restartScene
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022692723162572331, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+      propertyPath: nextLevelScene
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3022692723568916788, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -729,6 +745,14 @@ PrefabInstance:
     - target: {fileID: 1868110483024268432, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: m_Name
       value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: levelIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: chapter1LevelIndex
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1868110483024268438, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: m_RootOrder

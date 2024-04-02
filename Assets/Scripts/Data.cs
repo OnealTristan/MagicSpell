@@ -10,10 +10,6 @@ public class Data : MonoBehaviour
     public int coin;
     [Space(10)]
     public bool[] chapter1LevelClear;
-    public bool level1IsClear;
-	public bool level2IsClear;
-	public bool level3IsClear;
-	public bool level4IsClear;
 
 	private void Awake() {
 		if (Instance == null) {
@@ -24,17 +20,9 @@ public class Data : MonoBehaviour
 		}
 	}
 
-	// Start is called before the first frame update
-	void Start()
-    {
-        
+    public void UpdateLevelStatus(int levelIndex, bool isClear) {
+        chapter1LevelClear[levelIndex - 1] = isClear;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-		
-	}
 
     public int GetCoin() {
         return coin;

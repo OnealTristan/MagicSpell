@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
 
 	[Header(" Elements ")]
 	[SerializeField] private int incrementHealthEnemy;
+	[SerializeField] private int chapter1LevelIndex;
 
     public static GameManager instance;
 
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour
 				break;
 			case GameState.Win:
 				WinCondition();
-				data.level1IsClear = true;
+				data.UpdateLevelStatus(chapter1LevelIndex, true);
 				break;
 			case GameState.Lose:
 				LoseCondition();

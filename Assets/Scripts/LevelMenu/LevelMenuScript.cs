@@ -19,7 +19,7 @@ public class LevelMenuScript : MonoBehaviour
 
 	private void UpdateLevelButtonInteractable() {
 		for (int i = 0; i < data.chapter1LevelClear.Length; i++) {
-			if (data.chapter1LevelClear[i] == true) {
+			if (i == 0 || data.chapter1LevelClear[i - 1] == true) {
 				levelButtons[i].interactable = true;
 			} else {
 				levelButtons[i].interactable = false;
