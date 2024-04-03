@@ -35,17 +35,17 @@ public class UserInputDisplay : MonoBehaviour
         {
             textContainer.text = textContainer.text.Substring(0, textContainer.text.Length - 1);
 			if (textContainer.text.Length < 1) {
-				playerAnimation.PlayerIdle();
+				playerAnimation.PlayerIdleAnimation();
 			}
 		} else {
-			playerAnimation.PlayerIdle();
+			playerAnimation.PlayerIdleAnimation();
 		}
 	}
 
     private void KeyPressedCallback(string key)
     {
         textContainer.text += key;
-		playerAnimation.PlayerSpelling();
+		playerAnimation.PlayerSpellingAnimation();
 	}
 
     private void EnterPressedCallback() {

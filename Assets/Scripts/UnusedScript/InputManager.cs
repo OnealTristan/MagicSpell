@@ -70,7 +70,7 @@ public class InputManager : MonoBehaviour
                             // Jika benar maka damage akan diterima oleh musuh
                             Debug.Log("Type: " + txt + " Found!!");
 
-							playerAnimation.PlayerAttack();
+							playerAnimation.PlayerAttackAnimation();
 
                             player.ActivatedWeapon();
 
@@ -92,7 +92,7 @@ public class InputManager : MonoBehaviour
             //Jika salah maka damage akan diterima oleh player
             if (!stringFound) {
 				Debug.Log("Type: " + txt + " Not Found!!");
-				playerAnimation.PlayerIdle();
+				playerAnimation.PlayerIdleAnimation();
 
                 enemy.EnemyAttack();
 
@@ -106,16 +106,16 @@ public class InputManager : MonoBehaviour
         {
 			text.text = text.text.Substring(0, text.text.Length - 1);
 			if (text.text.Length < 1) {
-                playerAnimation.PlayerIdle();
+                playerAnimation.PlayerIdleAnimation();
 			}
 		} else {
-			playerAnimation.PlayerIdle();
+			playerAnimation.PlayerIdleAnimation();
 		}
     }
 
     private void KeyPressedCallback(string key) {
         text.text += key.ToUpper().Trim();
-        playerAnimation.PlayerSpelling();
+        playerAnimation.PlayerSpellingAnimation();
 	}
 
     public string[] GetLetter() {

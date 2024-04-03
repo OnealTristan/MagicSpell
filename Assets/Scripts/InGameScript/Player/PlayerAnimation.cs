@@ -28,18 +28,18 @@ public class PlayerAnimation : MonoBehaviour {
 		// 
 	}
 
-    public void PlayerIdle() {
+    public void PlayerIdleAnimation() {
         animator.SetBool("IsIdle", true);
 		animator.SetBool("IsAttack", false);
 		animator.SetBool("IsSpelling", false);
 	}
 
-    public void PlayerSpelling() {
+    public void PlayerSpellingAnimation() {
 		animator.SetBool("IsSpelling", true);
 		animator.SetBool("IsIdle", false);
 	}
 
-    public void PlayerAttack() {
+    public void PlayerAttackAnimation() {
 		animator.SetBool("IsAttack", true);
 		animator.SetBool("IsIdle", false);
 		animator.SetBool("IsSpelling", false);

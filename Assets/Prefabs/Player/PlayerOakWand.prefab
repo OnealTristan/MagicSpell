@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7172579094368488931}
   - component: {fileID: 7172579094368488940}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -184,7 +184,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85d6acfbdb95bac44bfe9cf6c0b0d90f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 0}
   defaultWeapon: {fileID: 11400000, guid: c6cb6d8b5e4f06946a91645f0281ff34, type: 2}
   unicornWandIsActive: 0
   bookIsActive: 0
@@ -201,8 +200,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b647925a834104d97d2f935527ed04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 7172579094781756923}
-  keyboard: {fileID: 0}
   randomAnimator: []
 --- !u!95 &7172579094781756923
 Animator:

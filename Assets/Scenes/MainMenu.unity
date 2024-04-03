@@ -3119,7 +3119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: 300
-  chapter1LevelClear: 00000000000000000000
+  chapter1LevelClear: 01010101010000000000
 --- !u!4 &1269690641
 Transform:
   m_ObjectHideFlags: 0

@@ -21,10 +21,6 @@ public class Enemy : MonoBehaviour {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
-	private void Start() {
-
-	}
-
 	public void EnemyAttack() {
         player.SetPlayerHealth(player.GetPlayerHealth() - enemySO.damage);
         OnDecreaseHPPlayer?.Invoke(player.GetPlayerHealth());
@@ -43,9 +39,5 @@ public class Enemy : MonoBehaviour {
 
     public int SetEnemyHealth(int health) {
         return this.health = health;
-    }
-
-    public int SetIncrementEnemyHealth(int health) {
-        return this.health += health;
     }
 }

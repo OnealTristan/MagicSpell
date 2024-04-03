@@ -101,7 +101,7 @@ public class NewKeyboard : MonoBehaviour
                             // Jika benar maka damage akan diterima oleh musuh
                             Debug.Log("Type: " + txt + " Found!!");
 
-                            playerAnimation.PlayerAttack();
+                            playerAnimation.PlayerAttackAnimation();
 
                             //player.ActivatedWeapon();
 
@@ -125,9 +125,9 @@ public class NewKeyboard : MonoBehaviour
             if (!stringFound)
             {
                 Debug.Log("Type: " + txt + " Not Found!!");
-                playerAnimation.PlayerIdle();
+                playerAnimation.PlayerIdleAnimation();
 
-                enemyAnimation.Attack();
+                enemyAnimation.EnemyAttackAnimation();
 
 				userInputDisplay.DeleteText();
 			}

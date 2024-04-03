@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour
 	private Player player;
 
 	[Header(" Elements ")]
-	[SerializeField] private int incrementHealthEnemy;
 	[SerializeField] private int chapter1LevelIndex;
 
     public static GameManager instance;
@@ -40,7 +39,6 @@ public class GameManager : MonoBehaviour
     private void Update() {
         if (enemy == null && state == GameState.OnGoing) {
             enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
-			enemy.SetIncrementEnemyHealth(incrementHealthEnemy);
 		}
     }
 

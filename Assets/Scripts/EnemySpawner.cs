@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
+    private static int INCREMENTHEALTH = 2;
+
     [Header(" References ")]
     [SerializeField] private GameObject[] enemyGameObject;
     private Transform enemySpawnPos;
+    private Enemy enemy;
     private HealthUI healthUI;
     private GuessLetter guessLetter;
 
-    private int enemyHealth;
     private int currentEnemyIndex = 0;
 
     // Start is called before the first frame update
@@ -28,14 +30,22 @@ public class EnemySpawner : MonoBehaviour
 	private void SpawnEnemy() {
         if (currentEnemyIndex == 0) {
             Debug.Log("Enemy " + currentEnemyIndex + " Spawn!");
-            GameObject enemy = Instantiate(enemyGameObject[0], enemySpawnPos);
-            enemy.GetComponent<Enemy>().OnDeath += SpawnEnemy;
+
+            GameObject enemyObj = Instantiate(enemyGameObject[0], enemySpawnPos);
+
+			enemyObj.GetComponent<Enemy>().OnDeath += SpawnEnemy;
+            
             currentEnemyIndex++;
         } else if (currentEnemyIndex < enemyGameObject.Length) {
             Debug.Log("Enemy " + currentEnemyIndex + " Spawn!");
             guessLetter.GetRandomLetterException();
-            GameObject enemy = Instantiate(enemyGameObject[currentEnemyIndex], enemySpawnPos);
-            enemy.GetComponent<Enemy>().OnDeath += SpawnEnemy;
+
+            GameObject enemyObj = Instantiate(enemyGameObject[currentEnemyIndex], enemySpawnPos);
+			enemy = enemyObj.GetComponent<Enemy>();
+
+            enemy.SetEnemyHealth(enemy.GetEnemyHealth() + (INCREMENTHEALTH * currentEnemyIndex));
+			enemyObj.GetComponent<Enemy>().OnDeath += SpawnEnemy;
+
             currentEnemyIndex++;
         } else {
             healthUI.DisableEnemyFill();

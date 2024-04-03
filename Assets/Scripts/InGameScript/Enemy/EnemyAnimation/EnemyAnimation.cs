@@ -10,13 +10,13 @@ public class EnemyAnimation : MonoBehaviour
 		animator = GetComponent<Animator>();
 	}
 
-	public void Attack() {
+	public void EnemyAttackAnimation() {
         animator.SetBool("isAttack", true);
         animator.SetBool("isIdle", false);
-        Invoke("Idle", 0.5f);
+        Invoke("EnemyIdleAnimation", 0.5f);
     }
 
-    public void Idle() {
+    public void EnemyIdleAnimation() {
 		animator.SetBool("isIdle", true);
 		animator.SetBool("isAttack", false);
 	}
