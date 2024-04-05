@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0020d486c9f62694d866dcc84344615d, type: 3}
   m_Name: Skitterfang
   m_EditorClassIdentifier: 
-  name: Skitterfang
+  enemyName: Skitterfang
   damage: 2
+  damageTimer: 0
   maxHealth: 10

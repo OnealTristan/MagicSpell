@@ -94,7 +94,7 @@ public class InputManager : MonoBehaviour
 				Debug.Log("Type: " + txt + " Not Found!!");
 				playerAnimation.PlayerIdleAnimation();
 
-                enemy.EnemyAttack();
+                //enemy.EnemyAttack();
 
                 text.text = string.Empty;
             }

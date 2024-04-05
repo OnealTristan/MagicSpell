@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0020d486c9f62694d866dcc84344615d, type: 3}
-  m_Name: Shadowfang
+  m_Name: SkitterfangBoss
   m_EditorClassIdentifier: 
-  name: Shadowfang
-  damage: 5
-  maxHealth: 10
+  enemyName: Skitterfang Boss
+  damage: 10
+  damageTimer: 3
+  maxHealth: 120
