@@ -55,6 +55,8 @@ public class Player : MonoBehaviour
 			if (equippedWeapon != null) {
 				enemy.SetEnemyHealth(enemy.GetEnemyHealth() - equippedWeapon.damage);
 				OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
+			} else {
+				Debug.Log("Weapon Does not Equipped!");
 			}
 		}
 	}

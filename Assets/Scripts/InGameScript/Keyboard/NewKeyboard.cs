@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using Unity.VisualScripting;
 //using static System.Net.Mime.MediaTypeNames;
 
 public class NewKeyboard : MonoBehaviour
@@ -48,6 +49,7 @@ public class NewKeyboard : MonoBehaviour
 
 	void Start()
     {
+
         letter = guessLetter.GetLetter();
     }
 
@@ -139,4 +141,20 @@ public class NewKeyboard : MonoBehaviour
             keyButton[buttonIndex].interactable = interactable;
         }
     }
+
+    private void DisableKeyboard() {
+        Button[] buttons = GetComponentsInChildren<Button>();
+
+		foreach (Button button in buttons) {
+			button.interactable = false;
+		}
+	}
+
+    private void EnableKeyboard() {
+		Button[] buttons = GetComponentsInChildren<Button>();
+
+		foreach (Button button in buttons) {
+			button.interactable = true;
+		}
+	}
 }

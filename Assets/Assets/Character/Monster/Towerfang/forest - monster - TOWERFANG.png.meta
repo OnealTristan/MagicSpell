@@ -1,0 +1,1917 @@
+fileFormatVersion: 2
+guid: 77cc01c583f508945b04f7587aa91352
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db095cabeb210504b8fec45483e67949
+      internalID: -1324631672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f411647801de84d8ac4b555692b577
+      internalID: -728072061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e384a4488f17f4c8b46ff59b8f4bef
+      internalID: -198329741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f8a9e0ce2963242a73c97d015634cb
+      internalID: 1270897817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb27262d0faf91c48bb2773871dadb74
+      internalID: -120318093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bffbe4c91a7a54faca3678df142a53
+      internalID: -865352864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_6
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce82b62f82d72446825b326bc92d012
+      internalID: 1407313851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_7
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc5310360002f44c97613c4f23c4746
+      internalID: 1467728910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_8
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22731802bacdf554bae34576c3d6fb27
+      internalID: -585679550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_9
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8a098d3d8580949bfb4bdc57daaa1d
+      internalID: -923916240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_10
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c985c17b80f7d354fafab550a361144d
+      internalID: -1772880571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1523db7a0eb33c74982a016ddb899571
+      internalID: 167774125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_12
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f140538292982f74b94b29617d14bb0e
+      internalID: -784645886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_13
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980fff780276af84bbfc44d0361fd503
+      internalID: -995109887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9e967bbcb0af44d92103c19d6917b7
+      internalID: 2114360207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_15
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dbe1fdc75e3094dba30b22ea9fea41
+      internalID: -1965444562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_16
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f97b0c1478cda4fa6b18f0843d6f09
+      internalID: -762039632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_17
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7d2041c7db52f45924ffd92c555074
+      internalID: -2032174951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_18
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f4bc35d2797b54487fec103772c263
+      internalID: -1874277704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_19
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4341d9da0b4a7814c9625585b2e0feef
+      internalID: -1901932909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_20
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b6083fa558a7844ac23ad106c96b63
+      internalID: 261148341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_21
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c1396f9779c76478508d517d5292ea
+      internalID: -1855891452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_22
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce94995479236643bb11149027d96c5
+      internalID: -956943561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_23
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9fbcd236ec59a4f80424f97e025263
+      internalID: 1299485719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_24
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 320
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a91f5aef6440c4799674455cf92039
+      internalID: 1279038726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46eb74933ad7c7a44b7f2cae0046fe2c
+      internalID: 1262366963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce100e18fbfb168419c266b2f212720e
+      internalID: 174656465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd672fd97d1f500499f3b09e82813a3d
+      internalID: 1856644053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a8f5f1c0662d44d91998e87b37c243
+      internalID: -1159605086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6af589d213e9945b41fc49cb1ac8db
+      internalID: -76975962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2600081f5bd106478fc0413622d42e9
+      internalID: 1299164131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50be6e8573c38c9478586c131aba7cfd
+      internalID: 1339973508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6d2f9d4d0a70c43b61134f1966d505
+      internalID: 510823637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fed81710738fe4c84f7f701b2fa5e9
+      internalID: 1624576891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db405160ef3159b4f8d594dcbb5fedc1
+      internalID: -1113293409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0aad2e259f83e4cb60097b31edc81e
+      internalID: 339983510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_36
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02850583f12d34d4b87e4bb7dbc5b8f6
+      internalID: 191381989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_37
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ac4f70acef93145affa19bdc8a9818
+      internalID: 210192479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_38
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24d3bf84b76fd84192a26b26eb339b4
+      internalID: 210970384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_39
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711284d5269de0b468644d9244bf4c52
+      internalID: 309447251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_40
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7551862a51adb98448abca3ed0452b54
+      internalID: 321252343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_41
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b080d3b40dafd40b110af6727bc97e
+      internalID: -1133168921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_42
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188c0c2833af7fc4b84a737326baafe1
+      internalID: 1365651755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_43
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a023573b8aa8964f884c7e873967f7c
+      internalID: -1983949184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_44
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c802e3e4b11b8489df90c0ef67acff
+      internalID: 1474888445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_45
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7e9e81f850b1041a7e90e0aab66e91
+      internalID: -1643479409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_46
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c8744f87117144497ce9d6fe2f68a3
+      internalID: -655822677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_47
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a843853ccf864418ae925f4495433b
+      internalID: 332080392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_48
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c05f26dae81e62459f800f493563114
+      internalID: -672455400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_49
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e35c8ef50be3f44e8156e8265bb42d0
+      internalID: -34713390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_50
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8a6c055a90ef44c81ac3575157cf4b
+      internalID: -165450237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_51
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df60f2d9341b3141a6aa2645f345945
+      internalID: 503941792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_52
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbde714e59adc94f9761feed07e776e
+      internalID: -723981573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_53
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c51291a5c20ee4c8f8eff7b5ee028c
+      internalID: -1696540819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_54
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0900a943a6394524caf87e016ccae70a
+      internalID: 227979008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_55
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091a30aa54bf6754a8810a3d2f0b96fc
+      internalID: 1683320877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_56
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 160
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a5498e09b340d4da1435d92100272f
+      internalID: -1055419890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056ca29b5ecc78a45993fbd41d75de1a
+      internalID: -1129620283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_58
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c57ab47644fdd943a5229c4f8ea5efb
+      internalID: -1155205069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505db28a826e7f64886e1ec6f2022c5f
+      internalID: 1876921238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ed0bcbdf01888499f086a106c4a306
+      internalID: -40743927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daeb1a47b3a0674585900ca9ae2f071
+      internalID: -478535707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_62
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af392171e9df41e48bcf2580ebcb64e9
+      internalID: 471002890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00914b36a3fb6dd4bae2139f41b8237c
+      internalID: -1148526575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_64
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b16fc9d58c6ab849a108ee3ff5c3931
+      internalID: 1410991051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4705e7ce64c1b419fce7475eef8737
+      internalID: 1569867436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a113fe5ec47464d4696662fe04551216
+      internalID: -30844016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_67
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f559a91074fac5e4abb57f7122fb0e26
+      internalID: -2032719740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_68
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e2adb94da5f6148866731ff4665961
+      internalID: -448089324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_69
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b644801ed7da0724aa2ea4d2673d5292
+      internalID: 767520438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_70
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a6126c35a68094b8c993c9492330f7
+      internalID: 264150723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_71
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4d801d64ac4ba44b0db28aed4f3ed4
+      internalID: -1802705749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_72
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1f22dbbac408b4b942da4f88ed065b
+      internalID: -176168626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_73
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cce393e19ec2c0468654ef84da811d3
+      internalID: 167743841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_74
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57c913533beaa442b179cc011b1e305
+      internalID: -283867077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_75
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bb3db3405ac664dae90c55fb0e7d1a
+      internalID: -1481345640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_76
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62179697bd107e440915f96703e4b9cd
+      internalID: -449525603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_77
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c90ac081a90e14e87ded57e64311e7
+      internalID: -653497737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_78
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3d545fc4827ee4783db3e1f29fff6c
+      internalID: -496051440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_79
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e610c73266ea954f8495e8a92f16702
+      internalID: 888061410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest - monster - TOWERFANG_80
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 80.76923
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547eefb00eb56ae45a74eb1bd569076c
+      internalID: -1632096267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      forest - monster - TOWERFANG_38: 210970384
+      forest - monster - TOWERFANG_42: 1365651755
+      forest - monster - TOWERFANG_75: -1481345640
+      forest - monster - TOWERFANG_62: 471002890
+      forest - monster - TOWERFANG_22: -956943561
+      forest - monster - TOWERFANG_26: 174656465
+      forest - monster - TOWERFANG_76: -449525603
+      forest - monster - TOWERFANG_47: 332080392
+      forest - monster - TOWERFANG_80: -1632096267
+      forest - monster - TOWERFANG_18: -1874277704
+      forest - monster - TOWERFANG_79: 888061410
+      forest - monster - TOWERFANG_7: 1467728910
+      forest - monster - TOWERFANG_19: -1901932909
+      forest - monster - TOWERFANG_63: -1148526575
+      forest - monster - TOWERFANG_71: -1802705749
+      forest - monster - TOWERFANG_4: -120318093
+      forest - monster - TOWERFANG_27: 1856644053
+      forest - monster - TOWERFANG_51: 503941792
+      forest - monster - TOWERFANG_16: -762039632
+      forest - monster - TOWERFANG_23: 1299485719
+      forest - monster - TOWERFANG_35: 339983510
+      forest - monster - TOWERFANG_78: -496051440
+      forest - monster - TOWERFANG_74: -283867077
+      forest - monster - TOWERFANG_14: 2114360207
+      forest - monster - TOWERFANG_66: -30844016
+      forest - monster - TOWERFANG_53: -1696540819
+      forest - monster - TOWERFANG_36: 191381989
+      forest - monster - TOWERFANG_1: -728072061
+      forest - monster - TOWERFANG_43: -1983949184
+      forest - monster - TOWERFANG_31: 1339973508
+      forest - monster - TOWERFANG_45: -1643479409
+      forest - monster - TOWERFANG_28: -1159605086
+      forest - monster - TOWERFANG_55: 1683320877
+      forest - monster - TOWERFANG_56: -1055419890
+      forest - monster - TOWERFANG_17: -2032174951
+      forest - monster - TOWERFANG_64: 1410991051
+      forest - monster - TOWERFANG_6: 1407313851
+      forest - monster - TOWERFANG_5: -865352864
+      forest - monster - TOWERFANG_20: 261148341
+      forest - monster - TOWERFANG_10: -1772880571
+      forest - monster - TOWERFANG_32: 510823637
+      forest - monster - TOWERFANG_57: -1129620283
+      forest - monster - TOWERFANG_15: -1965444562
+      forest - monster - TOWERFANG_65: 1569867436
+      forest - monster - TOWERFANG_44: 1474888445
+      forest - monster - TOWERFANG_67: -2032719740
+      forest - monster - TOWERFANG_37: 210192479
+      forest - monster - TOWERFANG_70: 264150723
+      forest - monster - TOWERFANG_8: -585679550
+      forest - monster - TOWERFANG_73: 167743841
+      forest - monster - TOWERFANG_58: -1155205069
+      forest - monster - TOWERFANG_9: -923916240
+      forest - monster - TOWERFANG_2: -198329741
+      forest - monster - TOWERFANG_13: -995109887
+      forest - monster - TOWERFANG_30: 1299164131
+      forest - monster - TOWERFANG_60: -40743927
+      forest - monster - TOWERFANG_48: -672455400
+      forest - monster - TOWERFANG_50: -165450237
+      forest - monster - TOWERFANG_61: -478535707
+      forest - monster - TOWERFANG_12: -784645886
+      forest - monster - TOWERFANG_3: 1270897817
+      forest - monster - TOWERFANG_0: -1324631672
+      forest - monster - TOWERFANG_11: 167774125
+      forest - monster - TOWERFANG_77: -653497737
+      forest - monster - TOWERFANG_72: -176168626
+      forest - monster - TOWERFANG_68: -448089324
+      forest - monster - TOWERFANG_33: 1624576891
+      forest - monster - TOWERFANG_40: 321252343
+      forest - monster - TOWERFANG_29: -76975962
+      forest - monster - TOWERFANG_41: -1133168921
+      forest - monster - TOWERFANG_46: -655822677
+      forest - monster - TOWERFANG_59: 1876921238
+      forest - monster - TOWERFANG_34: -1113293409
+      forest - monster - TOWERFANG_24: 1279038726
+      forest - monster - TOWERFANG_39: 309447251
+      forest - monster - TOWERFANG_21: -1855891452
+      forest - monster - TOWERFANG_49: -34713390
+      forest - monster - TOWERFANG_52: -723981573
+      forest - monster - TOWERFANG_54: 227979008
+      forest - monster - TOWERFANG_25: 1262366963
+      forest - monster - TOWERFANG_69: 767520438
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

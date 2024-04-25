@@ -44,21 +44,4 @@ public class PlayerAnimation : MonoBehaviour {
 		animator.SetBool("IsIdle", false);
 		animator.SetBool("IsSpelling", false);
 	}
-
-	private void DisableKeyboard() {
-		Button[] buttons = keyboard.GetComponentsInChildren<Button>();
-
-        foreach (Button button in buttons)
-        {
-			button.interactable = false;
-        }
-    }
-
-	private void EnableKeyboard() {
-		Button[] buttons = keyboard.GetComponentsInChildren<Button>();
-
-		foreach (Button button in buttons) {
-			button.interactable = true;
-		}
-	}
 }
