@@ -49,6 +49,8 @@ public class NewKeyboard : MonoBehaviour
 
 	void Start()
     {
+        playerAnimation.OnPlayerAttackAnimation += DisableKeyboard;
+        playerAnimation.OnPlayerIdleAnimation += EnableKeyboard;
 
         letter = guessLetter.GetLetter();
     }
@@ -58,6 +60,9 @@ public class NewKeyboard : MonoBehaviour
         if (enemy == null && enemyAnimation == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
             enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
             enemyAnimation = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyAnimation>();
+
+            enemyAnimation.OnEnemyIdleAnimation += EnableKeyboard;
+            enemyAnimation.OnEnemyAttackAnimation += DisableKeyboard;
         }
     }
 

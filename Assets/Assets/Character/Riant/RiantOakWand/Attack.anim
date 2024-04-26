@@ -492,7 +492,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: DisableKeyboard
+    functionName: PlayerAttackAnimationProperties
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -500,6 +500,13 @@ AnimationClip:
     messageOptions: 0
   - time: 3.5666666
     functionName: ActivatedWeapon
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 3.8333333
+    functionName: PlayerIdleAnimationProperties
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
