@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class EnemyAnimation : MonoBehaviour
 {
-	public Action OnEnemyAttackAnimation;
-	public Action OnEnemyIdleAnimation;
+	public Action OnEnemyAnimationStart;
+	public Action OnEnemyAnimationEnd;
 
     private Animator animator;
 
@@ -22,17 +22,17 @@ public class EnemyAnimation : MonoBehaviour
     }
 
 	// Method dipanggil pada event animation enemy
-	private void EnemyAttackAnimationProperties() {
-		OnEnemyAttackAnimation?.Invoke();
+	private void EnemyAnimationStart() {
+		OnEnemyAnimationStart?.Invoke();
 	}
 
     public void EnemyIdleAnimation() {
 		animator.SetBool("isIdle", true);
 		animator.SetBool("isAttack", false);
 	}
-
+ 
 	// Method dipanggil pada event animation enemy
-	private void EnemyIdleAnimationProperties() {
-		OnEnemyIdleAnimation?.Invoke();
+	private void EnemyAnimationEnd() {
+		OnEnemyAnimationEnd?.Invoke();
 	}
 }

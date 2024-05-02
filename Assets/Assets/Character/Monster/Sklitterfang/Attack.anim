@@ -236,8 +236,8 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0
-    functionName: EnemyAttackAnimationProperties
+  - time: 0.083333336
+    functionName: EnemyAnimationStart
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -245,6 +245,13 @@ AnimationClip:
     messageOptions: 0
   - time: 0.3
     functionName: EnemyAttack
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: EnemyAnimationEnd
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

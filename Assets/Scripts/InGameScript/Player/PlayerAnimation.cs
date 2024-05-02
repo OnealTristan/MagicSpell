@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class PlayerAnimation : MonoBehaviour 
 {
-	public Action OnPlayerAttackAnimation;
-	public Action OnPlayerIdleAnimation;
+	public Action OnPlayerAnimationStart;
+	public Action OnPlayerAnimationEnd;
 
 	[Header(" References ")]
 	private GameObject keyboard;
@@ -39,8 +39,8 @@ public class PlayerAnimation : MonoBehaviour
 		animator.SetBool("IsSpelling", false);
 	}
 
-	private void PlayerIdleAnimationProperties() {
-		OnPlayerIdleAnimation?.Invoke();
+	private void PlayerAnimationEnd() {
+		OnPlayerAnimationEnd?.Invoke();
 	}
 
     public void PlayerSpellingAnimation() {
@@ -54,7 +54,7 @@ public class PlayerAnimation : MonoBehaviour
 		animator.SetBool("IsSpelling", false);
 	}
 
-	private void PlayerAttackAnimationProperties() {
-		OnPlayerAttackAnimation?.Invoke();
+	private void PlayerAnimationStart() {
+		OnPlayerAnimationStart?.Invoke();
 	}
 }

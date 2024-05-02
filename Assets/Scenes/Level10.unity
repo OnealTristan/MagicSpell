@@ -365,7 +365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3022692723646428271, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_Interactable
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3022692723826437304, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -505,7 +505,7 @@ PrefabInstance:
     - target: {fileID: 7172579094781756920, guid: e62331fb96463f645901f3100e0ce300, type: 3}
       propertyPath: defaultWeapon
       value: 
-      objectReference: {fileID: 11400000, guid: 0eb399176dcedaa409a224d33ad91cf6, type: 2}
+      objectReference: {fileID: 11400000, guid: c6cb6d8b5e4f06946a91645f0281ff34, type: 2}
     - target: {fileID: 7172579094781756922, guid: e62331fb96463f645901f3100e0ce300, type: 3}
       propertyPath: m_RootOrder
       value: 5
