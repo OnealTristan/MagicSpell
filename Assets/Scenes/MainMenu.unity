@@ -2778,6 +2778,54 @@ PrefabInstance:
       propertyPath: coin
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: chapter1
+      value: 
+      objectReference: {fileID: 11400000, guid: b2d6543c171af8d4795a3e38c5b68d9c, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: chapterSO
+      value: 
+      objectReference: {fileID: 11400000, guid: b2d6543c171af8d4795a3e38c5b68d9c, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: chapter1LevelClear.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: chapter1LevelClear.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: chapter1LevelClear.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: chapter1LevelClear.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: chapter1LevelClear.Array.data[4]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: chapter1LevelClear.Array.data[5]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: chapter1LevelClear.Array.data[6]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: chapter1LevelClear.Array.data[7]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: chapter1LevelClear.Array.data[8]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: chapter1LevelClear.Array.data[9]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7754517902779545529, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
       propertyPath: m_RootOrder
       value: 0

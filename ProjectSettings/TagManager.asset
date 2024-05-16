@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Data
   - WeaponImage
+  - Bgm
   layers:
   - Default
   - TransparentFX

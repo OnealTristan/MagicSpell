@@ -45,4 +45,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: 300
+  chapter1: {fileID: 11400000, guid: b2d6543c171af8d4795a3e38c5b68d9c, type: 2}
   chapter1LevelClear: 00000000000000000000

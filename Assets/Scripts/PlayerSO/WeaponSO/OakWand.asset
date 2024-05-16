@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: 6fea8e167ab74bf46a69ef1bc4f4ee9d, type: 3}
   name: Oak Wand
-  damage: 1
+  damage: 3
   price: 0
   buyed: 1
-  equip: 0
+  equip: 1

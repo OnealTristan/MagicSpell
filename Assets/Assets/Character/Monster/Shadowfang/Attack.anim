@@ -400,7 +400,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.083333336
-    functionName: EnemyAnimationStart
+    functionName: EnemyAnimationStart_DisableKeyboard
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -414,7 +414,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 2.4166667
-    functionName: EnemyAnimationEnd
+    functionName: EnemyAnimationEnd_EnableKeyboard
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

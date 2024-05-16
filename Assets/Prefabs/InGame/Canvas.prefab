@@ -2339,12 +2339,12 @@ GameObject:
   - component: {fileID: 3022692722199169984}
   - component: {fileID: 3022692722199170015}
   m_Layer: 5
-  m_Name: PanelMenuSetting
+  m_Name: PanelMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3022692722199170014
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3524,7 +3524,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3022692723568916793}
+      - m_Target: {fileID: 5627755293327864042}
         m_TargetAssemblyTypeName: PauseScript, Assembly-CSharp
         m_MethodName: ClickExitButton
         m_Mode: 1
@@ -3856,7 +3856,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3022692723568916793}
+      - m_Target: {fileID: 5627755293327864042}
         m_TargetAssemblyTypeName: PauseScript, Assembly-CSharp
         m_MethodName: ClickResumeButton
         m_Mode: 1
@@ -7708,14 +7708,15 @@ GameObject:
   m_Component:
   - component: {fileID: 3022692723041330432}
   - component: {fileID: 3022692723041330463}
-  - component: {fileID: 3022692723041330462}
+  - component: {fileID: 5627755293327864042}
+  - component: {fileID: 125475686253060690}
   m_Layer: 5
   m_Name: PausePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3022692723041330432
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7746,7 +7747,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3022692723041330461}
   m_CullTransparentMesh: 1
---- !u!114 &3022692723041330462
+--- !u!114 &5627755293327864042
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7755,27 +7756,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 3022692723041330461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 092dc7c47789f9c4ab5196d48a7d56e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 0.627451}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &125475686253060690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3022692723041330461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74dee2436db8ef74da8dc09bcaf14c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelMenu: {fileID: 3022692722199170013}
 --- !u!1 &3022692723041573910
 GameObject:
   m_ObjectHideFlags: 0
@@ -7875,14 +7871,26 @@ MonoBehaviour:
   - a
   - e
   randomLetter:
-  - a,a
-  - a,b
-  - a,c
-  - a,d
   - a,e
-  - a,z
-  - b,z
-  - b,c
+  - a,i
+  - a,n
+  - a,r
+  - a,s
+  - a,t
+  - b,e
+  - c,e
+  - d,e
+  - e,l
+  - e,r
+  - e,s
+  - e,t
+  - f,e
+  - g,e
+  - h,e
+  - l,e
+  - m,e
+  - n,e
+  - r,e
 --- !u!114 &3022692723041573915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11897,7 +11905,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3022692723568916793}
+      - m_Target: {fileID: 5627755293327864042}
         m_TargetAssemblyTypeName: PauseScript, Assembly-CSharp
         m_MethodName: ClickPauseButton
         m_Mode: 1
@@ -12056,8 +12064,6 @@ GameObject:
   - component: {fileID: 3022692723568916791}
   - component: {fileID: 3022692723568916790}
   - component: {fileID: 3022692723568916789}
-  - component: {fileID: 3022692723568916793}
-  - component: {fileID: 3022692723568916794}
   - component: {fileID: 3022692723568916797}
   - component: {fileID: 3022692723568916796}
   - component: {fileID: 3022692723568916795}
@@ -12158,31 +12164,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &3022692723568916793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3022692723568916788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 092dc7c47789f9c4ab5196d48a7d56e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &3022692723568916794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3022692723568916788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74dee2436db8ef74da8dc09bcaf14c1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pausePanel: {fileID: 3022692723041330461}
 --- !u!114 &3022692723568916797
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class Data : MonoBehaviour
     [Header(" Elements ")]
     public int coin;
     [Space(10)]
+    public ChapterSO chapter1;
     public bool[] chapter1LevelClear;
 
 	private void Awake() {
@@ -21,7 +22,7 @@ public class Data : MonoBehaviour
 	}
 
     public void UpdateLevelStatus(int levelIndex, bool isClear) {
-        chapter1LevelClear[levelIndex - 1] = isClear;
+        chapter1.chapterLevelClear[levelIndex - 1] = isClear;
     }
 
     public int GetCoin() {

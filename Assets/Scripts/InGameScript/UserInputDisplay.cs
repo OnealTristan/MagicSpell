@@ -21,7 +21,6 @@ public class UserInputDisplay : MonoBehaviour
             // Subscribe to events
             keyboard.onBackspacePressed += BackspacePressedCallback;
             keyboard.onKeyPressed += KeyPressedCallback;
-            keyboard.onEnterPressed += EnterPressedCallback;
         }
         else
         {
@@ -45,12 +44,10 @@ public class UserInputDisplay : MonoBehaviour
     private void KeyPressedCallback(string key)
     {
         textContainer.text += key;
-		playerAnimation.PlayerSpellingAnimation();
+        if (textContainer.text != null) {
+		    playerAnimation.PlayerSpellingAnimation();
+        }
 	}
-
-    private void EnterPressedCallback() {
-
-    }
 
     public void DeleteText() {
         textContainer.text = string.Empty;

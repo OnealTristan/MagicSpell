@@ -51,6 +51,8 @@ AnimationClip:
       value: {fileID: -54188860, guid: f451cea109953ea45bc3e5b02c780bf5, type: 3}
     - time: 1.25
       value: {fileID: -363969462, guid: f451cea109953ea45bc3e5b02c780bf5, type: 3}
+    - time: 1.3333334
+      value: {fileID: -363969462, guid: f451cea109953ea45bc3e5b02c780bf5, type: 3}
     attribute: m_Sprite
     path: Sprite
     classID: 212
@@ -86,12 +88,13 @@ AnimationClip:
     - {fileID: -206747680, guid: f451cea109953ea45bc3e5b02c780bf5, type: 3}
     - {fileID: -54188860, guid: f451cea109953ea45bc3e5b02c780bf5, type: 3}
     - {fileID: -363969462, guid: f451cea109953ea45bc3e5b02c780bf5, type: 3}
+    - {fileID: -363969462, guid: f451cea109953ea45bc3e5b02c780bf5, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.2666667
+    m_StopTime: 1.35
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -111,8 +114,15 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0
-    functionName: EnemyAttackAnimationProperties
+  - time: 0.083333336
+    functionName: EnemyAnimationStart_DisableKeyboard
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.2833333
+    functionName: EnemyDeath
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

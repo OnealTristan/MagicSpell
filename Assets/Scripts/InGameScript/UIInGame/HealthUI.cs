@@ -22,6 +22,9 @@ public class HealthUI : MonoBehaviour
     private Player player;
     private Enemy enemy;
 
+    [Header(" Elements ")]
+    int index;
+
     private void Awake() {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         
@@ -39,17 +42,17 @@ public class HealthUI : MonoBehaviour
 	private void Update() {
         if (enemy == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
             enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
-
+            
             enemy.OnDecreaseHPPlayer += OnDecreaseHPPlayer;
 
             enemyHealth.maxValue = enemy.GetEnemyHealth();
             enemyHealth.value = enemyHealth.maxValue;
             amountEnemy.text = enemyHealth.value.ToString();
+            Debug.Log("enemy ada");
         }
 
 		if (playerHealth.value < 1) {
 			playerFill.SetActive(false);
-            GameManager.instance.UpdateGameState(GameManager.GameState.Lose);
 		}
 	}
 

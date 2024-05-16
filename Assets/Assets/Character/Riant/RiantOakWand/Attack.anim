@@ -492,7 +492,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.16666667
-    functionName: PlayerAnimationStart
+    functionName: PlayerAnimationStart_DisableKeyboard
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -505,8 +505,8 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 3.75
-    functionName: PlayerAnimationEnd
+  - time: 3.5666666
+    functionName: PlayerAnimationEnd_EnableKeyboard
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

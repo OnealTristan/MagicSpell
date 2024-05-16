@@ -10,8 +10,11 @@ public class BackgroundMusic : MonoBehaviour
 	// You can set this flag to control whether the music is playing or not
 	private bool isMusicEnabled = true;
 
+	private void Awake() {
+		audioSource = GetComponent<AudioSource>();
+	}
+
 	private void Start() {
-		audioSource = gameObject.AddComponent<AudioSource>();
 		audioSource.clip = backgroundMusic;
 		audioSource.loop = true;
 		// You can set other AudioSource properties here, like volume, pitch, etc.

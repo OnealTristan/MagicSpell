@@ -28,9 +28,6 @@ public class NewKeyboard : MonoBehaviour
     [SerializeField] private Button[] keyButton;
 	private UserInputDisplay userInputDisplay;
     private GuessLetter guessLetter;
-
-    [Header(" Elements ")]
-    private int currentButtonIndex = 0;
 	// Instance UserInputDisplay
 
 	private Dictionary dictionary;

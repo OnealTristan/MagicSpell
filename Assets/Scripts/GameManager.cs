@@ -54,7 +54,6 @@ public class GameManager : MonoBehaviour
 				break;
 			case GameState.Win:
 				WinCondition();
-				data.UpdateLevelStatus(chapter1LevelIndex, true);
 				break;
 			case GameState.Lose:
 				LoseCondition();
@@ -67,6 +66,7 @@ public class GameManager : MonoBehaviour
 	private void WinCondition() {
 		conditionUI.ShowWinPanel();
 		Time.timeScale = 0f;
+		data.UpdateLevelStatus(chapter1LevelIndex, true);
 	}
 
 	private void LoseCondition() {

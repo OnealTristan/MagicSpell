@@ -7,9 +7,9 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
 	public Action<int> OnDecreaseHPEnemy;
+	public Action OnHittingEnemy;
 
 	[Header(" References ")]
-	private Text text;
 	private Enemy enemy;
 
 	[Header(" Default Weapon ")]
@@ -45,8 +45,8 @@ public class Player : MonoBehaviour
 			enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
 		}
 
-		if (enemy.GetEnemyHealth() < 1 && enemy != null) {
-			enemy.EnemyDeath();
+		if (GetPlayerHealth() < 1) {
+			GameManager.instance.UpdateGameState(GameManager.GameState.Lose);
 		}
 	}
 
@@ -55,6 +55,7 @@ public class Player : MonoBehaviour
 			if (equippedWeapon != null) {
 				enemy.SetEnemyHealth(enemy.GetEnemyHealth() - equippedWeapon.damage);
 				OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
+				OnHittingEnemy?.Invoke();
 			} else {
 				Debug.Log("Weapon Does not Equipped!");
 			}

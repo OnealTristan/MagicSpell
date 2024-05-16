@@ -1,31 +1,35 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PauseScript : MonoBehaviour
 {
-	public event EventHandler OnPauseClick;
-	public event EventHandler OnResumeClick;
+	public Action OnPauseClick;
+	public Action OnResumeClick;
 
     [Header(" References ")]
     private BackgroundMusic bgm;
 
 	private void Awake() {
-		bgm = GameObject.Find("BGM").GetComponent<BackgroundMusic>();
+		bgm = GameObject.FindGameObjectWithTag("Bgm").GetComponent<BackgroundMusic>();
+		if (bgm != null) {
+			Debug.Log("BGM Exist");
+		} else {
+			Debug.Log("BGM not Exist");
+		}
 	}
 
 	public void ClickPauseButton() {
 		GameManager.instance.UpdateGameState(GameManager.GameState.Pause);
-		OnPauseClick?.Invoke(this, EventArgs.Empty);
+		OnPauseClick?.Invoke();
 		Time.timeScale = 0f;
 		bgm.PauseBgm();
 	}
 
     public void ClickResumeButton() {
 		GameManager.instance.UpdateGameState(GameManager.GameState.OnGoing);
-		OnResumeClick?.Invoke(this, EventArgs.Empty);
+		OnResumeClick?.Invoke();
 		Time.timeScale = 1f;
         bgm.UnpauseBgm();
 	}

@@ -283,7 +283,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3022692723041330461, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022692723041573914, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+      propertyPath: checkRandomLetter
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3022692723162572327, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_IsActive
