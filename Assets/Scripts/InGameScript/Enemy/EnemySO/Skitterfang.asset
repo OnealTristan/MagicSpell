@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: Skitterfang
   damage: 2
-  damageTimer: 0
+  damageInterval: 1
+  attackInterval: 10
   maxHealth: 10

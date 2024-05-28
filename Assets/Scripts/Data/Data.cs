@@ -10,18 +10,32 @@ public class Data : MonoBehaviour
     public int coin;
     [Space(10)]
     public ChapterSO chapter1;
-    public bool[] chapter1LevelClear;
+
+    //private SaveLoadManager saveLoadManager;
 
 	private void Awake() {
 		if (Instance == null) {
 			Instance = this;
 			DontDestroyOnLoad(gameObject);
+            LoadGame();
 		} else {
 			Destroy(gameObject);
 		}
 	}
 
-    public void UpdateLevelStatus(int levelIndex, bool isClear) {
+	private void OnApplicationQuit() {
+        SaveGame();
+	}
+
+    private void SaveGame() {
+        SaveLoadManager.SaveGame(this);
+    }
+
+    private void LoadGame() {
+		SaveLoadManager.LoadGame(this);
+	}
+
+	public void UpdateLevelStatus(int levelIndex, bool isClear) {
         chapter1.chapterLevelClear[levelIndex - 1] = isClear;
     }
 

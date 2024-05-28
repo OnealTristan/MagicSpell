@@ -1,0 +1,1929 @@
+fileFormatVersion: 2
+guid: 75ef74046121fcf438c85142d565e462
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e3b99252c416c49aa15587b789c03f
+      internalID: -937844436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 864
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39718c253d8cee743aa3ab2065950fd0
+      internalID: 487092957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 864
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b28456150f36774fa2d0edce29c634b
+      internalID: 1293848235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 864
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d700a96ac765f54082064994743164f
+      internalID: 1036184561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 864
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50386df9f8ced44ca3fe74bb60a7dd6
+      internalID: 1637632652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5859a6fbadada954f9569d0ef1e21ad1
+      internalID: 408339423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 768
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98d3f338a4aeb3428d5a7faa065007c
+      internalID: 270835353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 768
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c3c8be94cc0094d83cc6ff5a984aa9
+      internalID: 902755118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_8
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 768
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06da162f9770627479961ac41ae5a0c1
+      internalID: -518537973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_9
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 768
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00bff8a97608f14fb48b9b69a53714d
+      internalID: 980140132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd541d270243feb4bb29be566b517beb
+      internalID: 1079543498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc7bcf2904927041855152fdd89793c
+      internalID: -2045392207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1f21e819dfe5e4da9ec7d8e6e26350
+      internalID: -714681735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_13
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432bf86217c94f64283eb8f02c2234f4
+      internalID: 2081449205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dd0d7062634464ba9d6a1900e1fcc3
+      internalID: -522862897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_15
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d877a7d91c9421249ada5739b1f2fb24
+      internalID: 1604592630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_16
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7db5dbc01c513e4f90766c731204eee
+      internalID: -1905015438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_17
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae03b35e262dff04382bc4be5f85b06b
+      internalID: -726620078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2471ca6ddf4881f45894a6c070f2b534
+      internalID: 1479899745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3be455b7a553e743aecbc3507e17c30
+      internalID: 674066031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d11a33ef1bfce540ab5d69ac0528594
+      internalID: 1433476747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_21
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c39452d628f2046bd0849b258143a7
+      internalID: -1313776333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_22
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5519d430c5a5fa74e8e366ed7d9151be
+      internalID: 73768876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_23
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff315f86e96c674ba828421ded80fe4
+      internalID: 255225033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_24
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e546553a719de44184e7cd8084d4c60
+      internalID: -699305301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_25
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b6158bbc5920a4cb6ebebbd8c17fd4
+      internalID: 952214048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_26
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5b973673ecf7a42a06614fd0b0d417
+      internalID: -136045662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837e3b8d4d28bc84b9cb478089be2145
+      internalID: 816304195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_28
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebd80451d426654781d676e045a29c2
+      internalID: -1975688753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4781479e622348245b3bf9a563e26a88
+      internalID: -1006442475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_30
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614779086ab3543458e52bbbea7c1953
+      internalID: 1241635095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_31
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636a7c3fc597b8e43bb2c1fc9055e0bc
+      internalID: 55305660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_32
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b3e0ccbb6e0d8408216f6d8876dee4
+      internalID: -1653424652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_33
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0556cdd495b71ae4396ecb035e97b3f8
+      internalID: -160047221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_34
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e70594f9c12a1740a6c146f9f8bc2e6
+      internalID: -2121891024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_35
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024d4680cedd539418fd1c9b5c3b34ac
+      internalID: 1038514684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3eaba731c803f4db1c224ac08dad54
+      internalID: 1568010330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_37
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee72bafffb972f4581ed81abb3997ea
+      internalID: -1876144082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_38
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f962b8c75aa1d24db3b10bfcf9d498a
+      internalID: -2056326281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_39
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea11b06528f6e446b5b441d1548f85e
+      internalID: -283296516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_40
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83857d5dc2879744e9bcb9f5a45a1f97
+      internalID: 2003861496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_41
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cc255e4f2594f4187b331930ed9173
+      internalID: -40406473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_42
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c38565befe4c054f94fdda9afa4d6c1
+      internalID: 618620983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_43
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d8abd6531c6444098e02fdf6f69ed6
+      internalID: 1364188808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_44
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a98f02c8ee73445991ab1a7ae29ba9
+      internalID: -1956456249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340ffeb6a268dfb4c98ce4b31c6ee4d3
+      internalID: 1985493424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_46
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7a6d87a8e466c4eb22ac3121a4e326
+      internalID: 1300657394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_47
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0182f3d63bad2488711fda360130f5
+      internalID: -239373946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_48
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3118e2e272d8c10499af16e5002c2fe6
+      internalID: -1412055179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_49
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdab055d72551e94e8dbdbe07f7747c1
+      internalID: -1822905303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_50
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b38ad4c626fe9d4dadd8271b7641ea1
+      internalID: -595790230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_51
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a555091bb35631d46b6e72b737b24399
+      internalID: -1289318732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_52
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55edfe8eeba42c44b43e16783da7693
+      internalID: 1992606644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_53
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa98c63db85b4a746801b772d5cfd48c
+      internalID: 720937131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600cc109c43b21b4d898d13a83d29268
+      internalID: 684481299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_55
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89ab9053a2457a44bb75cac58ac143a
+      internalID: -1011199941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_56
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faba3431fe0a4b34ebfe846fa4eef234
+      internalID: -1864465040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_57
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7819da9a51224b419d34d2d216e1cc6
+      internalID: 1435126225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_58
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f474aacf92d39418af846d2840d03f
+      internalID: -430806818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_59
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569649aeffdf9d942abe6a77d327ddd1
+      internalID: -1695589591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_60
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b52b235ac5ef654ab50d0d379c1903b
+      internalID: 418477654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_61
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0984c148aeb6ee4490f228df65cb025
+      internalID: 1670530129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_62
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b3950e1dcb03649ba51f0918cfe661
+      internalID: -463348989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_63
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d87d01175dade4d99185cf71184d73
+      internalID: 761400608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_64
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0851fb7d36e7a69408d9b87179917ec9
+      internalID: -1916010292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_65
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8080a545e511e98489293107f8d066a1
+      internalID: -1761122975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a498e147228f145864e33f347345fc
+      internalID: 2098709375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_67
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85718c53ec883ba499d34b2469f89fd5
+      internalID: -2113185427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_68
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177493e07333f004691483fed2239ac7
+      internalID: -855989719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_69
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada0cc8b739bc2440a5e142aca211516
+      internalID: -1008913183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_70
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6399ef5bd8d0ca442b2f746a5ee25a7d
+      internalID: -1376172284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_71
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b0512d3995ea349a96554d314ee463
+      internalID: -367665458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_72
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ce29f14c8171f4f95cf3a8a9fd396b
+      internalID: 1399254410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_73
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c716ad58f4b6e44bd68b83c3129628
+      internalID: -1848444637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_74
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba88d7f60a092344bab019530768f0ab
+      internalID: -2079397832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_75
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75d359a5f9a53245b6a9988b1397471
+      internalID: 1328848651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c592058deceff4f47814c138b17ce727
+      internalID: -1134044734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_77
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895dbaba824546641b647721454d7949
+      internalID: -1753408071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_78
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1ac7bb8c729a64ba529fe7cd2ff2fd
+      internalID: 1274597687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_79
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616d8d34390e12145bafb42b4c98391c
+      internalID: 1911841448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Oak_Wand_132x96_80
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa0e646d5eed9d44b47bb176541e782
+      internalID: 152167528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Char_Riant_Oak_Wand_132x96_69: -1008913183
+      Char_Riant_Oak_Wand_132x96_29: -1006442475
+      Char_Riant_Oak_Wand_132x96_53: 720937131
+      Char_Riant_Oak_Wand_132x96_26: -136045662
+      Char_Riant_Oak_Wand_132x96_32: -1653424652
+      Char_Riant_Oak_Wand_132x96_79: 1911841448
+      Char_Riant_Oak_Wand_132x96_46: 1300657394
+      Char_Riant_Oak_Wand_132x96_13: 2081449205
+      Char_Riant_Oak_Wand_132x96_49: -1822905303
+      Char_Riant_Oak_Wand_132x96_27: 816304195
+      Char_Riant_Oak_Wand_132x96_38: -2056326281
+      Char_Riant_Oak_Wand_132x96_40: 2003861496
+      Char_Riant_Oak_Wand_132x96_25: 952214048
+      Char_Riant_Oak_Wand_132x96_57: 1435126225
+      Char_Riant_Oak_Wand_132x96_42: 618620983
+      Char_Riant_Oak_Wand_132x96_15: 1604592630
+      Char_Riant_Oak_Wand_132x96_44: -1956456249
+      Char_Riant_Oak_Wand_132x96_47: -239373946
+      Char_Riant_Oak_Wand_132x96_10: 1079543498
+      Char_Riant_Oak_Wand_132x96_68: -855989719
+      Char_Riant_Oak_Wand_132x96_76: -1134044734
+      Char_Riant_Oak_Wand_132x96_50: -595790230
+      Char_Riant_Oak_Wand_132x96_70: -1376172284
+      Char_Riant_Oak_Wand_132x96_1: 487092957
+      Char_Riant_Oak_Wand_132x96_23: 255225033
+      Char_Riant_Oak_Wand_132x96_55: -1011199941
+      Char_Riant_Oak_Wand_132x96_73: -1848444637
+      Char_Riant_Oak_Wand_132x96_36: 1568010330
+      Char_Riant_Oak_Wand_132x96_75: 1328848651
+      Char_Riant_Oak_Wand_132x96_2: 1293848235
+      Char_Riant_Oak_Wand_132x96_11: -2045392207
+      Char_Riant_Oak_Wand_132x96_0: -937844436
+      Char_Riant_Oak_Wand_132x96_8: -518537973
+      Char_Riant_Oak_Wand_132x96_64: -1916010292
+      Char_Riant_Oak_Wand_132x96_61: 1670530129
+      Char_Riant_Oak_Wand_132x96_63: 761400608
+      Char_Riant_Oak_Wand_132x96_51: -1289318732
+      Char_Riant_Oak_Wand_132x96_9: 980140132
+      Char_Riant_Oak_Wand_132x96_30: 1241635095
+      Char_Riant_Oak_Wand_132x96_62: -463348989
+      Char_Riant_Oak_Wand_132x96_18: 1479899745
+      Char_Riant_Oak_Wand_132x96_20: 1433476747
+      Char_Riant_Oak_Wand_132x96_77: -1753408071
+      Char_Riant_Oak_Wand_132x96_72: 1399254410
+      Char_Riant_Oak_Wand_132x96_17: -726620078
+      Char_Riant_Oak_Wand_132x96_54: 684481299
+      Char_Riant_Oak_Wand_132x96_28: -1975688753
+      Char_Riant_Oak_Wand_132x96_74: -2079397832
+      Char_Riant_Oak_Wand_132x96_12: -714681735
+      Char_Riant_Oak_Wand_132x96_65: -1761122975
+      Char_Riant_Oak_Wand_132x96_78: 1274597687
+      Char_Riant_Oak_Wand_132x96_7: 902755118
+      Char_Riant_Oak_Wand_132x96_5: 408339423
+      Char_Riant_Oak_Wand_132x96_41: -40406473
+      Char_Riant_Oak_Wand_132x96_34: -2121891024
+      Char_Riant_Oak_Wand_132x96_67: -2113185427
+      Char_Riant_Oak_Wand_132x96_16: -1905015438
+      Char_Riant_Oak_Wand_132x96_21: -1313776333
+      Char_Riant_Oak_Wand_132x96_22: 73768876
+      Char_Riant_Oak_Wand_132x96_35: 1038514684
+      Char_Riant_Oak_Wand_132x96_19: 674066031
+      Char_Riant_Oak_Wand_132x96_48: -1412055179
+      Char_Riant_Oak_Wand_132x96_58: -430806818
+      Char_Riant_Oak_Wand_132x96_14: -522862897
+      Char_Riant_Oak_Wand_132x96_59: -1695589591
+      Char_Riant_Oak_Wand_132x96_4: 1637632652
+      Char_Riant_Oak_Wand_132x96_37: -1876144082
+      Char_Riant_Oak_Wand_132x96_52: 1992606644
+      Char_Riant_Oak_Wand_132x96_45: 1985493424
+      Char_Riant_Oak_Wand_132x96_71: -367665458
+      Char_Riant_Oak_Wand_132x96_24: -699305301
+      Char_Riant_Oak_Wand_132x96_39: -283296516
+      Char_Riant_Oak_Wand_132x96_66: 2098709375
+      Char_Riant_Oak_Wand_132x96_80: 152167528
+      Char_Riant_Oak_Wand_132x96_60: 418477654
+      Char_Riant_Oak_Wand_132x96_3: 1036184561
+      Char_Riant_Oak_Wand_132x96_31: 55305660
+      Char_Riant_Oak_Wand_132x96_43: 1364188808
+      Char_Riant_Oak_Wand_132x96_6: 270835353
+      Char_Riant_Oak_Wand_132x96_33: -160047221
+      Char_Riant_Oak_Wand_132x96_56: -1864465040
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

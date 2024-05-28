@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,9 @@ public class UserInputDisplay : MonoBehaviour
     [SerializeField] private NewKeyboard keyboard;
     private PlayerAnimation playerAnimation;
 
+    [Header(" Elements ")]
+    private bool wordEmpty;
+
 	private void Awake() {
 		playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
 	}
@@ -15,12 +19,15 @@ public class UserInputDisplay : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
+        wordEmpty = true;
+
         // Get reference to NewKeyboard
         if (keyboard != null)
         {
             // Subscribe to events
             keyboard.onBackspacePressed += BackspacePressedCallback;
             keyboard.onKeyPressed += KeyPressedCallback;
+            keyboard.OnEnterPressed += EnterPreseedCallback;
         }
         else
         {
@@ -34,22 +41,32 @@ public class UserInputDisplay : MonoBehaviour
         {
             textContainer.text = textContainer.text.Substring(0, textContainer.text.Length - 1);
 			if (textContainer.text.Length < 1) {
+                wordEmpty = true;
 				playerAnimation.PlayerIdleAnimation();
 			}
 		} else {
+            wordEmpty = true;
 			playerAnimation.PlayerIdleAnimation();
 		}
 	}
 
     private void KeyPressedCallback(string key)
     {
-        textContainer.text += key;
-        if (textContainer.text != null) {
+        if (wordEmpty == true) {
+            wordEmpty = false;
+            textContainer.text += key;
 		    playerAnimation.PlayerSpellingAnimation();
-        }
+        } else {
+			textContainer.text += key;
+		}
 	}
 
-    public void DeleteText() {
+    private void EnterPreseedCallback() {
+        wordEmpty = true;
+    }
+
+
+	public void DeleteText() {
         textContainer.text = string.Empty;
     }
 

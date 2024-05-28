@@ -24,6 +24,7 @@ public class EnemyAnimation : MonoBehaviour
 	}
 
 	private void Start() {
+		enemy.OnAttackCoroutine += EnemyAttackAnimation;
 		enemy.OnDeathAnimation += EnemyDeathAnimation;
 		player.OnHittingEnemy += EnemyGetHitAnimation;
 	}
@@ -35,17 +36,10 @@ public class EnemyAnimation : MonoBehaviour
 	}
 
 	public void EnemyAttackAnimation() {
-		/*animator.SetBool("isAttack", true);
-        animator.SetBool("isIdle", false);
-
-        Invoke("EnemyIdleAnimation", 0.5f);*/
 		animator.Play(ENEMYATTACK);
     }
 
     private void EnemyIdleAnimation() {
-		/*animator.SetBool("isIdle", true);
-		animator.SetBool("isAttack", false);*/
-
 		animator.Play(ENEMYIDLE);
 	}
 
@@ -55,8 +49,10 @@ public class EnemyAnimation : MonoBehaviour
 
 	private void EnemyDeathAnimation() {
 		animator.Play(ENEMYDEATH);
+
 		player.OnHittingEnemy -= EnemyGetHitAnimation;
 		enemy.OnDeathAnimation -= EnemyDeathAnimation;
+		enemy.OnAttackCoroutine -= EnemyAttackAnimation;
 	}
 
 	// Method dipanggil pada event animation enemy

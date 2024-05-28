@@ -10,7 +10,8 @@ public class ConditionScript : MonoBehaviour
 
     public void NextLevel() {
         Loader.Load(nextLevelScene);
-    }
+		Time.timeScale = 1f;
+	}
 
     public void RestartLevel() {
         Loader.Load(restartScene);
@@ -18,5 +19,6 @@ public class ConditionScript : MonoBehaviour
 
     public void MenuLevel() {
         Loader.Load(Loader.Scene.LevelMenu);
-    }
+		Time.timeScale = 1f;
+	}
 }

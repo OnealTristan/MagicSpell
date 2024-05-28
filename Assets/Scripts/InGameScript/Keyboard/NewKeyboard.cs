@@ -14,7 +14,7 @@ public class NewKeyboard : MonoBehaviour
     public Action onBackspacePressed;
 
     // Event untuk memberitahu game bahwa tombol enter ditekan
-    public Action onEnterPressed;
+    public Action OnEnterPressed;
 
     [Header(" Player References ")]
     private Player player;
@@ -106,6 +106,7 @@ public class NewKeyboard : MonoBehaviour
                             Debug.Log("Type: " + txt + " Found!!");
 
                             playerAnimation.PlayerAttackAnimation();
+                            OnEnterPressed?.Invoke();
 
                             //player.ActivatedWeapon();
 
@@ -131,6 +132,7 @@ public class NewKeyboard : MonoBehaviour
                 Debug.Log("Type: " + txt + " Not Found!!");
                 playerAnimation.PlayerIdleAnimation();
 
+                enemy.coroutineAttack = false;
                 enemyAnimation.EnemyAttackAnimation();
 
 				userInputDisplay.DeleteText();

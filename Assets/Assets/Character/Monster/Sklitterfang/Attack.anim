@@ -236,8 +236,8 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.083333336
-    functionName: EnemyAnimationStart
+  - time: 0
+    functionName: EnemyAnimationStart_DisableKeyboard
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -250,7 +250,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.41666666
+  - time: 0.48333332
     functionName: EnemyAnimationEnd_EnableKeyboard
     data: 
     objectReferenceParameter: {fileID: 0}

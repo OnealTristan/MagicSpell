@@ -9,8 +9,11 @@ public class LevelMenuScript : MonoBehaviour
 	[SerializeField] private Button[] levelButtons;
 
 	[Space(10)]
-	[SerializeField] private GameObject chapter1DescPanel;
-	[SerializeField] private GameObject[] chapter1DescLevelPanel;
+	[SerializeField] private GameObject ContainerChapter;
+
+	[Space(10)]
+	[SerializeField] private GameObject chapter1PanelPopUpContainer;
+	[SerializeField] private GameObject[] chapter1LevelPanelPopUp;
 	private Data data;
 
 	private void Awake() {
@@ -32,13 +35,15 @@ public class LevelMenuScript : MonoBehaviour
 	}
 
 	public void ClickLevelButton(int index) {
-		chapter1DescPanel.SetActive(true);
-		chapter1DescLevelPanel[index-1].SetActive(true);
+		chapter1PanelPopUpContainer.SetActive(true);
+		chapter1LevelPanelPopUp[index-1].SetActive(true);
+		ContainerChapter.SetActive(false);
 	}
 
 	public void ClickChapter1PanelButtonBackLevel(int index) {
-		chapter1DescPanel.SetActive(false);
-		chapter1DescLevelPanel[index - 1].SetActive(false);
+		chapter1PanelPopUpContainer.SetActive(false);
+		chapter1LevelPanelPopUp[index - 1].SetActive(false);
+		ContainerChapter.SetActive(true);
 	}
 
 	public void ClickChapter1PanelButtonPlayLevel(int levelIndex) {

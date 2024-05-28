@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: Shadowfang
   damage: 5
-  damageTimer: 0
+  damageInterval: 2
+  attackInterval: 10
   maxHealth: 10

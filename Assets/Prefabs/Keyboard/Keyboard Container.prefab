@@ -1090,7 +1090,7 @@ GameObject:
   - component: {fileID: 6974926477085579156}
   m_Layer: 5
   m_Name: Keyboard Container
-  m_TagString: Untagged
+  m_TagString: Keyboard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1193,6 +1193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57d01aa9355115459122ac34cf38d9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyButton: []
 --- !u!114 &6974926477085579157
 MonoBehaviour:
   m_ObjectHideFlags: 0

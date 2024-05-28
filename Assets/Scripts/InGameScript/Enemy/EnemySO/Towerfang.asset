@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: Towerfang
   damage: 10
-  damageTimer: 0
+  damageInterval: 3
+  attackInterval: 10
   maxHealth: 10
