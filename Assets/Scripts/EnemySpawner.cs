@@ -13,6 +13,8 @@ public class EnemySpawner : MonoBehaviour
     private HealthUI healthUI;
     private GuessLetter guessLetter;
 
+    [Header(" Elements ")]
+    [SerializeField] private int starterHealth;
     private int currentEnemyIndex = 0;
 
     // Start is called before the first frame update
@@ -32,7 +34,9 @@ public class EnemySpawner : MonoBehaviour
             Debug.Log("Enemy " + currentEnemyIndex + " Spawn!");
 
             GameObject enemyObj = Instantiate(enemyGameObject[0], enemySpawnPos);
+            enemy = enemyObj.GetComponent<Enemy>();
 
+            enemy.SetEnemyHealth(starterHealth);
 			enemyObj.GetComponent<Enemy>().OnDeath += SpawnEnemy;
             
             currentEnemyIndex++;
@@ -43,13 +47,22 @@ public class EnemySpawner : MonoBehaviour
             GameObject enemyObj = Instantiate(enemyGameObject[currentEnemyIndex], enemySpawnPos);
 			enemy = enemyObj.GetComponent<Enemy>();
 
-            enemy.SetEnemyHealth(enemy.GetEnemyHealth() + (INCREMENTHEALTH * currentEnemyIndex));
+            enemy.SetEnemyHealth(starterHealth + (INCREMENTHEALTH * currentEnemyIndex));
 			enemyObj.GetComponent<Enemy>().OnDeath += SpawnEnemy;
 
             currentEnemyIndex++;
-        } else {
-            healthUI.DisableEnemyFill();
-            GameManager.instance.UpdateGameState(GameManager.GameState.Win);
-        }
-    }
+        } else if (currentEnemyIndex == 3) {
+			Debug.Log("Enemy " + currentEnemyIndex + " Spawn!");
+			guessLetter.GetRandomLetterException();
+
+			GameObject enemyObj = Instantiate(enemyGameObject[currentEnemyIndex], enemySpawnPos);
+
+			enemyObj.GetComponent<Enemy>().OnDeath += SpawnEnemy;
+
+			currentEnemyIndex++;
+		} else {
+			healthUI.DisableEnemyFill();
+			GameManager.instance.UpdateGameState(GameManager.GameState.Win);
+		}
+	}
 }

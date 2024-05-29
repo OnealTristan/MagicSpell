@@ -510,9 +510,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1868110483024268439, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
-      propertyPath: enemyGameObject.Array.size
-      value: 3
+      propertyPath: starterHealth
+      value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268439, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: enemyGameObject.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268439, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: enemyGameObject.Array.data[1]
+      value: 
+      objectReference: {fileID: 8263994085062123435, guid: 59bf6d6cbcbd20d49b7d22e2055c5a11, type: 3}
     - target: {fileID: 1868110483024268439, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: enemyGameObject.Array.data[2]
       value: 
