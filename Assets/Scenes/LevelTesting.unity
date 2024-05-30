@@ -368,7 +368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3022692723041573914, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: checkRandomLetter
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3022692723309319697, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1013,6 +1013,146 @@ PrefabInstance:
       propertyPath: m_Name
       value: DataManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.size
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 226dadfb80cdd574b9656009f00cccc5, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: aa686dfea66eb144d997b1161edd1376, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: ce3bb468bf11ce34cb31ef484e795e34, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 06deed21ee7a6c9479d44541d2d24390, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: ac955ef009c2db2469e4f8df8ac4ac15, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6cd7d4cedfb6d2144a2ddda2c16764ff, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: c9002b6fb4b21a84888c48c2a14d84c1, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8377415cf1073434388d1b2c7657007a, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: ddf2fd2fc3f69a14aa82073fc8516464, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ce7b595564d52b4b87633c6aa3f7697, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: f341080115fddf54abde4f6cf9c6494e, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[11]
+      value: 
+      objectReference: {fileID: 11400000, guid: dbf273236a81f784bb61074954db0af8, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[12]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f7e7f9bc6c31434ab467b92acb6846b, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[13]
+      value: 
+      objectReference: {fileID: 11400000, guid: 240454535655364408ce486abe59fb81, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[14]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0377db37e98f07046aca38ab9329bab0, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[15]
+      value: 
+      objectReference: {fileID: 11400000, guid: 05c76a3f225546e41af9cfa1996a3e50, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[16]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1867c2db2e5d6964e81865bd155d5f19, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[17]
+      value: 
+      objectReference: {fileID: 11400000, guid: 69c850b1c7872db488cbe80b93a2b254, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[18]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2ae6692c4a5689848a4b3d359a491fce, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[19]
+      value: 
+      objectReference: {fileID: 11400000, guid: bf532ef028a129543b24398062b14f8d, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[20]
+      value: 
+      objectReference: {fileID: 11400000, guid: feb620eafa50bb54c9f9f85fcd9d8ebc, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[21]
+      value: 
+      objectReference: {fileID: 11400000, guid: 85b195a6cb8c9c549b272449a74d635a, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[22]
+      value: 
+      objectReference: {fileID: 11400000, guid: 924f2e20c215d3541ba7ff15e01d0a47, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[23]
+      value: 
+      objectReference: {fileID: 11400000, guid: f72f0762d37591846a191993371275fe, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: d63daadaf17364d4c9479551a8604872, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: a20c2342be372ac418b3894a5fdaba60, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: e55606c502ff4d3439b0345c7c072faf, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[27]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dcd7805f27d47f47bf2e66e3303e2e9, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[28]
+      value: 
+      objectReference: {fileID: 11400000, guid: a9a33f1f0848daa45a504d23c51c38e8, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[29]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7472c25968e7a0140911b5b1f8bf78d6, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[30]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a94dedd87baabb4a86e0c07402b6eef, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[31]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5d01c8732ca9058478c4479db62351c8, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[32]
+      value: 
+      objectReference: {fileID: 11400000, guid: 37d6fe186e4180a45a45e6f16b08b02b, type: 2}
+    - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
+      propertyPath: achievementSO.Array.data[33]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c03c0898f0dc8c449bc857bff0fb34b, type: 2}
     - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
       propertyPath: chapter1LevelClear.Array.data[0]
       value: 0

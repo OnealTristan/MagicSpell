@@ -8,7 +8,7 @@ public class NavigationMainMenuScript : MonoBehaviour
 	[SerializeField] private GameObject mainMenuPanel;
 	[SerializeField] private MainMenuUI mainMenuUI;
 	[SerializeField] private ShopUI shopUI;
-	[SerializeField] private InventoryUI inventoryUI;
+	[SerializeField] private AchievementUI achievementUI;
 
 	public void StartButtonClick() {
 		if (mainMenuPanel.activeSelf == true) {
@@ -16,19 +16,19 @@ public class NavigationMainMenuScript : MonoBehaviour
 		} else {
 			mainMenuUI.ShowMainMenuPanel();
 			shopUI.HideShopPanel();
-			inventoryUI.HideInventoryPanel();
+			achievementUI.HideInventoryPanel();
 		}
 	}
 
 	public void ShopButtonClick() {
 		mainMenuUI.HideMainMenuPanel();
 		shopUI.ShowShopPanel();
-		inventoryUI.HideInventoryPanel();
+		achievementUI.HideInventoryPanel();
 	}
 
 	public void InventoryButtonClick() {
 		mainMenuUI.HideMainMenuPanel();
 		shopUI.HideShopPanel();
-		inventoryUI.ShowInventoryPanel();
+		achievementUI.ShowInventoryPanel();
 	}
 }

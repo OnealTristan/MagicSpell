@@ -26,6 +26,7 @@ public class NewKeyboard : MonoBehaviour
 
     [Header(" Other References ")]
     [SerializeField] private Button[] keyButton;
+    private Achievement achievement;
 	private UserInputDisplay userInputDisplay;
     private GuessLetter guessLetter;
 	// Instance UserInputDisplay
@@ -40,6 +41,7 @@ public class NewKeyboard : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
 
+        achievement = GameObject.FindGameObjectWithTag("Data").GetComponent<Achievement>();
         guessLetter = GameObject.Find("GuessTextContainer").GetComponent<GuessLetter>();
 		userInputDisplay = GameObject.Find("TextContainer").GetComponent<UserInputDisplay>();
 	}
@@ -104,6 +106,8 @@ public class NewKeyboard : MonoBehaviour
                         {
                             // Jika benar maka damage akan diterima oleh musuh
                             Debug.Log("Type: " + txt + " Found!!");
+
+                            achievement.AchievementCheck(txt);
 
                             playerAnimation.PlayerAttackAnimation();
                             OnEnterPressed?.Invoke();

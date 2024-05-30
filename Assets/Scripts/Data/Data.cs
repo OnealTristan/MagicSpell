@@ -8,8 +8,10 @@ public class Data : MonoBehaviour
 
     [Header(" Elements ")]
     public int coin;
-    [Space(10)]
+
+    [Header(" References ")]
     public ChapterSO chapter1;
+    public AchievementSO[] achievementSO;
 
     //private SaveLoadManager saveLoadManager;
 

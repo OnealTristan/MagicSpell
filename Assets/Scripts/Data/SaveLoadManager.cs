@@ -1,5 +1,7 @@
+using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using System.Linq;
 
 public static class SaveLoadManager
 {
@@ -8,12 +10,22 @@ public static class SaveLoadManager
 
 		SaveData saveData = new SaveData {
 			coin = data.coin,
-			chapter1ChapterLevelClear = data.chapter1.chapterLevelClear
+			chapter1ChapterLevelClear = data.chapter1.chapterLevelClear,
+			achievements = new List<AchievementSaveData>()
 		};
+
+		foreach (var achievement in data.achievementSO) {
+			AchievementSaveData achievementData = new AchievementSaveData {
+				achievementCategoryName = achievement.achievementCategoryName,
+				achievementCategoryWordsAchieved = achievement.achievementCategoryWordsAchieved,
+				achievementCategoryClaimed = achievement.achievementCategoryClaimed,
+			};
+			saveData.achievements.Add(achievementData);
+		}
 
 		string json = JsonUtility.ToJson(saveData);
 		File.WriteAllText(saveFilePath, json);
-		Debug.Log("Data Saved!. Coin : " + data.coin + " Level : " + data.chapter1.chapterLevelClear);
+		Debug.Log("Data Saved!");
 	}
 
 	public static void LoadGame(Data data) {
@@ -26,7 +38,15 @@ public static class SaveLoadManager
 			data.coin = saveData.coin;
 			data.chapter1.chapterLevelClear = saveData.chapter1ChapterLevelClear;
 
-			Debug.Log("Data Loaded!. Coin : " + data.coin + " Level : " + data.chapter1.chapterLevelClear);
+			foreach (var achievementData in saveData.achievements) {
+				var achievement = data.achievementSO.FirstOrDefault(a => a.achievementCategoryName == achievementData.achievementCategoryName);
+				if (achievement != null) {
+					achievement.achievementCategoryWordsAchieved = achievementData.achievementCategoryWordsAchieved;
+					achievement.achievementCategoryClaimed = achievementData.achievementCategoryClaimed;
+				}
+			}
+
+			Debug.Log("Data Loaded!");
 		} else {
 			Debug.LogError("File doesn't exist");
 			return;

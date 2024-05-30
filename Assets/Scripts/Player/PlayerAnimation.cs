@@ -43,7 +43,7 @@ public class PlayerAnimation : MonoBehaviour
 	}
 
 	public void PlayerAttackMeteor() {
-		// 
+
 	}
 
     public void PlayerIdleAnimation() {
