@@ -26,3 +26,5 @@ MonoBehaviour:
   - essays
   - horror
   achievementCategoryWordsAchieved: []
+  achievementCategoryClaimed: 0
+  achievementCategoryDone: 0

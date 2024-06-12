@@ -34,3 +34,5 @@ MonoBehaviour:
   - gorilla
   - hippopotamus
   achievementCategoryWordsAchieved: []
+  achievementCategoryClaimed: 0
+  achievementCategoryDone: 0

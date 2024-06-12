@@ -8,4 +8,5 @@ public class AchievementSaveData
     public string achievementCategoryName;
     public string[] achievementCategoryWordsAchieved;
     public bool achievementCategoryClaimed;
+    public bool achievementCategoryDone;
 }

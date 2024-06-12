@@ -6,13 +6,12 @@ using UnityEngine.UI;
 
 public class InventoryScript : MonoBehaviour
 {
-	private static string EQUIPPED = "Equipped";
-	private static string EQUIP = "Equip";
-
 	[Header(" References ")]
 	[SerializeField] private ShopScript shopScript;
 	[SerializeField] private Transform parentPosUI;
 	[SerializeField] private GameObject contentPanelPrefab;
+	[SerializeField] private Sprite equipImage;
+	[SerializeField] private Sprite equipedImage;
 	[SerializeField] private WeaponSO[] weaponSO;
 	private WeaponSO equippedWeapon;
 
@@ -37,20 +36,10 @@ public class InventoryScript : MonoBehaviour
 
 				Image[] images = panelInstance.GetComponentsInChildren<Image>();
 
-				// Image untuk display gambar senjata
-				Image weaponImage = null;
-
-				// Iterasi mencari Image yang sesuai
 				foreach (Image image in images) {
-					// Cek Image mana yang diperuntukan sebagai display dari gambar weapon
 					if (image.CompareTag("WeaponImage")) {
-						weaponImage = image;
+						image.sprite = weapon.image;
 					}
-				}
-
-				// Set Weapon Image
-				if (weaponImage != null && weapon.image != null) {
-					weaponImage.sprite = weapon.image;
 				}
 
 				// Set weapon name text
@@ -58,31 +47,31 @@ public class InventoryScript : MonoBehaviour
 				text.text = weapon.name;
 
 				// Set Button properties
-				Button buttonBuy = panelInstance.GetComponentInChildren<Button>();
-				TextMeshProUGUI textBuyButton = buttonBuy.GetComponentInChildren<TextMeshProUGUI>();
+				Button buttonEquip = panelInstance.GetComponentInChildren<Button>();
+				Image imageButton = buttonEquip.GetComponent<Image>();
 				if (weapon.equip == true) {
-					buttonBuy.interactable = false;
-					textBuyButton.text = EQUIPPED;
+					buttonEquip.interactable = false;
+					imageButton.sprite = equipedImage;
 
 					equippedWeapon = weapon;
 				} else {
-					buttonBuy.interactable = true;
-					textBuyButton.text = EQUIP;
+					buttonEquip.interactable = true;
+					imageButton.sprite = equipImage;
 
-					buttonBuy.onClick.AddListener(() => EquipWeapon(weapon, textBuyButton));
+					buttonEquip.onClick.AddListener(() => EquipWeapon(weapon, imageButton));
 				}
 			}
 		}
 	}
 
-	private void EquipWeapon(WeaponSO weapon, TextMeshProUGUI textBuyButton) {
+	private void EquipWeapon(WeaponSO weapon, Image imageButton) {
 		if (equippedWeapon != null) {
 			equippedWeapon.equip = false;
 		}
 		weapon.equip = true;
 		equippedWeapon = weapon;
 
-		textBuyButton.text = EQUIPPED;
+		imageButton.sprite = equipImage;
 
 		UpdatePreviousEquipButton();
 

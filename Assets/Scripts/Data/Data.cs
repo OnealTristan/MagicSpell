@@ -41,6 +41,14 @@ public class Data : MonoBehaviour
         chapter1.chapterLevelClear[levelIndex - 1] = isClear;
     }
 
+    public bool CheckLevelStatus(int levelIndex) {
+        if (chapter1.chapterLevelClear[levelIndex - 1] == true) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public int GetCoin() {
         return coin;
     }

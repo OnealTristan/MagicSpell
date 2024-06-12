@@ -19,6 +19,7 @@ public static class SaveLoadManager
 				achievementCategoryName = achievement.achievementCategoryName,
 				achievementCategoryWordsAchieved = achievement.achievementCategoryWordsAchieved,
 				achievementCategoryClaimed = achievement.achievementCategoryClaimed,
+				achievementCategoryDone = achievement.achievementCategoryDone,
 			};
 			saveData.achievements.Add(achievementData);
 		}
@@ -43,6 +44,7 @@ public static class SaveLoadManager
 				if (achievement != null) {
 					achievement.achievementCategoryWordsAchieved = achievementData.achievementCategoryWordsAchieved;
 					achievement.achievementCategoryClaimed = achievementData.achievementCategoryClaimed;
+					achievement.achievementCategoryDone = achievementData.achievementCategoryDone;
 				}
 			}
 

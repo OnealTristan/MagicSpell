@@ -9,4 +9,5 @@ public class AchievementSO : ScriptableObject
 	public string[] achievementCategoryWords;
 	public string[] achievementCategoryWordsAchieved;
 	public bool achievementCategoryClaimed;
+	public bool achievementCategoryDone;
 }

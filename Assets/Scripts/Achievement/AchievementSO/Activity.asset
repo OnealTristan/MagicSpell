@@ -26,3 +26,5 @@ MonoBehaviour:
   - biking
   - playing
   achievementCategoryWordsAchieved: []
+  achievementCategoryClaimed: 0
+  achievementCategoryDone: 0

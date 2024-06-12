@@ -8,4 +8,7 @@ public class ChapterSO : ScriptableObject
 	public string chapterName;
 
 	public bool[] chapterLevelClear;
+	public int[] chapterLevelLosePrize;
+	public int[] chapterLevelWinPrize;
+	public int[] chapterLevelWinPrizeAfterComplete;
 }

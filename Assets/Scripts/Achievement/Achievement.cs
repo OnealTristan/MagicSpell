@@ -8,6 +8,10 @@ public class Achievement : MonoBehaviour
     [Header(" References ")]
     public AchievementSO[] achievements;
 
+	private void Start() {
+		CheckIfCategoryCompleted();
+	}
+
 	public void AchievementCheck(string word) {
 		word = word.ToLower();
 		// iterasi semua achievement yang ada dalam array AchivementSO
@@ -23,10 +27,23 @@ public class Achievement : MonoBehaviour
 						achievement.achievementCategoryWordsAchieved = achievedWordsList.ToArray();
 
 						Debug.Log("Achievement Unlocked on Category " + achievement.achievementCategoryName + ": " + word);
+
+						CheckIfCategoryCompleted();
 					} else {
 						Debug.Log("Achievement Already Unlocked on Category " + achievement.achievementCategoryName + ": " + word);
 					}
 				}
+			}
+		}
+	}
+
+	private void CheckIfCategoryCompleted() {
+		foreach (var achievement in achievements) {
+			bool allWordsAchieved = achievement.achievementCategoryWords.All(word => achievement.achievementCategoryWordsAchieved.Contains(word.ToLower()));
+
+			if (allWordsAchieved) {
+				achievement.achievementCategoryDone = true;
+				Debug.Log("Achievement Category Completed: " + achievement.achievementCategoryName);
 			}
 		}
 	}

@@ -9,6 +9,7 @@ TagManager:
   - WeaponImage
   - Bgm
   - Keyboard
+  - TextPrizeLevel
   layers:
   - Default
   - TransparentFX

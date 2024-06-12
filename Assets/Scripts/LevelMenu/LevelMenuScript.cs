@@ -1,5 +1,6 @@
  using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,6 +16,9 @@ public class LevelMenuScript : MonoBehaviour
 	[SerializeField] private GameObject chapter1PanelPopUpContainer;
 	[SerializeField] private GameObject[] chapter1LevelPanelPopUp;
 	private Data data;
+
+	[Header(" Elements ")]
+	private int levelIndex;
 
 	private void Awake() {
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
@@ -34,9 +38,24 @@ public class LevelMenuScript : MonoBehaviour
 		}
 	}
 
+	private void UpdateLevelPrizeText(int index) {
+		TextMeshProUGUI[] textsPrize = gameObject.GetComponentsInChildren<TextMeshProUGUI>();
+
+		foreach(TextMeshProUGUI textPrize in textsPrize) {
+			if (textPrize.CompareTag("TextPrizeLevel")) {
+				if (data.CheckLevelStatus(index) == true) {
+					textPrize.text = "X " + data.chapter1.chapterLevelWinPrizeAfterComplete[index - 1].ToString();
+				} else {
+					textPrize.text = "X " + data.chapter1.chapterLevelWinPrize[index - 1].ToString();
+				}
+			}
+		}
+	}
+
 	public void ClickLevelButton(int index) {
 		chapter1PanelPopUpContainer.SetActive(true);
 		chapter1LevelPanelPopUp[index-1].SetActive(true);
+		UpdateLevelPrizeText(index);
 		ContainerChapter.SetActive(false);
 	}
 

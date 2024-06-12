@@ -51,16 +51,7 @@ public class EnemySpawner : MonoBehaviour
 			enemyObj.GetComponent<Enemy>().OnDeath += SpawnEnemy;
 
             currentEnemyIndex++;
-        } else if (currentEnemyIndex == 3) {
-			Debug.Log("Enemy " + currentEnemyIndex + " Spawn!");
-			guessLetter.GetRandomLetterException();
-
-			GameObject enemyObj = Instantiate(enemyGameObject[currentEnemyIndex], enemySpawnPos);
-
-			enemyObj.GetComponent<Enemy>().OnDeath += SpawnEnemy;
-
-			currentEnemyIndex++;
-		} else {
+        } else {
 			healthUI.DisableEnemyFill();
 			GameManager.instance.UpdateGameState(GameManager.GameState.Win);
 		}

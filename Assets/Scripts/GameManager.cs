@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
 
 	[Header(" Elements ")]
 	[SerializeField] private int chapter1LevelIndex;
+	[SerializeField] private int prizeCoin;
+	[SerializeField] private int prizeCoinAfterComplete;
 
     public static GameManager instance;
 

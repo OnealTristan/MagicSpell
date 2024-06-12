@@ -23,12 +23,6 @@ public class CoinUI : MonoBehaviour
         shopScript.OnBuyWeapon += ShopScriptOnBuyWeapon;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void ShopScriptOnBuyWeapon() {
         coinText.text = data.GetCoin().ToString();
 	}
