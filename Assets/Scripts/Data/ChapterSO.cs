@@ -6,6 +6,7 @@ using UnityEngine;
 public class ChapterSO : ScriptableObject
 {
 	public string chapterName;
+	public bool chapterComplete;
 
 	public bool[] chapterLevelClear;
 	public int[] chapterLevelLosePrize;

@@ -15,6 +15,10 @@ public class ShopUI : MonoBehaviour
 	[SerializeField] private Button shopButton;
 	private TextMeshProUGUI textButton;
 
+	[Header(" References Shop Panel ")]
+	[SerializeField] private GameObject weaponPanel;
+	[SerializeField] private GameObject potionPanel;
+
 	[Header(" Elements ")]
 	private bool shopUI;
 
@@ -38,6 +42,16 @@ public class ShopUI : MonoBehaviour
 			textButton.text = INVENTORYTEXT;
 			shopUI = true;
 		}
+	}
+
+	public void ClickButtonPotion() {
+		potionPanel.SetActive(true);
+		weaponPanel.SetActive(false);
+	}
+	
+	public void ClickButtonWeapon() {
+		potionPanel.SetActive(false);
+		weaponPanel.SetActive(true);
 	}
 
 	public void ShowShopPanel () {

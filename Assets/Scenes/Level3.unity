@@ -549,6 +549,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3022692723041330461, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3022692723041573914, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: checkRandomLetter
       value: 1
@@ -763,8 +767,16 @@ PrefabInstance:
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: LevelIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: levelIndex
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: chapterIndex
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: chapter1LevelIndex

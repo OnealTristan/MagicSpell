@@ -6,33 +6,71 @@ using UnityEngine.UI;
 
 public class InventoryScript : MonoBehaviour
 {
-	[Header(" References ")]
+	[Header(" References Classes ")]
 	[SerializeField] private ShopScript shopScript;
-	[SerializeField] private Transform parentPosUI;
-	[SerializeField] private GameObject contentPanelPrefab;
+
+	[Header(" References Weapon ")]
+	[SerializeField] private Transform parentContentWeaponPosUI;
+	[SerializeField] private GameObject contentPanelWeaponPrefab;
 	[SerializeField] private Sprite equipImage;
 	[SerializeField] private Sprite equipedImage;
 	[SerializeField] private WeaponSO[] weaponSO;
 	private WeaponSO equippedWeapon;
 
-	private void Awake() {
-		shopScript.OnBuyWeapon += UpdateInventory;
-	}
+	[Header(" References Potion ")]
+	[SerializeField] private Transform parentContentPotionPosUI;
+	[SerializeField] private GameObject contentPanelPotionPrefab;
+	[SerializeField] private PotionSO[] potionSO;
 
 	// Start is called before the first frame update
 	void Start()
     {
-		UpdateInventory();
+		shopScript.onBuyWeapon += UpdateWeaponInventory;
+		shopScript.onBuyPotion += UpdatePotionInventory;
+		UpdateWeaponInventory();
+		UpdatePotionInventory();
     }
 
-	private void UpdateInventory() {
-		foreach (Transform child in parentPosUI) {
+	private void UpdatePotionInventory() {
+		foreach (Transform child in parentContentPotionPosUI) {
+			Destroy(child.gameObject);
+		}
+
+		foreach (PotionSO potion in potionSO) {
+			if (potion.amount > 0) {
+				GameObject panelInstance = Instantiate(contentPanelPotionPrefab, parentContentPotionPosUI);
+
+				Image[] images = panelInstance.GetComponentsInChildren<Image>();
+
+				foreach (Image image in images) {
+					if (image.CompareTag("WeaponImage")) {
+						image.sprite = potion.image;
+					}
+				}
+
+				// Set weapon name text
+				TextMeshProUGUI text = panelInstance.GetComponentInChildren<TextMeshProUGUI>();
+				text.text = potion.potionName;
+
+				// Set Button properties
+				Button buttonEquip = panelInstance.GetComponentInChildren<Button>();
+				buttonEquip.onClick.AddListener(() => EquipPotion(potion));
+			}
+		}
+	}
+
+	private void EquipPotion(PotionSO potion) {
+
+	}
+
+	private void UpdateWeaponInventory() {
+		foreach (Transform child in parentContentWeaponPosUI) {
 			Destroy(child.gameObject);
 		}
 
 		foreach (WeaponSO weapon in weaponSO) {
 			if (weapon.buyed == true) {
-				GameObject panelInstance = Instantiate(contentPanelPrefab, parentPosUI);
+				GameObject panelInstance = Instantiate(contentPanelWeaponPrefab, parentContentWeaponPosUI);
 
 				Image[] images = panelInstance.GetComponentsInChildren<Image>();
 
@@ -73,16 +111,6 @@ public class InventoryScript : MonoBehaviour
 
 		imageButton.sprite = equipImage;
 
-		UpdatePreviousEquipButton();
-
-		UpdateInventory();
-	}
-
-	private void UpdatePreviousEquipButton() {
-		foreach (WeaponSO weapon in weaponSO) {
-			if (weapon != equippedWeapon && weapon.equip == true) {
-				weapon.equip = false;
-			}
-		}
+		UpdateWeaponInventory();
 	}
 }

@@ -10,7 +10,7 @@ public static class SaveLoadManager
 
 		SaveData saveData = new SaveData {
 			coin = data.coin,
-			chapter1ChapterLevelClear = data.chapter1.chapterLevelClear,
+			chapter1ChapterLevelClear = data.chapterSo[0].chapterLevelClear,
 			achievements = new List<AchievementSaveData>()
 		};
 
@@ -37,7 +37,7 @@ public static class SaveLoadManager
 			SaveData saveData = JsonUtility.FromJson<SaveData>(json);
 
 			data.coin = saveData.coin;
-			data.chapter1.chapterLevelClear = saveData.chapter1ChapterLevelClear;
+			data.chapterSo[0].chapterLevelClear = saveData.chapter1ChapterLevelClear;
 
 			foreach (var achievementData in saveData.achievements) {
 				var achievement = data.achievementSO.FirstOrDefault(a => a.achievementCategoryName == achievementData.achievementCategoryName);

@@ -11,9 +11,8 @@ public class GameManager : MonoBehaviour
 	private Player player;
 
 	[Header(" Elements ")]
-	[SerializeField] private int chapter1LevelIndex;
-	[SerializeField] private int prizeCoin;
-	[SerializeField] private int prizeCoinAfterComplete;
+	[SerializeField] private int LevelIndex;
+	[SerializeField] private int chapterIndex;
 
     public static GameManager instance;
 
@@ -41,6 +40,7 @@ public class GameManager : MonoBehaviour
     private void Update() {
         if (enemy == null && state == GameState.OnGoing) {
             enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
+			enemy.OnHittingPlayer += CheckHpPlayer;
 		}
     }
 
@@ -67,12 +67,27 @@ public class GameManager : MonoBehaviour
 
 	private void WinCondition() {
 		conditionUI.ShowWinPanel();
+		if (data.chapterSo[chapterIndex - 1].chapterLevelClear[LevelIndex - 1] == true) {
+			data.SetCoin(data.coin + data.chapterSo[chapterIndex - 1].chapterLevelWinPrizeAfterComplete[LevelIndex - 1]);
+			Debug.Log(data.chapterSo[chapterIndex - 1].chapterLevelWinPrizeAfterComplete[LevelIndex - 1]);
+		} else {
+			data.SetCoin(data.coin + data.chapterSo[chapterIndex - 1].chapterLevelWinPrize[LevelIndex - 1]);
+			Debug.Log(data.chapterSo[chapterIndex - 1].chapterLevelWinPrize[LevelIndex - 1]);
+		}
 		Time.timeScale = 0f;
-		data.UpdateLevelStatus(chapter1LevelIndex, true);
+		data.UpdateLevelStatus(chapterIndex - 1, LevelIndex - 1, true);
 	}
 
 	private void LoseCondition() {
 		conditionUI.ShowLosePanel();
+		data.SetCoin(data.coin + data.chapterSo[chapterIndex - 1].chapterLevelLosePrize[LevelIndex - 1]);
+		Debug.Log(data.chapterSo[chapterIndex - 1].chapterLevelLosePrize[LevelIndex - 1]);
 		Time.timeScale = 0f;
+	}
+
+	private void CheckHpPlayer() {
+		if (player.GetPlayerHealth() < 1) {
+			UpdateGameState(GameState.Lose);
+		}
 	}
 }

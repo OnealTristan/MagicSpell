@@ -10,7 +10,7 @@ public class Data : MonoBehaviour
     public int coin;
 
     [Header(" References ")]
-    public ChapterSO chapter1;
+    public ChapterSO[] chapterSo;
     public AchievementSO[] achievementSO;
 
     //private SaveLoadManager saveLoadManager;
@@ -37,12 +37,12 @@ public class Data : MonoBehaviour
 		SaveLoadManager.LoadGame(this);
 	}
 
-	public void UpdateLevelStatus(int levelIndex, bool isClear) {
-        chapter1.chapterLevelClear[levelIndex - 1] = isClear;
+	public void UpdateLevelStatus(int chapterIndex, int levelIndex, bool isClear) {
+        chapterSo[chapterIndex].chapterLevelClear[levelIndex - 1] = isClear;
     }
 
-    public bool CheckLevelStatus(int levelIndex) {
-        if (chapter1.chapterLevelClear[levelIndex - 1] == true) {
+    public bool CheckLevelStatus(int chapterIndex, int levelIndex) {
+        if (chapterSo[chapterIndex].chapterLevelClear[levelIndex - 1] == true) {
             return true;
         } else {
             return false;

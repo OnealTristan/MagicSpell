@@ -671,6 +671,14 @@ PrefabInstance:
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: LevelIndex
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: chapterIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: chapter1LevelIndex
       value: 4
       objectReference: {fileID: 0}

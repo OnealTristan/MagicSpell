@@ -83,7 +83,6 @@ public class NewKeyboard : MonoBehaviour
      
         if (string.IsNullOrEmpty(txt))
         {
-            Debug.Log(txt);
             return;
         }
 
@@ -110,6 +109,8 @@ public class NewKeyboard : MonoBehaviour
                             achievement.AchievementCheck(txt);
 
                             playerAnimation.PlayerAttackAnimation();
+
+                            // Reset interval enemy attack
                             OnEnterPressed?.Invoke();
 
                             //player.ActivatedWeapon();

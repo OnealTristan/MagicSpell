@@ -20,7 +20,8 @@ public class CoinUI : MonoBehaviour
     {
         coinText.text = data.GetCoin().ToString();
 
-        shopScript.OnBuyWeapon += ShopScriptOnBuyWeapon;
+        shopScript.onBuyWeapon += ShopScriptOnBuyWeapon;
+        shopScript.onBuyPotion += ShopScriptOnBuyWeapon;
     }
 
     private void ShopScriptOnBuyWeapon() {

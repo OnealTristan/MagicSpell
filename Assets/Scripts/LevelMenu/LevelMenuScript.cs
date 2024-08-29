@@ -4,9 +4,16 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LevelMenuScript : MonoBehaviour
-{
+public class LevelMenuScript : MonoBehaviour {
 	[Header(" References ")]
+	[SerializeField] private GameObject[] ChapterScrollView;
+	[SerializeField] private GameObject ButtonRight;
+	[SerializeField] private GameObject ButtonLeft;
+
+	[SerializeField] private TextMeshProUGUI textHabitat;
+	[SerializeField] private TextMeshProUGUI textChapter;
+
+	[Space(10)]
 	[SerializeField] private Button[] levelButtons;
 
 	[Space(10)]
@@ -18,19 +25,59 @@ public class LevelMenuScript : MonoBehaviour
 	private Data data;
 
 	[Header(" Elements ")]
-	private int levelIndex;
+	private int chapterIndex;
 
 	private void Awake() {
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
 	}
 
 	private void Start() {
+		UpdateNavigationButtonInteraction();
 		UpdateLevelButtonInteractable();
+		UpdateChapterName();
+	}
+
+	private void UpdateNavigationButtonInteraction() {
+		if (chapterIndex == 0) {
+			ButtonLeft.SetActive(false);
+		} else if (chapterIndex == ChapterScrollView.Length - 1) {
+			ButtonRight.SetActive(false);
+		} else if (chapterIndex < ChapterScrollView.Length - 1) {
+			ButtonRight.SetActive(true);
+			ButtonLeft.SetActive(true);
+		}
+	}
+
+	private void UpdateChapterName () {
+		if (data.chapterSo.Length > chapterIndex) {
+			textHabitat.text = data.chapterSo[chapterIndex].chapterName;
+			textChapter.text = "Chapter " + (chapterIndex+1).ToString();
+		}
+	}
+
+	public void ClickChangeChapterButtonRight() {
+		if (chapterIndex < ChapterScrollView.Length - 1) {
+			chapterIndex++;
+			UpdateNavigationButtonInteraction();
+			UpdateChapterName();
+			ChapterScrollView[chapterIndex - 1].gameObject.SetActive(false);
+			ChapterScrollView[chapterIndex].gameObject.SetActive(true);
+		}
+	}
+
+	public void ClickChangeChapterButtonLeft() {
+		if (chapterIndex > 0) {
+			chapterIndex--;
+			UpdateNavigationButtonInteraction();
+			UpdateChapterName();
+			ChapterScrollView[chapterIndex + 1].gameObject.SetActive(false);
+			ChapterScrollView[chapterIndex].gameObject.SetActive(true);
+		}
 	}
 
 	private void UpdateLevelButtonInteractable() {
-		for (int i = 0; i < data.chapter1.chapterLevelClear.Length; i++) {
-			if (i == 0 || data.chapter1.chapterLevelClear[i - 1] == true) {
+		for (int i = 0; i < data.chapterSo[chapterIndex].chapterLevelClear.Length; i++) {
+			if (i == 0 || data.chapterSo[chapterIndex].chapterLevelClear[i - 1] == true) {
 				levelButtons[i].interactable = true;
 			} else {
 				levelButtons[i].interactable = false;
@@ -38,24 +85,24 @@ public class LevelMenuScript : MonoBehaviour
 		}
 	}
 
-	private void UpdateLevelPrizeText(int index) {
+	private void UpdateLevelPrizeText(int levelIndex) {
 		TextMeshProUGUI[] textsPrize = gameObject.GetComponentsInChildren<TextMeshProUGUI>();
 
-		foreach(TextMeshProUGUI textPrize in textsPrize) {
+		foreach (TextMeshProUGUI textPrize in textsPrize) {
 			if (textPrize.CompareTag("TextPrizeLevel")) {
-				if (data.CheckLevelStatus(index) == true) {
-					textPrize.text = "X " + data.chapter1.chapterLevelWinPrizeAfterComplete[index - 1].ToString();
+				if (data.CheckLevelStatus(chapterIndex, levelIndex) == true) {
+					textPrize.text = "X " + data.chapterSo[chapterIndex].chapterLevelWinPrizeAfterComplete[levelIndex - 1].ToString();
 				} else {
-					textPrize.text = "X " + data.chapter1.chapterLevelWinPrize[index - 1].ToString();
+					textPrize.text = "X " + data.chapterSo[chapterIndex].chapterLevelWinPrize[levelIndex - 1].ToString();
 				}
 			}
 		}
 	}
 
-	public void ClickLevelButton(int index) {
+	public void ClickLevelButton(int levelIndex) {
 		chapter1PanelPopUpContainer.SetActive(true);
-		chapter1LevelPanelPopUp[index-1].SetActive(true);
-		UpdateLevelPrizeText(index);
+		chapter1LevelPanelPopUp[levelIndex - 1].SetActive(true);
+		UpdateLevelPrizeText(levelIndex);
 		ContainerChapter.SetActive(false);
 	}
 

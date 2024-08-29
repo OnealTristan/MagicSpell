@@ -44,10 +44,6 @@ public class Player : MonoBehaviour
 		if (enemy == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
 			enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
 		}
-
-		if (GetPlayerHealth() < 1) {
-			GameManager.instance.UpdateGameState(GameManager.GameState.Lose);
-		}
 	}
 
 	public void ActivatedWeapon() {

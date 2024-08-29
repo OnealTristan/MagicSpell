@@ -6,7 +6,7 @@ using UnityEngine;
 public class Achievement : MonoBehaviour
 {
     [Header(" References ")]
-    public AchievementSO[] achievements;
+    [SerializeField] private AchievementSO[] achievements;
 
 	private void Start() {
 		CheckIfCategoryCompleted();
