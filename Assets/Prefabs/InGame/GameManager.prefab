@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1868110483024268438}
   - component: {fileID: 1868110483024268433}
   - component: {fileID: 1868110483024268439}
+  - component: {fileID: 2483013266935656260}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -45,7 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c83f1ef78a1275749b2340cf651598d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conditionUI: {fileID: 0}
+  LevelIndex: 0
+  chapterIndex: 0
   state: 0
 --- !u!114 &1868110483024268439
 MonoBehaviour:
@@ -59,9 +61,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730fc9aab60c1214399722552bc2e169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpawnPos: {fileID: 0}
-  healthUI: {fileID: 0}
-  guessLetter: {fileID: 0}
   enemyGameObject:
   - {fileID: 1918496552644903623, guid: add9d31cf5dd213469a0af22f855e93d, type: 3}
   - {fileID: 1918496552644903623, guid: add9d31cf5dd213469a0af22f855e93d, type: 3}
+  starterHealth: 0
+--- !u!114 &2483013266935656260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868110483024268432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2996a46d926095146989d021432b5212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab:
+  - {fileID: 7172579094781756926, guid: e62331fb96463f645901f3100e0ce300, type: 3}
+  - {fileID: 7926871911773675165, guid: 1c92bf19f84d1514b8934b4c6eddf8cf, type: 3}
+  - {fileID: 5241126623393924164, guid: d35416cc46249884d819a123d3f4bfe1, type: 3}

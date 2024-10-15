@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd72e2c118cf7544a0dbb1d3aa62355, type: 3}
   m_Name: OakWand
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: 6fea8e167ab74bf46a69ef1bc4f4ee9d, type: 3}
-  name: Oak Wand
-  damage: 3
-  price: 0
-  buyed: 1
-  equip: 1
+  image: {fileID: 21300000, guid: 05d6c458a05658c439762c780a4b9da5, type: 3}
+  weaponName: Oak Wand
+  weaponDamage: 3
+  weaponPrice: 0
+  weaponBuyed: 1
+  weaponEquip: 0

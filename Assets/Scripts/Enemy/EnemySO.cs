@@ -9,8 +9,8 @@ public class EnemySO : ScriptableObject {
 
     public int damage;
     public int damageInterval;
-
     public int attackInterval;
-
     public int maxHealth;
+
+    public bool isBoss;
 }

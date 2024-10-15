@@ -13,26 +13,27 @@ public class UserInputDisplay : MonoBehaviour
     private bool wordEmpty;
 
 	private void Awake() {
-		playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
+		
+	}
+
+	private void OnEnable() {
+		// Get reference to NewKeyboard
+		if (keyboard != null) {
+			// Subscribe to events
+			keyboard.onBackspacePressed += BackspacePressedCallback;
+			keyboard.onKeyPressed += KeyPressedCallback;
+			keyboard.OnEnterPressed += EnterPreseedCallback;
+		} else {
+			Debug.LogError("NewKeyboard component not found in children. Make sure it is added to the GameObject.");
+		}
 	}
 
 	// Start is called before the first frame update
 	void Start()
     {
-        wordEmpty = true;
+		playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
 
-        // Get reference to NewKeyboard
-        if (keyboard != null)
-        {
-            // Subscribe to events
-            keyboard.onBackspacePressed += BackspacePressedCallback;
-            keyboard.onKeyPressed += KeyPressedCallback;
-            keyboard.OnEnterPressed += EnterPreseedCallback;
-        }
-        else
-        {
-            Debug.LogError("NewKeyboard component not found in children. Make sure it is added to the GameObject.");
-        }
+		wordEmpty = true;
     }
 
     private void BackspacePressedCallback()
@@ -73,4 +74,10 @@ public class UserInputDisplay : MonoBehaviour
     public string DisplayText() {
         return textContainer.text.ToLower().Trim();
     }
+
+	private void OnDisable() {
+		keyboard.onBackspacePressed -= BackspacePressedCallback;
+		keyboard.onKeyPressed -= KeyPressedCallback;
+		keyboard.OnEnterPressed -= EnterPreseedCallback;
+	}
 }

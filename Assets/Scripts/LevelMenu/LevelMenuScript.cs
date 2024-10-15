@@ -1,5 +1,6 @@
  using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,18 +15,17 @@ public class LevelMenuScript : MonoBehaviour {
 	[SerializeField] private TextMeshProUGUI textChapter;
 
 	[Space(10)]
-	[SerializeField] private Button[] levelButtons;
-
-	[Space(10)]
 	[SerializeField] private GameObject ContainerChapter;
 
-	[Space(10)]
+	[Header(" Chapter 1 Panel PopUp ")]
 	[SerializeField] private GameObject chapter1PanelPopUpContainer;
 	[SerializeField] private GameObject[] chapter1LevelPanelPopUp;
+	
 	private Data data;
 
 	[Header(" Elements ")]
-	private int chapterIndex;
+	[SerializeField] private bool testingLevel;
+	private int chapterIndex = 0;
 
 	private void Awake() {
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
@@ -59,6 +59,7 @@ public class LevelMenuScript : MonoBehaviour {
 		if (chapterIndex < ChapterScrollView.Length - 1) {
 			chapterIndex++;
 			UpdateNavigationButtonInteraction();
+			UpdateLevelButtonInteractable();
 			UpdateChapterName();
 			ChapterScrollView[chapterIndex - 1].gameObject.SetActive(false);
 			ChapterScrollView[chapterIndex].gameObject.SetActive(true);
@@ -69,6 +70,7 @@ public class LevelMenuScript : MonoBehaviour {
 		if (chapterIndex > 0) {
 			chapterIndex--;
 			UpdateNavigationButtonInteraction();
+			UpdateLevelButtonInteractable();
 			UpdateChapterName();
 			ChapterScrollView[chapterIndex + 1].gameObject.SetActive(false);
 			ChapterScrollView[chapterIndex].gameObject.SetActive(true);
@@ -76,11 +78,25 @@ public class LevelMenuScript : MonoBehaviour {
 	}
 
 	private void UpdateLevelButtonInteractable() {
+		Button[] currentChapterLevelButtons = ChapterScrollView[chapterIndex].GetComponentsInChildren<Button>();
+
 		for (int i = 0; i < data.chapterSo[chapterIndex].chapterLevelClear.Length; i++) {
-			if (i == 0 || data.chapterSo[chapterIndex].chapterLevelClear[i - 1] == true) {
-				levelButtons[i].interactable = true;
-			} else {
-				levelButtons[i].interactable = false;
+			currentChapterLevelButtons[i].interactable = false;
+		}
+
+		if (chapterIndex == 0) {
+			for (int i = 0; i < data.chapterSo[chapterIndex].chapterLevelClear.Length; i++) {
+				if (i == 0 || data.chapterSo[chapterIndex].chapterLevelClear[i - 1] == true) {
+					currentChapterLevelButtons[i].interactable = true;
+				}
+			}
+		} else if (chapterIndex > 0) {
+			if (data.chapterSo[chapterIndex - 1].chapterComplete == true) {
+				for (int i = 0; i < data.chapterSo[chapterIndex].chapterLevelClear.Length; i++) {
+					if (i == 0 || data.chapterSo[chapterIndex].chapterLevelClear[i - 1] == true) {
+						currentChapterLevelButtons[i].interactable = true;
+					}
+				}
 			}
 		}
 	}
@@ -113,7 +129,13 @@ public class LevelMenuScript : MonoBehaviour {
 	}
 
 	public void ClickChapter1PanelButtonPlayLevel(int levelIndex) {
-		Loader.Load((Loader.Scene)levelIndex);
+		if (chapterIndex == 0) {
+			Loader.Load((Loader.Scene)levelIndex);
+		} else if (chapterIndex == 1) {
+			Loader.Load((Loader.Scene)(levelIndex + 10));
+		} else if (levelIndex == 2) {
+			Loader.Load((Loader.Scene)(levelIndex + 20));
+		}
 	}
 
 	public void ClickBackButton () {

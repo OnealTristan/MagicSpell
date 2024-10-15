@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bd72e2c118cf7544a0dbb1d3aa62355, type: 3}
+  m_Name: MagicalDictionaryBook
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 51e26a95bf391bd41b4f3d5543dad394, type: 3}
+  weaponName: Magical Dictionary Book
+  weaponDamage: 15
+  weaponPrice: 20000
+  weaponBuyed: 0
+  weaponEquip: 0

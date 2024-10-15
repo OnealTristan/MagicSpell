@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: CheatingWeapon
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  name: Cheating Weapon
-  damage: 999
-  price: 0
-  buyed: 0
-  equip: 0
+  weaponName: 
+  weaponDamage: 99999
+  weaponPrice: 0
+  weaponBuyed: 0
+  weaponEquip: 0

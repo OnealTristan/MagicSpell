@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using System;
 
 public class ShopScript : MonoBehaviour
@@ -17,7 +16,6 @@ public class ShopScript : MonoBehaviour
 	[SerializeField] private Transform parentContentPosPotionUI;
     [SerializeField] private GameObject PanelPrefab;
 	[Space(10)]
-    [SerializeField] private WeaponSO[] weaponSO;
 	[SerializeField] private PotionSO[] potionSO;
 
 	private void Awake() {
@@ -74,9 +72,9 @@ public class ShopScript : MonoBehaviour
 	}
 
 	private void BuyPotion(int index) {
-		if (data.coin >= potionSO[index].price) {
+		if (data.GetCoin() >= potionSO[index].price) {
 			potionSO[index].amount++;
-			data.SetCoin(data.coin - potionSO[index].price);
+			data.SetCoin(data.GetCoin() - potionSO[index].price);
 			onBuyPotion?.Invoke();
 		} else {
 			return;
@@ -84,7 +82,7 @@ public class ShopScript : MonoBehaviour
 	}
 
     private void WeaponShop() {
-		for (int i = 0; i < weaponSO.Length; i++) {
+		for (int i = 0; i < data.weaponSO.Length; i++) {
 			GameObject panelInstance = Instantiate(PanelPrefab, parentContentPosWeaponUI);
 
 			// Mengambil references dari beberapa Image components
@@ -102,26 +100,26 @@ public class ShopScript : MonoBehaviour
 			}
 
 			// Set Weapon Image
-			if (weaponImage != null && weaponSO[i].image != null) {
-				weaponImage.sprite = weaponSO[i].image;
+			if (weaponImage != null && data.weaponSO[i].image != null) {
+				weaponImage.sprite = data.weaponSO[i].image;
 			}
 
 			// Set weapon name text
 			TextMeshProUGUI text = panelInstance.GetComponentInChildren<TextMeshProUGUI>();
-			text.text = weaponSO[i].name;
+			text.text = data.weaponSO[i].weaponName;
 
 			// Set price text
 			Text priceText = panelInstance.GetComponentInChildren<Text>();
-			if (weaponSO[i].price == 0) {
+			if (data.weaponSO[i].weaponPrice == 0) {
 				priceText.text = "FREE";
 			} else {
-				priceText.text = weaponSO[i].price.ToString();
+				priceText.text = data.weaponSO[i].weaponPrice.ToString();
 			}
 
 			// Set Button properties
 			Button buttonBuy = panelInstance.GetComponentInChildren<Button>();
 			TextMeshProUGUI textBuyButton = buttonBuy.GetComponentInChildren<TextMeshProUGUI>();
-			if (weaponSO[i].buyed == true) {
+			if (data.weaponSO[i].weaponBuyed == true) {
 				buttonBuy.interactable = false;
 				textBuyButton.text = "Bought";
 			} else {
@@ -135,15 +133,16 @@ public class ShopScript : MonoBehaviour
 	}
 
     private void BuyWeapon(int index, Button buttonBuy, TextMeshProUGUI textBuyButton) {
-        if (data.coin >= weaponSO[index].price) {
-            weaponSO[index].buyed = true;
+        if (data.GetCoin() >= data.weaponSO[index].weaponPrice) {
+            data.weaponSO[index].weaponBuyed = true;
 
 			buttonBuy.interactable = false;
 			textBuyButton.text = "Bought";
 
-            data.SetCoin(data.coin - weaponSO[index].price);
+            data.SetCoin(data.GetCoin() - data.weaponSO[index].weaponPrice);
             onBuyWeapon?.Invoke();
 		} else {
+			Debug.Log("Not Enough Coin");
             return;
         }
     }

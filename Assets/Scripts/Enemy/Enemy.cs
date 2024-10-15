@@ -21,6 +21,8 @@ public class Enemy : MonoBehaviour {
     private int health;
     private Coroutine attackCoroutine;
 
+    private bool isBoss;
+
     private void Awake() {
         health = enemySO.maxHealth;
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
@@ -32,6 +34,8 @@ public class Enemy : MonoBehaviour {
 
         player.OnHittingEnemy += ResetAttackInterval;
         keyboard.OnEnterPressed += ResetAttackInterval;
+
+        isBoss = enemySO.isBoss;
 	}
 
 	private void Update() {
@@ -73,6 +77,7 @@ public class Enemy : MonoBehaviour {
 		OnHittingPlayer?.Invoke();
 
         ResetAttackInterval();
+        coroutineAttack = false;
 	}
 
     public void EnemyDeath() {
@@ -94,5 +99,13 @@ public class Enemy : MonoBehaviour {
 
     public int SetEnemyHealth(int health) {
         return this.health = health;
+    }
+
+    public bool GetIsBoss() {
+        return isBoss;
+    }
+
+    public bool GetCoroutineAttack() {
+        return coroutineAttack;
     }
 }

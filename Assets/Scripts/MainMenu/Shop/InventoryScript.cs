@@ -8,13 +8,13 @@ public class InventoryScript : MonoBehaviour
 {
 	[Header(" References Classes ")]
 	[SerializeField] private ShopScript shopScript;
+	private Data data;
 
 	[Header(" References Weapon ")]
 	[SerializeField] private Transform parentContentWeaponPosUI;
 	[SerializeField] private GameObject contentPanelWeaponPrefab;
 	[SerializeField] private Sprite equipImage;
 	[SerializeField] private Sprite equipedImage;
-	[SerializeField] private WeaponSO[] weaponSO;
 	private WeaponSO equippedWeapon;
 
 	[Header(" References Potion ")]
@@ -22,11 +22,18 @@ public class InventoryScript : MonoBehaviour
 	[SerializeField] private GameObject contentPanelPotionPrefab;
 	[SerializeField] private PotionSO[] potionSO;
 
+	private void Awake() {
+		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
+	}
+
+	private void OnEnable() {
+		shopScript.onBuyWeapon += UpdateWeaponInventory;
+		shopScript.onBuyPotion += UpdatePotionInventory;
+	}
+
 	// Start is called before the first frame update
 	void Start()
     {
-		shopScript.onBuyWeapon += UpdateWeaponInventory;
-		shopScript.onBuyPotion += UpdatePotionInventory;
 		UpdateWeaponInventory();
 		UpdatePotionInventory();
     }
@@ -68,8 +75,8 @@ public class InventoryScript : MonoBehaviour
 			Destroy(child.gameObject);
 		}
 
-		foreach (WeaponSO weapon in weaponSO) {
-			if (weapon.buyed == true) {
+		foreach (WeaponSO weapon in data.weaponSO) {
+			if (weapon.weaponBuyed == true) {
 				GameObject panelInstance = Instantiate(contentPanelWeaponPrefab, parentContentWeaponPosUI);
 
 				Image[] images = panelInstance.GetComponentsInChildren<Image>();
@@ -82,12 +89,12 @@ public class InventoryScript : MonoBehaviour
 
 				// Set weapon name text
 				TextMeshProUGUI text = panelInstance.GetComponentInChildren<TextMeshProUGUI>();
-				text.text = weapon.name;
+				text.text = weapon.weaponName;
 
 				// Set Button properties
 				Button buttonEquip = panelInstance.GetComponentInChildren<Button>();
 				Image imageButton = buttonEquip.GetComponent<Image>();
-				if (weapon.equip == true) {
+				if (weapon.weaponEquip == true) {
 					buttonEquip.interactable = false;
 					imageButton.sprite = equipedImage;
 
@@ -104,9 +111,9 @@ public class InventoryScript : MonoBehaviour
 
 	private void EquipWeapon(WeaponSO weapon, Image imageButton) {
 		if (equippedWeapon != null) {
-			equippedWeapon.equip = false;
+			equippedWeapon.weaponEquip = false;
 		}
-		weapon.equip = true;
+		weapon.weaponEquip = true;
 		equippedWeapon = weapon;
 
 		imageButton.sprite = equipImage;

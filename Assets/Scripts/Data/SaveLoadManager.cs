@@ -10,16 +10,35 @@ public static class SaveLoadManager
 
 		SaveData saveData = new SaveData {
 			coin = data.coin,
-			chapter1ChapterLevelClear = data.chapterSo[0].chapterLevelClear,
+			weapons = new List<WeaponSaveData>(),
+			chapters = new List<ChapterSaveData>(),
 			achievements = new List<AchievementSaveData>()
 		};
 
+		foreach (var weapons in data.weaponSO) {
+			WeaponSaveData weaponSaveData = new() {
+				weaponName = weapons.weaponName,
+				weaponBuyed = weapons.weaponBuyed,
+				weaponEquip = weapons.weaponEquip
+			};
+			saveData.weapons.Add(weaponSaveData);
+		}
+
+		foreach (var chapters in data.chapterSo) {
+			ChapterSaveData chapterSaveData = new() { 
+				chapterName = chapters.chapterName,
+				chapterComplete = chapters.chapterComplete,
+				chapterLevelClear = chapters.chapterLevelClear
+			};
+			saveData.chapters.Add(chapterSaveData);
+		}
+
 		foreach (var achievement in data.achievementSO) {
-			AchievementSaveData achievementData = new AchievementSaveData {
+			AchievementSaveData achievementData = new() {
 				achievementCategoryName = achievement.achievementCategoryName,
 				achievementCategoryWordsAchieved = achievement.achievementCategoryWordsAchieved,
 				achievementCategoryClaimed = achievement.achievementCategoryClaimed,
-				achievementCategoryDone = achievement.achievementCategoryDone,
+				achievementCategoryDone = achievement.achievementCategoryDone
 			};
 			saveData.achievements.Add(achievementData);
 		}
@@ -37,7 +56,22 @@ public static class SaveLoadManager
 			SaveData saveData = JsonUtility.FromJson<SaveData>(json);
 
 			data.coin = saveData.coin;
-			data.chapterSo[0].chapterLevelClear = saveData.chapter1ChapterLevelClear;
+			
+			foreach (var weaponData in saveData.weapons) {
+				var weapon = data.weaponSO.FirstOrDefault(a => a.weaponName == weaponData.weaponName);
+				if (weapon != null) {
+					weapon.weaponBuyed = weaponData.weaponBuyed;
+					weapon.weaponEquip = weaponData.weaponEquip;
+				}
+			}
+
+			foreach (var chapterData in saveData.chapters) {
+				var chapter = data.chapterSo.FirstOrDefault(a => a.chapterName == chapterData.chapterName);
+				if (chapter != null) {
+					chapter.chapterComplete = chapterData.chapterComplete;
+					chapter.chapterLevelClear = chapterData.chapterLevelClear;
+				}
+			}
 
 			foreach (var achievementData in saveData.achievements) {
 				var achievement = data.achievementSO.FirstOrDefault(a => a.achievementCategoryName == achievementData.achievementCategoryName);

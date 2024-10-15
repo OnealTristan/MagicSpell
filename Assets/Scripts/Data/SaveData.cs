@@ -6,6 +6,7 @@ using UnityEngine;
 public class SaveData
 {
 	public int coin;
-	public bool[] chapter1ChapterLevelClear;
+	public List<WeaponSaveData> weapons;
+	public List<ChapterSaveData> chapters;
 	public List<AchievementSaveData> achievements;
 }

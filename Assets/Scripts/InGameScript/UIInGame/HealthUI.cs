@@ -25,13 +25,10 @@ public class HealthUI : MonoBehaviour
     [Header(" Elements ")]
     int index;
 
-    private void Awake() {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        
-    }
-
     private void Start() {
-        player.OnDecreaseHPEnemy += OnDecreaseHPEnemy;
+		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+
+		player.OnDecreaseHPEnemy += OnDecreaseHPEnemy;
         potion.OnEncreaseHPPlayer += OnEncreaseHPPlayer;
 
         playerHealth.maxValue = player.GetPlayerHealth();

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd72e2c118cf7544a0dbb1d3aa62355, type: 3}
   m_Name: PhoenixWand
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: 6fea8e167ab74bf46a69ef1bc4f4ee9d, type: 3}
-  name: Phoenix Wand
-  damage: 3
-  price: 100
-  buyed: 0
-  equip: 0
+  image: {fileID: 21300000, guid: e81e84b9221defe498b2a5d0228815ca, type: 3}
+  weaponName: Phoenix Wand
+  weaponDamage: 5
+  weaponPrice: 200
+  weaponBuyed: 1
+  weaponEquip: 1

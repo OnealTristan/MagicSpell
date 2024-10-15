@@ -17,7 +17,6 @@ public class NewKeyboard : MonoBehaviour
     public Action OnEnterPressed;
 
     [Header(" Player References ")]
-    private Player player;
     private PlayerAnimation playerAnimation;
 
     [Header(" Enemy References ")]
@@ -26,7 +25,7 @@ public class NewKeyboard : MonoBehaviour
 
     [Header(" Other References ")]
     [SerializeField] private Button[] keyButton;
-    private Achievement achievement;
+    private Data data;
 	private UserInputDisplay userInputDisplay;
     private GuessLetter guessLetter;
 	// Instance UserInputDisplay
@@ -38,17 +37,17 @@ public class NewKeyboard : MonoBehaviour
 
 	void Awake() {
 		dictionary = GetComponent<Dictionary>();
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
 
-        achievement = GameObject.FindGameObjectWithTag("Data").GetComponent<Achievement>();
+		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
         guessLetter = GameObject.Find("GuessTextContainer").GetComponent<GuessLetter>();
 		userInputDisplay = GameObject.Find("TextContainer").GetComponent<UserInputDisplay>();
 	}
 
 	void Start()
     {
-        playerAnimation.OnPlayerAnimationStart += DisableKeyboard;
+		playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
+
+		playerAnimation.OnPlayerAnimationStart += DisableKeyboard;
         playerAnimation.OnPlayerAnimationEnd += EnableKeyboard;
 
         letter = guessLetter.GetLetter();
@@ -106,7 +105,7 @@ public class NewKeyboard : MonoBehaviour
                             // Jika benar maka damage akan diterima oleh musuh
                             Debug.Log("Type: " + txt + " Found!!");
 
-                            achievement.AchievementCheck(txt);
+                            data.AchievementCheck(txt);
 
                             playerAnimation.PlayerAttackAnimation();
 
@@ -137,7 +136,6 @@ public class NewKeyboard : MonoBehaviour
                 Debug.Log("Type: " + txt + " Not Found!!");
                 playerAnimation.PlayerIdleAnimation();
 
-                enemy.coroutineAttack = false;
                 enemyAnimation.EnemyAttackAnimation();
 
 				userInputDisplay.DeleteText();
@@ -145,11 +143,11 @@ public class NewKeyboard : MonoBehaviour
         }
     }
 
-    public void SetButtonInteractable(int buttonIndex, bool interactable) {
+    /*public void SetButtonInteractable(int buttonIndex, bool interactable) {
         if (buttonIndex >= 0 && buttonIndex < keyButton.Length) {
             keyButton[buttonIndex].interactable = interactable;
         }
-    }
+    }*/
 
     private void DisableKeyboard() {
         Button[] buttons = GetComponentsInChildren<Button>();
@@ -165,5 +163,13 @@ public class NewKeyboard : MonoBehaviour
 		foreach (Button button in buttons) {
 			button.interactable = true;
 		}
+	}
+
+	private void OnDisable() {
+		playerAnimation.OnPlayerAnimationStart -= DisableKeyboard;
+		playerAnimation.OnPlayerAnimationEnd -= EnableKeyboard;
+
+		enemyAnimation.OnEnemyAnimationStart -= DisableKeyboard;
+		enemyAnimation.OnEnemyAnimationEnd -= EnableKeyboard;
 	}
 }

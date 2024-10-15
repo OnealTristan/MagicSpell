@@ -32,40 +32,15 @@ public class PlayerAnimation : MonoBehaviour
 		}
 	}
 
-	public void RandomizeAnimator() {
-		int randomAnim = UnityEngine.Random.Range(0, randomAnimator.Length);
-
-		switch (randomAnim) {
-			case 0:
-				PlayerAttackMeteor();
-				break;
-		}
-	}
-
-	public void PlayerAttackMeteor() {
-
-	}
-
     public void PlayerIdleAnimation() {
-		/*animator.SetBool("IsIdle", true);
-		animator.SetBool("IsAttack", false);
-		animator.SetBool("IsSpelling", false);*/
-
 		animator.Play(PLAYERIDLE);
 	}
 
     public void PlayerSpellingAnimation() {
-		/*animator.SetBool("IsSpelling", true);
-		animator.SetBool("IsIdle", false);*/
-
 		animator.Play(PLAYERSPELLING);
 	}
 
     public void PlayerAttackAnimation() {
-		/*animator.SetBool("IsAttack", true);
-		animator.SetBool("IsIdle", false);
-		animator.SetBool("IsSpelling", false);*/
-
 		animator.Play(PLAYERATTACK);
 	}
 

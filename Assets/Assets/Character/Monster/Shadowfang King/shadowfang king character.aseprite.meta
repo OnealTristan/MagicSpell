@@ -1,0 +1,3701 @@
+fileFormatVersion: 2
+guid: 7691bc2901fdc814c91be6278e0c4e91
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 64
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638643458176625171
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: shadowfang king character_Frame_23
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 536
+      width: 59
+      height: 65
+    spriteID: 9283265412d255145927f208508f8fe5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 536}
+  - name: shadowfang king character_Frame_24
+    originalName: 
+    pivot: {x: 0.515625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 64
+      height: 68
+    spriteID: 96a9045842942e24cb8527d328955aff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: shadowfang king character_Frame_25
+    originalName: 
+    pivot: {x: 0.5087719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 603
+      width: 57
+      height: 64
+    spriteID: 7e25c3697f754104b8f4d58342435748
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 603}
+  - name: shadowfang king character_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 645
+      width: 54
+      height: 65
+    spriteID: 8a0cc344cdb3000478924b73a81d1d32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 645}
+  - name: shadowfang king character_Frame_27
+    originalName: 
+    pivot: {x: 0.4901961, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 654
+      width: 51
+      height: 63
+    spriteID: dcd3be509521f3c4e9970803e7e580ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 654}
+  - name: shadowfang king character_Frame_29
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 609
+      width: 59
+      height: 65
+    spriteID: 1c2d528b3a98d75448d37b5c933bfb59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 609}
+  - name: shadowfang king character_Frame_30
+    originalName: 
+    pivot: {x: 0.515625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 80
+      width: 64
+      height: 68
+    spriteID: 4e60f35b6f9e2cc44849fb85cb4ea865
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 80}
+  - name: shadowfang king character_Frame_31
+    originalName: 
+    pivot: {x: 0.5087719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 675
+      width: 57
+      height: 64
+    spriteID: b5895b80879c86e47a0f6c1dfbb4416d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 675}
+  - name: shadowfang king character_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 718
+      width: 54
+      height: 65
+    spriteID: daedceb6c8b956243963ccbf079637cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 718}
+  - name: shadowfang king character_Frame_33
+    originalName: 
+    pivot: {x: 0.4901961, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 725
+      width: 51
+      height: 63
+    spriteID: 1907d43d6195f1144aee7c535adf5b94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 725}
+  - name: shadowfang king character_Frame_34
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 682
+      width: 59
+      height: 65
+    spriteID: 662d0ff543cf56543a13d99a96772002
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 682}
+  - name: shadowfang king character_Frame_35
+    originalName: 
+    pivot: {x: 0.515625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 156
+      width: 64
+      height: 68
+    spriteID: 5f7b04f3b053f034784852e2c5f87c24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 156}
+  - name: shadowfang king character_Frame_36
+    originalName: 
+    pivot: {x: 0.5087719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 747
+      width: 57
+      height: 64
+    spriteID: 7be102b3c2869d241a6b58506cd494bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 747}
+  - name: shadowfang king character_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 791
+      width: 54
+      height: 65
+    spriteID: 053708de70cfd8e488848a1956826aba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 791}
+  - name: shadowfang king character_Frame_38
+    originalName: 
+    pivot: {x: 0.4901961, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 796
+      width: 51
+      height: 63
+    spriteID: 52057f91e09b395438a797ad8dbd3b0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 796}
+  - name: shadowfang king character_Frame_39
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 755
+      width: 59
+      height: 65
+    spriteID: 52f2a017eaccc6e4fb78b7966dec8fd3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 755}
+  - name: shadowfang king character_Frame_40
+    originalName: 
+    pivot: {x: 0.515625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 232
+      width: 64
+      height: 68
+    spriteID: 175c99223f2ae814db059b09bab36de7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 232}
+  - name: shadowfang king character_Frame_41
+    originalName: 
+    pivot: {x: 0.5087719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 819
+      width: 57
+      height: 64
+    spriteID: c2a9a01ba42d37e4e9d09edb89d5c04d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 819}
+  - name: shadowfang king character_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 864
+      width: 54
+      height: 65
+    spriteID: 7b102503a9481624baa248dfaad9da53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 864}
+  - name: shadowfang king character_Frame_43
+    originalName: 
+    pivot: {x: 0.4901961, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 867
+      width: 51
+      height: 63
+    spriteID: 95d154291c7611745889e0d599bd1a37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 867}
+  - name: shadowfang king character_Frame_44
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 828
+      width: 59
+      height: 65
+    spriteID: 4a8e5ebf7ddf588418219d9768bef2ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 828}
+  - name: shadowfang king character_Frame_45
+    originalName: 
+    pivot: {x: 0.515625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 308
+      width: 64
+      height: 68
+    spriteID: b8ce309c4b1f3c448a74124ad2486a54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 308}
+  - name: shadowfang king character_Frame_46
+    originalName: 
+    pivot: {x: 0.5087719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 891
+      width: 57
+      height: 64
+    spriteID: e38fbec105fcb8e4580b63786e3accb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 891}
+  - name: shadowfang king character_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 937
+      width: 54
+      height: 65
+    spriteID: afbf1580ed434da46b84114bf20853da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 937}
+  - name: shadowfang king character_Frame_48
+    originalName: 
+    pivot: {x: 0.4901961, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 938
+      width: 51
+      height: 63
+    spriteID: 92f0d02ee3b6ec04ea89f2ff8bd8bb76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 938}
+  - name: shadowfang king character_Frame_49
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 901
+      width: 59
+      height: 65
+    spriteID: 0a788868b6fc7e147b016c23b57abddf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 901}
+  - name: shadowfang king character_Frame_50
+    originalName: 
+    pivot: {x: 0.515625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 384
+      width: 64
+      height: 68
+    spriteID: a0f555a83109bba4aa33ea0f4c3072ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 384}
+  - name: shadowfang king character_Frame_51
+    originalName: 
+    pivot: {x: 0.5087719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 4
+      width: 57
+      height: 64
+    spriteID: a164c6b48b942be40b7b7ea522891662
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 4}
+  - name: shadowfang king character_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 4
+      width: 54
+      height: 65
+    spriteID: 98633cf7df70ec846bf9c139e94bf8e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 4}
+  - name: shadowfang king character_Frame_53
+    originalName: 
+    pivot: {x: 0.4901961, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 77
+      width: 51
+      height: 63
+    spriteID: 82bcdcda97eceda4b90861d5c6cbe453
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 77}
+  - name: shadowfang king character_Frame_54
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 4
+      width: 59
+      height: 65
+    spriteID: dced903121c99c54eb9e04182507a845
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 4}
+  - name: shadowfang king character_Frame_55
+    originalName: 
+    pivot: {x: 0.515625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 460
+      width: 64
+      height: 68
+    spriteID: 9c1e48160e178f54e995cbf81ec43442
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 460}
+  - name: shadowfang king character_Frame_56
+    originalName: 
+    pivot: {x: 0.5087719, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 76
+      width: 57
+      height: 64
+    spriteID: e01fbfe6e47236c44852f6b20a2ccb88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 76}
+  - name: shadowfang king character_Frame_57
+    originalName: 
+    pivot: {x: 0.5263158, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 369
+      width: 57
+      height: 65
+    spriteID: 2af388c6a086c534cabc0986215d11ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 369}
+  - name: shadowfang king character_Frame_58
+    originalName: 
+    pivot: {x: 0.53571427, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 148
+      width: 56
+      height: 63
+    spriteID: ed56370c22710924fbe8a3d07959eff9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 148}
+  - name: shadowfang king character_Frame_64
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 77
+      width: 59
+      height: 65
+    spriteID: 7d29cf8af1d71854d9ee14a1ee4eb153
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 77}
+  - name: shadowfang king character_Frame_65
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 150
+      width: 59
+      height: 65
+    spriteID: 5586915651c661d458fe2e35d3ad96b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 150}
+  - name: shadowfang king character_Frame_66
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 223
+      width: 59
+      height: 65
+    spriteID: bb0aad8f9d6b5ff4c820b87bcb2e426d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 223}
+  - name: shadowfang king character_Frame_67
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 296
+      width: 59
+      height: 65
+    spriteID: 66800d658993af24dbb56852d301aec0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 296}
+  - name: shadowfang king character_Frame_68
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 369
+      width: 59
+      height: 65
+    spriteID: 2aee52b694d7e5a458460b19e6514add
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 369}
+  - name: shadowfang king character_Frame_69
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 442
+      width: 59
+      height: 65
+    spriteID: 36a6850ceef3f9440aeda5b39ff4ebe4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 442}
+  - name: shadowfang king character_Frame_70
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 515
+      width: 59
+      height: 65
+    spriteID: 45cf7de881e740843afca848767dcdab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 515}
+  - name: shadowfang king character_Frame_71
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 588
+      width: 59
+      height: 65
+    spriteID: c214847234fab6a4286845bb17320ab3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 588}
+  - name: shadowfang king character_Frame_72
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 661
+      width: 59
+      height: 65
+    spriteID: b7bbee243498b3d4d959acbefa2902e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 661}
+  - name: shadowfang king character_Frame_73
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 734
+      width: 59
+      height: 65
+    spriteID: 12498725e28c54142bf40d33d93be315
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 734}
+  - name: shadowfang king character_Frame_74
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 807
+      width: 59
+      height: 65
+    spriteID: 191917a5f582390458fed4ebf97f0fdc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 807}
+  - name: shadowfang king character_Frame_75
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 880
+      width: 59
+      height: 65
+    spriteID: 7fd118c0aaf228040a993d0ab8c5684c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 880}
+  - name: shadowfang king character_Frame_76
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 953
+      width: 59
+      height: 65
+    spriteID: 1f76fd76cb3a77941bb8c59e74beac44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 953}
+  - name: shadowfang king character_Frame_77
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 4
+      width: 59
+      height: 65
+    spriteID: d5225d0fe5c100b43856d1a3a72b2807
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 4}
+  - name: shadowfang king character_Frame_78
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 77
+      width: 59
+      height: 65
+    spriteID: e8e45df7857d42a44bd66938fd6b1601
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 77}
+  - name: shadowfang king character_Frame_79
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 150
+      width: 59
+      height: 65
+    spriteID: 2d58e835981005f45a81692c225f15f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 150}
+  - name: shadowfang king character_Frame_80
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 223
+      width: 59
+      height: 65
+    spriteID: 54d0136f38a29234dbed6a4a2bcc1bb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 223}
+  - name: shadowfang king character_Frame_81
+    originalName: 
+    pivot: {x: 0.53571427, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 219
+      width: 56
+      height: 63
+    spriteID: c8c657969fd52f54cb56fbb6a28f1e2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 219}
+  - name: shadowfang king character_Frame_82
+    originalName: 
+    pivot: {x: 0.53571427, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 290
+      width: 56
+      height: 63
+    spriteID: bd9f92bfddebddb44975697171660e95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 290}
+  - name: shadowfang king character_Frame_83
+    originalName: 
+    pivot: {x: 0.53571427, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 361
+      width: 56
+      height: 63
+    spriteID: 65e2e8709d644c14ba0995d32cc371cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 361}
+  - name: shadowfang king character_Frame_84
+    originalName: 
+    pivot: {x: 0.53571427, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 432
+      width: 56
+      height: 63
+    spriteID: 13fd8e28a7abc4d4d99f0bdd9b821b23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 432}
+  - name: shadowfang king character_Frame_85
+    originalName: 
+    pivot: {x: 0.5272727, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 4
+      width: 55
+      height: 63
+    spriteID: 7fddffd6625f67648b385002cb639111
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 4}
+  - name: shadowfang king character_Frame_86
+    originalName: 
+    pivot: {x: 0.5272727, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 75
+      width: 55
+      height: 63
+    spriteID: df26e779de29c9d47970adc0735fb58b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 75}
+  - name: shadowfang king character_Frame_87
+    originalName: 
+    pivot: {x: 0.5272727, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 146
+      width: 55
+      height: 63
+    spriteID: d99a434667ea1d345bce6ef9cbd556b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 146}
+  - name: shadowfang king character_Frame_88
+    originalName: 
+    pivot: {x: 0.5272727, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 217
+      width: 55
+      height: 63
+    spriteID: bde73d7b2dc88f544a315256e356e015
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 217}
+  - name: shadowfang king character_Frame_89
+    originalName: 
+    pivot: {x: 0.53571427, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 503
+      width: 56
+      height: 63
+    spriteID: e6da9353be0c5e24bb32f71e669f208e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 503}
+  - name: shadowfang king character_Frame_90
+    originalName: 
+    pivot: {x: 0.55172414, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 532
+      width: 58
+      height: 63
+    spriteID: a59ae98e0f6e60b41bfeeb747e429c7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 532}
+  - name: shadowfang king character_Frame_91
+    originalName: 
+    pivot: {x: 0.5272727, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 288
+      width: 55
+      height: 63
+    spriteID: c57e18f366589e1459f7164c446112e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 288}
+  - name: shadowfang king character_Frame_92
+    originalName: 
+    pivot: {x: 0.5272727, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 359
+      width: 55
+      height: 63
+    spriteID: a81e15340184fb84286ec4b6e4eaef29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 359}
+  - name: shadowfang king character_Frame_93
+    originalName: 
+    pivot: {x: 0.53571427, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 574
+      width: 56
+      height: 63
+    spriteID: a7441b111c9171542a7ef4c5bc7ed76d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 574}
+  - name: shadowfang king character_Frame_94
+    originalName: 
+    pivot: {x: 0.5272727, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 430
+      width: 55
+      height: 63
+    spriteID: 1b3ec431bdc44ac48a01bf5d43d43ec4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 430}
+  - name: shadowfang king character_Frame_95
+    originalName: 
+    pivot: {x: 0.5272727, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 501
+      width: 55
+      height: 63
+    spriteID: ff2541a49dc3da243bf18b118507cd7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 501}
+  - name: shadowfang king character_Frame_96
+    originalName: 
+    pivot: {x: 0.4901961, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 148
+      width: 51
+      height: 63
+    spriteID: d6a66483cf782ce4ab708d274d98d656
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 148}
+  - name: shadowfang king character_Frame_97
+    originalName: 
+    pivot: {x: 0.4901961, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 219
+      width: 51
+      height: 63
+    spriteID: 5ec0671baa1adee4caba6281f5d53776
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 219}
+  - name: shadowfang king character_Frame_98
+    originalName: 
+    pivot: {x: 0.4901961, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 290
+      width: 51
+      height: 63
+    spriteID: 124899559983dc1459c5b08f2693089d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 290}
+  - name: shadowfang king character_Frame_105
+    originalName: 
+    pivot: {x: 0.5084746, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 296
+      width: 59
+      height: 65
+    spriteID: 4fdf9c47feaa1b54daef84841f717451
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 296}
+  - name: shadowfang king character_Frame_0
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 442
+      width: 45
+      height: 82
+    spriteID: 9dcc91d5f1960b542980dd3b6e4b8e07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 442}
+  - name: shadowfang king character_Frame_11
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 240
+      width: 45
+      height: 48
+    spriteID: 226a25206e074af4b9d384083abd3a50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 240}
+  - name: shadowfang king character_Frame_12
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 296
+      width: 45
+      height: 48
+    spriteID: e0b89569dd33b2a45a1410efcb86fb77
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 296}
+  - name: shadowfang king character_Frame_13
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 352
+      width: 45
+      height: 48
+    spriteID: 4dfb59244bda4d44a982148e13048f25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 352}
+  - name: shadowfang king character_Frame_14
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 267
+      width: 39
+      height: 51
+    spriteID: f4da07876fced7d40a120620dd2f8976
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 267}
+  - name: shadowfang king character_Frame_15
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 408
+      width: 45
+      height: 48
+    spriteID: 169898f8cece29b40a5f941f94034f37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 408}
+  - name: shadowfang king character_Frame_16
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 326
+      width: 39
+      height: 51
+    spriteID: 388231f25ef7d414d9dc2632937297b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 326}
+  - name: shadowfang king character_Frame_17
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 385
+      width: 39
+      height: 51
+    spriteID: 8cc75ae3440b3e840a9e7e0f2d905ca8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 385}
+  - name: shadowfang king character_Frame_18
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 444
+      width: 39
+      height: 51
+    spriteID: 05532c70bdda8604781460182a6afbbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 444}
+  - name: shadowfang king character_Frame_19
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 503
+      width: 39
+      height: 51
+    spriteID: c476f65be2936bc44b459721a3a05266
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 503}
+  - name: shadowfang king character_Frame_20
+    originalName: 
+    pivot: {x: 0.41463417, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 938
+      width: 41
+      height: 57
+    spriteID: 4e0922f2bb98b5c49b5baac91d8c08d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 938}
+  - name: shadowfang king character_Frame_21
+    originalName: 
+    pivot: {x: 0.41463417, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 692
+      width: 41
+      height: 58
+    spriteID: 96171977a3db2c243b815a770b2d4fa5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 692}
+  - name: shadowfang king character_Frame_22
+    originalName: 
+    pivot: {x: 0.4909091, y: -3.818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 1009
+      width: 55
+      height: 11
+    spriteID: 79c211b47582cbd43aaeccf37751f5bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 1009}
+  - name: shadowfang king character_Frame_28
+    originalName: 
+    pivot: {x: 0.4736842, y: -3.818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 974
+      width: 19
+      height: 11
+    spriteID: c02f318086d2cdb448e94b5a652de7e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 974}
+  - name: shadowfang king character_Frame_59
+    originalName: 
+    pivot: {x: 0.6326531, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 433
+      width: 49
+      height: 58
+    spriteID: 85dd2c03b4b85cf4493228087e43e633
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 433}
+  - name: shadowfang king character_Frame_60
+    originalName: 
+    pivot: {x: 0.6326531, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 499
+      width: 49
+      height: 58
+    spriteID: d0300801d8ff1984bab05da5ed87f488
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 499}
+  - name: shadowfang king character_Frame_61
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 565
+      width: 48
+      height: 58
+    spriteID: c9d747f92c5f5fd4f900c191bd69e27f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 565}
+  - name: shadowfang king character_Frame_62
+    originalName: 
+    pivot: {x: 0.47222227, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 859
+      width: 36
+      height: 58
+    spriteID: b9f968c05538e1c4594b2a39eea53e8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 859}
+  - name: shadowfang king character_Frame_63
+    originalName: 
+    pivot: {x: 0.48387095, y: -3.909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 974
+      width: 31
+      height: 11
+    spriteID: 4327e7557f2a3ce498f97914c9859830
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 974}
+  - name: shadowfang king character_Frame_99
+    originalName: 
+    pivot: {x: 0.50000006, y: -3.909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 991
+      width: 34
+      height: 11
+    spriteID: 476f921cb819e054f9c7e9b839cd64e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 991}
+  - name: shadowfang king character_Frame_100
+    originalName: 
+    pivot: {x: 0.47222227, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 925
+      width: 36
+      height: 58
+    spriteID: 1ed43bc43a3e85f439aca3af30ea1d74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 925}
+  - name: shadowfang king character_Frame_101
+    originalName: 
+    pivot: {x: 0.47222227, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 69
+      width: 36
+      height: 58
+    spriteID: f05ef5135d6f2384db23e5e9a818856d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 69}
+  - name: shadowfang king character_Frame_102
+    originalName: 
+    pivot: {x: 0.47222227, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 135
+      width: 36
+      height: 58
+    spriteID: 1851169ea91adc4468b5e6c2f6541b3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 135}
+  - name: shadowfang king character_Frame_103
+    originalName: 
+    pivot: {x: 0.47222227, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 201
+      width: 36
+      height: 58
+    spriteID: 39ace5b28ce3fff458471b92883b2f3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 201}
+  - name: shadowfang king character_Frame_104
+    originalName: 
+    pivot: {x: 0.49999994, y: -3.909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 1003
+      width: 38
+      height: 11
+    spriteID: 00e855d1ca729e64d933bf9779a9e301
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 1003}
+  - name: shadowfang king character_Frame_111
+    originalName: 
+    pivot: {x: 0.42857146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 800
+      width: 42
+      height: 51
+    spriteID: 5bfcc145817a4ec4392217590f32f3d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 800}
+  - name: shadowfang king character_Frame_112
+    originalName: 
+    pivot: {x: 0.4615385, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 562
+      width: 39
+      height: 51
+    spriteID: 6e2be94dbc8de8541838ce4985f89d36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 562}
+  - name: shadowfang king character_Frame_113
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 4
+      width: 45
+      height: 51
+    spriteID: d2ff26af0dbfd7548961794b59dc5994
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 4}
+  - name: shadowfang king character_Frame_114
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 63
+      width: 45
+      height: 51
+    spriteID: bcfb03a46f11b1444abb1360506ad70c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 63}
+  - name: shadowfang king character_Frame_115
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 122
+      width: 45
+      height: 51
+    spriteID: 2610aa96c4084d849b6a5f45a1adb051
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 122}
+  - name: shadowfang king character_Frame_116
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 181
+      width: 45
+      height: 51
+    spriteID: 4c91bb108124d84448842272762d6e03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 181}
+  - name: shadowfang king character_Frame_117
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 464
+      width: 45
+      height: 48
+    spriteID: 713bf473f46ec0b4f8296c7bc3e2b9b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 464}
+  - name: shadowfang king character_Frame_118
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 520
+      width: 45
+      height: 48
+    spriteID: f6b441414c6ba754c92c8e4fd6f7a2c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 520}
+  - name: shadowfang king character_Frame_119
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 576
+      width: 45
+      height: 48
+    spriteID: b3b2f63e6f2bf0447ac6d81b174516e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 576}
+  - name: shadowfang king character_Frame_120
+    originalName: 
+    pivot: {x: 0.5, y: -3.818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 993
+      width: 30
+      height: 11
+    spriteID: 67132fe43079f634cbd6d92ded584b8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 993}
+  - name: shadowfang king character_Frame_1
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 572
+      width: 45
+      height: 74
+    spriteID: 3d9088e385aacb241ae0febcfb3456eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 337, y: 572}
+  - name: shadowfang king character_Frame_2
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 361
+      width: 45
+      height: 64
+    spriteID: 685103a3bb3da6e45be2e341d12a7e7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 361}
+  - name: shadowfang king character_Frame_3
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 963
+      width: 45
+      height: 55
+    spriteID: d248042711318d84aaa02171882616c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 963}
+  - name: shadowfang king character_Frame_4
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 758
+      width: 45
+      height: 52
+    spriteID: 64ce0b4945329ef43b2d6b12c4a61641
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 758}
+  - name: shadowfang king character_Frame_5
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 631
+      width: 45
+      height: 53
+    spriteID: de59ac98cc40e4c42baec67d358b4c1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 631}
+  - name: shadowfang king character_Frame_6
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 818
+      width: 45
+      height: 52
+    spriteID: e459ef5e51692614ea25c61b70d00a4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 818}
+  - name: shadowfang king character_Frame_7
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 878
+      width: 45
+      height: 52
+    spriteID: ccf642b816c9fda4c96e7fb3a4198718
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 275, y: 878}
+  - name: shadowfang king character_Frame_8
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 632
+      width: 45
+      height: 48
+    spriteID: 3640df7f549c7054ba49b225d507ce9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 632}
+  - name: shadowfang king character_Frame_9
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 688
+      width: 45
+      height: 48
+    spriteID: 053ed94653441354886de06f30c8d0fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 688}
+  - name: shadowfang king character_Frame_10
+    originalName: 
+    pivot: {x: 0.40000004, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 449
+      y: 744
+      width: 45
+      height: 48
+    spriteID: 5555872b7c125d54980b4acc2af90eb5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 449, y: 744}
+  - name: shadowfang king character_Frame_106
+    originalName: 
+    pivot: {x: 0.41463417, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 4
+      width: 41
+      height: 57
+    spriteID: 811208ee74f124a4f905df0deb329e3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 4}
+  - name: shadowfang king character_Frame_107
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 621
+      width: 39
+      height: 51
+    spriteID: c03691c6f3a015a4891ff84b6cb047c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 621}
+  - name: shadowfang king character_Frame_108
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 680
+      width: 39
+      height: 51
+    spriteID: 9fe888e81f4bcae48800489baf722c76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 680}
+  - name: shadowfang king character_Frame_109
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 739
+      width: 39
+      height: 51
+    spriteID: 270ba7c050b2fb442b72c8dd75a7a453
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 739}
+  - name: shadowfang king character_Frame_110
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 798
+      width: 39
+      height: 51
+    spriteID: 8901ea3e2526a6a4babeeadcde61c476
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 798}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1598116288
+    name: shadowfang king character
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: shadowfang king character_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 9283265412d255145927f208508f8fe5
+    - name: shadowfang king character_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 96a9045842942e24cb8527d328955aff
+    - name: shadowfang king character_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 57
+        height: 64
+      spriteId: 7e25c3697f754104b8f4d58342435748
+    - name: shadowfang king character_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 0
+        width: 54
+        height: 65
+      spriteId: 8a0cc344cdb3000478924b73a81d1d32
+    - name: shadowfang king character_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 51
+        height: 63
+      spriteId: dcd3be509521f3c4e9970803e7e580ff
+    - name: shadowfang king character_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 1c2d528b3a98d75448d37b5c933bfb59
+    - name: shadowfang king character_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 4e60f35b6f9e2cc44849fb85cb4ea865
+    - name: shadowfang king character_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 57
+        height: 64
+      spriteId: b5895b80879c86e47a0f6c1dfbb4416d
+    - name: shadowfang king character_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 0
+        width: 54
+        height: 65
+      spriteId: daedceb6c8b956243963ccbf079637cf
+    - name: shadowfang king character_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 51
+        height: 63
+      spriteId: 1907d43d6195f1144aee7c535adf5b94
+    - name: shadowfang king character_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 662d0ff543cf56543a13d99a96772002
+    - name: shadowfang king character_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 5f7b04f3b053f034784852e2c5f87c24
+    - name: shadowfang king character_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 57
+        height: 64
+      spriteId: 7be102b3c2869d241a6b58506cd494bf
+    - name: shadowfang king character_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 0
+        width: 54
+        height: 65
+      spriteId: 053708de70cfd8e488848a1956826aba
+    - name: shadowfang king character_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 51
+        height: 63
+      spriteId: 52057f91e09b395438a797ad8dbd3b0b
+    - name: shadowfang king character_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 52f2a017eaccc6e4fb78b7966dec8fd3
+    - name: shadowfang king character_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 175c99223f2ae814db059b09bab36de7
+    - name: shadowfang king character_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 57
+        height: 64
+      spriteId: c2a9a01ba42d37e4e9d09edb89d5c04d
+    - name: shadowfang king character_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 0
+        width: 54
+        height: 65
+      spriteId: 7b102503a9481624baa248dfaad9da53
+    - name: shadowfang king character_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 51
+        height: 63
+      spriteId: 95d154291c7611745889e0d599bd1a37
+    - name: shadowfang king character_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 4a8e5ebf7ddf588418219d9768bef2ca
+    - name: shadowfang king character_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 0
+        width: 64
+        height: 68
+      spriteId: b8ce309c4b1f3c448a74124ad2486a54
+    - name: shadowfang king character_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 57
+        height: 64
+      spriteId: e38fbec105fcb8e4580b63786e3accb6
+    - name: shadowfang king character_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 0
+        width: 54
+        height: 65
+      spriteId: afbf1580ed434da46b84114bf20853da
+    - name: shadowfang king character_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 51
+        height: 63
+      spriteId: 92f0d02ee3b6ec04ea89f2ff8bd8bb76
+    - name: shadowfang king character_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 0a788868b6fc7e147b016c23b57abddf
+    - name: shadowfang king character_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 0
+        width: 64
+        height: 68
+      spriteId: a0f555a83109bba4aa33ea0f4c3072ba
+    - name: shadowfang king character_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 57
+        height: 64
+      spriteId: a164c6b48b942be40b7b7ea522891662
+    - name: shadowfang king character_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 0
+        width: 54
+        height: 65
+      spriteId: 98633cf7df70ec846bf9c139e94bf8e2
+    - name: shadowfang king character_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 51
+        height: 63
+      spriteId: 82bcdcda97eceda4b90861d5c6cbe453
+    - name: shadowfang king character_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: dced903121c99c54eb9e04182507a845
+    - name: shadowfang king character_Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 9c1e48160e178f54e995cbf81ec43442
+    - name: shadowfang king character_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 57
+        height: 64
+      spriteId: e01fbfe6e47236c44852f6b20a2ccb88
+    - name: shadowfang king character_Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 57
+        height: 65
+      spriteId: 2af388c6a086c534cabc0986215d11ad
+    - name: shadowfang king character_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 56
+        height: 63
+      spriteId: ed56370c22710924fbe8a3d07959eff9
+    - name: shadowfang king character_Frame_64
+      frameIndex: 64
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 7d29cf8af1d71854d9ee14a1ee4eb153
+    - name: shadowfang king character_Frame_65
+      frameIndex: 65
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 5586915651c661d458fe2e35d3ad96b4
+    - name: shadowfang king character_Frame_66
+      frameIndex: 66
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: bb0aad8f9d6b5ff4c820b87bcb2e426d
+    - name: shadowfang king character_Frame_67
+      frameIndex: 67
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 66800d658993af24dbb56852d301aec0
+    - name: shadowfang king character_Frame_68
+      frameIndex: 68
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 2aee52b694d7e5a458460b19e6514add
+    - name: shadowfang king character_Frame_69
+      frameIndex: 69
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 36a6850ceef3f9440aeda5b39ff4ebe4
+    - name: shadowfang king character_Frame_70
+      frameIndex: 70
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 45cf7de881e740843afca848767dcdab
+    - name: shadowfang king character_Frame_71
+      frameIndex: 71
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: c214847234fab6a4286845bb17320ab3
+    - name: shadowfang king character_Frame_72
+      frameIndex: 72
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: b7bbee243498b3d4d959acbefa2902e9
+    - name: shadowfang king character_Frame_73
+      frameIndex: 73
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 12498725e28c54142bf40d33d93be315
+    - name: shadowfang king character_Frame_74
+      frameIndex: 74
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 191917a5f582390458fed4ebf97f0fdc
+    - name: shadowfang king character_Frame_75
+      frameIndex: 75
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 7fd118c0aaf228040a993d0ab8c5684c
+    - name: shadowfang king character_Frame_76
+      frameIndex: 76
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 1f76fd76cb3a77941bb8c59e74beac44
+    - name: shadowfang king character_Frame_77
+      frameIndex: 77
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: d5225d0fe5c100b43856d1a3a72b2807
+    - name: shadowfang king character_Frame_78
+      frameIndex: 78
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: e8e45df7857d42a44bd66938fd6b1601
+    - name: shadowfang king character_Frame_79
+      frameIndex: 79
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 2d58e835981005f45a81692c225f15f8
+    - name: shadowfang king character_Frame_80
+      frameIndex: 80
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 54d0136f38a29234dbed6a4a2bcc1bb2
+    - name: shadowfang king character_Frame_81
+      frameIndex: 81
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 56
+        height: 63
+      spriteId: c8c657969fd52f54cb56fbb6a28f1e2c
+    - name: shadowfang king character_Frame_82
+      frameIndex: 82
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 56
+        height: 63
+      spriteId: bd9f92bfddebddb44975697171660e95
+    - name: shadowfang king character_Frame_83
+      frameIndex: 83
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 56
+        height: 63
+      spriteId: 65e2e8709d644c14ba0995d32cc371cb
+    - name: shadowfang king character_Frame_84
+      frameIndex: 84
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 56
+        height: 63
+      spriteId: 13fd8e28a7abc4d4d99f0bdd9b821b23
+    - name: shadowfang king character_Frame_85
+      frameIndex: 85
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 55
+        height: 63
+      spriteId: 7fddffd6625f67648b385002cb639111
+    - name: shadowfang king character_Frame_86
+      frameIndex: 86
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 55
+        height: 63
+      spriteId: df26e779de29c9d47970adc0735fb58b
+    - name: shadowfang king character_Frame_87
+      frameIndex: 87
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 55
+        height: 63
+      spriteId: d99a434667ea1d345bce6ef9cbd556b7
+    - name: shadowfang king character_Frame_88
+      frameIndex: 88
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 55
+        height: 63
+      spriteId: bde73d7b2dc88f544a315256e356e015
+    - name: shadowfang king character_Frame_89
+      frameIndex: 89
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 56
+        height: 63
+      spriteId: e6da9353be0c5e24bb32f71e669f208e
+    - name: shadowfang king character_Frame_90
+      frameIndex: 90
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 0
+        width: 58
+        height: 63
+      spriteId: a59ae98e0f6e60b41bfeeb747e429c7e
+    - name: shadowfang king character_Frame_91
+      frameIndex: 91
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 55
+        height: 63
+      spriteId: c57e18f366589e1459f7164c446112e3
+    - name: shadowfang king character_Frame_92
+      frameIndex: 92
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 55
+        height: 63
+      spriteId: a81e15340184fb84286ec4b6e4eaef29
+    - name: shadowfang king character_Frame_93
+      frameIndex: 93
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 56
+        height: 63
+      spriteId: a7441b111c9171542a7ef4c5bc7ed76d
+    - name: shadowfang king character_Frame_94
+      frameIndex: 94
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 55
+        height: 63
+      spriteId: 1b3ec431bdc44ac48a01bf5d43d43ec4
+    - name: shadowfang king character_Frame_95
+      frameIndex: 95
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 55
+        height: 63
+      spriteId: ff2541a49dc3da243bf18b118507cd7e
+    - name: shadowfang king character_Frame_96
+      frameIndex: 96
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 51
+        height: 63
+      spriteId: d6a66483cf782ce4ab708d274d98d656
+    - name: shadowfang king character_Frame_97
+      frameIndex: 97
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 51
+        height: 63
+      spriteId: 5ec0671baa1adee4caba6281f5d53776
+    - name: shadowfang king character_Frame_98
+      frameIndex: 98
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 51
+        height: 63
+      spriteId: 124899559983dc1459c5b08f2693089d
+    - name: shadowfang king character_Frame_105
+      frameIndex: 105
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 4fdf9c47feaa1b54daef84841f717451
+    - name: shadowfang king character_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 82
+      spriteId: 9dcc91d5f1960b542980dd3b6e4b8e07
+    - name: shadowfang king character_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 226a25206e074af4b9d384083abd3a50
+    - name: shadowfang king character_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 48
+      spriteId: e0b89569dd33b2a45a1410efcb86fb77
+    - name: shadowfang king character_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 4dfb59244bda4d44a982148e13048f25
+    - name: shadowfang king character_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 0
+        width: 39
+        height: 51
+      spriteId: f4da07876fced7d40a120620dd2f8976
+    - name: shadowfang king character_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 169898f8cece29b40a5f941f94034f37
+    - name: shadowfang king character_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 0
+        width: 39
+        height: 51
+      spriteId: 388231f25ef7d414d9dc2632937297b7
+    - name: shadowfang king character_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 0
+        width: 39
+        height: 51
+      spriteId: 8cc75ae3440b3e840a9e7e0f2d905ca8
+    - name: shadowfang king character_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 0
+        width: 39
+        height: 51
+      spriteId: 05532c70bdda8604781460182a6afbbd
+    - name: shadowfang king character_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 0
+        width: 39
+        height: 51
+      spriteId: c476f65be2936bc44b459721a3a05266
+    - name: shadowfang king character_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 0
+        width: 41
+        height: 57
+      spriteId: 4e0922f2bb98b5c49b5baac91d8c08d9
+    - name: shadowfang king character_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 0
+        width: 41
+        height: 58
+      spriteId: 96171977a3db2c243b815a770b2d4fa5
+    - name: shadowfang king character_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 42
+        width: 55
+        height: 11
+      spriteId: 79c211b47582cbd43aaeccf37751f5bf
+    - name: shadowfang king character_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 39
+        y: 42
+        width: 19
+        height: 11
+      spriteId: c02f318086d2cdb448e94b5a652de7e7
+    - name: shadowfang king character_Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 0
+        width: 49
+        height: 58
+      spriteId: 85dd2c03b4b85cf4493228087e43e633
+    - name: shadowfang king character_Frame_60
+      frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 0
+        width: 49
+        height: 58
+      spriteId: d0300801d8ff1984bab05da5ed87f488
+    - name: shadowfang king character_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 48
+        height: 58
+      spriteId: c9d747f92c5f5fd4f900c191bd69e27f
+    - name: shadowfang king character_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 0
+        width: 36
+        height: 58
+      spriteId: b9f968c05538e1c4594b2a39eea53e8a
+    - name: shadowfang king character_Frame_63
+      frameIndex: 63
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 43
+        width: 31
+        height: 11
+      spriteId: 4327e7557f2a3ce498f97914c9859830
+    - name: shadowfang king character_Frame_99
+      frameIndex: 99
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 43
+        width: 34
+        height: 11
+      spriteId: 476f921cb819e054f9c7e9b839cd64e5
+    - name: shadowfang king character_Frame_100
+      frameIndex: 100
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 0
+        width: 36
+        height: 58
+      spriteId: 1ed43bc43a3e85f439aca3af30ea1d74
+    - name: shadowfang king character_Frame_101
+      frameIndex: 101
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 0
+        width: 36
+        height: 58
+      spriteId: f05ef5135d6f2384db23e5e9a818856d
+    - name: shadowfang king character_Frame_102
+      frameIndex: 102
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 0
+        width: 36
+        height: 58
+      spriteId: 1851169ea91adc4468b5e6c2f6541b3d
+    - name: shadowfang king character_Frame_103
+      frameIndex: 103
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 0
+        width: 36
+        height: 58
+      spriteId: 39ace5b28ce3fff458471b92883b2f3c
+    - name: shadowfang king character_Frame_104
+      frameIndex: 104
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 43
+        width: 38
+        height: 11
+      spriteId: 00e855d1ca729e64d933bf9779a9e301
+    - name: shadowfang king character_Frame_111
+      frameIndex: 111
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 42
+        height: 51
+      spriteId: 5bfcc145817a4ec4392217590f32f3d6
+    - name: shadowfang king character_Frame_112
+      frameIndex: 112
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 39
+        height: 51
+      spriteId: 6e2be94dbc8de8541838ce4985f89d36
+    - name: shadowfang king character_Frame_113
+      frameIndex: 113
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 51
+      spriteId: d2ff26af0dbfd7548961794b59dc5994
+    - name: shadowfang king character_Frame_114
+      frameIndex: 114
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 51
+      spriteId: bcfb03a46f11b1444abb1360506ad70c
+    - name: shadowfang king character_Frame_115
+      frameIndex: 115
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 51
+      spriteId: 2610aa96c4084d849b6a5f45a1adb051
+    - name: shadowfang king character_Frame_116
+      frameIndex: 116
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 51
+      spriteId: 4c91bb108124d84448842272762d6e03
+    - name: shadowfang king character_Frame_117
+      frameIndex: 117
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 713bf473f46ec0b4f8296c7bc3e2b9b7
+    - name: shadowfang king character_Frame_118
+      frameIndex: 118
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 48
+      spriteId: f6b441414c6ba754c92c8e4fd6f7a2c2
+    - name: shadowfang king character_Frame_119
+      frameIndex: 119
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 48
+      spriteId: b3b2f63e6f2bf0447ac6d81b174516e6
+    - name: shadowfang king character_Frame_120
+      frameIndex: 120
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 42
+        width: 30
+        height: 11
+      spriteId: 67132fe43079f634cbd6d92ded584b8d
+    - name: shadowfang king character_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 74
+      spriteId: 3d9088e385aacb241ae0febcfb3456eb
+    - name: shadowfang king character_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 64
+      spriteId: 685103a3bb3da6e45be2e341d12a7e7c
+    - name: shadowfang king character_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 55
+      spriteId: d248042711318d84aaa02171882616c3
+    - name: shadowfang king character_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 52
+      spriteId: 64ce0b4945329ef43b2d6b12c4a61641
+    - name: shadowfang king character_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 53
+      spriteId: de59ac98cc40e4c42baec67d358b4c1a
+    - name: shadowfang king character_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 52
+      spriteId: e459ef5e51692614ea25c61b70d00a4e
+    - name: shadowfang king character_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 52
+      spriteId: ccf642b816c9fda4c96e7fb3a4198718
+    - name: shadowfang king character_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 3640df7f549c7054ba49b225d507ce9f
+    - name: shadowfang king character_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 053ed94653441354886de06f30c8d0fc
+    - name: shadowfang king character_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 5555872b7c125d54980b4acc2af90eb5
+    - name: shadowfang king character_Frame_106
+      frameIndex: 106
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 0
+        width: 41
+        height: 57
+      spriteId: 811208ee74f124a4f905df0deb329e3c
+    - name: shadowfang king character_Frame_107
+      frameIndex: 107
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 0
+        width: 39
+        height: 51
+      spriteId: c03691c6f3a015a4891ff84b6cb047c1
+    - name: shadowfang king character_Frame_108
+      frameIndex: 108
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 0
+        width: 39
+        height: 51
+      spriteId: 9fe888e81f4bcae48800489baf722c76
+    - name: shadowfang king character_Frame_109
+      frameIndex: 109
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 0
+        width: 39
+        height: 51
+      spriteId: 270ba7c050b2fb442b72c8dd75a7a453
+    - name: shadowfang king character_Frame_110
+      frameIndex: 110
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 0
+        width: 39
+        height: 51
+      spriteId: 8901ea3e2526a6a4babeeadcde61c476
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 96}

@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: 40966f22b23953c4e9698f5e72137dee
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 64
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638643458176665189
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: shadowfang skill effect_Frame_28
+    originalName: 
+    pivot: {x: 0.12962961, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 4
+      width: 54
+      height: 46
+    spriteID: 65b3bbb7361448849a5b46aeeb01cc92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 4}
+  - name: shadowfang skill effect_Frame_29
+    originalName: 
+    pivot: {x: 0.6190476, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 4
+      width: 42
+      height: 48
+    spriteID: 63cbe2b5f2a8ab7409f5276cc36bef53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 4}
+  - name: shadowfang skill effect_Frame_30
+    originalName: 
+    pivot: {x: 1.2, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 117
+      width: 30
+      height: 47
+    spriteID: 4d4426b881c58fa4c92aac44642254b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 117}
+  - name: shadowfang skill effect_Frame_31
+    originalName: 
+    pivot: {x: 2.0454545, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 63
+      width: 22
+      height: 41
+    spriteID: 0ebd4e336a23c8e4cb0fe9a772f006c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 63}
+  - name: shadowfang skill effect_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -3.909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 117
+      width: 70
+      height: 11
+    spriteID: 61857e85d11c70f48bf50eb69e976ead
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 117}
+  - name: shadowfang skill effect_Frame_52
+    originalName: 
+    pivot: {x: 0.48837212, y: -0.1521739}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 63
+      width: 43
+      height: 46
+    spriteID: 4b3d9e2a50aec8a4e8ec108b203708e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 63}
+  - name: shadowfang skill effect_Frame_53
+    originalName: 
+    pivot: {x: 0.4871795, y: -0.22500001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 63
+      width: 39
+      height: 40
+    spriteID: 63839ffe55677194ca3862c9e2198731
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 63}
+  - name: shadowfang skill effect_Frame_54
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.6296296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 63
+      width: 28
+      height: 27
+    spriteID: 2a5989d59697b404f9fd0e186ef61fbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 63}
+  - name: shadowfang skill effect_Frame_55
+    originalName: 
+    pivot: {x: 0.44000003, y: -0.826087}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 136
+      width: 25
+      height: 23
+    spriteID: 92539eda06a5f454fab72614a69a6597
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 136}
+  - name: shadowfang skill effect_Frame_56
+    originalName: 
+    pivot: {x: 0.3333334, y: -1.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 136
+      width: 15
+      height: 15
+    spriteID: f832425c5aa1b5b4891c6f33115e2a59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 136}
+  - name: shadowfang skill effect_Frame_57
+    originalName: 
+    pivot: {x: 0.3333334, y: -1.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 136
+      width: 15
+      height: 15
+    spriteID: ee4210bd96083c8429d590a5f2dd805b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 136}
+  - name: shadowfang skill effect_Frame_58
+    originalName: 
+    pivot: {x: 0.3333334, y: -1.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 136
+      width: 15
+      height: 15
+    spriteID: b9fcef10bcd09244d8f40c5a0dfa1f1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 208, y: 136}
+  - name: shadowfang skill effect_Frame_59
+    originalName: 
+    pivot: {x: 0.3333334, y: -1.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 231
+      y: 136
+      width: 15
+      height: 15
+    spriteID: 96afc7a5e67125f40a143a3077dc1502
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 231, y: 136}
+  - name: shadowfang skill effect_Frame_60
+    originalName: 
+    pivot: {x: 0.3333334, y: -1.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 172
+      width: 15
+      height: 15
+    spriteID: 2095ab57454942240814c88e77b9bc54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 172}
+  - name: shadowfang skill effect_Frame_61
+    originalName: 
+    pivot: {x: 0.45945945, y: -0.42105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 63
+      width: 37
+      height: 38
+    spriteID: f1943ca3696029044abef8c729bda356
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 102, y: 63}
+  - name: shadowfang skill effect_Frame_62
+    originalName: 
+    pivot: {x: 0.45714283, y: -0.4722222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 147
+      y: 63
+      width: 35
+      height: 36
+    spriteID: 67d5518649ac2cc4e8e6cf9f3644bae9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 147, y: 63}
+  - name: shadowfang skill effect_Frame_63
+    originalName: 
+    pivot: {x: 0.41176465, y: -1.4117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 136
+      width: 17
+      height: 17
+    spriteID: 4786924da29a2a64eb267c3b4c28022e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 136}
+  - name: shadowfang skill effect_Frame_64
+    originalName: 
+    pivot: {x: 0.41176465, y: -1.4117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 137
+      y: 136
+      width: 17
+      height: 17
+    spriteID: dc0f54590c7a50c4dbb3335e374c35fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 137, y: 136}
+  - name: shadowfang skill effect_Frame_65
+    originalName: 
+    pivot: {x: 0.3333334, y: -1.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 172
+      width: 15
+      height: 15
+    spriteID: 1fb9872cc953416468a7d16c0ee2192a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 172}
+  - name: shadowfang skill effect_Frame_66
+    originalName: 
+    pivot: {x: 0.3333334, y: -1.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 172
+      width: 15
+      height: 15
+    spriteID: 2f001f539291efe44917651bdff31c21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 172}
+  - name: shadowfang skill effect_Frame_67
+    originalName: 
+    pivot: {x: 0.44827583, y: -1.2631578}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 136
+      width: 29
+      height: 19
+    spriteID: d745f2483fca1a749912c5183a1c6dcd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 136}
+  - name: shadowfang skill effect_Frame_70
+    originalName: 
+    pivot: {x: 0.49315068, y: -3.909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 117
+      width: 73
+      height: 11
+    spriteID: c202ea7d831441d4799e7fc65cfd344e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 117}
+  - name: shadowfang skill effect_Frame_68
+    originalName: 
+    pivot: {x: 0.462963, y: -0.25490198}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 4
+      width: 54
+      height: 51
+    spriteID: d6ada3a3139bf0f46bb838a25bcf546f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 4}
+  - name: shadowfang skill effect_Frame_69
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.2745098}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 56
+      height: 51
+    spriteID: 03d3ac784cbe55042b8c633fbc98136f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1219510642
+    name: shadowfang skill effect
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: shadowfang skill effect_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 0
+        width: 54
+        height: 46
+      spriteId: 65b3bbb7361448849a5b46aeeb01cc92
+    - name: shadowfang skill effect_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 0
+        width: 42
+        height: 48
+      spriteId: 63cbe2b5f2a8ab7409f5276cc36bef53
+    - name: shadowfang skill effect_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 0
+        width: 30
+        height: 47
+      spriteId: 4d4426b881c58fa4c92aac44642254b7
+    - name: shadowfang skill effect_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 0
+        width: 22
+        height: 41
+      spriteId: 0ebd4e336a23c8e4cb0fe9a772f006c6
+    - name: shadowfang skill effect_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 13
+        y: 43
+        width: 70
+        height: 11
+      spriteId: 61857e85d11c70f48bf50eb69e976ead
+    - name: shadowfang skill effect_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 7
+        width: 43
+        height: 46
+      spriteId: 4b3d9e2a50aec8a4e8ec108b203708e6
+    - name: shadowfang skill effect_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 9
+        width: 39
+        height: 40
+      spriteId: 63839ffe55677194ca3862c9e2198731
+    - name: shadowfang skill effect_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 35
+        y: 17
+        width: 28
+        height: 27
+      spriteId: 2a5989d59697b404f9fd0e186ef61fbd
+    - name: shadowfang skill effect_Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 37
+        y: 19
+        width: 25
+        height: 23
+      spriteId: 92539eda06a5f454fab72614a69a6597
+    - name: shadowfang skill effect_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 24
+        width: 15
+        height: 15
+      spriteId: f832425c5aa1b5b4891c6f33115e2a59
+    - name: shadowfang skill effect_Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 24
+        width: 15
+        height: 15
+      spriteId: ee4210bd96083c8429d590a5f2dd805b
+    - name: shadowfang skill effect_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 24
+        width: 15
+        height: 15
+      spriteId: b9fcef10bcd09244d8f40c5a0dfa1f1e
+    - name: shadowfang skill effect_Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 24
+        width: 15
+        height: 15
+      spriteId: 96afc7a5e67125f40a143a3077dc1502
+    - name: shadowfang skill effect_Frame_60
+      frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 24
+        width: 15
+        height: 15
+      spriteId: 2095ab57454942240814c88e77b9bc54
+    - name: shadowfang skill effect_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 16
+        width: 37
+        height: 38
+      spriteId: f1943ca3696029044abef8c729bda356
+    - name: shadowfang skill effect_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 17
+        width: 35
+        height: 36
+      spriteId: 67d5518649ac2cc4e8e6cf9f3644bae9
+    - name: shadowfang skill effect_Frame_63
+      frameIndex: 63
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 24
+        width: 17
+        height: 17
+      spriteId: 4786924da29a2a64eb267c3b4c28022e
+    - name: shadowfang skill effect_Frame_64
+      frameIndex: 64
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 24
+        width: 17
+        height: 17
+      spriteId: dc0f54590c7a50c4dbb3335e374c35fa
+    - name: shadowfang skill effect_Frame_65
+      frameIndex: 65
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 24
+        width: 15
+        height: 15
+      spriteId: 1fb9872cc953416468a7d16c0ee2192a
+    - name: shadowfang skill effect_Frame_66
+      frameIndex: 66
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 24
+        width: 15
+        height: 15
+      spriteId: 2f001f539291efe44917651bdff31c21
+    - name: shadowfang skill effect_Frame_67
+      frameIndex: 67
+      additiveSortOrder: 0
+      cellRect:
+        x: 35
+        y: 24
+        width: 29
+        height: 19
+      spriteId: d745f2483fca1a749912c5183a1c6dcd
+    - name: shadowfang skill effect_Frame_70
+      frameIndex: 70
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 43
+        width: 73
+        height: 11
+      spriteId: c202ea7d831441d4799e7fc65cfd344e
+    - name: shadowfang skill effect_Frame_68
+      frameIndex: 68
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 13
+        width: 54
+        height: 51
+      spriteId: d6ada3a3139bf0f46bb838a25bcf546f
+    - name: shadowfang skill effect_Frame_69
+      frameIndex: 69
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 14
+        width: 56
+        height: 51
+      spriteId: 03d3ac784cbe55042b8c633fbc98136f
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 96}

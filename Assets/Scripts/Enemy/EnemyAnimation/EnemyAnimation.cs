@@ -6,7 +6,8 @@ using UnityEngine;
 public class EnemyAnimation : MonoBehaviour
 {
 	private static string ENEMYIDLE = "EnemyIdle";
-	private static string ENEMYATTACK = "EnemyAttack";
+	private static string ENEMYATTACK1 = "EnemyAttack";
+	private static string ENEMYATTACK2 = "EnemyAttack2";
 	private static string ENEMYDEATH = "EnemyDeath";
 	private static string ENEMYGETHIT = "EnemyGetHit";
 
@@ -36,7 +37,15 @@ public class EnemyAnimation : MonoBehaviour
 	}
 
 	public void EnemyAttackAnimation() {
-		animator.Play(ENEMYATTACK);
+		if (enemy.GetIsBoss()) {
+			if (enemy.GetCoroutineAttack()) {
+				animator.Play(ENEMYATTACK2);
+			} else {
+				animator.Play(ENEMYATTACK1);
+			}
+		} else {
+			animator.Play(ENEMYATTACK1);
+		}
     }
 
     private void EnemyIdleAnimation() {

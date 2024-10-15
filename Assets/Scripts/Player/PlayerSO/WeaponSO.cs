@@ -10,10 +10,10 @@ public class WeaponSO : ScriptableObject
     public Sprite image;
 
     [Header(" Elements ")]
-    public new string name;
-    public int damage;
-    public int price;
+    public string weaponName;
+    public int weaponDamage;
+    public int weaponPrice;
     [Space(10)]
-    public bool buyed;
-    public bool equip;
+    public bool weaponBuyed;
+    public bool weaponEquip;
 }

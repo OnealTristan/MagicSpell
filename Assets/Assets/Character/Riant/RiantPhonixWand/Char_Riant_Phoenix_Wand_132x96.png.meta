@@ -1,0 +1,1929 @@
+fileFormatVersion: 2
+guid: 7d245925e7b92eb439be9fc173643083
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1760a978f3c1343a6392e7a6755770
+      internalID: 2122847184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 864
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc5c027a1d8e5b4293b3b5d6fc4e553
+      internalID: -1064377451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 864
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4b4774f2ea6e44ebbc9074eb82de63
+      internalID: -2076725000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 864
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d2f6925ba89be44b96d50ddaba9f24
+      internalID: 763319297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 864
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055ea52f0d0e48242b888b11511f7961
+      internalID: 1773749215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0be503e03ceb741bea6afa83041806
+      internalID: 116689646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 768
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ea71d20f685654b8bd13e6d759cf5c
+      internalID: 1548582644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 768
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d6acac44f93674285fdc11d5868046
+      internalID: 1402322051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_8
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 768
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccd07828728e9b409c0af8b720dade9
+      internalID: 1765967527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_9
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 768
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58488818da7ec54ca1376e771e610aa
+      internalID: -271920678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d321de87de24bbb4db1d03b4eaed6b52
+      internalID: 1785118891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f997fcb3ac258a4da471333697e85bb
+      internalID: 1392932599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb67ea20346f07149b6713e9ee60389b
+      internalID: -1305519589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_13
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78aff0b8389655a4793f4909fa9cf6c8
+      internalID: -1075389812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbd4c6188ddec948bef9bc5ec50c3bc
+      internalID: -172107455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_15
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6ab96be2bcd774591d1e031ecdf3ec
+      internalID: -525534194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_16
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84882811cfc5f1f43af0d5fbf11f58c3
+      internalID: -683565788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_17
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 672
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2086f57bbdc294baf7d42282556143
+      internalID: -1385996816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f8bd0b0b028ad48b326a8cfe7eee0a
+      internalID: 1303707613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908222997cad1f545beaf6c38e2b6e0d
+      internalID: -697698981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d512b4c09627e534899ef83c66901207
+      internalID: -1522370162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_21
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9920351d0e777404a9d01ce3cce05e0a
+      internalID: 673183347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_22
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472b6dc50b26ae5439c47ed54b0a7733
+      internalID: -1662078241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_23
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c21188e3eece4944b94c178d507222f
+      internalID: -1395349569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_24
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9874fc6f67a81439ff4641bf9a8b14
+      internalID: 1769216236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_25
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f77657e976c5f749a225de3a78ca687
+      internalID: 1442049038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_26
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 576
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451a481411ac87141bfeddeca28568f3
+      internalID: -1813595190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9ee309927467142b2db4970d7d0ac6
+      internalID: 1506324789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_28
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb077e2ffbf1db4b85e8b402f52972b
+      internalID: 1054561928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6337146626a1c240bb2416008c1d9e9
+      internalID: 2146951104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_30
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526c494683b7ec749b7846642cc12727
+      internalID: -415523762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_31
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e68de1a03892914e86e897c763610c9
+      internalID: -1250470283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_32
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef8dc5bc2904ec439da4b411a8a9a89
+      internalID: -6676114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_33
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e43caee65c19d4b82f4b63a3a67d38
+      internalID: -2041089548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_34
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fbbd8b78c2d2c4a9c3d6352061ad32
+      internalID: 877743277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_35
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 480
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852fd887679786d4691540a5cf5d6866
+      internalID: 1029117788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4463b86657037cf41b7fdd20ba2e5236
+      internalID: -477454681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_37
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f1d9aa249b64a4e97ca86d4569daf1
+      internalID: -182625549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_38
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0759284aba9b4b44aba526f5e7a0444
+      internalID: -1518730520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_39
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03edf9a4434347459a1735ab09ce249
+      internalID: 671203156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_40
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd960bcb032f3df4ea6a3381b0b32321
+      internalID: 205104098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_41
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa4049d755bd9140b26e8f89405a48a
+      internalID: 909086032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_42
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99843b1c590f1c4bb039640281a7478
+      internalID: -1109738770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_43
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a712f1034af1fa7449e0b5cf19ea5247
+      internalID: -1469393901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_44
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 384
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382c5f10e392889468ff2e369d163d77
+      internalID: 149283134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78b83ef3b376a7428a9534a622094cf
+      internalID: -1890690075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_46
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca09d69dc44a68444a174ff6de11f336
+      internalID: 149587305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_47
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932b6b9eef57ff4409af0a9df3f83479
+      internalID: -2067586756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_48
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a7f477dfff38f4691ed1b389bb65f5
+      internalID: -1844686120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_49
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e45c9c416da824fac2662060cc2fce
+      internalID: 1225378857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_50
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52274d04e47b2f2449d480f05352ceb2
+      internalID: -1198931778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_51
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131854f11c9ca7940b23084357037499
+      internalID: -924664839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_52
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e10edc5dd6bbc46b4f65256dc75abc
+      internalID: -771049789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_53
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 288
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e5baeba6aa1894f891bc4505159b06
+      internalID: 507336446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e62187e67086b46aa9c39bdaafdb62
+      internalID: 1946905087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_55
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546feb8ff42e0f44bbc53e2698ff0c58
+      internalID: -901518880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_56
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44ca7c92db739e41b1e75f9c09269db
+      internalID: 2031873889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_57
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747caaf84a3e62748b12c771448162b9
+      internalID: -1556963637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_58
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f413a912f5e820f4588e2996e9659a92
+      internalID: -317380981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_59
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d590a97a309417439322d3ef7e612e6
+      internalID: 461727839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_60
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abfba5a7a56f424093bf60aed7da5f9
+      internalID: 1751921937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_61
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70d0729f46337349bb5b558c3568a07
+      internalID: 1405114076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_62
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4eb1714ab0c3a48aeb79036fc931b1
+      internalID: 325170512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_63
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a190e842a2e8346af2061fd32befdb
+      internalID: -1268909029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_64
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597363743a2a0de45b91bdf7960af79b
+      internalID: 1803133274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_65
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 192
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4597c7fb9cdb01468febd1c1be8e26c
+      internalID: -592766776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9483675d034e44c8efb2995666ffc8
+      internalID: 651033206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_67
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaee20c29a120547ae1ebe34fe2c12e
+      internalID: 290155489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_68
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae00389f7db4af4e86af5b55dbdb28e
+      internalID: 287820792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_69
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bc418bc69fb48438dece0cf385fef7
+      internalID: 1476236892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_70
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3969b86ae5eda2242b3f50a774ccbe99
+      internalID: 1106012348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_71
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508018eb5b2122f41b177be31506b08a
+      internalID: -502416256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_72
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c257bb36f28b24db0987618f20fb5c
+      internalID: -1990824060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_73
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e012af0c1994e244924f65eb20f2891
+      internalID: 588904493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_74
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c6dc1c1ffbbca49a6af7dd64c96bc2
+      internalID: -1525493583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_75
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 96
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8799b01a7fec43f40adda220f6bc8786
+      internalID: 958383560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f4816e50ed2a24296eb03d8bf0f0f2
+      internalID: -538954853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_77
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9070d1081701a7458c21bcfaa1f6767
+      internalID: -191887444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_78
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d944523b0db4834489b2a9824b2c1ac5
+      internalID: 2110811421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_79
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e179e9d28b327418c395e4b0e57221
+      internalID: -69576128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_Riant_Phoenix_Wand_132x96_80
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178d52f754151094382655e337ab541b
+      internalID: 1646737452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Char_Riant_Phoenix_Wand_132x96_63: -1268909029
+      Char_Riant_Phoenix_Wand_132x96_19: -697698981
+      Char_Riant_Phoenix_Wand_132x96_20: -1522370162
+      Char_Riant_Phoenix_Wand_132x96_71: -502416256
+      Char_Riant_Phoenix_Wand_132x96_10: 1785118891
+      Char_Riant_Phoenix_Wand_132x96_43: -1469393901
+      Char_Riant_Phoenix_Wand_132x96_7: 1402322051
+      Char_Riant_Phoenix_Wand_132x96_1: -1064377451
+      Char_Riant_Phoenix_Wand_132x96_66: 651033206
+      Char_Riant_Phoenix_Wand_132x96_42: -1109738770
+      Char_Riant_Phoenix_Wand_132x96_79: -69576128
+      Char_Riant_Phoenix_Wand_132x96_34: 877743277
+      Char_Riant_Phoenix_Wand_132x96_27: 1506324789
+      Char_Riant_Phoenix_Wand_132x96_60: 1751921937
+      Char_Riant_Phoenix_Wand_132x96_52: -771049789
+      Char_Riant_Phoenix_Wand_132x96_50: -1198931778
+      Char_Riant_Phoenix_Wand_132x96_75: 958383560
+      Char_Riant_Phoenix_Wand_132x96_33: -2041089548
+      Char_Riant_Phoenix_Wand_132x96_68: 287820792
+      Char_Riant_Phoenix_Wand_132x96_45: -1890690075
+      Char_Riant_Phoenix_Wand_132x96_5: 116689646
+      Char_Riant_Phoenix_Wand_132x96_32: -6676114
+      Char_Riant_Phoenix_Wand_132x96_40: 205104098
+      Char_Riant_Phoenix_Wand_132x96_12: -1305519589
+      Char_Riant_Phoenix_Wand_132x96_64: 1803133274
+      Char_Riant_Phoenix_Wand_132x96_65: -592766776
+      Char_Riant_Phoenix_Wand_132x96_6: 1548582644
+      Char_Riant_Phoenix_Wand_132x96_49: 1225378857
+      Char_Riant_Phoenix_Wand_132x96_47: -2067586756
+      Char_Riant_Phoenix_Wand_132x96_54: 1946905087
+      Char_Riant_Phoenix_Wand_132x96_61: 1405114076
+      Char_Riant_Phoenix_Wand_132x96_56: 2031873889
+      Char_Riant_Phoenix_Wand_132x96_2: -2076725000
+      Char_Riant_Phoenix_Wand_132x96_26: -1813595190
+      Char_Riant_Phoenix_Wand_132x96_57: -1556963637
+      Char_Riant_Phoenix_Wand_132x96_72: -1990824060
+      Char_Riant_Phoenix_Wand_132x96_36: -477454681
+      Char_Riant_Phoenix_Wand_132x96_51: -924664839
+      Char_Riant_Phoenix_Wand_132x96_73: 588904493
+      Char_Riant_Phoenix_Wand_132x96_46: 149587305
+      Char_Riant_Phoenix_Wand_132x96_78: 2110811421
+      Char_Riant_Phoenix_Wand_132x96_18: 1303707613
+      Char_Riant_Phoenix_Wand_132x96_0: 2122847184
+      Char_Riant_Phoenix_Wand_132x96_77: -191887444
+      Char_Riant_Phoenix_Wand_132x96_30: -415523762
+      Char_Riant_Phoenix_Wand_132x96_48: -1844686120
+      Char_Riant_Phoenix_Wand_132x96_53: 507336446
+      Char_Riant_Phoenix_Wand_132x96_55: -901518880
+      Char_Riant_Phoenix_Wand_132x96_80: 1646737452
+      Char_Riant_Phoenix_Wand_132x96_8: 1765967527
+      Char_Riant_Phoenix_Wand_132x96_9: -271920678
+      Char_Riant_Phoenix_Wand_132x96_39: 671203156
+      Char_Riant_Phoenix_Wand_132x96_38: -1518730520
+      Char_Riant_Phoenix_Wand_132x96_35: 1029117788
+      Char_Riant_Phoenix_Wand_132x96_24: 1769216236
+      Char_Riant_Phoenix_Wand_132x96_69: 1476236892
+      Char_Riant_Phoenix_Wand_132x96_4: 1773749215
+      Char_Riant_Phoenix_Wand_132x96_41: 909086032
+      Char_Riant_Phoenix_Wand_132x96_44: 149283134
+      Char_Riant_Phoenix_Wand_132x96_59: 461727839
+      Char_Riant_Phoenix_Wand_132x96_31: -1250470283
+      Char_Riant_Phoenix_Wand_132x96_3: 763319297
+      Char_Riant_Phoenix_Wand_132x96_11: 1392932599
+      Char_Riant_Phoenix_Wand_132x96_13: -1075389812
+      Char_Riant_Phoenix_Wand_132x96_15: -525534194
+      Char_Riant_Phoenix_Wand_132x96_17: -1385996816
+      Char_Riant_Phoenix_Wand_132x96_22: -1662078241
+      Char_Riant_Phoenix_Wand_132x96_29: 2146951104
+      Char_Riant_Phoenix_Wand_132x96_28: 1054561928
+      Char_Riant_Phoenix_Wand_132x96_58: -317380981
+      Char_Riant_Phoenix_Wand_132x96_70: 1106012348
+      Char_Riant_Phoenix_Wand_132x96_21: 673183347
+      Char_Riant_Phoenix_Wand_132x96_16: -683565788
+      Char_Riant_Phoenix_Wand_132x96_25: 1442049038
+      Char_Riant_Phoenix_Wand_132x96_14: -172107455
+      Char_Riant_Phoenix_Wand_132x96_74: -1525493583
+      Char_Riant_Phoenix_Wand_132x96_37: -182625549
+      Char_Riant_Phoenix_Wand_132x96_67: 290155489
+      Char_Riant_Phoenix_Wand_132x96_76: -538954853
+      Char_Riant_Phoenix_Wand_132x96_23: -1395349569
+      Char_Riant_Phoenix_Wand_132x96_62: 325170512
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

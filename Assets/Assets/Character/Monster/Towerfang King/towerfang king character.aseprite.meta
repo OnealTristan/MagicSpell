@@ -1,0 +1,2802 @@
+fileFormatVersion: 2
+guid: 61a47330828aa144d8fe672a1b2af011
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 64
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638643581001019518
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: towerfang king character_Frame_23
+    originalName: 
+    pivot: {x: 0.4406779, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 306
+      width: 59
+      height: 65
+    spriteID: ebd345a8507a22a449b70823ff436ef4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 306}
+  - name: towerfang king character_Frame_24
+    originalName: 
+    pivot: {x: 0.45312497, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 366
+      width: 64
+      height: 68
+    spriteID: 995a3e752e6cc6c4382c023386687aed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 366}
+  - name: towerfang king character_Frame_25
+    originalName: 
+    pivot: {x: 0.43859652, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 363
+      width: 57
+      height: 64
+    spriteID: a437ec78820929a4fbc1acc31a78dc32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 363}
+  - name: towerfang king character_Frame_26
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 146
+      width: 54
+      height: 65
+    spriteID: 5c4cf61febb1f4b4ea2756321e47d4ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 146}
+  - name: towerfang king character_Frame_27
+    originalName: 
+    pivot: {x: 0.4117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 941
+      width: 51
+      height: 63
+    spriteID: 3e19987e815d5ae4fa72c669b3aba299
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 941}
+  - name: towerfang king character_Frame_29
+    originalName: 
+    pivot: {x: 0.4406779, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 379
+      width: 59
+      height: 65
+    spriteID: b7b3c54480db9d740beaac0f0416aae5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 379}
+  - name: towerfang king character_Frame_30
+    originalName: 
+    pivot: {x: 0.45312497, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 442
+      width: 64
+      height: 68
+    spriteID: c64ca1c155b44484692d5b82875083ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 442}
+  - name: towerfang king character_Frame_31
+    originalName: 
+    pivot: {x: 0.43859652, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 435
+      width: 57
+      height: 64
+    spriteID: 6182030630e2793488553c4e3219f4c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 435}
+  - name: towerfang king character_Frame_32
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 219
+      width: 54
+      height: 65
+    spriteID: b7c3a3ebf6191ae43af5f546d548cfed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 219}
+  - name: towerfang king character_Frame_33
+    originalName: 
+    pivot: {x: 0.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 584
+      width: 55
+      height: 63
+    spriteID: 8bf70cc94164a5f439fd37fd6dd65ba1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 584}
+  - name: towerfang king character_Frame_34
+    originalName: 
+    pivot: {x: 0.4406779, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 452
+      width: 59
+      height: 65
+    spriteID: c87be905bb2a627449fa659f05f855c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 452}
+  - name: towerfang king character_Frame_35
+    originalName: 
+    pivot: {x: 0.45312497, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 518
+      width: 64
+      height: 68
+    spriteID: 1cc0b31325bee8644b418542857634f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 518}
+  - name: towerfang king character_Frame_36
+    originalName: 
+    pivot: {x: 0.43859652, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 507
+      width: 57
+      height: 64
+    spriteID: def1f7a199ac1ac47a82ee731e8490d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 507}
+  - name: towerfang king character_Frame_37
+    originalName: 
+    pivot: {x: 0.4464286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 867
+      width: 56
+      height: 65
+    spriteID: 95fc2d5000dab3c42b4b2016b8470755
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 867}
+  - name: towerfang king character_Frame_38
+    originalName: 
+    pivot: {x: 0.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 655
+      width: 55
+      height: 63
+    spriteID: 7bf530348fc946d4fb80bb0a4a1d36f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 655}
+  - name: towerfang king character_Frame_39
+    originalName: 
+    pivot: {x: 0.4406779, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 525
+      width: 59
+      height: 65
+    spriteID: 911a6ab1b05d2d8458a396e5097c0fe0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 525}
+  - name: towerfang king character_Frame_40
+    originalName: 
+    pivot: {x: 0.45312497, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 594
+      width: 64
+      height: 68
+    spriteID: f8c594ca33bf4bb49a9d52933fd48d69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 594}
+  - name: towerfang king character_Frame_41
+    originalName: 
+    pivot: {x: 0.3787879, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 148
+      width: 66
+      height: 64
+    spriteID: 204ee63cc9bd12040a6cb2213cbd7760
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 148}
+  - name: towerfang king character_Frame_42
+    originalName: 
+    pivot: {x: 0.38461542, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 75
+      width: 65
+      height: 65
+    spriteID: c0c2fa7681a36ff42a9e91f452d30358
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 75}
+  - name: towerfang king character_Frame_43
+    originalName: 
+    pivot: {x: 0.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 726
+      width: 55
+      height: 63
+    spriteID: ce8141c022c3a9d4183c5d2e6742eacd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 726}
+  - name: towerfang king character_Frame_44
+    originalName: 
+    pivot: {x: 0.4406779, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 598
+      width: 59
+      height: 65
+    spriteID: c8fdffcb94c56f549815ec0002f7d376
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 598}
+  - name: towerfang king character_Frame_45
+    originalName: 
+    pivot: {x: 0.45312497, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 670
+      width: 64
+      height: 68
+    spriteID: 3bbe353d6da02b94bba26a6b88f9f9c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 670}
+  - name: towerfang king character_Frame_46
+    originalName: 
+    pivot: {x: 0.43859652, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 579
+      width: 57
+      height: 64
+    spriteID: 9efe40e8a3746c14ea22a36ca155f548
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 579}
+  - name: towerfang king character_Frame_47
+    originalName: 
+    pivot: {x: 0.4464286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 940
+      width: 56
+      height: 65
+    spriteID: 2b21dd27d6f57a1478ebe112694bd673
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 940}
+  - name: towerfang king character_Frame_48
+    originalName: 
+    pivot: {x: 0.55223876, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 220
+      width: 67
+      height: 63
+    spriteID: a7f4dfe910d23074ca2145d535d8b8e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 220}
+  - name: towerfang king character_Frame_49
+    originalName: 
+    pivot: {x: 0.4406779, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 671
+      width: 59
+      height: 65
+    spriteID: e1cb4d3dedcc9564b8fcfe45919a5f65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 671}
+  - name: towerfang king character_Frame_50
+    originalName: 
+    pivot: {x: 0.45312497, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 746
+      width: 64
+      height: 68
+    spriteID: 335c6052c763e0f44aafa63f2d08dc26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 746}
+  - name: towerfang king character_Frame_51
+    originalName: 
+    pivot: {x: 0.43859652, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 651
+      width: 57
+      height: 64
+    spriteID: f7d478323359f014aa2eb39d390c8610
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 651}
+  - name: towerfang king character_Frame_52
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 292
+      width: 54
+      height: 65
+    spriteID: d8383b8309963c540a4848cfe8d1e469
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 292}
+  - name: towerfang king character_Frame_54
+    originalName: 
+    pivot: {x: 0.4406779, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 744
+      width: 59
+      height: 65
+    spriteID: 3b9a75ae0c262bf4984d42b0e7b4a77f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 744}
+  - name: towerfang king character_Frame_55
+    originalName: 
+    pivot: {x: 0.45312497, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 822
+      width: 64
+      height: 68
+    spriteID: 2cb88fe0d5d92534f9d95c221e5ed08e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 822}
+  - name: towerfang king character_Frame_56
+    originalName: 
+    pivot: {x: 0.43859652, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 723
+      width: 57
+      height: 64
+    spriteID: 43f39c4d9daf29a4297f594ca057406b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 723}
+  - name: towerfang king character_Frame_57
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 365
+      width: 54
+      height: 65
+    spriteID: 2e698c16bcf1caf469c769f52bd59d84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 365}
+  - name: towerfang king character_Frame_58
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 295
+      width: 70
+      height: 63
+    spriteID: ae0c9261b928c844c98fb9498d41bb6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 295}
+  - name: towerfang king character_Frame_59
+    originalName: 
+    pivot: {x: 0.56, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 76
+      width: 75
+      height: 65
+    spriteID: e21a59883a0657d4b8d887379aad4ec1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 76}
+  - name: towerfang king character_Frame_60
+    originalName: 
+    pivot: {x: 0.45312497, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 898
+      width: 64
+      height: 68
+    spriteID: 43a2e1f45e9854f46b38a500287f7635
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 898}
+  - name: towerfang king character_Frame_61
+    originalName: 
+    pivot: {x: 0.58441556, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 77
+      height: 64
+    spriteID: 9391fa1036fbe9040b448f74dfcf8075
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: towerfang king character_Frame_62
+    originalName: 
+    pivot: {x: 0.5507247, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 222
+      width: 69
+      height: 65
+    spriteID: 464ef6b230de32f42b4576fcb3f37200
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 222}
+  - name: towerfang king character_Frame_63
+    originalName: 
+    pivot: {x: 0.5588236, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 4
+      width: 68
+      height: 63
+    spriteID: 813ceb97d7d0eb442b22a44cacabec2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 4}
+  - name: towerfang king character_Frame_64
+    originalName: 
+    pivot: {x: 0.53521127, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 149
+      width: 71
+      height: 65
+    spriteID: 7da726d0a98b69543b53b84cd13f0924
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 149}
+  - name: towerfang king character_Frame_65
+    originalName: 
+    pivot: {x: 0.45312497, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 4
+      width: 64
+      height: 68
+    spriteID: 5d7da675204963242a928039f9b6b196
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 4}
+  - name: towerfang king character_Frame_66
+    originalName: 
+    pivot: {x: 0.43859652, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 795
+      width: 57
+      height: 64
+    spriteID: f610f0eb8ae9cce41906ce6335e7db16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 795}
+  - name: towerfang king character_Frame_67
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 438
+      width: 54
+      height: 65
+    spriteID: b951510565b5a3b4591a79eb54f2632f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 438}
+  - name: towerfang king character_Frame_68
+    originalName: 
+    pivot: {x: 0.4117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 4
+      width: 51
+      height: 63
+    spriteID: 230f217e51688c84ba8de48e8f7dd541
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 4}
+  - name: towerfang king character_Frame_70
+    originalName: 
+    pivot: {x: 0.4406779, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 817
+      width: 59
+      height: 65
+    spriteID: 2b141e6e028b2cd45a4af756eff6e486
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 817}
+  - name: towerfang king character_Frame_71
+    originalName: 
+    pivot: {x: 0.45312497, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 80
+      width: 64
+      height: 68
+    spriteID: 5f748f32cc5412a41a792d697e87b1df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 80}
+  - name: towerfang king character_Frame_73
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 511
+      width: 54
+      height: 65
+    spriteID: 08417b48acf659e4990c0fc47f772622
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 511}
+  - name: towerfang king character_Frame_76
+    originalName: 
+    pivot: {x: 0.4406779, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 890
+      width: 59
+      height: 64
+    spriteID: 677b10c6836fab040a14b384d1b1167f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 890}
+  - name: towerfang king character_Frame_77
+    originalName: 
+    pivot: {x: 0.45312497, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 156
+      width: 64
+      height: 67
+    spriteID: 791711f2c18fb334faf00f4bfd8bfbb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 156}
+  - name: towerfang king character_Frame_78
+    originalName: 
+    pivot: {x: 0.43859652, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 4
+      width: 57
+      height: 63
+    spriteID: 019bd7388c42c74439e4740983dab39f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 4}
+  - name: towerfang king character_Frame_79
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 797
+      width: 54
+      height: 64
+    spriteID: 6b1acfa9afd137149a865107c389fdb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 797}
+  - name: towerfang king character_Frame_80
+    originalName: 
+    pivot: {x: 0.4117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 75
+      width: 51
+      height: 62
+    spriteID: 7ebfadf4a922b0d48ad368ed763d9612
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 75}
+  - name: towerfang king character_Frame_81
+    originalName: 
+    pivot: {x: 0.4406779, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 291
+      width: 59
+      height: 64
+    spriteID: 9d2bf169cab55764abc031f6ba02c661
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 291}
+  - name: towerfang king character_Frame_82
+    originalName: 
+    pivot: {x: 0.45312497, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 231
+      width: 64
+      height: 67
+    spriteID: e4150c3254bc41247bab418f34d932d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 231}
+  - name: towerfang king character_Frame_83
+    originalName: 
+    pivot: {x: 0.43859652, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 75
+      width: 57
+      height: 63
+    spriteID: c5efcd42ff25d3e4f991c8ae7626c9ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 75}
+  - name: towerfang king character_Frame_84
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 869
+      width: 54
+      height: 64
+    spriteID: 892352c56bf27c049ab7984b05603bfe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 869}
+  - name: towerfang king character_Frame_85
+    originalName: 
+    pivot: {x: 0.4117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 145
+      width: 51
+      height: 62
+    spriteID: 3b9d76fcae09cdb4283e60c22d8e4395
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 145}
+  - name: towerfang king character_Frame_0
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 290
+      width: 45
+      height: 64
+    spriteID: 177eba3a280dd6a4fbc6c38711baaf60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 290}
+  - name: towerfang king character_Frame_10
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 876
+      width: 45
+      height: 48
+    spriteID: ca32c925421ab9046b50906c845c1b48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 876}
+  - name: towerfang king character_Frame_11
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 932
+      width: 45
+      height: 48
+    spriteID: b14d568b77d7bb9429b842b86ea58e1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 932}
+  - name: towerfang king character_Frame_12
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 4
+      width: 45
+      height: 48
+    spriteID: b16812b634d4d194785ef9b5adcd79cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 4}
+  - name: towerfang king character_Frame_13
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 60
+      width: 45
+      height: 48
+    spriteID: 61b2520d3502ef346a1a9105904eaabd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 60}
+  - name: towerfang king character_Frame_14
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 116
+      width: 45
+      height: 48
+    spriteID: 88a1d547e10b8ce43a824e7834d0cbfc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 116}
+  - name: towerfang king character_Frame_15
+    originalName: 
+    pivot: {x: 0.42105258, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 576
+      width: 38
+      height: 53
+    spriteID: 6b547fe05236e23449e6a804220b0403
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 576}
+  - name: towerfang king character_Frame_16
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 172
+      width: 45
+      height: 48
+    spriteID: 142b69bae7cf6544d96612daeaaee62e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 172}
+  - name: towerfang king character_Frame_17
+    originalName: 
+    pivot: {x: 0.42105258, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 637
+      width: 38
+      height: 53
+    spriteID: 80e8a4384e5d56d4f9421019e0bab1a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 637}
+  - name: towerfang king character_Frame_18
+    originalName: 
+    pivot: {x: 0.42105258, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 698
+      width: 38
+      height: 53
+    spriteID: 8425a51fe5d8e3a48b116b3a1da1a545
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 698}
+  - name: towerfang king character_Frame_19
+    originalName: 
+    pivot: {x: 0.42105258, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 759
+      width: 38
+      height: 53
+    spriteID: fefc9d15f7883a447ac05d5fa458b51b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 759}
+  - name: towerfang king character_Frame_20
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 753
+      width: 39
+      height: 58
+    spriteID: e3108bef28d06e0498eb8abec0d2d44d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 753}
+  - name: towerfang king character_Frame_21
+    originalName: 
+    pivot: {x: 0.34285715, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 508
+      width: 35
+      height: 60
+    spriteID: cd41f4589063a0e48a1324a48426df2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 508}
+  - name: towerfang king character_Frame_22
+    originalName: 
+    pivot: {x: 0.4909091, y: -2.1818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 974
+      width: 55
+      height: 11
+    spriteID: d7d70b10d9bce744aafe9935fcba41cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 974}
+  - name: towerfang king character_Frame_28
+    originalName: 
+    pivot: {x: 0.4736842, y: -2.2727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 820
+      width: 19
+      height: 11
+    spriteID: dae2974b152102943916507b640d206f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 820}
+  - name: towerfang king character_Frame_53
+    originalName: 
+    pivot: {x: 0.48387095, y: -2.3636363}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 993
+      width: 31
+      height: 11
+    spriteID: b3ab69d5766f2574a8d362c92faa62b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 993}
+  - name: towerfang king character_Frame_69
+    originalName: 
+    pivot: {x: 0.50000006, y: -2.3636363}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 1007
+      width: 34
+      height: 11
+    spriteID: b5e2ebe659d5f38429a1ed09661086bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 1007}
+  - name: towerfang king character_Frame_72
+    originalName: 
+    pivot: {x: 0.45238096, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 962
+      width: 42
+      height: 58
+    spriteID: 7a2e7b236972c15428fcb5412141f5a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 962}
+  - name: towerfang king character_Frame_74
+    originalName: 
+    pivot: {x: 0.45238096, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 566
+      width: 42
+      height: 58
+    spriteID: 087827b608b4fe948bde6d471ee921c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 566}
+  - name: towerfang king character_Frame_75
+    originalName: 
+    pivot: {x: 0.49999994, y: -2.3636363}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 988
+      width: 38
+      height: 11
+    spriteID: 4374e7e945622aa4f814e97983f9c388
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 988}
+  - name: towerfang king character_Frame_86
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 499
+      width: 45
+      height: 59
+    spriteID: 2415595e7b479b24a8c476827e88d0e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 499}
+  - name: towerfang king character_Frame_89
+    originalName: 
+    pivot: {x: 0.5, y: -2.1818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 993
+      width: 30
+      height: 11
+    spriteID: 26ee6c12d01bf6946b55e8ae4081613d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 993}
+  - name: towerfang king character_Frame_1
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 431
+      width: 45
+      height: 60
+    spriteID: 99a9ad00fc14f654e844c5d0f55c855b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 431}
+  - name: towerfang king character_Frame_2
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 632
+      width: 45
+      height: 54
+    spriteID: 95143acb090f1a34dbe70d80f4c6b6fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 632}
+  - name: towerfang king character_Frame_3
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 694
+      width: 45
+      height: 51
+    spriteID: 25545fc352d520a4dbd3e6f8c38cf005
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 694}
+  - name: towerfang king character_Frame_4
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 228
+      width: 45
+      height: 48
+    spriteID: f6bb4c782d281f34dafe5fd8201ea3b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 228}
+  - name: towerfang king character_Frame_5
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 819
+      width: 45
+      height: 49
+    spriteID: c6affd3a23957c44b8cfb2dcb8e7a10a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 819}
+  - name: towerfang king character_Frame_6
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 284
+      width: 45
+      height: 48
+    spriteID: 81e23e823f96d5b4381855fc08d6e71b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 284}
+  - name: towerfang king character_Frame_7
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 340
+      width: 45
+      height: 48
+    spriteID: 59d78fc61330a6c41b1feb768d0fbb53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 340}
+  - name: towerfang king character_Frame_8
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 396
+      width: 45
+      height: 48
+    spriteID: 3a46825a81b793c4ab685ef3dab73d02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 396}
+  - name: towerfang king character_Frame_9
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 452
+      width: 45
+      height: 48
+    spriteID: f39e6838c350efa42babb74a809a1182
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 452}
+  - name: towerfang king character_Frame_87
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 362
+      width: 45
+      height: 61
+    spriteID: d57661e5dc8018c429b1fa2385924d63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 362}
+  - name: towerfang king character_Frame_88
+    originalName: 
+    pivot: {x: 0.42222223, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 215
+      width: 45
+      height: 67
+    spriteID: d423eee50483ab845bd68af18753d170
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 215}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1505881349
+    name: towerfang king character
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: towerfang king character_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 0
+        width: 59
+        height: 65
+      spriteId: ebd345a8507a22a449b70823ff436ef4
+    - name: towerfang king character_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 995a3e752e6cc6c4382c023386687aed
+    - name: towerfang king character_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 57
+        height: 64
+      spriteId: a437ec78820929a4fbc1acc31a78dc32
+    - name: towerfang king character_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 0
+        width: 54
+        height: 65
+      spriteId: 5c4cf61febb1f4b4ea2756321e47d4ea
+    - name: towerfang king character_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 0
+        width: 51
+        height: 63
+      spriteId: 3e19987e815d5ae4fa72c669b3aba299
+    - name: towerfang king character_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 0
+        width: 59
+        height: 65
+      spriteId: b7b3c54480db9d740beaac0f0416aae5
+    - name: towerfang king character_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 64
+        height: 68
+      spriteId: c64ca1c155b44484692d5b82875083ff
+    - name: towerfang king character_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 57
+        height: 64
+      spriteId: 6182030630e2793488553c4e3219f4c7
+    - name: towerfang king character_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 0
+        width: 54
+        height: 65
+      spriteId: b7c3a3ebf6191ae43af5f546d548cfed
+    - name: towerfang king character_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 55
+        height: 63
+      spriteId: 8bf70cc94164a5f439fd37fd6dd65ba1
+    - name: towerfang king character_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 0
+        width: 59
+        height: 65
+      spriteId: c87be905bb2a627449fa659f05f855c9
+    - name: towerfang king character_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 1cc0b31325bee8644b418542857634f4
+    - name: towerfang king character_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 57
+        height: 64
+      spriteId: def1f7a199ac1ac47a82ee731e8490d0
+    - name: towerfang king character_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 56
+        height: 65
+      spriteId: 95fc2d5000dab3c42b4b2016b8470755
+    - name: towerfang king character_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 55
+        height: 63
+      spriteId: 7bf530348fc946d4fb80bb0a4a1d36f0
+    - name: towerfang king character_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 911a6ab1b05d2d8458a396e5097c0fe0
+    - name: towerfang king character_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 64
+        height: 68
+      spriteId: f8c594ca33bf4bb49a9d52933fd48d69
+    - name: towerfang king character_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 66
+        height: 64
+      spriteId: 204ee63cc9bd12040a6cb2213cbd7760
+    - name: towerfang king character_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 65
+        height: 65
+      spriteId: c0c2fa7681a36ff42a9e91f452d30358
+    - name: towerfang king character_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 55
+        height: 63
+      spriteId: ce8141c022c3a9d4183c5d2e6742eacd
+    - name: towerfang king character_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 0
+        width: 59
+        height: 65
+      spriteId: c8fdffcb94c56f549815ec0002f7d376
+    - name: towerfang king character_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 3bbe353d6da02b94bba26a6b88f9f9c3
+    - name: towerfang king character_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 57
+        height: 64
+      spriteId: 9efe40e8a3746c14ea22a36ca155f548
+    - name: towerfang king character_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 56
+        height: 65
+      spriteId: 2b21dd27d6f57a1478ebe112694bd673
+    - name: towerfang king character_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 0
+        width: 67
+        height: 63
+      spriteId: a7f4dfe910d23074ca2145d535d8b8e2
+    - name: towerfang king character_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 0
+        width: 59
+        height: 65
+      spriteId: e1cb4d3dedcc9564b8fcfe45919a5f65
+    - name: towerfang king character_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 335c6052c763e0f44aafa63f2d08dc26
+    - name: towerfang king character_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 57
+        height: 64
+      spriteId: f7d478323359f014aa2eb39d390c8610
+    - name: towerfang king character_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 0
+        width: 54
+        height: 65
+      spriteId: d8383b8309963c540a4848cfe8d1e469
+    - name: towerfang king character_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 3b9a75ae0c262bf4984d42b0e7b4a77f
+    - name: towerfang king character_Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 2cb88fe0d5d92534f9d95c221e5ed08e
+    - name: towerfang king character_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 57
+        height: 64
+      spriteId: 43f39c4d9daf29a4297f594ca057406b
+    - name: towerfang king character_Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 0
+        width: 54
+        height: 65
+      spriteId: 2e698c16bcf1caf469c769f52bd59d84
+    - name: towerfang king character_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 0
+        width: 70
+        height: 63
+      spriteId: ae0c9261b928c844c98fb9498d41bb6a
+    - name: towerfang king character_Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 75
+        height: 65
+      spriteId: e21a59883a0657d4b8d887379aad4ec1
+    - name: towerfang king character_Frame_60
+      frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 43a2e1f45e9854f46b38a500287f7635
+    - name: towerfang king character_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 0
+        width: 77
+        height: 64
+      spriteId: 9391fa1036fbe9040b448f74dfcf8075
+    - name: towerfang king character_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 0
+        width: 69
+        height: 65
+      spriteId: 464ef6b230de32f42b4576fcb3f37200
+    - name: towerfang king character_Frame_63
+      frameIndex: 63
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 0
+        width: 68
+        height: 63
+      spriteId: 813ceb97d7d0eb442b22a44cacabec2b
+    - name: towerfang king character_Frame_64
+      frameIndex: 64
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 0
+        width: 71
+        height: 65
+      spriteId: 7da726d0a98b69543b53b84cd13f0924
+    - name: towerfang king character_Frame_65
+      frameIndex: 65
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 5d7da675204963242a928039f9b6b196
+    - name: towerfang king character_Frame_66
+      frameIndex: 66
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 57
+        height: 64
+      spriteId: f610f0eb8ae9cce41906ce6335e7db16
+    - name: towerfang king character_Frame_67
+      frameIndex: 67
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 0
+        width: 54
+        height: 65
+      spriteId: b951510565b5a3b4591a79eb54f2632f
+    - name: towerfang king character_Frame_68
+      frameIndex: 68
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 0
+        width: 51
+        height: 63
+      spriteId: 230f217e51688c84ba8de48e8f7dd541
+    - name: towerfang king character_Frame_70
+      frameIndex: 70
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 0
+        width: 59
+        height: 65
+      spriteId: 2b141e6e028b2cd45a4af756eff6e486
+    - name: towerfang king character_Frame_71
+      frameIndex: 71
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 64
+        height: 68
+      spriteId: 5f748f32cc5412a41a792d697e87b1df
+    - name: towerfang king character_Frame_73
+      frameIndex: 73
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 0
+        width: 54
+        height: 65
+      spriteId: 08417b48acf659e4990c0fc47f772622
+    - name: towerfang king character_Frame_76
+      frameIndex: 76
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 0
+        width: 59
+        height: 64
+      spriteId: 677b10c6836fab040a14b384d1b1167f
+    - name: towerfang king character_Frame_77
+      frameIndex: 77
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 64
+        height: 67
+      spriteId: 791711f2c18fb334faf00f4bfd8bfbb9
+    - name: towerfang king character_Frame_78
+      frameIndex: 78
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 57
+        height: 63
+      spriteId: 019bd7388c42c74439e4740983dab39f
+    - name: towerfang king character_Frame_79
+      frameIndex: 79
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 0
+        width: 54
+        height: 64
+      spriteId: 6b1acfa9afd137149a865107c389fdb8
+    - name: towerfang king character_Frame_80
+      frameIndex: 80
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 0
+        width: 51
+        height: 62
+      spriteId: 7ebfadf4a922b0d48ad368ed763d9612
+    - name: towerfang king character_Frame_81
+      frameIndex: 81
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 0
+        width: 59
+        height: 64
+      spriteId: 9d2bf169cab55764abc031f6ba02c661
+    - name: towerfang king character_Frame_82
+      frameIndex: 82
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 64
+        height: 67
+      spriteId: e4150c3254bc41247bab418f34d932d4
+    - name: towerfang king character_Frame_83
+      frameIndex: 83
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 0
+        width: 57
+        height: 63
+      spriteId: c5efcd42ff25d3e4f991c8ae7626c9ab
+    - name: towerfang king character_Frame_84
+      frameIndex: 84
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 0
+        width: 54
+        height: 64
+      spriteId: 892352c56bf27c049ab7984b05603bfe
+    - name: towerfang king character_Frame_85
+      frameIndex: 85
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 0
+        width: 51
+        height: 62
+      spriteId: 3b9d76fcae09cdb4283e60c22d8e4395
+    - name: towerfang king character_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 64
+      spriteId: 177eba3a280dd6a4fbc6c38711baaf60
+    - name: towerfang king character_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 48
+      spriteId: ca32c925421ab9046b50906c845c1b48
+    - name: towerfang king character_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 48
+      spriteId: b14d568b77d7bb9429b842b86ea58e1e
+    - name: towerfang king character_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 48
+      spriteId: b16812b634d4d194785ef9b5adcd79cf
+    - name: towerfang king character_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 61b2520d3502ef346a1a9105904eaabd
+    - name: towerfang king character_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 88a1d547e10b8ce43a824e7834d0cbfc
+    - name: towerfang king character_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 0
+        width: 38
+        height: 53
+      spriteId: 6b547fe05236e23449e6a804220b0403
+    - name: towerfang king character_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 142b69bae7cf6544d96612daeaaee62e
+    - name: towerfang king character_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 0
+        width: 38
+        height: 53
+      spriteId: 80e8a4384e5d56d4f9421019e0bab1a4
+    - name: towerfang king character_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 0
+        width: 38
+        height: 53
+      spriteId: 8425a51fe5d8e3a48b116b3a1da1a545
+    - name: towerfang king character_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 0
+        width: 38
+        height: 53
+      spriteId: fefc9d15f7883a447ac05d5fa458b51b
+    - name: towerfang king character_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 0
+        width: 39
+        height: 58
+      spriteId: e3108bef28d06e0498eb8abec0d2d44d
+    - name: towerfang king character_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 0
+        width: 35
+        height: 60
+      spriteId: cd41f4589063a0e48a1324a48426df2c
+    - name: towerfang king character_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 24
+        width: 55
+        height: 11
+      spriteId: d7d70b10d9bce744aafe9935fcba41cc
+    - name: towerfang king character_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 39
+        y: 25
+        width: 19
+        height: 11
+      spriteId: dae2974b152102943916507b640d206f
+    - name: towerfang king character_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 26
+        width: 31
+        height: 11
+      spriteId: b3ab69d5766f2574a8d362c92faa62b0
+    - name: towerfang king character_Frame_69
+      frameIndex: 69
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 26
+        width: 34
+        height: 11
+      spriteId: b5e2ebe659d5f38429a1ed09661086bc
+    - name: towerfang king character_Frame_72
+      frameIndex: 72
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 42
+        height: 58
+      spriteId: 7a2e7b236972c15428fcb5412141f5a7
+    - name: towerfang king character_Frame_74
+      frameIndex: 74
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 42
+        height: 58
+      spriteId: 087827b608b4fe948bde6d471ee921c1
+    - name: towerfang king character_Frame_75
+      frameIndex: 75
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 26
+        width: 38
+        height: 11
+      spriteId: 4374e7e945622aa4f814e97983f9c388
+    - name: towerfang king character_Frame_86
+      frameIndex: 86
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 59
+      spriteId: 2415595e7b479b24a8c476827e88d0e9
+    - name: towerfang king character_Frame_89
+      frameIndex: 89
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 24
+        width: 30
+        height: 11
+      spriteId: 26ee6c12d01bf6946b55e8ae4081613d
+    - name: towerfang king character_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 60
+      spriteId: 99a9ad00fc14f654e844c5d0f55c855b
+    - name: towerfang king character_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 54
+      spriteId: 95143acb090f1a34dbe70d80f4c6b6fe
+    - name: towerfang king character_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 51
+      spriteId: 25545fc352d520a4dbd3e6f8c38cf005
+    - name: towerfang king character_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 48
+      spriteId: f6bb4c782d281f34dafe5fd8201ea3b3
+    - name: towerfang king character_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 49
+      spriteId: c6affd3a23957c44b8cfb2dcb8e7a10a
+    - name: towerfang king character_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 81e23e823f96d5b4381855fc08d6e71b
+    - name: towerfang king character_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 59d78fc61330a6c41b1feb768d0fbb53
+    - name: towerfang king character_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 48
+      spriteId: 3a46825a81b793c4ab685ef3dab73d02
+    - name: towerfang king character_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 48
+      spriteId: f39e6838c350efa42babb74a809a1182
+    - name: towerfang king character_Frame_87
+      frameIndex: 87
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 61
+      spriteId: d57661e5dc8018c429b1fa2385924d63
+    - name: towerfang king character_Frame_88
+      frameIndex: 88
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 45
+        height: 67
+      spriteId: d423eee50483ab845bd68af18753d170
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 80}

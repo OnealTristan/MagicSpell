@@ -10,6 +10,10 @@ TagManager:
   - Bgm
   - Keyboard
   - TextPrizeLevel
+  - Chapter1LevelButton
+  - Chapter2LevelButton
+  - Chapter3LevelButton
+  - Chapter4LevelButton
   layers:
   - Default
   - TransparentFX

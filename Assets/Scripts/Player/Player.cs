@@ -49,7 +49,7 @@ public class Player : MonoBehaviour
 	public void ActivatedWeapon() {
 		if (OnDecreaseHPEnemy != null) {
 			if (equippedWeapon != null) {
-				enemy.SetEnemyHealth(enemy.GetEnemyHealth() - equippedWeapon.damage);
+				enemy.SetEnemyHealth(enemy.GetEnemyHealth() - equippedWeapon.weaponDamage);
 				OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
 				OnHittingEnemy?.Invoke();
 			} else {
