@@ -1,0 +1,1120 @@
+fileFormatVersion: 2
+guid: 7703cd8707f9af0409f8af40816a60a1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 64
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638647702280236188
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Boolet_IceSword_Frame_0
+    originalName: 
+    pivot: {x: 0.8333335, y: -2.5714285}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 321
+      width: 6
+      height: 14
+    spriteID: ce684b464072de34a9ceb7dbd383c8f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 321}
+  - name: Boolet_IceSword_Frame_1
+    originalName: 
+    pivot: {x: 0.7777777, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 490
+      width: 9
+      height: 16
+    spriteID: 46b7acf374c0f1d498c393bdb4221dd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 490}
+  - name: Boolet_IceSword_Frame_2
+    originalName: 
+    pivot: {x: 0.66666675, y: -1.8421053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 49
+      y: 484
+      width: 12
+      height: 19
+    spriteID: 7e735437ea40c674398280cfb16b3899
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 49, y: 484}
+  - name: Boolet_IceSword_Frame_3
+    originalName: 
+    pivot: {x: 0.6153847, y: -1.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 461
+      width: 13
+      height: 21
+    spriteID: 38bd7ed0cd704c549ab37334503af447
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 461}
+  - name: Boolet_IceSword_Frame_4
+    originalName: 
+    pivot: {x: 0.6, y: -1.5217391}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 413
+      width: 15
+      height: 23
+    spriteID: fbdb921065eb4704991645f1aee95b30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 413}
+  - name: Boolet_IceSword_Frame_5
+    originalName: 
+    pivot: {x: 0.6, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 147
+      y: 362
+      width: 15
+      height: 30
+    spriteID: 7dd4e7926cd1d4342b352142ec8b6072
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 147, y: 362}
+  - name: Boolet_IceSword_Frame_6
+    originalName: 
+    pivot: {x: 0.53846145, y: -0.6829268}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 270
+      width: 13
+      height: 41
+    spriteID: 5e16f719612edf445bb421f3ffb74751
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 270}
+  - name: Boolet_IceSword_Frame_7
+    originalName: 
+    pivot: {x: 0.57142866, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 293
+      width: 14
+      height: 48
+    spriteID: 1450fe21fbd97dc4489d5e4916f6f129
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 293}
+  - name: Boolet_IceSword_Frame_8
+    originalName: 
+    pivot: {x: 0.57142866, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 349
+      width: 14
+      height: 48
+    spriteID: d8903bf5879b4714bb21ccbe35199177
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 349}
+  - name: Boolet_IceSword_Frame_9
+    originalName: 
+    pivot: {x: 0.57142866, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 405
+      width: 14
+      height: 48
+    spriteID: 599b4a0edb22c334cb730f56704befac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 405}
+  - name: Boolet_IceSword_Frame_10
+    originalName: 
+    pivot: {x: 0.57142866, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 200
+      y: 89
+      width: 14
+      height: 48
+    spriteID: bc29e2716e796014fa0fcb13d54e00c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 200, y: 89}
+  - name: Boolet_IceSword_Frame_11
+    originalName: 
+    pivot: {x: 0.57142866, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 200
+      y: 145
+      width: 14
+      height: 48
+    spriteID: f7c799371ed05cb42882672f7bd5b482
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 200, y: 145}
+  - name: Boolet_IceSword_Frame_12
+    originalName: 
+    pivot: {x: 0.57142866, y: -0.3898305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 159
+      width: 14
+      height: 59
+    spriteID: 4437823be5883d743abb3e8c9cbbc771
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 159}
+  - name: Boolet_IceSword_Frame_13
+    originalName: 
+    pivot: {x: 0.57142866, y: -0.37096772}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 89
+      width: 14
+      height: 62
+    spriteID: 8969507224e800e4ab6ecc2a455b19e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 89}
+  - name: Boolet_IceSword_Frame_14
+    originalName: 
+    pivot: {x: 0.57142866, y: -0.37288135}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 226
+      width: 14
+      height: 59
+    spriteID: 2c76edb9a4bbcd34289dc68dc921a617
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 226}
+  - name: Boolet_IceSword_Frame_15
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.48979592}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 448
+      width: 17
+      height: 49
+    spriteID: b52699f05590d434b956bd38bc4fac94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 448}
+  - name: Boolet_IceSword_Frame_16
+    originalName: 
+    pivot: {x: 0.6129032, y: -0.71794873}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 448
+      width: 31
+      height: 39
+    spriteID: 28a7848a1e48d004c90abff6d2c7680e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 448}
+  - name: Boolet_IceSword_Frame_17
+    originalName: 
+    pivot: {x: 0.6052632, y: -0.62790704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 362
+      width: 38
+      height: 43
+    spriteID: fc585f99c4802ec4685f563f89ecc377
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 362}
+  - name: Boolet_IceSword_Frame_23
+    originalName: 
+    pivot: {x: 0.51351345, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 484
+      width: 37
+      height: 20
+    spriteID: c8bd560e95a8c094eabbb5e5dc16c29d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 484}
+  - name: Boolet_IceSword_Frame_24
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 413
+      width: 46
+      height: 27
+    spriteID: ff36a3c976fe5624fb05ab81d6e95997
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 413}
+  - name: Boolet_IceSword_Frame_25
+    originalName: 
+    pivot: {x: 0.509434, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 321
+      width: 53
+      height: 33
+    spriteID: 39f0f6c67eb2ef84bbd971fa1a2c3e36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 321}
+  - name: Boolet_IceSword_Frame_26
+    originalName: 
+    pivot: {x: 0.53225803, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 216
+      width: 62
+      height: 46
+    spriteID: 6b66c03f5404b4f4986eb00bfb0a22ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 216}
+  - name: Boolet_IceSword_Frame_27
+    originalName: 
+    pivot: {x: 0.5362319, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 89
+      width: 69
+      height: 62
+    spriteID: 488718a84e415034b842642e64c20c16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 89}
+  - name: Boolet_IceSword_Frame_28
+    originalName: 
+    pivot: {x: 0.52631575, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 4
+      width: 76
+      height: 77
+    spriteID: 5ef65456f1b9e3b4f8041d72f8be12b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 4}
+  - name: Boolet_IceSword_Frame_29
+    originalName: 
+    pivot: {x: 0.5301205, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 392
+      width: 83
+      height: 84
+    spriteID: ce8a8199d99afe140ac14698cb28f5f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 392}
+  - name: Boolet_IceSword_Frame_30
+    originalName: 
+    pivot: {x: 0.5168539, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 89
+      height: 89
+    spriteID: e74e064971dd18545a1164e342ca1dc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Boolet_IceSword_Frame_31
+    originalName: 
+    pivot: {x: 0.5168539, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 101
+      width: 89
+      height: 89
+    spriteID: b41f87ba25e8572439dbe085ac36dc94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 101}
+  - name: Boolet_IceSword_Frame_32
+    originalName: 
+    pivot: {x: 0.5168539, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 198
+      width: 89
+      height: 89
+    spriteID: f88e75b0361a9384d8fe97fa0291132f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 198}
+  - name: Boolet_IceSword_Frame_33
+    originalName: 
+    pivot: {x: 0.5168539, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 295
+      width: 89
+      height: 89
+    spriteID: 28383b24d43b58d4f89e26897aaecaca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 295}
+  - name: Boolet_IceSword_Frame_18
+    originalName: 
+    pivot: {x: 0.5869565, y: -0.6511628}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 270
+      width: 46
+      height: 43
+    spriteID: bb5d8a6353733104e96120376dbcf207
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 270}
+  - name: Boolet_IceSword_Frame_19
+    originalName: 
+    pivot: {x: 0.5423728, y: -0.57142854}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 159
+      width: 59
+      height: 49
+    spriteID: edfa243c818dadf408605676634a4064
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 159}
+  - name: Boolet_IceSword_Frame_20
+    originalName: 
+    pivot: {x: 0.53731346, y: -0.5384615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 4
+      width: 67
+      height: 52
+    spriteID: 399f95278df2b4848bc29eb58b1313c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 80671440
+    name: Boolet_IceSword
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Boolet_IceSword_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 36
+        width: 6
+        height: 14
+      spriteId: ce684b464072de34a9ceb7dbd383c8f4
+    - name: Boolet_IceSword_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 36
+        width: 9
+        height: 16
+      spriteId: 46b7acf374c0f1d498c393bdb4221dd6
+    - name: Boolet_IceSword_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 35
+        width: 12
+        height: 19
+      spriteId: 7e735437ea40c674398280cfb16b3899
+    - name: Boolet_IceSword_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 35
+        width: 13
+        height: 21
+      spriteId: 38bd7ed0cd704c549ab37334503af447
+    - name: Boolet_IceSword_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 39
+        y: 35
+        width: 15
+        height: 23
+      spriteId: fbdb921065eb4704991645f1aee95b30
+    - name: Boolet_IceSword_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 39
+        y: 33
+        width: 15
+        height: 30
+      spriteId: 7dd4e7926cd1d4342b352142ec8b6072
+    - name: Boolet_IceSword_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 28
+        width: 13
+        height: 41
+      spriteId: 5e16f719612edf445bb421f3ffb74751
+    - name: Boolet_IceSword_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 24
+        width: 14
+        height: 48
+      spriteId: 1450fe21fbd97dc4489d5e4916f6f129
+    - name: Boolet_IceSword_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 24
+        width: 14
+        height: 48
+      spriteId: d8903bf5879b4714bb21ccbe35199177
+    - name: Boolet_IceSword_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 24
+        width: 14
+        height: 48
+      spriteId: 599b4a0edb22c334cb730f56704befac
+    - name: Boolet_IceSword_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 24
+        width: 14
+        height: 48
+      spriteId: bc29e2716e796014fa0fcb13d54e00c0
+    - name: Boolet_IceSword_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 24
+        width: 14
+        height: 48
+      spriteId: f7c799371ed05cb42882672f7bd5b482
+    - name: Boolet_IceSword_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 23
+        width: 14
+        height: 59
+      spriteId: 4437823be5883d743abb3e8c9cbbc771
+    - name: Boolet_IceSword_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 23
+        width: 14
+        height: 62
+      spriteId: 8969507224e800e4ab6ecc2a455b19e5
+    - name: Boolet_IceSword_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 22
+        width: 14
+        height: 59
+      spriteId: 2c76edb9a4bbcd34289dc68dc921a617
+    - name: Boolet_IceSword_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 39
+        y: 24
+        width: 17
+        height: 49
+      spriteId: b52699f05590d434b956bd38bc4fac94
+    - name: Boolet_IceSword_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 28
+        width: 31
+        height: 39
+      spriteId: 28a7848a1e48d004c90abff6d2c7680e
+    - name: Boolet_IceSword_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 27
+        width: 38
+        height: 43
+      spriteId: fc585f99c4802ec4685f563f89ecc377
+    - name: Boolet_IceSword_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 0
+        width: 37
+        height: 20
+      spriteId: c8bd560e95a8c094eabbb5e5dc16c29d
+    - name: Boolet_IceSword_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 0
+        width: 46
+        height: 27
+      spriteId: ff36a3c976fe5624fb05ab81d6e95997
+    - name: Boolet_IceSword_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 0
+        width: 53
+        height: 33
+      spriteId: 39f0f6c67eb2ef84bbd971fa1a2c3e36
+    - name: Boolet_IceSword_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 0
+        width: 62
+        height: 46
+      spriteId: 6b66c03f5404b4f4986eb00bfb0a22ad
+    - name: Boolet_IceSword_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 0
+        width: 69
+        height: 62
+      spriteId: 488718a84e415034b842642e64c20c16
+    - name: Boolet_IceSword_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 0
+        width: 76
+        height: 77
+      spriteId: 5ef65456f1b9e3b4f8041d72f8be12b0
+    - name: Boolet_IceSword_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 4
+        y: 0
+        width: 83
+        height: 84
+      spriteId: ce8a8199d99afe140ac14698cb28f5f9
+    - name: Boolet_IceSword_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 0
+        width: 89
+        height: 89
+      spriteId: e74e064971dd18545a1164e342ca1dc6
+    - name: Boolet_IceSword_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 0
+        width: 89
+        height: 89
+      spriteId: b41f87ba25e8572439dbe085ac36dc94
+    - name: Boolet_IceSword_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 0
+        width: 89
+        height: 89
+      spriteId: f88e75b0361a9384d8fe97fa0291132f
+    - name: Boolet_IceSword_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 0
+        width: 89
+        height: 89
+      spriteId: 28383b24d43b58d4f89e26897aaecaca
+    - name: Boolet_IceSword_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 28
+        width: 46
+        height: 43
+      spriteId: bb5d8a6353733104e96120376dbcf207
+    - name: Boolet_IceSword_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 28
+        width: 59
+        height: 49
+      spriteId: edfa243c818dadf408605676634a4064
+    - name: Boolet_IceSword_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 28
+        width: 67
+        height: 52
+      spriteId: 399f95278df2b4848bc29eb58b1313c6
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 96}

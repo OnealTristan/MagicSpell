@@ -24,7 +24,6 @@ public class LevelMenuScript : MonoBehaviour {
 	private Data data;
 
 	[Header(" Elements ")]
-	[SerializeField] private bool testingLevel;
 	private int chapterIndex = 0;
 
 	private void Awake() {
@@ -101,16 +100,29 @@ public class LevelMenuScript : MonoBehaviour {
 		}
 	}
 
-	private void UpdateLevelPrizeText(int levelIndex) {
-		TextMeshProUGUI[] textsPrize = gameObject.GetComponentsInChildren<TextMeshProUGUI>();
+	private void UpdateLevelPanelText(int levelIndex) {
+		TextMeshProUGUI[] texts = gameObject.GetComponentsInChildren<TextMeshProUGUI>();
 
-		foreach (TextMeshProUGUI textPrize in textsPrize) {
-			if (textPrize.CompareTag("TextPrizeLevel")) {
+		foreach (TextMeshProUGUI text in texts) {
+			if (text.CompareTag("TextPrizeLevelPanel")) {
 				if (data.CheckLevelStatus(chapterIndex, levelIndex) == true) {
-					textPrize.text = "X " + data.chapterSo[chapterIndex].chapterLevelWinPrizeAfterComplete[levelIndex - 1].ToString();
+					text.text = "X " + data.chapterSo[chapterIndex].chapterLevelWinPrizeAfterComplete[levelIndex - 1].ToString();
 				} else {
-					textPrize.text = "X " + data.chapterSo[chapterIndex].chapterLevelWinPrize[levelIndex - 1].ToString();
+					text.text = "X " + data.chapterSo[chapterIndex].chapterLevelWinPrize[levelIndex - 1].ToString();
 				}
+			}
+
+			if (text.CompareTag("TextHabitatLevelPanel")) {
+				text.text = data.chapterSo[chapterIndex].chapterName;
+			}
+
+			if (text.CompareTag("TextLevelLevelPanel")) {
+				int calculatedLevelIndex = levelIndex;
+
+				for (int i = 0; i < chapterIndex; i++) {
+					calculatedLevelIndex += data.chapterSo[i].chapterLevelClear.Length;
+				}
+				text.text = "Level " + (chapterIndex + 1) + " - " + (calculatedLevelIndex);
 			}
 		}
 	}
@@ -118,7 +130,7 @@ public class LevelMenuScript : MonoBehaviour {
 	public void ClickLevelButton(int levelIndex) {
 		chapter1PanelPopUpContainer.SetActive(true);
 		chapter1LevelPanelPopUp[levelIndex - 1].SetActive(true);
-		UpdateLevelPrizeText(levelIndex);
+		UpdateLevelPanelText(levelIndex);
 		ContainerChapter.SetActive(false);
 	}
 
@@ -129,13 +141,20 @@ public class LevelMenuScript : MonoBehaviour {
 	}
 
 	public void ClickChapter1PanelButtonPlayLevel(int levelIndex) {
-		if (chapterIndex == 0) {
+		int calculatedlevelIndex = levelIndex;
+
+		for (int i = 0; i < chapterIndex; i++) {
+			calculatedlevelIndex += data.chapterSo[i].chapterLevelClear.Length;
+		}
+
+		Loader.Load((Loader.Scene)calculatedlevelIndex);
+		/*if (chapterIndex == 0) {
 			Loader.Load((Loader.Scene)levelIndex);
 		} else if (chapterIndex == 1) {
 			Loader.Load((Loader.Scene)(levelIndex + 10));
-		} else if (levelIndex == 2) {
+		} else if (chapterIndex == 2) {
 			Loader.Load((Loader.Scene)(levelIndex + 20));
-		}
+		}*/
 	}
 
 	public void ClickBackButton () {

@@ -19,14 +19,14 @@ public class Data : MonoBehaviour
 		if (Instance == null) {
 			Instance = this;
 			DontDestroyOnLoad(gameObject);
-            LoadGame();
+            //LoadGame();
 		} else {
 			Destroy(gameObject);
 		}
 	}
 
 	private void OnApplicationQuit() {
-        SaveGame();
+        //SaveGame();
 	}
 
     private void SaveGame() {

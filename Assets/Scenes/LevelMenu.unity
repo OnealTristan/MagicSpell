@@ -268,8 +268,8 @@ GameObject:
   - component: {fileID: 4705789}
   - component: {fileID: 4705788}
   m_Layer: 5
-  m_Name: TextJudul
-  m_TagString: Untagged
+  m_Name: TextLevel
+  m_TagString: TextLevelLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1036,8 +1036,8 @@ GameObject:
   - component: {fileID: 163379046}
   - component: {fileID: 163379045}
   m_Layer: 5
-  m_Name: TextJudul
-  m_TagString: Untagged
+  m_Name: TextLevel
+  m_TagString: TextLevelLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1663,7 +1663,7 @@ GameObject:
   - component: {fileID: 279107029}
   m_Layer: 5
   m_Name: TextPrize
-  m_TagString: TextPrizeLevel
+  m_TagString: TextPrizeLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2763,7 +2763,6 @@ MonoBehaviour:
   - {fileID: 472416814}
   - {fileID: 1657588112}
   - {fileID: 2087206143}
-  testingLevel: 0
 --- !u!1 &419886991
 GameObject:
   m_ObjectHideFlags: 0
@@ -2776,8 +2775,8 @@ GameObject:
   - component: {fileID: 419886994}
   - component: {fileID: 419886993}
   m_Layer: 5
-  m_Name: TextMap
-  m_TagString: Untagged
+  m_Name: TextHabitat
+  m_TagString: TextHabitatLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3702,8 +3701,8 @@ GameObject:
   - component: {fileID: 533584126}
   - component: {fileID: 533584125}
   m_Layer: 5
-  m_Name: TextJudul
-  m_TagString: Untagged
+  m_Name: TextLevel
+  m_TagString: TextLevelLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4357,8 +4356,8 @@ GameObject:
   - component: {fileID: 560291120}
   - component: {fileID: 560291119}
   m_Layer: 5
-  m_Name: TextJudul
-  m_TagString: Untagged
+  m_Name: TextLevel
+  m_TagString: TextLevelLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4627,8 +4626,8 @@ GameObject:
   - component: {fileID: 572947480}
   - component: {fileID: 572947479}
   m_Layer: 5
-  m_Name: TextMap
-  m_TagString: Untagged
+  m_Name: TextHabitat
+  m_TagString: TextHabitatLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4904,8 +4903,8 @@ GameObject:
   - component: {fileID: 585502071}
   - component: {fileID: 585502070}
   m_Layer: 5
-  m_Name: TextMap
-  m_TagString: Untagged
+  m_Name: TextHabitat
+  m_TagString: TextHabitatLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5040,7 +5039,7 @@ GameObject:
   - component: {fileID: 592168292}
   m_Layer: 5
   m_Name: TextPrize
-  m_TagString: TextPrizeLevel
+  m_TagString: TextPrizeLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5729,7 +5728,7 @@ GameObject:
   - component: {fileID: 713016744}
   m_Layer: 5
   m_Name: TextPrize
-  m_TagString: TextPrizeLevel
+  m_TagString: TextPrizeLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9517,8 +9516,8 @@ GameObject:
   - component: {fileID: 1231897189}
   - component: {fileID: 1231897188}
   m_Layer: 5
-  m_Name: TextJudul
-  m_TagString: Untagged
+  m_Name: TextLevel
+  m_TagString: TextLevelLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10232,8 +10231,8 @@ GameObject:
   - component: {fileID: 1296308178}
   - component: {fileID: 1296308177}
   m_Layer: 5
-  m_Name: TextJudul
-  m_TagString: Untagged
+  m_Name: TextLevel
+  m_TagString: TextLevelLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10967,7 +10966,7 @@ GameObject:
   - component: {fileID: 1326894134}
   m_Layer: 5
   m_Name: TextPrize
-  m_TagString: TextPrizeLevel
+  m_TagString: TextPrizeLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11243,8 +11242,8 @@ GameObject:
   - component: {fileID: 1363092827}
   - component: {fileID: 1363092826}
   m_Layer: 5
-  m_Name: TextMap
-  m_TagString: Untagged
+  m_Name: TextHabitat
+  m_TagString: TextHabitatLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11600,8 +11599,8 @@ GameObject:
   - component: {fileID: 1410530224}
   - component: {fileID: 1410530223}
   m_Layer: 5
-  m_Name: TextJudul
-  m_TagString: Untagged
+  m_Name: TextLevel
+  m_TagString: TextLevelLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11736,7 +11735,7 @@ GameObject:
   - component: {fileID: 1429717329}
   m_Layer: 5
   m_Name: TextPrize
-  m_TagString: TextPrizeLevel
+  m_TagString: TextPrizeLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11947,7 +11946,7 @@ GameObject:
   - component: {fileID: 1483244851}
   m_Layer: 5
   m_Name: TextPrize
-  m_TagString: TextPrizeLevel
+  m_TagString: TextPrizeLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12081,8 +12080,8 @@ GameObject:
   - component: {fileID: 1485128464}
   - component: {fileID: 1485128463}
   m_Layer: 5
-  m_Name: TextMap
-  m_TagString: Untagged
+  m_Name: TextHabitat
+  m_TagString: TextHabitatLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12849,8 +12848,8 @@ GameObject:
   - component: {fileID: 1569295238}
   - component: {fileID: 1569295237}
   m_Layer: 5
-  m_Name: TextJudul
-  m_TagString: Untagged
+  m_Name: TextLevel
+  m_TagString: TextLevelLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13154,7 +13153,7 @@ GameObject:
   - component: {fileID: 1599847366}
   m_Layer: 5
   m_Name: TextPrize
-  m_TagString: TextPrizeLevel
+  m_TagString: TextPrizeLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14581,8 +14580,8 @@ GameObject:
   - component: {fileID: 1790342243}
   - component: {fileID: 1790342242}
   m_Layer: 5
-  m_Name: TextJudul
-  m_TagString: Untagged
+  m_Name: TextLevel
+  m_TagString: TextLevelLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14849,8 +14848,8 @@ GameObject:
   - component: {fileID: 1823491745}
   - component: {fileID: 1823491744}
   m_Layer: 5
-  m_Name: TextMap
-  m_TagString: Untagged
+  m_Name: TextHabitat
+  m_TagString: TextHabitatLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15149,7 +15148,7 @@ GameObject:
   - component: {fileID: 1885124283}
   m_Layer: 5
   m_Name: TextPrize
-  m_TagString: TextPrizeLevel
+  m_TagString: TextPrizeLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15288,8 +15287,8 @@ GameObject:
   - component: {fileID: 1889023224}
   - component: {fileID: 1889023223}
   m_Layer: 5
-  m_Name: TextMap
-  m_TagString: Untagged
+  m_Name: TextHabitat
+  m_TagString: TextHabitatLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15546,7 +15545,7 @@ GameObject:
   - component: {fileID: 1896375432}
   m_Layer: 5
   m_Name: TextPrize
-  m_TagString: TextPrizeLevel
+  m_TagString: TextPrizeLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15955,8 +15954,8 @@ GameObject:
   - component: {fileID: 1944671410}
   - component: {fileID: 1944671409}
   m_Layer: 5
-  m_Name: TextMap
-  m_TagString: Untagged
+  m_Name: TextHabitat
+  m_TagString: TextHabitatLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16091,7 +16090,7 @@ GameObject:
   - component: {fileID: 1955527928}
   m_Layer: 5
   m_Name: TextPrize
-  m_TagString: TextPrizeLevel
+  m_TagString: TextPrizeLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16516,8 +16515,8 @@ GameObject:
   - component: {fileID: 2049199841}
   - component: {fileID: 2049199840}
   m_Layer: 5
-  m_Name: TextMap
-  m_TagString: Untagged
+  m_Name: TextHabitat
+  m_TagString: TextHabitatLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16651,8 +16650,8 @@ GameObject:
   - component: {fileID: 2058346172}
   - component: {fileID: 2058346171}
   m_Layer: 5
-  m_Name: TextMap
-  m_TagString: Untagged
+  m_Name: TextHabitat
+  m_TagString: TextHabitatLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17316,8 +17315,8 @@ GameObject:
   - component: {fileID: 2147025286}
   - component: {fileID: 2147025285}
   m_Layer: 5
-  m_Name: TextJudul
-  m_TagString: Untagged
+  m_Name: TextLevel
+  m_TagString: TextLevelLevelPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

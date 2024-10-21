@@ -9,11 +9,13 @@ TagManager:
   - WeaponImage
   - Bgm
   - Keyboard
-  - TextPrizeLevel
   - Chapter1LevelButton
   - Chapter2LevelButton
   - Chapter3LevelButton
   - Chapter4LevelButton
+  - TextPrizeLevelPanel
+  - TextHabitatLevelPanel
+  - TextLevelLevelPanel
   layers:
   - Default
   - TransparentFX

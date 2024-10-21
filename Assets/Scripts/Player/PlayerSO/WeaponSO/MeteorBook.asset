@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bd72e2c118cf7544a0dbb1d3aa62355, type: 3}
-  m_Name: MagicalDictionaryBook
+  m_Name: MeteorBook
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: 51e26a95bf391bd41b4f3d5543dad394, type: 3}
-  weaponName: Magical Dictionary Book
+  weaponName: Meteor Book
   weaponDamage: 15
   weaponPrice: 20000
   weaponBuyed: 0
