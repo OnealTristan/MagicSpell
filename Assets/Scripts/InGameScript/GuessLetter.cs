@@ -9,6 +9,7 @@ public class GuessLetter : MonoBehaviour
 	[SerializeField] private TextMeshProUGUI textHuruf1;
 	[SerializeField] private TextMeshProUGUI textHuruf2;
 	private Dictionary dictionary;
+	private Data data;
 
     [Header(" Settings ")]
 	[SerializeField] private bool checkRandomLetter;
@@ -20,16 +21,28 @@ public class GuessLetter : MonoBehaviour
 
 	private void Awake() {
 		dictionary = GetComponent<Dictionary>();
+		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
 	}
 
 	// Start is called before the first frame update
 	void Start()
     {
-		if (checkRandomLetter == true) {
-			GetRandomLetterException();
+		// projectMode(false) == KP
+		if (data.GetProjectMode() == false) {
+			if (checkRandomLetter == true) {
+				GetRandomLetterException();
+			} else {
+				textHuruf1.text = letter[0].ToUpper();
+				textHuruf2.text = letter[1].ToUpper();
+			}
+		// projectMode(true) == TA
 		} else {
-			textHuruf1.text = letter[0].ToUpper();
-			textHuruf2.text = letter[1].ToUpper();
+			if (data.GetChapterIndex() == 0 && data.GetLevelIndex() == 0) {
+				textHuruf1.text = letter[0].ToUpper();
+				textHuruf2.text = letter[1].ToUpper();
+			} else {
+				GetRandomLetterException();
+			}
 		}
 
 		Debug.Log(letter[0]);

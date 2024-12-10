@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9db801d28f77cb4b8d0572181f430fd, type: 3}
+  m_Name: Chapter5
+  m_EditorClassIdentifier: 
+  backgroundChapter: {fileID: 21300000, guid: 18c54257a53604947aaa806804960b58, type: 3}
+  chapterName: Shadow Temple
+  starterEnemyHealthChapter: 90
+  chapterComplete: 0
+  chapterLevelClear: 00000000000000000000
+  chapterLevelLosePrize: b8010000c2010000cc010000d6010000e0010000ea010000f4010000fe0100000802000012020000
+  chapterLevelWinPrize: 3011000094110000f81100005c120000c01200002413000088130000ec13000050140000b4140000
+  chapterLevelWinPrizeAfterComplete: 98080000ca080000fc0800002e0900006009000092090000c4090000f6090000280a00005a0a0000

@@ -16,6 +16,8 @@ TagManager:
   - TextPrizeLevelPanel
   - TextHabitatLevelPanel
   - TextLevelLevelPanel
+  - TutorialPanel
+  - GameLayoutPanel
   layers:
   - Default
   - TransparentFX

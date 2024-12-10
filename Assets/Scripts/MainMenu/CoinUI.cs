@@ -18,13 +18,17 @@ public class CoinUI : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
-        coinText.text = data.GetCoin().ToString();
-
         shopScript.onBuyWeapon += ShopScriptOnBuyWeapon;
         shopScript.onBuyPotion += ShopScriptOnBuyWeapon;
     }
 
-    private void ShopScriptOnBuyWeapon() {
+	private void Update() {
+		if (data.GetCoin() >= 0) {
+			coinText.text = data.GetCoin().ToString();
+		}
+	}
+
+	private void ShopScriptOnBuyWeapon() {
         coinText.text = data.GetCoin().ToString();
 	}
 }

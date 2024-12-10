@@ -21,26 +21,24 @@ public class HealthUI : MonoBehaviour
     [SerializeField] private Potion potion;
     private Player player;
     private Enemy enemy;
+    private Data data;
 
     [Header(" Elements ")]
     int index;
 
-    private void Start() {
-		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+	private void Awake() {
+		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
+	}
 
-		player.OnDecreaseHPEnemy += OnDecreaseHPEnemy;
+	private void Start() {
         potion.OnEncreaseHPPlayer += OnEncreaseHPPlayer;
-
-        playerHealth.maxValue = player.GetPlayerHealth();
-        playerHealth.value = playerHealth.maxValue;
-        amountPlayer.text = playerHealth.value.ToString();
     }
 
 	private void Update() {
         if (enemy == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
             enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
             
-            enemy.OnDecreaseHPPlayer += OnDecreaseHPPlayer;
+            enemy.OnDecreaseHPPlayer += DecreaseHPPlayer;
 
             enemyHealth.maxValue = enemy.GetEnemyHealth();
             enemyHealth.value = enemyHealth.maxValue;
@@ -48,17 +46,26 @@ public class HealthUI : MonoBehaviour
             Debug.Log("enemy ada");
         }
 
+        if (player == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+			player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+			player.OnDecreaseHPEnemy += DecreaseHPEnemy;
+
+			playerHealth.maxValue = data.GetMaxHealthPlayer();
+			playerHealth.value = playerHealth.maxValue;
+			amountPlayer.text = playerHealth.value.ToString();
+		}
+
 		if (playerHealth.value < 1) {
 			playerFill.SetActive(false);
 		}
 	}
 
-    private void OnDecreaseHPPlayer(int health) {
+    private void DecreaseHPPlayer(int health) {
         playerHealth.value = health;
 		amountPlayer.text = health.ToString();
     }
 
-    private void OnDecreaseHPEnemy(int health) {
+    private void DecreaseHPEnemy(int health) {
         enemyHealth.value = health;
 		amountEnemy.text = enemyHealth.value.ToString();
 	}

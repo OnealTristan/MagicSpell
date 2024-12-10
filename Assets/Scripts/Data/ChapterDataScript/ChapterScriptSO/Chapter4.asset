@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9db801d28f77cb4b8d0572181f430fd, type: 3}
   m_Name: Chapter4
   m_EditorClassIdentifier: 
+  backgroundChapter: {fileID: 21300000, guid: 6271f2fdd6a1d3540b6c3d274a357a8c, type: 3}
   chapterName: Fungi Forest
-  chapterComplete: 1
-  chapterLevelClear: 01010101010101010101
+  starterEnemyHealthChapter: 70
+  chapterComplete: 0
+  chapterLevelClear: 00000000000000000000
   chapterLevelLosePrize: 400100004a010000540100005e01000068010000720100007c01000086010000900100009a010000
   chapterLevelWinPrize: 800c0000e40c0000480d0000ac0d0000100e0000740e0000d80e00003c0f0000a00f000004100000
   chapterLevelWinPrizeAfterComplete: 4006000072060000a4060000d6060000080700003a0700006c0700009e070000d007000002080000

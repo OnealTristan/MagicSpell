@@ -25,15 +25,10 @@ public class Enemy : MonoBehaviour {
 
     private void Awake() {
         health = enemySO.maxHealth;
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        keyboard = GameObject.FindObjectOfType<NewKeyboard>();
 	}
 
 	private void Start() {
         attackCoroutine = StartCoroutine(AttackRotuine());
-
-        player.OnHittingEnemy += ResetAttackInterval;
-        keyboard.OnEnterPressed += ResetAttackInterval;
 
         isBoss = enemySO.isBoss;
 	}
@@ -45,6 +40,16 @@ public class Enemy : MonoBehaviour {
                 StopCoroutine(attackCoroutine);
             }
         }
+
+        if (player == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+			player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+			player.OnHittingEnemy += ResetAttackInterval;
+		}
+
+        if (keyboard == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+			keyboard = GameObject.FindGameObjectWithTag("Keyboard").GetComponent<NewKeyboard>();
+			keyboard.OnEnterPressed += ResetAttackInterval;
+		}
     }
 
     private IEnumerator AttackRotuine() {
@@ -60,7 +65,7 @@ public class Enemy : MonoBehaviour {
         }
     }
 
-    private void ResetAttackInterval() {
+    public void ResetAttackInterval() {
         if (attackCoroutine != null) {
             StopCoroutine(attackCoroutine);
         }

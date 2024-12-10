@@ -12,11 +12,10 @@ public class PlayerSpawner : MonoBehaviour
 	private void Awake() {
 		playerSpawnPos = GameObject.Find("SpawnPlayerPosition").GetComponent<Transform>();
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
-		SpawnPlayer();
 	}
 
 	private void Start() {
-		
+		SpawnPlayer();
 	}
 
 	private void SpawnPlayer() {

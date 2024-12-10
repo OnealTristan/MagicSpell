@@ -45,18 +45,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: 300
+  projectMode: 0
+  chapterIndex: 0
+  levelIndex: 0
   weaponSO:
   - {fileID: 11400000, guid: c6cb6d8b5e4f06946a91645f0281ff34, type: 2}
   - {fileID: 11400000, guid: 6b3b2c42098ee7d40a97f118819cd629, type: 2}
+  - {fileID: 11400000, guid: 407959035eb1cea47af378255f209953, type: 2}
   - {fileID: 11400000, guid: 14b7cdaf4f8fc2d4ca5cfdb5dcadab41, type: 2}
   - {fileID: 11400000, guid: 95a04cc416e0b2f42b627c1da59ef7ed, type: 2}
   - {fileID: 11400000, guid: 84aff41b6adb35542a71acbb5cdf5cc0, type: 2}
-  - {fileID: 11400000, guid: 407959035eb1cea47af378255f209953, type: 2}
-  chapterSo:
+  potionSO:
+  - {fileID: 11400000, guid: 25cc96c73bcd19643bc4d17049043374, type: 2}
+  chapterSO:
   - {fileID: 11400000, guid: b2d6543c171af8d4795a3e38c5b68d9c, type: 2}
   - {fileID: 11400000, guid: 29fdef082cf57344e8803a0b66d70c37, type: 2}
   - {fileID: 11400000, guid: c5d6f05c9d40c854b8b98d83b029aa4e, type: 2}
   - {fileID: 11400000, guid: 6255415a85d416742a3354314e76908d, type: 2}
+  - {fileID: 11400000, guid: d28adc63354eae74aa417fa8965ce791, type: 2}
   achievementSO:
   - {fileID: 11400000, guid: 226dadfb80cdd574b9656009f00cccc5, type: 2}
   - {fileID: 11400000, guid: aa686dfea66eb144d997b1161edd1376, type: 2}

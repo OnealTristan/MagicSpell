@@ -21,18 +21,21 @@ public class EnemyAnimation : MonoBehaviour
 
 	private void Awake() {
 		enemy = GetComponent<Enemy>();
-		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 	}
 
 	private void Start() {
 		enemy.OnAttackCoroutine += EnemyAttackAnimation;
 		enemy.OnDeathAnimation += EnemyDeathAnimation;
-		player.OnHittingEnemy += EnemyGetHitAnimation;
 	}
 
 	private void Update() {
 		if (animator == null) {
 			animator = GetComponent<Animator>();
+		}
+
+		if (player == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+			player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+			player.OnHittingEnemy += EnemyGetHitAnimation;
 		}
 	}
 

@@ -17,21 +17,6 @@ public class InventoryInGameScript : MonoBehaviour {
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 	}
 
-	public void ClickOakWandEquipButton() {
-        player.EquipWeapon(oakWand);
-		Debug.Log("Weapon " + oakWand.name + " Equipped!");
-	}
-
-	public void ClickPhoenixWandEquipButton() {
-		player.EquipWeapon(phoenixWand);
-		Debug.Log("Weapon " + phoenixWand.name + " Equipped!");
-	}
-
-	public void ClickThunderWandEquipButton() {
-		player.EquipWeapon(thunderWand);
-		Debug.Log("Weapon " + thunderWand.name + " Equipped!");
-	}
-
 	public void ClickInventoryButton() {
 		GameManager.instance.UpdateGameState(GameManager.GameState.Pause);
 		OnInventoryButtonClick?.Invoke();

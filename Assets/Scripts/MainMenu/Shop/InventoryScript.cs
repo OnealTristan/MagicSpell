@@ -20,7 +20,6 @@ public class InventoryScript : MonoBehaviour
 	[Header(" References Potion ")]
 	[SerializeField] private Transform parentContentPotionPosUI;
 	[SerializeField] private GameObject contentPanelPotionPrefab;
-	[SerializeField] private PotionSO[] potionSO;
 
 	private void Awake() {
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
@@ -43,8 +42,8 @@ public class InventoryScript : MonoBehaviour
 			Destroy(child.gameObject);
 		}
 
-		foreach (PotionSO potion in potionSO) {
-			if (potion.amount > 0) {
+		foreach (PotionSO potion in data.potionSO) {
+			if (potion.amount > 0 || potion.id == 0) {
 				GameObject panelInstance = Instantiate(contentPanelPotionPrefab, parentContentPotionPosUI);
 
 				Image[] images = panelInstance.GetComponentsInChildren<Image>();
@@ -57,11 +56,15 @@ public class InventoryScript : MonoBehaviour
 
 				// Set weapon name text
 				TextMeshProUGUI text = panelInstance.GetComponentInChildren<TextMeshProUGUI>();
-				text.text = potion.potionName;
-
 				// Set Button properties
 				Button buttonEquip = panelInstance.GetComponentInChildren<Button>();
-				buttonEquip.onClick.AddListener(() => EquipPotion(potion));
+				if (potion.id == 0) {
+					text.text = "Max Health = " + data.GetMaxHealthPlayer();
+					buttonEquip.interactable = false;
+				} else {
+					text.text = potion.potionName;
+					buttonEquip.onClick.AddListener(() => EquipPotion(potion));
+				}
 			}
 		}
 	}

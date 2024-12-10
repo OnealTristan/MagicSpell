@@ -17,4 +17,4 @@ MonoBehaviour:
   weaponDamage: 3
   weaponPrice: 0
   weaponBuyed: 1
-  weaponEquip: 0
+  weaponEquip: 1

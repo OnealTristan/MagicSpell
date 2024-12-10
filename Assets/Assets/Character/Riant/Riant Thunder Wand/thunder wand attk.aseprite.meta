@@ -1,0 +1,2222 @@
+fileFormatVersion: 2
+guid: 46843866d6eea7c4db57ec65d3850633
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 64
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638654506483406510
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: thunder wand attk_Frame_10
+    originalName: 
+    pivot: {x: 4.5, y: -3.2727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 609
+      y: 484
+      width: 19
+      height: 11
+    spriteID: b5e98c589d4b2cf4cb1fb139501023c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 609, y: 484}
+  - name: thunder wand attk_Frame_31
+    originalName: 
+    pivot: {x: 3.3269231, y: -3.1818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 543
+      y: 484
+      width: 26
+      height: 11
+    spriteID: 7f48d3470d53002488da54f101f162bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 543, y: 484}
+  - name: thunder wand attk_Frame_69
+    originalName: 
+    pivot: {x: 3.6041665, y: -3.2727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 577
+      y: 484
+      width: 24
+      height: 11
+    spriteID: 9d7da4e587a21174b9d9206f2d04b1d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 577, y: 484}
+  - name: thunder wand attk_Frame_51
+    originalName: 
+    pivot: {x: 1.2743902, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 418
+      y: 213
+      width: 82
+      height: 59
+    spriteID: 7ca174a1ad108454fab03df25791d877
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 418, y: 213}
+  - name: thunder wand attk_Frame_52
+    originalName: 
+    pivot: {x: 1.2530864, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 402
+      y: 146
+      width: 81
+      height: 59
+    spriteID: e708facc9c1a2d346a3903313d357f61
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 402, y: 146}
+  - name: thunder wand attk_Frame_53
+    originalName: 
+    pivot: {x: 0.87606835, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 213
+      width: 117
+      height: 60
+    spriteID: bfea45aee21a7c14d89389f9bec1f198
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 213}
+  - name: thunder wand attk_Frame_54
+    originalName: 
+    pivot: {x: 0.81496066, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 213
+      width: 127
+      height: 60
+    spriteID: 01d2f7dc6b402fb459d3c2afa36cd1cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 213}
+  - name: thunder wand attk_Frame_55
+    originalName: 
+    pivot: {x: 0.7226027, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 213
+      width: 146
+      height: 60
+    spriteID: 8404aaac80048ad42a4c66c2e2908a4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 213}
+  - name: thunder wand attk_Frame_56
+    originalName: 
+    pivot: {x: 0.66987175, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 238
+      y: 146
+      width: 156
+      height: 59
+    spriteID: a8a295fcb5fb9924eae1e18ecb2fb74d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 238, y: 146}
+  - name: thunder wand attk_Frame_59
+    originalName: 
+    pivot: {x: 0.47854075, y: -0.04918033}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 251
+      y: 76
+      width: 233
+      height: 61
+    spriteID: 0678019461b25d147a41b47a431c53ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 251, y: 76}
+  - name: thunder wand attk_Frame_60
+    originalName: 
+    pivot: {x: 0.4832636, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 76
+      width: 239
+      height: 62
+    spriteID: 8168ca417051c124ab8ce66e8cc3c07b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 76}
+  - name: thunder wand attk_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: -0.04918033}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 765
+      y: 4
+      width: 245
+      height: 61
+    spriteID: 970a3cb7c9a775847a2495516196b6ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 765, y: 4}
+  - name: thunder wand attk_Frame_62
+    originalName: 
+    pivot: {x: 0.49591836, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 4
+      width: 245
+      height: 62
+    spriteID: 9926280cce2d6eb40a6bda60abc0f32d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 4}
+  - name: thunder wand attk_Frame_63
+    originalName: 
+    pivot: {x: 0.5040486, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 247
+      height: 64
+    spriteID: ea474262195d6fb4582e54a60097570b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: thunder wand attk_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 259
+      y: 4
+      width: 245
+      height: 64
+    spriteID: 0dabd6855447adc4abf2c5452c8b5fdf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 259, y: 4}
+  - name: thunder wand attk_Frame_65
+    originalName: 
+    pivot: {x: 0.46271926, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 76
+      width: 228
+      height: 60
+    spriteID: 4696e9c52e54be2429e81fc43fd71bb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 76}
+  - name: thunder wand attk_Frame_66
+    originalName: 
+    pivot: {x: 0.4647577, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 728
+      y: 76
+      width: 227
+      height: 60
+    spriteID: c532e57390a26bb41bb66d119ce4a9f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 728, y: 76}
+  - name: thunder wand attk_Frame_67
+    originalName: 
+    pivot: {x: 0.46238938, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 146
+      width: 226
+      height: 59
+    spriteID: ea50d9f7bcf2ed64a9d08ad106c72566
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 146}
+  - name: thunder wand attk_Frame_0
+    originalName: 
+    pivot: {x: 1.8962264, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 948
+      y: 213
+      width: 53
+      height: 60
+    spriteID: f80dc3bfffee97143a17efb57bfde3cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 948, y: 213}
+  - name: thunder wand attk_Frame_1
+    originalName: 
+    pivot: {x: 1.8962264, y: -0.08196721}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 963
+      y: 76
+      width: 53
+      height: 61
+    spriteID: 1a28c645ac00c6c4a8bdccba83dd4e72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 963, y: 76}
+  - name: thunder wand attk_Frame_2
+    originalName: 
+    pivot: {x: 1.99, y: -0.08196721}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 427
+      y: 484
+      width: 50
+      height: 61
+    spriteID: 26faa65dc6d6e17468bb24e831626a4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 427, y: 484}
+  - name: thunder wand attk_Frame_3
+    originalName: 
+    pivot: {x: 1.9705883, y: -0.08196721}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 309
+      y: 484
+      width: 51
+      height: 61
+    spriteID: b2fc1ea8efa525348ba1c18a82d96a29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 309, y: 484}
+  - name: thunder wand attk_Frame_4
+    originalName: 
+    pivot: {x: 1.8962264, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 484
+      width: 53
+      height: 60
+    spriteID: 21bc08c2feb3b8b46884f6fd1733d4ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 484}
+  - name: thunder wand attk_Frame_5
+    originalName: 
+    pivot: {x: 1.8962264, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 484
+      width: 53
+      height: 60
+    spriteID: c68c5d0ae9f6ddf4897399b09b68aa39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 484}
+  - name: thunder wand attk_Frame_6
+    originalName: 
+    pivot: {x: 1.8962264, y: -0.08196721}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 484
+      width: 53
+      height: 61
+    spriteID: a95b816dcd243d44cac020b209e9bc71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 484}
+  - name: thunder wand attk_Frame_7
+    originalName: 
+    pivot: {x: 1.99, y: -0.08196721}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 485
+      y: 484
+      width: 50
+      height: 61
+    spriteID: 92c66f9d5b43688459701a958aec213a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 485, y: 484}
+  - name: thunder wand attk_Frame_8
+    originalName: 
+    pivot: {x: 1.9705883, y: -0.08196721}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 484
+      width: 51
+      height: 61
+    spriteID: b0bf363ee66c43740b9c605071c763ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 368, y: 484}
+  - name: thunder wand attk_Frame_9
+    originalName: 
+    pivot: {x: 1.8962264, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 484
+      width: 53
+      height: 60
+    spriteID: f91330160bac9784a8bca9af96176ad4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 484}
+  - name: thunder wand attk_Frame_11
+    originalName: 
+    pivot: {x: 1.8962264, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 248
+      y: 484
+      width: 53
+      height: 60
+    spriteID: 87df6a6a52d988449a7f1f075da9bcf6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 248, y: 484}
+  - name: thunder wand attk_Frame_12
+    originalName: 
+    pivot: {x: 1.5703125, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 955
+      y: 281
+      width: 64
+      height: 60
+    spriteID: e1ef3fb8512f9314687b080735bdf555
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 955, y: 281}
+  - name: thunder wand attk_Frame_13
+    originalName: 
+    pivot: {x: 1.2884614, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 281
+      width: 78
+      height: 60
+    spriteID: 3e0bb33860b29674c8b923255d90882e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 281}
+  - name: thunder wand attk_Frame_14
+    originalName: 
+    pivot: {x: 1.3355263, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 599
+      y: 349
+      width: 76
+      height: 59
+    spriteID: a88a83e9e15461b4da4e7b9ef3ab99c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 599, y: 349}
+  - name: thunder wand attk_Frame_15
+    originalName: 
+    pivot: {x: 1.3355263, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 683
+      y: 349
+      width: 76
+      height: 59
+    spriteID: f47c844b00c7f6b4790f01910229c119
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 683, y: 349}
+  - name: thunder wand attk_Frame_16
+    originalName: 
+    pivot: {x: 1.3311689, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 349
+      width: 77
+      height: 60
+    spriteID: ba1d02acb8f32cd46bd6bce756015a05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 349}
+  - name: thunder wand attk_Frame_17
+    originalName: 
+    pivot: {x: 1.3269231, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 281
+      width: 78
+      height: 60
+    spriteID: 0e7f895ce9e1e024784fbc850d2ca706
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 281}
+  - name: thunder wand attk_Frame_18
+    originalName: 
+    pivot: {x: 1.31875, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 508
+      y: 213
+      width: 80
+      height: 60
+    spriteID: 7c0db9cb0edd00e4aa0a698beac8de84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 508, y: 213}
+  - name: thunder wand attk_Frame_19
+    originalName: 
+    pivot: {x: 1.3227848, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 868
+      y: 281
+      width: 79
+      height: 59
+    spriteID: b89860b0f270b304abc3fa376e5985dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 868, y: 281}
+  - name: thunder wand attk_Frame_20
+    originalName: 
+    pivot: {x: 1.3355263, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 767
+      y: 349
+      width: 76
+      height: 59
+    spriteID: ecb78355b5af85d4797a0edc862fe76f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 767, y: 349}
+  - name: thunder wand attk_Frame_21
+    originalName: 
+    pivot: {x: 1.3311689, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 349
+      width: 77
+      height: 60
+    spriteID: 28e176e3b16a36846be5d13b9956230e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 349}
+  - name: thunder wand attk_Frame_22
+    originalName: 
+    pivot: {x: 1.3269231, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 281
+      width: 78
+      height: 60
+    spriteID: 767cd6fcae8fc3949b8fb1208291ac8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 281}
+  - name: thunder wand attk_Frame_23
+    originalName: 
+    pivot: {x: 1.31875, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 213
+      width: 80
+      height: 60
+    spriteID: 3b1f7134117132346ba0e9f9338ccacb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 213}
+  - name: thunder wand attk_Frame_24
+    originalName: 
+    pivot: {x: 1.3227848, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 491
+      y: 146
+      width: 79
+      height: 59
+    spriteID: 7842f282d6d9b0e4086a530ea94a401f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 491, y: 146}
+  - name: thunder wand attk_Frame_25
+    originalName: 
+    pivot: {x: 1.3355263, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 851
+      y: 349
+      width: 76
+      height: 59
+    spriteID: 63449d63eb3576e46b1c776240ac20e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 851, y: 349}
+  - name: thunder wand attk_Frame_26
+    originalName: 
+    pivot: {x: 1.3311689, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 174
+      y: 349
+      width: 77
+      height: 60
+    spriteID: a4e5043442b823a44ae73e016f0273d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 174, y: 349}
+  - name: thunder wand attk_Frame_27
+    originalName: 
+    pivot: {x: 1.3269231, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 438
+      y: 281
+      width: 78
+      height: 60
+    spriteID: 6261da34a8f93f34e8c8fb8cd3a560f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 438, y: 281}
+  - name: thunder wand attk_Frame_28
+    originalName: 
+    pivot: {x: 1.31875, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 213
+      width: 80
+      height: 60
+    spriteID: e51479a8de242f9419c95b737b6884f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 213}
+  - name: thunder wand attk_Frame_29
+    originalName: 
+    pivot: {x: 1.3227848, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 578
+      y: 146
+      width: 79
+      height: 59
+    spriteID: c29cb020a251ce74eb6b7907260fa9b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 578, y: 146}
+  - name: thunder wand attk_Frame_30
+    originalName: 
+    pivot: {x: 1.3355263, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 935
+      y: 349
+      width: 76
+      height: 59
+    spriteID: 7fa68346601ba8549a3ea79ed07fbc17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 935, y: 349}
+  - name: thunder wand attk_Frame_32
+    originalName: 
+    pivot: {x: 1.3355263, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 417
+      width: 76
+      height: 59
+    spriteID: 8b4e584973dab79428fc5d2a37bee16c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 417}
+  - name: thunder wand attk_Frame_33
+    originalName: 
+    pivot: {x: 1.3311689, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 259
+      y: 349
+      width: 77
+      height: 60
+    spriteID: 59eba1f9bbf94564090ef969da77740e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 259, y: 349}
+  - name: thunder wand attk_Frame_34
+    originalName: 
+    pivot: {x: 1.3269231, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 281
+      width: 78
+      height: 60
+    spriteID: a990192f2b343d14d8449dc9c8a4f28a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 281}
+  - name: thunder wand attk_Frame_35
+    originalName: 
+    pivot: {x: 1.31875, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 772
+      y: 213
+      width: 80
+      height: 60
+    spriteID: bb7aafffa5beb86408251a88295aea48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 772, y: 213}
+  - name: thunder wand attk_Frame_36
+    originalName: 
+    pivot: {x: 1.3227848, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 665
+      y: 146
+      width: 79
+      height: 59
+    spriteID: 7385a0ef281ae5f4dba8f7c62daf1572
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 665, y: 146}
+  - name: thunder wand attk_Frame_37
+    originalName: 
+    pivot: {x: 1.3355263, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 417
+      width: 76
+      height: 59
+    spriteID: e29ce0e8980ff57468984489c915541a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 417}
+  - name: thunder wand attk_Frame_38
+    originalName: 
+    pivot: {x: 1.3311689, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 344
+      y: 349
+      width: 77
+      height: 60
+    spriteID: 58e2adfbf3c5c9741a0f59cf345cb4af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 344, y: 349}
+  - name: thunder wand attk_Frame_39
+    originalName: 
+    pivot: {x: 1.3269231, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 610
+      y: 281
+      width: 78
+      height: 60
+    spriteID: 878730b855e0a3e40937ebcfc00696b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 610, y: 281}
+  - name: thunder wand attk_Frame_40
+    originalName: 
+    pivot: {x: 1.31875, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 860
+      y: 213
+      width: 80
+      height: 60
+    spriteID: af35b2e4dab09f848b6dd2f3cfd6cbca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 860, y: 213}
+  - name: thunder wand attk_Frame_41
+    originalName: 
+    pivot: {x: 1.3227848, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 752
+      y: 146
+      width: 79
+      height: 59
+    spriteID: 16a58ecd6b6ff2d4995419018f5c61e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 752, y: 146}
+  - name: thunder wand attk_Frame_42
+    originalName: 
+    pivot: {x: 1.3355263, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 417
+      width: 76
+      height: 59
+    spriteID: f7dc5acbd585fd94ab5ac6d0f00c7f19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 417}
+  - name: thunder wand attk_Frame_43
+    originalName: 
+    pivot: {x: 1.3311689, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 429
+      y: 349
+      width: 77
+      height: 60
+    spriteID: 0a6f931947ae93748bd8dc7578230294
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 429, y: 349}
+  - name: thunder wand attk_Frame_44
+    originalName: 
+    pivot: {x: 1.3269231, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 696
+      y: 281
+      width: 78
+      height: 60
+    spriteID: 1ef791a4ea0fee44faddb8a709260245
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 696, y: 281}
+  - name: thunder wand attk_Frame_45
+    originalName: 
+    pivot: {x: 1.31875, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 281
+      width: 80
+      height: 60
+    spriteID: 3ba302e87385ff64e93d7b354ef81dd4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 281}
+  - name: thunder wand attk_Frame_46
+    originalName: 
+    pivot: {x: 1.3227848, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 839
+      y: 146
+      width: 79
+      height: 59
+    spriteID: 500c4305f99e98b4fb7fd1a53cca9648
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 839, y: 146}
+  - name: thunder wand attk_Frame_47
+    originalName: 
+    pivot: {x: 1.3355263, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 417
+      width: 76
+      height: 59
+    spriteID: 1f00f7fe644308c4eba999a299f1fdf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 417}
+  - name: thunder wand attk_Frame_48
+    originalName: 
+    pivot: {x: 1.3311689, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 514
+      y: 349
+      width: 77
+      height: 60
+    spriteID: bb9a632dd89440d4ba607ac5bcdc7259
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 514, y: 349}
+  - name: thunder wand attk_Frame_49
+    originalName: 
+    pivot: {x: 1.3269231, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 782
+      y: 281
+      width: 78
+      height: 60
+    spriteID: 8be83a89777617a4783700d8b334c292
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 782, y: 281}
+  - name: thunder wand attk_Frame_50
+    originalName: 
+    pivot: {x: 1.31875, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 281
+      width: 80
+      height: 60
+    spriteID: bef3e96efe6d7b84aaecb891771a9404
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 281}
+  - name: thunder wand attk_Frame_57
+    originalName: 
+    pivot: {x: 1.3355263, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 340
+      y: 417
+      width: 76
+      height: 59
+    spriteID: 3c7a63e2a7065b94daea3ed5bef1c5b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 340, y: 417}
+  - name: thunder wand attk_Frame_58
+    originalName: 
+    pivot: {x: 1.3311689, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 926
+      y: 146
+      width: 77
+      height: 59
+    spriteID: fe5bc45e6a94337479c9d808079e6960
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 926, y: 146}
+  - name: thunder wand attk_Frame_68
+    originalName: 
+    pivot: {x: 1.34, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 417
+      width: 75
+      height: 59
+    spriteID: fd9391ac54c85654ebf35db27d2f3bbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 417}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1385762086
+    name: thunder wand attk
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: thunder wand attk_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 37
+        y: 36
+        width: 19
+        height: 11
+      spriteId: b5e98c589d4b2cf4cb1fb139501023c5
+    - name: thunder wand attk_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 35
+        width: 26
+        height: 11
+      spriteId: 7f48d3470d53002488da54f101f162bf
+    - name: thunder wand attk_Frame_69
+      frameIndex: 69
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 36
+        width: 24
+        height: 11
+      spriteId: 9d7da4e587a21174b9d9206f2d04b1d2
+    - name: thunder wand attk_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 5
+        width: 82
+        height: 59
+      spriteId: 7ca174a1ad108454fab03df25791d877
+    - name: thunder wand attk_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 5
+        width: 81
+        height: 59
+      spriteId: e708facc9c1a2d346a3903313d357f61
+    - name: thunder wand attk_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 5
+        width: 117
+        height: 60
+      spriteId: bfea45aee21a7c14d89389f9bec1f198
+    - name: thunder wand attk_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 5
+        width: 127
+        height: 60
+      spriteId: 01d2f7dc6b402fb459d3c2afa36cd1cc
+    - name: thunder wand attk_Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 5
+        width: 146
+        height: 60
+      spriteId: 8404aaac80048ad42a4c66c2e2908a4a
+    - name: thunder wand attk_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 5
+        width: 156
+        height: 59
+      spriteId: a8a295fcb5fb9924eae1e18ecb2fb74d
+    - name: thunder wand attk_Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 3
+        width: 233
+        height: 61
+      spriteId: 0678019461b25d147a41b47a431c53ee
+    - name: thunder wand attk_Frame_60
+      frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 2
+        width: 239
+        height: 62
+      spriteId: 8168ca417051c124ab8ce66e8cc3c07b
+    - name: thunder wand attk_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 3
+        width: 245
+        height: 61
+      spriteId: 970a3cb7c9a775847a2495516196b6ef
+    - name: thunder wand attk_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 2
+        width: 245
+        height: 62
+      spriteId: 9926280cce2d6eb40a6bda60abc0f32d
+    - name: thunder wand attk_Frame_63
+      frameIndex: 63
+      additiveSortOrder: 0
+      cellRect:
+        x: -2
+        y: 0
+        width: 247
+        height: 64
+      spriteId: ea474262195d6fb4582e54a60097570b
+    - name: thunder wand attk_Frame_64
+      frameIndex: 64
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 245
+        height: 64
+      spriteId: 0dabd6855447adc4abf2c5452c8b5fdf
+    - name: thunder wand attk_Frame_65
+      frameIndex: 65
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 4
+        width: 228
+        height: 60
+      spriteId: 4696e9c52e54be2429e81fc43fd71bb1
+    - name: thunder wand attk_Frame_66
+      frameIndex: 66
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 4
+        width: 227
+        height: 60
+      spriteId: c532e57390a26bb41bb66d119ce4a9f4
+    - name: thunder wand attk_Frame_67
+      frameIndex: 67
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 5
+        width: 226
+        height: 59
+      spriteId: ea50d9f7bcf2ed64a9d08ad106c72566
+    - name: thunder wand attk_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 5
+        width: 53
+        height: 60
+      spriteId: f80dc3bfffee97143a17efb57bfde3cb
+    - name: thunder wand attk_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 5
+        width: 53
+        height: 61
+      spriteId: 1a28c645ac00c6c4a8bdccba83dd4e72
+    - name: thunder wand attk_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 5
+        width: 50
+        height: 61
+      spriteId: 26faa65dc6d6e17468bb24e831626a4b
+    - name: thunder wand attk_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 5
+        width: 51
+        height: 61
+      spriteId: b2fc1ea8efa525348ba1c18a82d96a29
+    - name: thunder wand attk_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 5
+        width: 53
+        height: 60
+      spriteId: 21bc08c2feb3b8b46884f6fd1733d4ca
+    - name: thunder wand attk_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 5
+        width: 53
+        height: 60
+      spriteId: c68c5d0ae9f6ddf4897399b09b68aa39
+    - name: thunder wand attk_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 5
+        width: 53
+        height: 61
+      spriteId: a95b816dcd243d44cac020b209e9bc71
+    - name: thunder wand attk_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 5
+        width: 50
+        height: 61
+      spriteId: 92c66f9d5b43688459701a958aec213a
+    - name: thunder wand attk_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 5
+        width: 51
+        height: 61
+      spriteId: b0bf363ee66c43740b9c605071c763ac
+    - name: thunder wand attk_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 5
+        width: 53
+        height: 60
+      spriteId: f91330160bac9784a8bca9af96176ad4
+    - name: thunder wand attk_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 5
+        width: 53
+        height: 60
+      spriteId: 87df6a6a52d988449a7f1f075da9bcf6
+    - name: thunder wand attk_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 5
+        width: 64
+        height: 60
+      spriteId: e1ef3fb8512f9314687b080735bdf555
+    - name: thunder wand attk_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 5
+        width: 78
+        height: 60
+      spriteId: 3e0bb33860b29674c8b923255d90882e
+    - name: thunder wand attk_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 5
+        width: 76
+        height: 59
+      spriteId: a88a83e9e15461b4da4e7b9ef3ab99c6
+    - name: thunder wand attk_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 5
+        width: 76
+        height: 59
+      spriteId: f47c844b00c7f6b4790f01910229c119
+    - name: thunder wand attk_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 5
+        width: 77
+        height: 60
+      spriteId: ba1d02acb8f32cd46bd6bce756015a05
+    - name: thunder wand attk_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 5
+        width: 78
+        height: 60
+      spriteId: 0e7f895ce9e1e024784fbc850d2ca706
+    - name: thunder wand attk_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 5
+        width: 80
+        height: 60
+      spriteId: 7c0db9cb0edd00e4aa0a698beac8de84
+    - name: thunder wand attk_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 5
+        width: 79
+        height: 59
+      spriteId: b89860b0f270b304abc3fa376e5985dd
+    - name: thunder wand attk_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 5
+        width: 76
+        height: 59
+      spriteId: ecb78355b5af85d4797a0edc862fe76f
+    - name: thunder wand attk_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 5
+        width: 77
+        height: 60
+      spriteId: 28e176e3b16a36846be5d13b9956230e
+    - name: thunder wand attk_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 5
+        width: 78
+        height: 60
+      spriteId: 767cd6fcae8fc3949b8fb1208291ac8e
+    - name: thunder wand attk_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 5
+        width: 80
+        height: 60
+      spriteId: 3b1f7134117132346ba0e9f9338ccacb
+    - name: thunder wand attk_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 5
+        width: 79
+        height: 59
+      spriteId: 7842f282d6d9b0e4086a530ea94a401f
+    - name: thunder wand attk_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 5
+        width: 76
+        height: 59
+      spriteId: 63449d63eb3576e46b1c776240ac20e7
+    - name: thunder wand attk_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 5
+        width: 77
+        height: 60
+      spriteId: a4e5043442b823a44ae73e016f0273d6
+    - name: thunder wand attk_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 5
+        width: 78
+        height: 60
+      spriteId: 6261da34a8f93f34e8c8fb8cd3a560f6
+    - name: thunder wand attk_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 5
+        width: 80
+        height: 60
+      spriteId: e51479a8de242f9419c95b737b6884f8
+    - name: thunder wand attk_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 5
+        width: 79
+        height: 59
+      spriteId: c29cb020a251ce74eb6b7907260fa9b7
+    - name: thunder wand attk_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 5
+        width: 76
+        height: 59
+      spriteId: 7fa68346601ba8549a3ea79ed07fbc17
+    - name: thunder wand attk_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 5
+        width: 76
+        height: 59
+      spriteId: 8b4e584973dab79428fc5d2a37bee16c
+    - name: thunder wand attk_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 5
+        width: 77
+        height: 60
+      spriteId: 59eba1f9bbf94564090ef969da77740e
+    - name: thunder wand attk_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 5
+        width: 78
+        height: 60
+      spriteId: a990192f2b343d14d8449dc9c8a4f28a
+    - name: thunder wand attk_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 5
+        width: 80
+        height: 60
+      spriteId: bb7aafffa5beb86408251a88295aea48
+    - name: thunder wand attk_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 5
+        width: 79
+        height: 59
+      spriteId: 7385a0ef281ae5f4dba8f7c62daf1572
+    - name: thunder wand attk_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 5
+        width: 76
+        height: 59
+      spriteId: e29ce0e8980ff57468984489c915541a
+    - name: thunder wand attk_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 5
+        width: 77
+        height: 60
+      spriteId: 58e2adfbf3c5c9741a0f59cf345cb4af
+    - name: thunder wand attk_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 5
+        width: 78
+        height: 60
+      spriteId: 878730b855e0a3e40937ebcfc00696b4
+    - name: thunder wand attk_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 5
+        width: 80
+        height: 60
+      spriteId: af35b2e4dab09f848b6dd2f3cfd6cbca
+    - name: thunder wand attk_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 5
+        width: 79
+        height: 59
+      spriteId: 16a58ecd6b6ff2d4995419018f5c61e3
+    - name: thunder wand attk_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 5
+        width: 76
+        height: 59
+      spriteId: f7dc5acbd585fd94ab5ac6d0f00c7f19
+    - name: thunder wand attk_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 5
+        width: 77
+        height: 60
+      spriteId: 0a6f931947ae93748bd8dc7578230294
+    - name: thunder wand attk_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 5
+        width: 78
+        height: 60
+      spriteId: 1ef791a4ea0fee44faddb8a709260245
+    - name: thunder wand attk_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 5
+        width: 80
+        height: 60
+      spriteId: 3ba302e87385ff64e93d7b354ef81dd4
+    - name: thunder wand attk_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 5
+        width: 79
+        height: 59
+      spriteId: 500c4305f99e98b4fb7fd1a53cca9648
+    - name: thunder wand attk_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 5
+        width: 76
+        height: 59
+      spriteId: 1f00f7fe644308c4eba999a299f1fdf3
+    - name: thunder wand attk_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 5
+        width: 77
+        height: 60
+      spriteId: bb9a632dd89440d4ba607ac5bcdc7259
+    - name: thunder wand attk_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 5
+        width: 78
+        height: 60
+      spriteId: 8be83a89777617a4783700d8b334c292
+    - name: thunder wand attk_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 5
+        width: 80
+        height: 60
+      spriteId: bef3e96efe6d7b84aaecb891771a9404
+    - name: thunder wand attk_Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 5
+        width: 76
+        height: 59
+      spriteId: 3c7a63e2a7065b94daea3ed5bef1c5b2
+    - name: thunder wand attk_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 5
+        width: 77
+        height: 59
+      spriteId: fe5bc45e6a94337479c9d808079e6960
+    - name: thunder wand attk_Frame_68
+      frameIndex: 68
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 5
+        width: 75
+        height: 59
+      spriteId: fd9391ac54c85654ebf35db27d2f3bbf
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 245, y: 81}

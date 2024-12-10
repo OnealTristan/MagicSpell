@@ -39,29 +39,36 @@ public class NewKeyboard : MonoBehaviour
 		dictionary = GetComponent<Dictionary>();
 
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
-        guessLetter = GameObject.Find("GuessTextContainer").GetComponent<GuessLetter>();
-		userInputDisplay = GameObject.Find("TextContainer").GetComponent<UserInputDisplay>();
 	}
-
-	void Start()
-    {
-		playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
-
-		playerAnimation.OnPlayerAnimationStart += DisableKeyboard;
-        playerAnimation.OnPlayerAnimationEnd += EnableKeyboard;
-
-        letter = guessLetter.GetLetter();
-    }
 
     void Update()
     {
-        if (enemy == null && enemyAnimation == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+        if (enemy == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
             enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
-            enemyAnimation = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyAnimation>();
+        }
+
+        if (enemyAnimation == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+			enemyAnimation = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyAnimation>();
 
 			enemyAnimation.OnEnemyAnimationStart += DisableKeyboard;
-            enemyAnimation.OnEnemyAnimationEnd += EnableKeyboard;
-        }
+			enemyAnimation.OnEnemyAnimationEnd += EnableKeyboard;
+		}
+
+        if (playerAnimation == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+			playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
+
+			playerAnimation.OnPlayerAnimationStart += DisableKeyboard;
+			playerAnimation.OnPlayerAnimationEnd += EnableKeyboard;
+		}
+
+        if (guessLetter == null) {
+			guessLetter = GameObject.Find("GuessTextContainer").GetComponent<GuessLetter>();
+			letter = guessLetter.GetLetter();
+		}
+
+        if (userInputDisplay == null) {
+			userInputDisplay = GameObject.Find("TextContainer").GetComponent<UserInputDisplay>();
+		}
     }
 
     public void AlphabetFunction(string alphabet)
@@ -79,13 +86,14 @@ public class NewKeyboard : MonoBehaviour
     public void EnterFunction()
     {
         string txt = userInputDisplay.DisplayText();
-     
+
+        bool stringFound = false;
+
         if (string.IsNullOrEmpty(txt))
         {
             return;
         }
 
-        bool stringFound = false;
 
         if (dictionary.GetValidWords() != null)
         {
@@ -123,15 +131,14 @@ public class NewKeyboard : MonoBehaviour
                             usedWords[usedWords.Length - 1] = txt;
 
                             stringFound = true;
-                            userInputDisplay.DeleteText();
                             break;
                         }
                     }
-                }
+				}
             }
 
-            //Jika salah maka damage akan diterima oleh player
-            if (!stringFound)
+			//Jika salah maka damage akan diterima oleh player
+			if (!stringFound)
             {
                 Debug.Log("Type: " + txt + " Not Found!!");
                 playerAnimation.PlayerIdleAnimation();
@@ -140,8 +147,8 @@ public class NewKeyboard : MonoBehaviour
 
 				userInputDisplay.DeleteText();
 			}
-        }
-    }
+		}
+	}
 
     /*public void SetButtonInteractable(int buttonIndex, bool interactable) {
         if (buttonIndex >= 0 && buttonIndex < keyButton.Length) {

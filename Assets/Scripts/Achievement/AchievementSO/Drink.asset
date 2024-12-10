@@ -21,3 +21,5 @@ MonoBehaviour:
   - juice
   - soda
   achievementCategoryWordsAchieved: []
+  achievementCategoryClaimed: 0
+  achievementCategoryDone: 0

@@ -5,9 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Chapter", menuName = "ScriptableObjects/ChapterSO")]
 public class ChapterSO : ScriptableObject
 {
+	public Sprite backgroundChapter;
 	public string chapterName;
-	public bool chapterComplete;
+	public int starterEnemyHealthChapter;
 
+	public bool chapterComplete;
 	public bool[] chapterLevelClear;
 	public int[] chapterLevelLosePrize;
 	public int[] chapterLevelWinPrize;

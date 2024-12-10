@@ -8,13 +8,10 @@ public class UserInputDisplay : MonoBehaviour
     [SerializeField] private Text textContainer;
     [SerializeField] private NewKeyboard keyboard;
     private PlayerAnimation playerAnimation;
+	private EnemyAnimation enemyAnimation;
 
     [Header(" Elements ")]
     private bool wordEmpty;
-
-	private void Awake() {
-		
-	}
 
 	private void OnEnable() {
 		// Get reference to NewKeyboard
@@ -31,12 +28,21 @@ public class UserInputDisplay : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
-		playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
-
 		wordEmpty = true;
     }
 
-    private void BackspacePressedCallback()
+	private void Update() {
+		if (playerAnimation == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+			playerAnimation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAnimation>();
+		}
+
+		if (enemyAnimation == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+			enemyAnimation = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyAnimation>();
+			enemyAnimation.OnEnemyAnimationEnd += CheckWordEmpty;
+		}
+	}
+
+	private void BackspacePressedCallback()
     {
         if (textContainer.text.Length > 0)
         {
@@ -64,8 +70,16 @@ public class UserInputDisplay : MonoBehaviour
 
     private void EnterPreseedCallback() {
         wordEmpty = true;
+		DeleteText();
     }
 
+	private void CheckWordEmpty() {
+		if (wordEmpty == false) {
+			playerAnimation.PlayerSpellingAnimation();
+		} else {
+			return;
+		}
+	}
 
 	public void DeleteText() {
         textContainer.text = string.Empty;

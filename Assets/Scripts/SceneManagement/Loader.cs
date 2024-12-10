@@ -50,6 +50,7 @@ public static class Loader
 		Level38,
 		Level39,
 		Level40,
+		GameLevel,
 		Loading,
 		LevelMenu,
 	}

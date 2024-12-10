@@ -16,5 +16,5 @@ MonoBehaviour:
   weaponName: Phoenix Wand
   weaponDamage: 5
   weaponPrice: 200
-  weaponBuyed: 1
-  weaponEquip: 1
+  weaponBuyed: 0
+  weaponEquip: 0

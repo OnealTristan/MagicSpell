@@ -11,33 +11,23 @@ public class Player : MonoBehaviour
 
 	[Header(" References ")]
 	private Enemy enemy;
+	private Data data;
 
 	[Header(" Default Weapon ")]
 	[SerializeField] private WeaponSO defaultWeapon;
-
-	[Header(" Unicorn Wand ")]
-    [SerializeField] private bool unicornWandIsActive;
-
-	[Header(" Book ")]
-	[SerializeField] private bool bookIsActive;
-	private int bookDamage;
 
 	[Header(" Attributes ")]
 	[SerializeField] private int maxHealth;
 	private int health;
 
-    private int correctLetterCount;
-
-	private WeaponSO equippedWeapon;
-
 	private void Awake() {
-		health = maxHealth;
+		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
 	}
 
 	private void Start() {
-		if (equippedWeapon == null) {
-			equippedWeapon = defaultWeapon;
-		}
+		maxHealth = data.GetMaxHealthPlayer();
+		health = maxHealth;
+		Debug.Log("Health = " + health);
 	}
 
 	private void Update() {
@@ -48,8 +38,8 @@ public class Player : MonoBehaviour
 
 	public void ActivatedWeapon() {
 		if (OnDecreaseHPEnemy != null) {
-			if (equippedWeapon != null) {
-				enemy.SetEnemyHealth(enemy.GetEnemyHealth() - equippedWeapon.weaponDamage);
+			if (defaultWeapon != null) {
+				enemy.SetEnemyHealth(enemy.GetEnemyHealth() - defaultWeapon.weaponDamage);
 				OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
 				OnHittingEnemy?.Invoke();
 			} else {
@@ -58,23 +48,13 @@ public class Player : MonoBehaviour
 		}
 	}
 
-	public void EquipWeapon(WeaponSO weapon) {
-		equippedWeapon = weapon;
-	}
-
-	private void Weapon5() {
-		Debug.Log("Weapon 5 Activated!");
-		//CorrectLetter();
-		OnDecreaseHPEnemy?.Invoke(correctLetterCount);
-    }
-
-	private void Book() {
+	/*private void Book() {
 		Debug.Log("Weapon 5 Activated!");
 		//CorrectLetter();
 		bookDamage = correctLetterCount * 2;
 		Debug.Log("Book Damage: " + bookDamage);
 		OnDecreaseHPEnemy?.Invoke(bookDamage);
-	}
+	}*/
 
 	/*private void CorrectLetter() {
 		correctLetterCount = 0;

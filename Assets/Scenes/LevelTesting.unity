@@ -249,10 +249,10 @@ PrefabInstance:
     - target: {fileID: 3022692722377438465, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1419478632}
+      objectReference: {fileID: 1875835984}
     - target: {fileID: 3022692722377438465, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ClickExitButton
+      value: ClickNoButton
       objectReference: {fileID: 0}
     - target: {fileID: 3022692722418447820, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_IsActive
@@ -265,10 +265,10 @@ PrefabInstance:
     - target: {fileID: 3022692722436941564, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1419478632}
+      objectReference: {fileID: 1875835984}
     - target: {fileID: 3022692722436941564, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ClickResumeButton
+      value: ClickYexButton
       objectReference: {fileID: 0}
     - target: {fileID: 3022692722491931520, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_AnchorMax.x
@@ -340,7 +340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3022692723041330461, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3022692723041573911, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
       propertyPath: m_AnchorMax.x
@@ -879,6 +879,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: tutorialPanel
+      value: 
+      objectReference: {fileID: 1623994633}
+    - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: gameLayoutPanel
+      value: 
+      objectReference: {fileID: 1679676404}
     - target: {fileID: 1868110483024268438, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -925,7 +933,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1868110483024268439, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: starterHealth
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1868110483024268439, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: enemyGameObject.Array.size
@@ -1120,15 +1128,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a5a49598c628fe46885661c2da3afab, type: 3}
---- !u!114 &1419478632 stripped
+--- !u!1 &1623994633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5871409899592151266, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+  m_PrefabInstance: {fileID: 114206653}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1679676404 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3022692723309319696, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+  m_PrefabInstance: {fileID: 114206653}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1875835984 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5627755293327864042, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+  m_CorrespondingSourceObject: {fileID: 9084510312957340256, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
   m_PrefabInstance: {fileID: 114206653}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 092dc7c47789f9c4ab5196d48a7d56e1, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c95491d8178caf4ab3f9b31d40a27e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &7935993420377944230

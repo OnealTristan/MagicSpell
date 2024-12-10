@@ -15,8 +15,6 @@ public class ShopScript : MonoBehaviour
     [SerializeField] private Transform parentContentPosWeaponUI;
 	[SerializeField] private Transform parentContentPosPotionUI;
     [SerializeField] private GameObject PanelPrefab;
-	[Space(10)]
-	[SerializeField] private PotionSO[] potionSO;
 
 	private void Awake() {
 		if (data == null) {
@@ -31,8 +29,9 @@ public class ShopScript : MonoBehaviour
 		PotionShop();
     }
 
+	// Function penampilan UI list data potion
 	private void PotionShop() {
-		for (int i = 0; i < potionSO.Length; i++) {
+		for (int i = 0; i < data.potionSO.Length; i++) {
 			GameObject panelInstance = Instantiate(PanelPrefab, parentContentPosPotionUI);
 
 			// Mengambil references dari beberapa Image components
@@ -50,32 +49,41 @@ public class ShopScript : MonoBehaviour
 			}
 
 			// Set Weapon Image
-			if (weaponImage != null && potionSO[i].image != null) {
-				weaponImage.sprite = potionSO[i].image;
+			if (weaponImage != null && data.potionSO[i].image != null) {
+				weaponImage.sprite = data.potionSO[i].image;
 			}
 
 			// Set weapon name text
 			TextMeshProUGUI text = panelInstance.GetComponentInChildren<TextMeshProUGUI>();
-			text.text = potionSO[i].potionName;
+			text.text = data.potionSO[i].potionName;
 
 			// Set price text
 			Text priceText = panelInstance.GetComponentInChildren<Text>();
-			priceText.text = potionSO[i].price.ToString();
+			priceText.text = data.potionSO[i].price.ToString();
 
 			// Set Button properties
 			Button buttonBuy = panelInstance.GetComponentInChildren<Button>();
 			TextMeshProUGUI textBuyButton = buttonBuy.GetComponentInChildren<TextMeshProUGUI>();
 			textBuyButton.text = "Buy";
-			int index = i;
-			buttonBuy.onClick.AddListener(() => BuyPotion(index));
+			buttonBuy.onClick.AddListener(() => BuyPotion(i - 1));
 		}
 	}
 
 	private void BuyPotion(int index) {
-		if (data.GetCoin() >= potionSO[index].price) {
-			potionSO[index].amount++;
-			data.SetCoin(data.GetCoin() - potionSO[index].price);
+		if (data.GetCoin() >= data.potionSO[index].price) {
+			CheckBuyPotion(index);
+			data.potionSO[index].amount++;
+			data.SetCoin(data.GetCoin() - data.potionSO[index].price);
 			onBuyPotion?.Invoke();
+		} else {
+			// UI Coin tidak cukup
+			return;
+		}
+	}
+
+	private void CheckBuyPotion(int index) {
+		if (data.potionSO[index].id == 0) {
+			data.SetMaxHealthPlayer(data.GetMaxHealthPlayer() + 2);
 		} else {
 			return;
 		}

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9db801d28f77cb4b8d0572181f430fd, type: 3}
   m_Name: Chapter3
   m_EditorClassIdentifier: 
+  backgroundChapter: {fileID: 21300000, guid: 8ad55df450def084ca524fd36ef8920f, type: 3}
   chapterName: Jedario Forest
-  chapterComplete: 1
-  chapterLevelClear: 01010101010101010101
+  starterEnemyHealthChapter: 50
+  chapterComplete: 0
+  chapterLevelClear: 00000000000000000000
   chapterLevelLosePrize: dc000000e6000000f0000000fa000000040100000e01000018010000220100002c01000036010000
   chapterLevelWinPrize: 98080000fc08000060090000c4090000280a00008c0a0000f00a0000540b0000b80b00001c0c0000
   chapterLevelWinPrizeAfterComplete: 4c0400007e040000b0040000e2040000140500004605000078050000aa050000dc0500000e060000

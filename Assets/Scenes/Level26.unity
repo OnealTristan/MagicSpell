@@ -362,6 +362,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+--- !u!1 &366625854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3022692723309319696, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+  m_PrefabInstance: {fileID: 366625853}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &418824813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -819,9 +824,17 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: levelIndex
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: chapterIndex
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: gameLayoutPanel
+      value: 
+      objectReference: {fileID: 366625854}
     - target: {fileID: 1868110483024268438, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: m_RootOrder
       value: 0

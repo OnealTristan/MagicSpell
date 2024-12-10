@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -24,7 +25,7 @@ public class LevelMenuScript : MonoBehaviour {
 	private Data data;
 
 	[Header(" Elements ")]
-	private int chapterIndex = 0;
+	[SerializeField]private int chapterIndex;
 
 	private void Awake() {
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
@@ -48,8 +49,8 @@ public class LevelMenuScript : MonoBehaviour {
 	}
 
 	private void UpdateChapterName () {
-		if (data.chapterSo.Length > chapterIndex) {
-			textHabitat.text = data.chapterSo[chapterIndex].chapterName;
+		if (data.chapterSO.Length > chapterIndex) {
+			textHabitat.text = data.chapterSO[chapterIndex].chapterName;
 			textChapter.text = "Chapter " + (chapterIndex+1).ToString();
 		}
 	}
@@ -79,20 +80,20 @@ public class LevelMenuScript : MonoBehaviour {
 	private void UpdateLevelButtonInteractable() {
 		Button[] currentChapterLevelButtons = ChapterScrollView[chapterIndex].GetComponentsInChildren<Button>();
 
-		for (int i = 0; i < data.chapterSo[chapterIndex].chapterLevelClear.Length; i++) {
+		for (int i = 0; i < data.chapterSO[chapterIndex].chapterLevelClear.Length; i++) {
 			currentChapterLevelButtons[i].interactable = false;
 		}
 
 		if (chapterIndex == 0) {
-			for (int i = 0; i < data.chapterSo[chapterIndex].chapterLevelClear.Length; i++) {
-				if (i == 0 || data.chapterSo[chapterIndex].chapterLevelClear[i - 1] == true) {
+			for (int i = 0; i < data.chapterSO[chapterIndex].chapterLevelClear.Length; i++) {
+				if (i == 0 || data.chapterSO[chapterIndex].chapterLevelClear[i - 1] == true) {
 					currentChapterLevelButtons[i].interactable = true;
 				}
 			}
 		} else if (chapterIndex > 0) {
-			if (data.chapterSo[chapterIndex - 1].chapterComplete == true) {
-				for (int i = 0; i < data.chapterSo[chapterIndex].chapterLevelClear.Length; i++) {
-					if (i == 0 || data.chapterSo[chapterIndex].chapterLevelClear[i - 1] == true) {
+			if (data.chapterSO[chapterIndex - 1].chapterComplete == true) {
+				for (int i = 0; i < data.chapterSO[chapterIndex].chapterLevelClear.Length; i++) {
+					if (i == 0 || data.chapterSO[chapterIndex].chapterLevelClear[i - 1] == true) {
 						currentChapterLevelButtons[i].interactable = true;
 					}
 				}
@@ -106,21 +107,21 @@ public class LevelMenuScript : MonoBehaviour {
 		foreach (TextMeshProUGUI text in texts) {
 			if (text.CompareTag("TextPrizeLevelPanel")) {
 				if (data.CheckLevelStatus(chapterIndex, levelIndex) == true) {
-					text.text = "X " + data.chapterSo[chapterIndex].chapterLevelWinPrizeAfterComplete[levelIndex - 1].ToString();
+					text.text = "X " + data.chapterSO[chapterIndex].chapterLevelWinPrizeAfterComplete[levelIndex - 1].ToString();
 				} else {
-					text.text = "X " + data.chapterSo[chapterIndex].chapterLevelWinPrize[levelIndex - 1].ToString();
+					text.text = "X " + data.chapterSO[chapterIndex].chapterLevelWinPrize[levelIndex - 1].ToString();
 				}
 			}
 
 			if (text.CompareTag("TextHabitatLevelPanel")) {
-				text.text = data.chapterSo[chapterIndex].chapterName;
+				text.text = data.chapterSO[chapterIndex].chapterName;
 			}
 
 			if (text.CompareTag("TextLevelLevelPanel")) {
 				int calculatedLevelIndex = levelIndex;
 
 				for (int i = 0; i < chapterIndex; i++) {
-					calculatedLevelIndex += data.chapterSo[i].chapterLevelClear.Length;
+					calculatedLevelIndex += data.chapterSO[i].chapterLevelClear.Length;
 				}
 				text.text = "Level " + (chapterIndex + 1) + " - " + (calculatedLevelIndex);
 			}
@@ -141,20 +142,19 @@ public class LevelMenuScript : MonoBehaviour {
 	}
 
 	public void ClickChapter1PanelButtonPlayLevel(int levelIndex) {
-		int calculatedlevelIndex = levelIndex;
+		if (data.GetProjectMode() == false) {
+			int calculatedlevelIndex = levelIndex;
 
-		for (int i = 0; i < chapterIndex; i++) {
-			calculatedlevelIndex += data.chapterSo[i].chapterLevelClear.Length;
+			for (int i = 0; i < chapterIndex; i++) {
+				calculatedlevelIndex += data.chapterSO[i].chapterLevelClear.Length;
+			}
+
+			Loader.Load((Loader.Scene)calculatedlevelIndex);
+		} else {
+			Loader.Load(Loader.Scene.GameLevel);
+			data.SetChapterIndex(chapterIndex);
+			data.SetLevelIndex(levelIndex - 1);
 		}
-
-		Loader.Load((Loader.Scene)calculatedlevelIndex);
-		/*if (chapterIndex == 0) {
-			Loader.Load((Loader.Scene)levelIndex);
-		} else if (chapterIndex == 1) {
-			Loader.Load((Loader.Scene)(levelIndex + 10));
-		} else if (chapterIndex == 2) {
-			Loader.Load((Loader.Scene)(levelIndex + 20));
-		}*/
 	}
 
 	public void ClickBackButton () {

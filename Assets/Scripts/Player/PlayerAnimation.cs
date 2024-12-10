@@ -15,13 +15,11 @@ public class PlayerAnimation : MonoBehaviour
 	public Action OnPlayerAnimationEnd;
 
 	[Header(" References ")]
-	private GameObject keyboard;
 	private Enemy enemy;
     private Animator animator;
 	[SerializeField] private Animator[] randomAnimator;
 
 	private void Awake() {
-		keyboard = GameObject.Find("Keyboard");
 		animator = GetComponent<Animator>();
 	}
 

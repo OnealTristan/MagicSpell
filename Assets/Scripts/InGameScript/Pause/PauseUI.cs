@@ -35,7 +35,6 @@ public class PauseUI : MonoBehaviour
 	}
 
 	private void PauseScript_OnPauseClick() {
-		Debug.Log("Show Panel");
 		panelMenu.SetActive(true);
 	}
 }

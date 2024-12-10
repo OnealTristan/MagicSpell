@@ -46,7 +46,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c83f1ef78a1275749b2340cf651598d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelIndex: 0
+  tutorialPanel: {fileID: 0}
+  gameLayoutPanel: {fileID: 0}
+  background: {fileID: 0}
+  levelIndex: 0
   chapterIndex: 0
   state: 0
 --- !u!114 &1868110483024268439
@@ -64,6 +67,10 @@ MonoBehaviour:
   enemyGameObject:
   - {fileID: 1918496552644903623, guid: add9d31cf5dd213469a0af22f855e93d, type: 3}
   - {fileID: 1918496552644903623, guid: add9d31cf5dd213469a0af22f855e93d, type: 3}
+  enemyBossGameObject:
+  - {fileID: 8390354733774455098, guid: 2f1f5679253f60649ba31b21db3d6280, type: 3}
+  - {fileID: 7532047897247286113, guid: 57f262157cc15e249a898a565cf68714, type: 3}
+  - {fileID: 8562407054279091207, guid: ae2d7a779a5919c438c82795cdb0d650, type: 3}
   starterHealth: 0
 --- !u!114 &2483013266935656260
 MonoBehaviour:
@@ -80,6 +87,7 @@ MonoBehaviour:
   playerPrefab:
   - {fileID: 7172579094781756926, guid: e62331fb96463f645901f3100e0ce300, type: 3}
   - {fileID: 7926871911773675165, guid: 1c92bf19f84d1514b8934b4c6eddf8cf, type: 3}
+  - {fileID: 4847001090213775992, guid: be5baf8a51e5b5f479b42a5653c95dbf, type: 3}
   - {fileID: 5241126623393924164, guid: d35416cc46249884d819a123d3f4bfe1, type: 3}
   - {fileID: 277085069895321920, guid: e63b6a9e44bf28b40bc70a2c4b73818c, type: 3}
   - {fileID: 6958087733735813515, guid: 088e894e766c13b42b58522e20ec468a, type: 3}

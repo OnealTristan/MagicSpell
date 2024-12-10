@@ -22,3 +22,5 @@ MonoBehaviour:
   - saw
   - ladder
   achievementCategoryWordsAchieved: []
+  achievementCategoryClaimed: 0
+  achievementCategoryDone: 0

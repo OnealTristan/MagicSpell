@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd72e2c118cf7544a0dbb1d3aa62355, type: 3}
   m_Name: BrambleboundBook
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: d49109ecd97d2d1429b82f4a2755be72, type: 3}
   weaponName: Bramblebound Book
   weaponDamage: 5
   weaponPrice: 10000

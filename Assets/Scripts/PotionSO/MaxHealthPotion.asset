@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 965953456ae1a734680079f08775ab7d, type: 3}
-  m_Name: HealPotion
+  m_Name: MaxHealthPotion
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: 2e5ff9b719af41b409064c32541d8729, type: 3}
   id: 0
-  potionName: Heal Potion
+  potionName: Max Health Potion
   price: 200
   amount: 0
+  slot: 0

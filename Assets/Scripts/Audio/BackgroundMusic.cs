@@ -29,21 +29,6 @@ public class BackgroundMusic : MonoBehaviour
 		}
 	}
 
-	public void StopMusic() {
-		audioSource.Stop();
-	}
-
-	public void ToggleMusic() {
-		if (isMusicEnabled) {
-			StopMusic();
-		} else {
-			PlayMusic();
-		}
-
-		// Toggle the flag
-		isMusicEnabled = !isMusicEnabled;
-	}
-
 	public void PauseBgm() {
 		audioSource.Pause();
 	}

@@ -367,9 +367,17 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: levelIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: chapterIndex
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1868110483024268433, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
+      propertyPath: gameLayoutPanel
+      value: 
+      objectReference: {fileID: 1928467241}
     - target: {fileID: 1868110483024268438, guid: ec764d8ad9b8baa459d7f089265b1b48, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -766,6 +774,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+--- !u!1 &1928467241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3022692723309319696, guid: faf353e1c20a2c3488f4015de9b782e5, type: 3}
+  m_PrefabInstance: {fileID: 1928467240}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1932430531
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2,31 +2,56 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Data : MonoBehaviour
 {
     public static Data Instance;
 
     [Header(" Elements ")]
-    public int coin;
+    [SerializeField] private int coin;
+	private int maxHealthPlayer = 10;
+	//projectMode(true) == PA else == KP
+	[SerializeField] private bool projectMode;
+	[SerializeField] private int chapterIndex;
+	[SerializeField] private int levelIndex;
+	private bool onGame;
 
-    [Header(" References ")]
+	[Header(" References ")]
     public WeaponSO[] weaponSO;
-    public ChapterSO[] chapterSo;
+	public PotionSO[] potionSO;
+    public ChapterSO[] chapterSO;
     public AchievementSO[] achievementSO;
 
 	private void Awake() {
 		if (Instance == null) {
 			Instance = this;
 			DontDestroyOnLoad(gameObject);
-            //LoadGame();
 		} else {
 			Destroy(gameObject);
 		}
 	}
 
+	private void Start() {
+		LoadGame();
+	}
+
+	private void Update() {
+		if (Input.GetKeyDown(KeyCode.Escape)) {
+			if (SceneManager.GetActiveScene().buildIndex == 1) {
+				Application.Quit();
+			} else {
+				SceneManager.LoadScene(1);
+			}
+		}
+	}
+
+	private void OnApplicationPause(bool pause) {
+		SaveGame();
+	}
+
 	private void OnApplicationQuit() {
-        //SaveGame();
+        SaveGame();
 	}
 
     private void SaveGame() {
@@ -37,27 +62,37 @@ public class Data : MonoBehaviour
 		SaveLoadManager.LoadGame(this);
 	}
 
-    public int GetCoin() {
-        return coin;
-    }
+    public int GetCoin() {return coin;}
 
-    public int SetCoin(int coin) {
-        return this.coin = coin;
-    }
+    public int SetCoin(int coin) {return this.coin = coin;}
+
+	public int GetMaxHealthPlayer() {return maxHealthPlayer;}
+
+	public int SetMaxHealthPlayer(int index) { return maxHealthPlayer = index; }
+
+	public bool GetProjectMode() {return projectMode;}
+
+	public int GetLevelIndex() {return levelIndex;}
+
+	public int SetLevelIndex(int index) {return levelIndex = index;}
+
+	public int GetChapterIndex() {return chapterIndex;}
+
+	public int SetChapterIndex(int index) {return chapterIndex = index;}
 
 	public void UpdateLevelStatus(int chapterIndex, int levelIndex, bool isClear) {
-        chapterSo[chapterIndex].chapterLevelClear[levelIndex] = isClear;
+        chapterSO[chapterIndex].chapterLevelClear[levelIndex] = isClear;
         CheckChapterStatus(chapterIndex);
     }
 
     private void CheckChapterStatus (int chapterIndex) {
-        if (chapterSo[chapterIndex].chapterLevelClear[9] == true) {
-            chapterSo[chapterIndex].chapterComplete = true;
+        if (chapterSO[chapterIndex].chapterLevelClear[9] == true) {
+            chapterSO[chapterIndex].chapterComplete = true;
         }
     }
 
     public bool CheckLevelStatus(int chapterIndex, int levelIndex) {
-        if (chapterSo[chapterIndex].chapterLevelClear[levelIndex - 1] == true) {
+        if (chapterSO[chapterIndex].chapterLevelClear[levelIndex - 1] == true) {
             return true;
         } else {
             return false;

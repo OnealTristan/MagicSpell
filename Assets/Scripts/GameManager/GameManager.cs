@@ -5,13 +5,16 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 	[Header(" References ")]
+	[SerializeField] private GameObject tutorialPanel;
+	[SerializeField] private GameObject gameLayoutPanel;
+	[SerializeField] private GameObject background;
 	private ConditionUI conditionUI;
 	private Data data;
 	private Enemy enemy;
 	private Player player;
 
 	[Header(" Elements ")]
-	[SerializeField] private int LevelIndex;
+	[SerializeField] private int levelIndex;
 	[SerializeField] private int chapterIndex;
 
     public static GameManager instance;
@@ -34,7 +37,29 @@ public class GameManager : MonoBehaviour
 	}
 
 	private void Start() {
-		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+		// projectMode(true) == TA
+		if (data.GetProjectMode() == true) {
+			levelIndex = data.GetLevelIndex() + 1;
+			chapterIndex = data.GetChapterIndex() + 1;
+			ChangeBackgroundImage();
+
+			if (levelIndex - 1 == 0 && chapterIndex - 1 == 0) {
+				TutorialPanelShow();
+			} else {
+				GamePanelShow();
+				Debug.Log(" Tutorial doesn't Exist in this level ");
+			}
+			
+		}
+		// projectMode(false) == KP
+		else {
+			if (tutorialPanel != null) {
+				TutorialPanelShow();
+			} else {
+				GamePanelShow();
+				Debug.Log(" Tutorial doesn't Exist in this level ");
+			}
+		}
 
 		Time.timeScale = 1f;
 	}
@@ -43,6 +68,10 @@ public class GameManager : MonoBehaviour
         if (enemy == null && state == GameState.OnGoing) {
             enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
 			enemy.OnHittingPlayer += CheckHpPlayer;
+		}
+
+		if (player == null) {
+			player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 		}
     }
 
@@ -69,21 +98,23 @@ public class GameManager : MonoBehaviour
 
 	private void WinCondition() {
 		conditionUI.ShowWinPanel();
-		if (data.chapterSo[chapterIndex - 1].chapterLevelClear[LevelIndex - 1] == true) {
-			data.SetCoin(data.coin + data.chapterSo[chapterIndex - 1].chapterLevelWinPrizeAfterComplete[LevelIndex - 1]);
-			Debug.Log(data.chapterSo[chapterIndex - 1].chapterLevelWinPrizeAfterComplete[LevelIndex - 1]);
+		if (data.chapterSO[chapterIndex - 1].chapterLevelClear[levelIndex - 1] == true) {
+			data.SetCoin(data.GetCoin() + data.chapterSO[chapterIndex - 1].chapterLevelWinPrizeAfterComplete[levelIndex - 1]);
+
+			Debug.Log(data.chapterSO[chapterIndex - 1].chapterLevelWinPrizeAfterComplete[levelIndex - 1]);
 		} else {
-			data.SetCoin(data.coin + data.chapterSo[chapterIndex - 1].chapterLevelWinPrize[LevelIndex - 1]);
-			Debug.Log(data.chapterSo[chapterIndex - 1].chapterLevelWinPrize[LevelIndex - 1]);
+			data.SetCoin(data.GetCoin() + data.chapterSO[chapterIndex - 1].chapterLevelWinPrize[levelIndex - 1]);
+
+			Debug.Log(data.chapterSO[chapterIndex - 1].chapterLevelWinPrize[levelIndex - 1]);
 		}
 		Time.timeScale = 0f;
-		data.UpdateLevelStatus(chapterIndex - 1, LevelIndex - 1, true);
+		data.UpdateLevelStatus(chapterIndex - 1, levelIndex - 1, true);
 	}
 
 	private void LoseCondition() {
 		conditionUI.ShowLosePanel();
-		data.SetCoin(data.coin + data.chapterSo[chapterIndex - 1].chapterLevelLosePrize[LevelIndex - 1]);
-		Debug.Log(data.chapterSo[chapterIndex - 1].chapterLevelLosePrize[LevelIndex - 1]);
+		data.SetCoin(data.GetCoin() + data.chapterSO[chapterIndex - 1].chapterLevelLosePrize[levelIndex - 1]);
+		Debug.Log(data.chapterSO[chapterIndex - 1].chapterLevelLosePrize[levelIndex - 1]);
 		Time.timeScale = 0f;
 	}
 
@@ -91,5 +122,22 @@ public class GameManager : MonoBehaviour
 		if (player.GetPlayerHealth() < 1) {
 			UpdateGameState(GameState.Lose);
 		}
+	}
+
+	private void TutorialPanelShow() {
+		tutorialPanel.SetActive(true);
+		gameLayoutPanel.SetActive(false);
+	}
+	
+	public void GamePanelShow() {
+		if (tutorialPanel != null) {
+			tutorialPanel.SetActive(false);
+		}
+		gameLayoutPanel.SetActive(true);
+	}
+
+	private void ChangeBackgroundImage() {
+		SpriteRenderer backgroundSprite = background.GetComponent<SpriteRenderer>();
+		backgroundSprite.sprite = data.chapterSO[chapterIndex - 1].backgroundChapter;
 	}
 }
