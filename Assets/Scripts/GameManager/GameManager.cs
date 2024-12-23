@@ -49,7 +49,6 @@ public class GameManager : MonoBehaviour
 				GamePanelShow();
 				Debug.Log(" Tutorial doesn't Exist in this level ");
 			}
-			
 		}
 		// projectMode(false) == KP
 		else {

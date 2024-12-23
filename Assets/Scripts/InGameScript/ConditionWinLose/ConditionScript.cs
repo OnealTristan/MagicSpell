@@ -34,8 +34,9 @@ public class ConditionScript : MonoBehaviour
     public void RestartLevel() {
 		if (data.GetProjectMode() == true) {
 			Loader.Load(Loader.Scene.GameLevel);
+		} else {
+			Loader.Load(restartScene);
 		}
-        Loader.Load(restartScene);
 	}
 
     public void MenuLevel() {

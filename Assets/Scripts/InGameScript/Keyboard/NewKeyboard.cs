@@ -3,6 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using Unity.VisualScripting;
+using System.Linq;
 //using static System.Net.Mime.MediaTypeNames;
 
 public class NewKeyboard : MonoBehaviour
@@ -36,7 +37,12 @@ public class NewKeyboard : MonoBehaviour
     private string[] usedWords;
 
 	void Awake() {
-		dictionary = GetComponent<Dictionary>();
+        dictionary = GameObject.Find("Canvas").GetComponent<Dictionary>();
+        if (dictionary != null) {
+			Debug.Log("Dictionary ada");
+		} else {
+            Debug.LogWarning("Dictionary tidak ada");
+        }
 
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
 	}
@@ -86,7 +92,6 @@ public class NewKeyboard : MonoBehaviour
     public void EnterFunction()
     {
         string txt = userInputDisplay.DisplayText();
-
         bool stringFound = false;
 
         if (string.IsNullOrEmpty(txt))
@@ -94,47 +99,71 @@ public class NewKeyboard : MonoBehaviour
             return;
         }
 
-
         if (dictionary.GetValidWords() != null)
         {
-            Debug.Log("wow");
             // Menguji jika kata yang sudah digunakan tidak dapat digunakan kembali
             if (usedWords == null || Array.IndexOf(usedWords, txt) == -1)
             {
-                foreach (string word in dictionary.GetValidWords())
-                {
-                    // Equals() diperuntukan 1 kata penuh
-                    // Contains(i[0]) diperuntukan untuk setiap huruf dalam kata
-                    if (word.ToLower().Trim().Equals(txt))
+                if (data.GetProjectMode() == false) {
+                    foreach (string word in dictionary.GetValidWords())
                     {
-                        // Menguji apakah kata tersebut mengandung 2 huruf yang harus di ketik?
-                        if (txt.Contains(letter[0]) && txt.Contains(letter[1]))
+                        // Equals() diperuntukan 1 kata penuh
+                        // Contains(i[0]) diperuntukan untuk setiap huruf dalam kata
+                        if (word.ToLower().Trim().Equals(txt))
                         {
-                            // Jika benar maka damage akan diterima oleh musuh
-                            Debug.Log("Type: " + txt + " Found!!");
-
-                            data.AchievementCheck(txt);
-
-                            playerAnimation.PlayerAttackAnimation();
-
-                            // Reset interval enemy attack
-                            OnEnterPressed?.Invoke();
-
-                            //player.ActivatedWeapon();
-
-                            if (usedWords == null)
+                            // Menguji apakah kata tersebut mengandung 2 huruf yang harus di ketik?
+                            if (txt.Contains(letter[0]) && txt.Contains(letter[1]))
                             {
-                                usedWords = new string[0];
+                                // Jika benar maka damage akan diterima oleh musuh
+                                Debug.Log("Type: " + txt + " Found!!");
+
+                                data.AchievementCheck(txt);
+
+                                playerAnimation.PlayerAttackAnimation();
+
+                                // Reset interval enemy attack
+                                OnEnterPressed?.Invoke();
+
+                                //player.ActivatedWeapon();
+
+                                if (usedWords == null)
+                                {
+                                    usedWords = new string[0];
+                                }
+
+                                Array.Resize(ref usedWords, usedWords.Length + 1);
+                                usedWords[usedWords.Length - 1] = txt;
+
+                                stringFound = true;
+                                break;
                             }
-
-                            Array.Resize(ref usedWords, usedWords.Length + 1);
-                            usedWords[usedWords.Length - 1] = txt;
-
-                            stringFound = true;
-                            break;
                         }
-                    }
-				}
+				    }
+                } else {
+                    if (guessLetter.CheckContainWord(txt)) {
+						// Jika benar maka damage akan diterima oleh musuh
+						Debug.Log("Type: " + txt + " Found!!");
+
+						data.AchievementCheck(txt);
+
+						playerAnimation.PlayerAttackAnimation();
+
+						// Reset interval enemy attack
+						OnEnterPressed?.Invoke();
+                        guessLetter.SpawnBoxHuruf();
+
+						//player.ActivatedWeapon();
+
+						if (usedWords == null) {
+							usedWords = new string[0];
+						}
+
+						Array.Resize(ref usedWords, usedWords.Length + 1);
+						usedWords[usedWords.Length - 1] = txt;
+
+						stringFound = true;
+					}
+                }
             }
 
 			//Jika salah maka damage akan diterima oleh player

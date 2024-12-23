@@ -33,7 +33,7 @@ public class OptionInGameScript : MonoBehaviour
         exitPanel.SetActive(false);
     }
 
-    public void ClickYexButton() {
+    public void ClickYesButton() {
         Debug.Log("Yes Cliced");
         Loader.Load(Loader.Scene.LevelMenu);
     }

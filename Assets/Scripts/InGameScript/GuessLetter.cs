@@ -2,25 +2,38 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Linq;
+using System;
+using System.Text.RegularExpressions;
 
 public class GuessLetter : MonoBehaviour
 {
-    [Header(" Elements ")]
+	[Header(" References ")]
+	[SerializeField] private GameObject boxHurufParent;
+	[SerializeField] private GameObject boxHurufPrefab;
+	private List<GameObject> spawnedBoxes = new List<GameObject>();
+
+	[Space(10)]
+	[SerializeField] private GameObject boxHuruf1;
+	[SerializeField] private GameObject boxHuruf2;
+
+	[Space(10)]
 	[SerializeField] private TextMeshProUGUI textHuruf1;
 	[SerializeField] private TextMeshProUGUI textHuruf2;
 	private Dictionary dictionary;
 	private Data data;
 
-    [Header(" Settings ")]
+    [Header(" Settings KP ")]
 	[SerializeField] private bool checkRandomLetter;
 	[SerializeField] private string[] letter;
 	[SerializeField] private string[] randomLetter;
 
-	//private string alphabet = "abcdefghijklmnopqrstuvwxyz";
-	int resultCorrectLetter;
+	[Header(" Variables ")]
+	private char[] vowels = { 'a', 'i', 'u', 'e', 'o' };
+	string word;
 
 	private void Awake() {
-		dictionary = GetComponent<Dictionary>();
+		dictionary = GameObject.Find("Canvas").GetComponent<Dictionary>();
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
 	}
 
@@ -29,6 +42,10 @@ public class GuessLetter : MonoBehaviour
     {
 		// projectMode(false) == KP
 		if (data.GetProjectMode() == false) {
+			boxHuruf1.SetActive(true);
+			boxHuruf2.SetActive(true);
+			boxHurufParent.SetActive(false);
+
 			if (checkRandomLetter == true) {
 				GetRandomLetterException();
 			} else {
@@ -37,16 +54,19 @@ public class GuessLetter : MonoBehaviour
 			}
 		// projectMode(true) == TA
 		} else {
-			if (data.GetChapterIndex() == 0 && data.GetLevelIndex() == 0) {
+			boxHuruf1.SetActive(false);
+			boxHuruf2.SetActive(false);
+			boxHurufParent.SetActive(true);
+
+			SpawnBoxHuruf();
+
+			/*if (data.GetChapterIndex() == 0 && data.GetLevelIndex() == 0) {
 				textHuruf1.text = letter[0].ToUpper();
 				textHuruf2.text = letter[1].ToUpper();
 			} else {
 				GetRandomLetterException();
-			}
+			}*/
 		}
-
-		Debug.Log(letter[0]);
-		Debug.Log(letter[1]);
 	}
 
 	private void Update() {
@@ -58,12 +78,11 @@ public class GuessLetter : MonoBehaviour
     }
 
 	private string GetRandomLetter() {
-		int randomIndex = Random.Range(0, randomLetter.Length);
+		int randomIndex = UnityEngine.Random.Range(0, randomLetter.Length);
 		return randomLetter[randomIndex];
 	}
 
-	private int GetCorrectRandomLetter() {
-
+	/*private int GetCorrectRandomLetter() {
 		int ada = 0;
 
 		foreach (string words in dictionary.GetValidWords()) {
@@ -75,7 +94,7 @@ public class GuessLetter : MonoBehaviour
 		resultCorrectLetter = ada;
 		Debug.Log("correct letter = " + resultCorrectLetter);
 		return resultCorrectLetter;
-	}
+	}*/
 
 	/*private void RandomLetter() {
 		letter[0] = GetRandomLetter().ToString();
@@ -93,4 +112,57 @@ public class GuessLetter : MonoBehaviour
         textHuruf1.text = letter[0].ToUpper();
         textHuruf2.text = letter[1].ToUpper();
     }
+	
+	public void SpawnBoxHuruf() {
+		foreach (var box in spawnedBoxes) {
+			Destroy(box);
+		}
+
+		word = dictionary.GetRandomWord();
+
+		var vowelIndex = word.Select((letter, index) => new { letter, index })
+							.Where(x => vowels.Contains(x.letter))
+							.Select(x => x.index)
+							.ToList();
+
+		System.Random random = new System.Random();
+		var indexToRemove = vowelIndex.OrderBy(x => random.Next()).Take(Math.Min(2, vowelIndex.Count)).ToList();
+
+		Debug.Log("Huruf random = " + word);
+
+		char[] wordArray = word.ToCharArray();
+		foreach (var index in indexToRemove) {
+			wordArray[index] = '_';
+		}
+		word = new string(wordArray);
+
+		for (int i = 0; i < word.Length; i++) {
+			GameObject boxHuruf = Instantiate(boxHurufPrefab, boxHurufParent.transform);
+
+			TextMeshProUGUI text = boxHuruf.GetComponentInChildren<TextMeshProUGUI>();
+			text.text = word[i] == '_' ? "_" : word[i].ToString().ToUpper();
+
+			spawnedBoxes.Add(boxHuruf);
+		}
+	}
+
+	public bool CheckContainWord(string playerInput) {
+		if (playerInput.Length != word.Length) {
+			Debug.Log("Kata tidak match panjang");
+			return false;
+		}
+
+		for (int i = 0; i < word.Length; i++) {
+			if (word[i] != '_' && word[i] != playerInput[i]) {
+				Debug.Log($"Kata tidak cocok pada posisi {i}: {word[i]} != {playerInput[i]}");
+				return false;
+			}
+		}
+
+		bool isWordValid = dictionary.GetValidWords().Contains(playerInput.ToLower().Trim());
+		if (!isWordValid) {
+			Debug.Log("Kata tidak ditemukan di dictionary");
+		}
+		return isWordValid;
+	}
 }
