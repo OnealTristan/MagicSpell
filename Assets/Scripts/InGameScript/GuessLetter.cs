@@ -29,7 +29,8 @@ public class GuessLetter : MonoBehaviour
 	[SerializeField] private string[] randomLetter;
 
 	[Header(" Variables ")]
-	private char[] vowels = { 'a', 'i', 'u', 'e', 'o' };
+	private string vowels = "aiueo";
+	private string consonants = "bcdfghjklmnpqrstvwxyz";
 	string word;
 
 	private void Awake() {
@@ -120,13 +121,34 @@ public class GuessLetter : MonoBehaviour
 
 		word = dictionary.GetRandomWord();
 
-		var vowelIndex = word.Select((letter, index) => new { letter, index })
-							.Where(x => vowels.Contains(x.letter))
-							.Select(x => x.index)
-							.ToList();
+		/*System.Random random = new System.Random();
+		int randomMethod = random.Next(3); // Menghasilkan angka acak 0, 1, atau 2
 
-		System.Random random = new System.Random();
-		var indexToRemove = vowelIndex.OrderBy(x => random.Next()).Take(Math.Min(2, vowelIndex.Count)).ToList();
+		List<int> indexToRemove;
+		switch (randomMethod) {
+			case 0:
+				indexToRemove = FirstRemove(word); // Hapus huruf di awal
+				Debug.Log("Metode: Hapus Huruf di Awal");
+				break;
+			case 1:
+				indexToRemove = VowelRemove(word); // Hapus dua vokal
+				Debug.Log("Metode: Hapus Vokal");
+				break;
+			case 2:
+				indexToRemove = LastRemove(word); // Hapus dua huruf terakhir
+				Debug.Log("Metode: Hapus Huruf Terakhir");
+				break;
+			case 3:
+				indexToRemove = ConsonantRemove(word); // Hapus dua konsonan
+				Debug.Log("Metode: Hapus Dua Konsonan");
+				break;
+			default:
+				indexToRemove = new List<int>();
+				Debug.LogWarning("Metode default dipilih, tidak ada huruf yang dihapus.");
+				break;
+		}*/
+
+		var indexToRemove = ConsonantRemove(word);
 
 		Debug.Log("Huruf random = " + word);
 
@@ -144,6 +166,66 @@ public class GuessLetter : MonoBehaviour
 
 			spawnedBoxes.Add(boxHuruf);
 		}
+	}
+
+	private List<int> VowelRemove(string word) {
+		var vowelIndex = word.Select((letter, index) => new { letter, index })
+							.Where(x => vowels.Contains(char.ToLower(x.letter)))
+							.Select(x => x.index)
+							.ToList();
+
+		System.Random random = new System.Random();
+		var indexToRemove = vowelIndex.OrderBy(x => random.Next())
+									.Take(Math.Min(2, vowelIndex.Count))
+									.ToList();
+
+		return indexToRemove;
+	}
+
+	private List<int> ConsonantRemove(string word) {
+		var consonantIndices = word.Select((letter, index) => new { letter, index })
+							   .Where(x => consonants.Contains(char.ToLower(x.letter)))
+							   .Select(x => x.index)
+							   .ToList();
+
+		// Pilih 2 indeks secara acak
+		System.Random random = new System.Random();
+		var indicesToRemove = consonantIndices.OrderBy(x => random.Next())
+											  .Take(Math.Min(2, consonantIndices.Count))
+											  .ToList();
+
+		return indicesToRemove;
+	}
+
+	private List<int> FirstRemove(string word) {
+		var indexToRemove = new List<int>();
+
+		// Hilangkan dua huruf pertama jika panjang kata >= 4
+		if (word.Length >= 4) {
+			indexToRemove.Add(0);
+			indexToRemove.Add(1);
+		}
+		// Hilangkan satu huruf pertama jika panjang kata < 4
+		else if (word.Length > 1) {
+			indexToRemove.Add(0);
+		}
+
+		return indexToRemove;
+	}
+
+	private List<int> LastRemove(string word) {
+		List<int> index = new List<int>();
+
+		if (word.Length <= 3) {
+			// Jika kata hanya 3 huruf, hapus huruf terakhir saja
+			index.Add(word.Length - 1);
+		} else {
+			// Jika kata lebih dari 3 huruf, hapus 2 huruf terakhir
+			index.Add(word.Length - 1);
+			index.Add(word.Length - 2);
+		}
+
+		return index;
 	}
 
 	public bool CheckContainWord(string playerInput) {
