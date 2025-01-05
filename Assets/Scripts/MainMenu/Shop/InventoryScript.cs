@@ -9,6 +9,7 @@ public class InventoryScript : MonoBehaviour
 	[Header(" References Classes ")]
 	[SerializeField] private ShopScript shopScript;
 	private Data data;
+	private EventManager eventManager;
 
 	[Header(" References Weapon ")]
 	[SerializeField] private Transform parentContentWeaponPosUI;
@@ -23,11 +24,15 @@ public class InventoryScript : MonoBehaviour
 
 	private void Awake() {
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
+		eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
 	}
 
 	private void OnEnable() {
-		shopScript.onBuyWeapon += UpdateWeaponInventory;
-		shopScript.onBuyPotion += UpdatePotionInventory;
+		/*shopScript.onBuyWeapon += UpdateWeaponInventory;
+		shopScript.onBuyPotion += UpdatePotionInventory;*/
+
+		eventManager.onBuyWeapon += UpdateWeaponInventory;
+		eventManager.onBuyPotion += UpdatePotionInventory;
 	}
 
 	// Start is called before the first frame update
@@ -122,5 +127,13 @@ public class InventoryScript : MonoBehaviour
 		imageButton.sprite = equipImage;
 
 		UpdateWeaponInventory();
+	}
+
+	private void OnDisable() {
+		/*shopScript.onBuyWeapon -= UpdateWeaponInventory;
+		shopScript.onBuyPotion -= UpdatePotionInventory;*/
+
+		eventManager.onBuyWeapon -= UpdateWeaponInventory;
+		eventManager.onBuyPotion -= UpdatePotionInventory;
 	}
 }

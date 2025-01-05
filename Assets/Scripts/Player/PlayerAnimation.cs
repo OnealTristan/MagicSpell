@@ -18,9 +18,19 @@ public class PlayerAnimation : MonoBehaviour
 	private Enemy enemy;
     private Animator animator;
 	[SerializeField] private Animator[] randomAnimator;
+	EventManager eventManager;
 
 	private void Awake() {
 		animator = GetComponent<Animator>();
+		eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
+	}
+
+	private void OnEnable() {
+		eventManager.onEnterPressedCorrect += PlayerAttackAnimation;
+		eventManager.onEnterPressedWrong += PlayerIdleAnimation;
+
+		eventManager.onTextDisplay += PlayerSpellingAnimation;
+		eventManager.onTextEmpty += PlayerIdleAnimation;
 	}
 
 	private void Update() {
@@ -52,5 +62,13 @@ public class PlayerAnimation : MonoBehaviour
 
 	private void PlayerAnimationEnd_EnableKeyboard() {
 		OnPlayerAnimationEnd?.Invoke();
+	}
+
+	private void OnDisable() {
+		eventManager.onEnterPressedCorrect -= PlayerAttackAnimation;
+		eventManager.onEnterPressedWrong += PlayerIdleAnimation;
+
+		eventManager.onTextDisplay -= PlayerSpellingAnimation;
+		eventManager.onTextEmpty -= PlayerIdleAnimation;
 	}
 }

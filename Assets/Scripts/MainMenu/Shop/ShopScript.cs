@@ -11,15 +11,15 @@ public class ShopScript : MonoBehaviour
 	public Action onBuyPotion;
 
     [Header(" References ")]
-    private Data data;
     [SerializeField] private Transform parentContentPosWeaponUI;
 	[SerializeField] private Transform parentContentPosPotionUI;
     [SerializeField] private GameObject PanelPrefab;
+    private Data data;
+	private EventManager eventManager;
 
 	private void Awake() {
-		if (data == null) {
-            data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
-        }
+		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
+		eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
 	}
 
 	// Start is called before the first frame update
@@ -74,7 +74,8 @@ public class ShopScript : MonoBehaviour
 			CheckBuyPotion(index);
 			data.potionSO[index].amount++;
 			data.SetCoin(data.GetCoin() - data.potionSO[index].price);
-			onBuyPotion?.Invoke();
+			//onBuyPotion?.Invoke();
+			eventManager.OnBuyPotion();
 		} else {
 			// UI Coin tidak cukup
 			return;
@@ -148,7 +149,8 @@ public class ShopScript : MonoBehaviour
 			textBuyButton.text = "Bought";
 
             data.SetCoin(data.GetCoin() - data.weaponSO[index].weaponPrice);
-            onBuyWeapon?.Invoke();
+			//onBuyWeapon?.Invoke();
+			eventManager.OnBuyWeapon();
 		} else {
 			Debug.Log("Not Enough Coin");
             return;

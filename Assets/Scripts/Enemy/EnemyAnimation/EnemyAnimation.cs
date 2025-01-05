@@ -18,9 +18,16 @@ public class EnemyAnimation : MonoBehaviour
     private Animator animator;
 	private Enemy enemy;
 	private Player player;
+	private EventManager eventManager;
 
 	private void Awake() {
 		enemy = GetComponent<Enemy>();
+		eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
+	}
+
+	private void OnEnable() {
+		eventManager.onEnterPressedWrong += EnemyAttackAnimation;
+		eventManager.onHittingEnemy += EnemyGetHitAnimation;
 	}
 
 	private void Start() {
@@ -33,10 +40,10 @@ public class EnemyAnimation : MonoBehaviour
 			animator = GetComponent<Animator>();
 		}
 
-		if (player == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+		/*if (player == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
 			player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 			player.OnHittingEnemy += EnemyGetHitAnimation;
-		}
+		}*/
 	}
 
 	public void EnemyAttackAnimation() {
@@ -62,7 +69,7 @@ public class EnemyAnimation : MonoBehaviour
 	private void EnemyDeathAnimation() {
 		animator.Play(ENEMYDEATH);
 
-		player.OnHittingEnemy -= EnemyGetHitAnimation;
+		//player.OnHittingEnemy -= EnemyGetHitAnimation;
 		enemy.OnDeathAnimation -= EnemyDeathAnimation;
 		enemy.OnAttackCoroutine -= EnemyAttackAnimation;
 	}
@@ -75,5 +82,10 @@ public class EnemyAnimation : MonoBehaviour
 	// Method dipanggil pada event animation enemy
 	private void EnemyAnimationEnd_EnableKeyboard() {
 		OnEnemyAnimationEnd?.Invoke();
+	}
+
+	private void OnDisable() {
+		eventManager.onEnterPressedWrong -= EnemyAttackAnimation;
+		eventManager.onHittingEnemy += EnemyGetHitAnimation;
 	}
 }

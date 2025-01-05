@@ -46,7 +46,6 @@ public class EnemySpawner : MonoBehaviour
 				} 
 
 				if (currentEnemyIndex < enemyGameObject.Length) {
-					Debug.Log("Enemy " + currentEnemyIndex + " Spawn!");
 					guessLetter.GetRandomLetterException();
 
 					starterHealth = data.chapterSO[data.GetChapterIndex()].starterEnemyHealthChapter + (INCREMENTHEALTH * data.GetLevelIndex());
@@ -66,7 +65,6 @@ public class EnemySpawner : MonoBehaviour
 				int enemiesToSpawn = DetermineEnemiesToSpawn(chapterIndex, levelIndex);
 
 				if (currentEnemyIndex < enemiesToSpawn) {
-					Debug.Log("Enemy " + currentEnemyIndex + " Spawn!");
 					if (enemiesToSpawn > 1) {
 						guessLetter.GetRandomLetterException();
 					}

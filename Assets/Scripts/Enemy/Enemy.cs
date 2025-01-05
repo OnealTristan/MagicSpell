@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour {
     [SerializeField] private EnemySO enemySO;
     private NewKeyboard keyboard;
     Player player;
+    private EventManager eventManager;
 
     [Header(" Elements ")]
     public bool coroutineAttack;
@@ -25,6 +26,12 @@ public class Enemy : MonoBehaviour {
 
     private void Awake() {
         health = enemySO.maxHealth;
+        eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
+	}
+
+	private void OnEnable() {
+		eventManager.onEnterPressedCorrect += ResetAttackInterval;
+        eventManager.onHittingEnemy += ResetAttackInterval;
 	}
 
 	private void Start() {
@@ -41,15 +48,15 @@ public class Enemy : MonoBehaviour {
             }
         }
 
-        if (player == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+        /*if (player == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
 			player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 			player.OnHittingEnemy += ResetAttackInterval;
-		}
+		}*/
 
-        if (keyboard == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+        /*if (keyboard == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
 			keyboard = GameObject.FindGameObjectWithTag("Keyboard").GetComponent<NewKeyboard>();
 			keyboard.OnEnterPressed += ResetAttackInterval;
-		}
+		}*/
     }
 
     private IEnumerator AttackRotuine() {
@@ -89,8 +96,10 @@ public class Enemy : MonoBehaviour {
         OnDeath?.Invoke();
 		if (gameObject != null) {
 			Destroy(gameObject);
-			player.OnHittingEnemy -= ResetAttackInterval;
-			keyboard.OnEnterPressed -= ResetAttackInterval;
+			eventManager.onHittingEnemy += ResetAttackInterval;
+			eventManager.onEnterPressedCorrect += ResetAttackInterval;
+			//keyboard.OnEnterPressed -= ResetAttackInterval;
+			//player.OnHittingEnemy -= ResetAttackInterval;
 		}
 	}
 

@@ -9,20 +9,29 @@ public class UserInputDisplay : MonoBehaviour
     [SerializeField] private NewKeyboard keyboard;
     private PlayerAnimation playerAnimation;
 	private EnemyAnimation enemyAnimation;
+	private EventManager eventManager;
 
     [Header(" Elements ")]
     private bool wordEmpty;
 
+	private void Awake() {
+		eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
+	}
+
 	private void OnEnable() {
-		// Get reference to NewKeyboard
-		if (keyboard != null) {
+		eventManager.onKeyPressed += KeyPressedCallback;
+		eventManager.onBackspacePressed += BackspacePressedCallback;
+		eventManager.onEnterPressedCorrect += EnterPreseedCallback;
+		eventManager.onEnterPressedWrong += EnterPreseedCallback;
+
+		/*if (keyboard != null) {
 			// Subscribe to events
 			keyboard.onBackspacePressed += BackspacePressedCallback;
 			keyboard.onKeyPressed += KeyPressedCallback;
 			keyboard.OnEnterPressed += EnterPreseedCallback;
 		} else {
 			Debug.LogError("NewKeyboard component not found in children. Make sure it is added to the GameObject.");
-		}
+		}*/
 	}
 
 	// Start is called before the first frame update
@@ -49,11 +58,13 @@ public class UserInputDisplay : MonoBehaviour
             textContainer.text = textContainer.text.Substring(0, textContainer.text.Length - 1);
 			if (textContainer.text.Length < 1) {
                 wordEmpty = true;
-				playerAnimation.PlayerIdleAnimation();
+				eventManager.OnTextEmpty();
+				//playerAnimation.PlayerIdleAnimation();
 			}
 		} else {
             wordEmpty = true;
-			playerAnimation.PlayerIdleAnimation();
+			eventManager.OnTextEmpty();
+			//playerAnimation.PlayerIdleAnimation();
 		}
 	}
 
@@ -62,7 +73,8 @@ public class UserInputDisplay : MonoBehaviour
         if (wordEmpty == true) {
             wordEmpty = false;
             textContainer.text += key;
-		    playerAnimation.PlayerSpellingAnimation();
+			eventManager.OnTextDisplay();
+			//playerAnimation.PlayerSpellingAnimation();
         } else {
 			textContainer.text += key;
 		}
@@ -70,7 +82,7 @@ public class UserInputDisplay : MonoBehaviour
 
     private void EnterPreseedCallback() {
         wordEmpty = true;
-		DeleteText();
+        textContainer.text = string.Empty;
     }
 
 	private void CheckWordEmpty() {
@@ -82,7 +94,7 @@ public class UserInputDisplay : MonoBehaviour
 	}
 
 	public void DeleteText() {
-        textContainer.text = string.Empty;
+		textContainer.text = string.Empty;
     }
 
     public string DisplayText() {
@@ -90,8 +102,13 @@ public class UserInputDisplay : MonoBehaviour
     }
 
 	private void OnDisable() {
-		keyboard.onBackspacePressed -= BackspacePressedCallback;
+		eventManager.onKeyPressed -= KeyPressedCallback;
+		eventManager.onBackspacePressed -= BackspacePressedCallback;
+		eventManager.onEnterPressedCorrect -= EnterPreseedCallback;
+		eventManager.onEnterPressedWrong += EnterPreseedCallback;
+
+		/*keyboard.onBackspacePressed -= BackspacePressedCallback;
 		keyboard.onKeyPressed -= KeyPressedCallback;
-		keyboard.OnEnterPressed -= EnterPreseedCallback;
+		keyboard.OnEnterPressed -= EnterPreseedCallback;*/
 	}
 }

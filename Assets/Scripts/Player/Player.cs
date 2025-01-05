@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
 	[Header(" References ")]
 	private Enemy enemy;
 	private Data data;
+	private EventManager eventManager;
 
 	[Header(" Default Weapon ")]
 	[SerializeField] private WeaponSO defaultWeapon;
@@ -22,6 +23,7 @@ public class Player : MonoBehaviour
 
 	private void Awake() {
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
+		eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
 	}
 
 	private void Start() {
@@ -37,14 +39,14 @@ public class Player : MonoBehaviour
 	}
 
 	public void ActivatedWeapon() {
-		if (OnDecreaseHPEnemy != null) {
-			if (defaultWeapon != null) {
-				enemy.SetEnemyHealth(enemy.GetEnemyHealth() - defaultWeapon.weaponDamage);
-				OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
-				OnHittingEnemy?.Invoke();
-			} else {
-				Debug.Log("Weapon Does not Equipped!");
-			}
+		if (defaultWeapon != null) {
+			enemy.SetEnemyHealth(enemy.GetEnemyHealth() - defaultWeapon.weaponDamage);
+			//OnDecreaseHPEnemy?.Invoke(enemy.GetEnemyHealth());
+			//OnHittingEnemy?.Invoke();
+			eventManager.OnDecreaseHPEnemy(enemy.GetEnemyHealth());
+			eventManager.OnHittingEnemy();
+		} else {
+			Debug.Log("Weapon Does not Equipped!");
 		}
 	}
 

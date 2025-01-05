@@ -22,12 +22,18 @@ public class HealthUI : MonoBehaviour
     private Player player;
     private Enemy enemy;
     private Data data;
+    private EventManager eventManager;
 
     [Header(" Elements ")]
     int index;
 
 	private void Awake() {
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
+		eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
+	}
+
+	private void OnEnable() {
+        eventManager.onDecreaseHPEnemy += DecreaseHPEnemy;
 	}
 
 	private void Start() {

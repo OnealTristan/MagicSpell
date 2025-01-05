@@ -26,6 +26,7 @@ public class NewKeyboard : MonoBehaviour
 
     [Header(" Other References ")]
     [SerializeField] private Button[] keyButton;
+    private EventManager eventManager;
     private Data data;
 	private UserInputDisplay userInputDisplay;
     private GuessLetter guessLetter;
@@ -38,13 +39,9 @@ public class NewKeyboard : MonoBehaviour
 
 	void Awake() {
         dictionary = GameObject.Find("Canvas").GetComponent<Dictionary>();
-        if (dictionary != null) {
-			Debug.Log("Dictionary ada");
-		} else {
-            Debug.LogWarning("Dictionary tidak ada");
-        }
 
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
+        eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
 	}
 
     void Update()
@@ -80,13 +77,15 @@ public class NewKeyboard : MonoBehaviour
     public void AlphabetFunction(string alphabet)
     {
         // Memicu event onKeyPressed dan memberikan karakter yang diketik
-        onKeyPressed?.Invoke(alphabet);
+        //onKeyPressed?.Invoke(alphabet);
+        eventManager.OnKeyPressed(alphabet);
     }
 
     public void BackspaceFunction()
     {
         // Memicu event onBackspacePressed
-        onBackspacePressed?.Invoke();
+        //onBackspacePressed?.Invoke();
+        eventManager.OnBackspacePressed();
     }
 
     public void EnterFunction()
@@ -146,13 +145,13 @@ public class NewKeyboard : MonoBehaviour
 
 						data.AchievementCheck(txt);
 
-						playerAnimation.PlayerAttackAnimation();
-
+						//playerAnimation.PlayerAttackAnimation();
 						// Reset interval enemy attack
-						OnEnterPressed?.Invoke();
-                        guessLetter.SpawnBoxHuruf();
-
+						//OnEnterPressed?.Invoke();
+                        //guessLetter.SpawnBoxHuruf();
 						//player.ActivatedWeapon();
+
+                        eventManager.OnEnterPressedCorrect();
 
 						if (usedWords == null) {
 							usedWords = new string[0];
@@ -170,11 +169,12 @@ public class NewKeyboard : MonoBehaviour
 			if (!stringFound)
             {
                 Debug.Log("Type: " + txt + " Not Found!!");
+                /*
                 playerAnimation.PlayerIdleAnimation();
-
                 enemyAnimation.EnemyAttackAnimation();
-
 				userInputDisplay.DeleteText();
+                */
+                eventManager.OnEnterPressedWrong();
 			}
 		}
 	}

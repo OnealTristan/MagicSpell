@@ -22,6 +22,7 @@ public class GuessLetter : MonoBehaviour
 	[SerializeField] private TextMeshProUGUI textHuruf2;
 	private Dictionary dictionary;
 	private Data data;
+	private EventManager eventManager;
 
     [Header(" Settings KP ")]
 	[SerializeField] private bool checkRandomLetter;
@@ -36,6 +37,11 @@ public class GuessLetter : MonoBehaviour
 	private void Awake() {
 		dictionary = GameObject.Find("Canvas").GetComponent<Dictionary>();
 		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
+		eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
+	}
+
+	private void OnEnable() {
+		eventManager.onEnterPressedCorrect += SpawnBoxHuruf;
 	}
 
 	// Start is called before the first frame update
@@ -246,5 +252,9 @@ public class GuessLetter : MonoBehaviour
 			Debug.Log("Kata tidak ditemukan di dictionary");
 		}
 		return isWordValid;
+	}
+
+	private void OnDisable() {
+		eventManager.onEnterPressedCorrect -= SpawnBoxHuruf;
 	}
 }
