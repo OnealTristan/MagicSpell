@@ -6,14 +6,21 @@ public class ConditionScript : MonoBehaviour
 {
     [Header(" References ")]
     private Data data;
+	private AdManager adManager;
 
     [Header(" Elements ")]
     [SerializeField] private Loader.Scene restartScene;
     [SerializeField] private Loader.Scene nextLevelScene;
 
-	private void Awake() {
-		data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
-	}
+    private void Start() {
+        data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
+        adManager = GameObject.FindGameObjectWithTag("Ad").GetComponent<AdManager>();
+    }
+
+    private IEnumerator IntervalWaitLoad () {
+		yield return new WaitForSeconds(0.7f);
+        Loader.Load(nextLevelScene);
+    }
 
 	public void NextLevel() {
 		// project Mode TA
@@ -27,8 +34,10 @@ public class ConditionScript : MonoBehaviour
 			Loader.Load(Loader.Scene.GameLevel);
 		// project Mode KP
 		} else {
-			Loader.Load(nextLevelScene);
-		}
+            adManager.LoadInterstitialAd();
+			//StartCoroutine(IntervalWaitLoad());
+            Loader.Load(nextLevelScene);
+        }
 	}
 
     public void RestartLevel() {

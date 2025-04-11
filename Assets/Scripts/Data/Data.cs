@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Data : MonoBehaviour
 {
-    public static Data Instance;
+    public static Data instance;
 
     [Header(" Elements ")]
     [SerializeField] private int coin;
@@ -24,8 +24,8 @@ public class Data : MonoBehaviour
     public AchievementSO[] achievementSO;
 
 	private void Awake() {
-		if (Instance == null) {
-			Instance = this;
+		if (instance == null) {
+			instance = this;
 			DontDestroyOnLoad(gameObject);
 		} else {
 			Destroy(gameObject);

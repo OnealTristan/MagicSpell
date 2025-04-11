@@ -18,6 +18,7 @@ TagManager:
   - TextLevelLevelPanel
   - TutorialPanel
   - GameLayoutPanel
+  - Ad
   layers:
   - Default
   - TransparentFX

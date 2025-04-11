@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EventManager : MonoBehaviour
 {
-	private EventManager instance;
+	private static EventManager instance;
 
 	[Header(" Event Keyboard Class ")]
 	//UserInputDisplay-KeyPressedCallback

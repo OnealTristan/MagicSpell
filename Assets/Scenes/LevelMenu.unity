@@ -3045,6 +3045,7 @@ MonoBehaviour:
   - {fileID: 472416814}
   - {fileID: 1657588112}
   - {fileID: 2087206143}
+  chapterIndex: 0
 --- !u!1 &419886991
 GameObject:
   m_ObjectHideFlags: 0

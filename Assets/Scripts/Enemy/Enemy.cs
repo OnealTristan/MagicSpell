@@ -48,15 +48,15 @@ public class Enemy : MonoBehaviour {
             }
         }
 
-        /*if (player == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+        if (player == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
 			player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 			player.OnHittingEnemy += ResetAttackInterval;
-		}*/
+		}
 
-        /*if (keyboard == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+        if (keyboard == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
 			keyboard = GameObject.FindGameObjectWithTag("Keyboard").GetComponent<NewKeyboard>();
 			keyboard.OnEnterPressed += ResetAttackInterval;
-		}*/
+		}
     }
 
     private IEnumerator AttackRotuine() {

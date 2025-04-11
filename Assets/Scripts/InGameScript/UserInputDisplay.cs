@@ -24,14 +24,14 @@ public class UserInputDisplay : MonoBehaviour
 		eventManager.onEnterPressedCorrect += EnterPreseedCallback;
 		eventManager.onEnterPressedWrong += EnterPreseedCallback;
 
-		/*if (keyboard != null) {
+		if (keyboard != null) {
 			// Subscribe to events
 			keyboard.onBackspacePressed += BackspacePressedCallback;
 			keyboard.onKeyPressed += KeyPressedCallback;
 			keyboard.OnEnterPressed += EnterPreseedCallback;
 		} else {
 			Debug.LogError("NewKeyboard component not found in children. Make sure it is added to the GameObject.");
-		}*/
+		}
 	}
 
 	// Start is called before the first frame update
