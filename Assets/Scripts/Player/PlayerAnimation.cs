@@ -66,7 +66,7 @@ public class PlayerAnimation : MonoBehaviour
 
 	private void OnDisable() {
 		eventManager.onEnterPressedCorrect -= PlayerAttackAnimation;
-		eventManager.onEnterPressedWrong += PlayerIdleAnimation;
+		eventManager.onEnterPressedWrong -= PlayerIdleAnimation;
 
 		eventManager.onTextDisplay -= PlayerSpellingAnimation;
 		eventManager.onTextEmpty -= PlayerIdleAnimation;

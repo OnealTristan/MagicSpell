@@ -86,6 +86,6 @@ public class EnemyAnimation : MonoBehaviour
 
 	private void OnDisable() {
 		eventManager.onEnterPressedWrong -= EnemyAttackAnimation;
-		eventManager.onHittingEnemy += EnemyGetHitAnimation;
+		eventManager.onHittingEnemy -= EnemyGetHitAnimation;
 	}
 }

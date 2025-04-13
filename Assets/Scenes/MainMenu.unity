@@ -12648,7 +12648,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
       propertyPath: projectMode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7754517902779545528, guid: 10f12f256a0852f4aaee94593730aa17, type: 3}
       propertyPath: maxHealthPlayer
@@ -31664,6 +31664,10 @@ PrefabInstance:
     - target: {fileID: 7493045422026359425, guid: 9bdb4d35fa350714695c1577ae7a72f6, type: 3}
       propertyPath: m_Name
       value: Ad
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493045422026359425, guid: 9bdb4d35fa350714695c1577ae7a72f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bdb4d35fa350714695c1577ae7a72f6, type: 3}

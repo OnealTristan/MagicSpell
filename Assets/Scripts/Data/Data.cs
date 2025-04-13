@@ -24,6 +24,8 @@ public class Data : MonoBehaviour
     public AchievementSO[] achievementSO;
 
 	private void Awake() {
+		Application.targetFrameRate = 60;
+
 		if (instance == null) {
 			instance = this;
 			DontDestroyOnLoad(gameObject);
