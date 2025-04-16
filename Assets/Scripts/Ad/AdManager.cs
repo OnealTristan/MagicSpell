@@ -1,19 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using GoogleMobileAds;
-using GoogleMobileAds.Api;
+//using GoogleMobileAds;
+//using GoogleMobileAds.Api;
 using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 
 public class AdManager : MonoBehaviour {
-    public static AdManager instance;
+    /*public static AdManager instance;
 
     private static string ADBANNERUNIT_ID = "ca-app-pub-5735182625942530/2585099069";
     private static string adINTERSTITIALUNIT_ID = "ca-app-pub-5735182625942530/5036561064";
 
-    private BannerView bannerView;
-    private InterstitialAd interstitialAd;
+    //private BannerView bannerView;
+   // private InterstitialAd interstitialAd;
 
     private Scene scene;
     private string sceneName;
@@ -30,7 +30,7 @@ public class AdManager : MonoBehaviour {
     // Start is called before the first frame update
     void Start() {
         // Initialize the Google Mobile Ads SDK.
-        MobileAds.Initialize((InitializationStatus initStatus) => {
+       // MobileAds.Initialize((InitializationStatus initStatus) => {
             // This callback is called once the MobileAds SDK is initialized.
         });
 
@@ -110,5 +110,5 @@ public class AdManager : MonoBehaviour {
         } else {
             Debug.LogError("Interstitial ad is not ready yet.");
         }
-    }
+    }*/
 }

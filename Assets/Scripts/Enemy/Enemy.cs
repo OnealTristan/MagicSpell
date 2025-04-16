@@ -53,10 +53,10 @@ public class Enemy : MonoBehaviour {
 			player.OnHittingEnemy += ResetAttackInterval;
 		}
 
-        /*if (keyboard == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
+        if (keyboard == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
 			keyboard = GameObject.FindGameObjectWithTag("Keyboard").GetComponent<NewKeyboard>();
 			keyboard.OnEnterPressed += ResetAttackInterval;
-		}*/
+		}
     }
 
     private IEnumerator AttackRotuine() {
@@ -73,6 +73,9 @@ public class Enemy : MonoBehaviour {
     }
 
     public void ResetAttackInterval() {
+        if (this == null || !this.gameObject.activeInHierarchy)
+            return;
+
         if (attackCoroutine != null) {
             StopCoroutine(attackCoroutine);
         }
@@ -121,5 +124,10 @@ public class Enemy : MonoBehaviour {
 
     public bool GetCoroutineAttack() {
         return coroutineAttack;
+    }
+
+    private void OnDestroy() {
+        eventManager.onHittingEnemy -= ResetAttackInterval;
+        eventManager.onEnterPressedCorrect -= ResetAttackInterval;
     }
 }

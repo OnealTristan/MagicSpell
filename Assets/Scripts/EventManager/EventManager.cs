@@ -73,7 +73,8 @@ public class EventManager : MonoBehaviour
 	}
 
 	public void OnEnterPressedCorrect() {
-		onEnterPressedCorrect?.Invoke();
+        if (onEnterPressedCorrect != null)
+            onEnterPressedCorrect?.Invoke();
 	}
 
 	public void OnEnterPressedWrong() {

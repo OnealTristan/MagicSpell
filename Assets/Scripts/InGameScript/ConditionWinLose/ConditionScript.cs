@@ -34,7 +34,7 @@ public class ConditionScript : MonoBehaviour
 			Loader.Load(Loader.Scene.GameLevel);
 		// project Mode KP
 		} else {
-            adManager.LoadInterstitialAd();
+            //adManager.LoadInterstitialAd();
 			//StartCoroutine(IntervalWaitLoad());
             Loader.Load(nextLevelScene);
         }
