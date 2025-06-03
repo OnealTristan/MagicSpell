@@ -21,7 +21,6 @@ public class PlayerAnimation : MonoBehaviour
 	EventManager eventManager;
 
 	private void Awake() {
-		animator = GetComponent<Animator>();
 		eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
 	}
 
@@ -34,6 +33,11 @@ public class PlayerAnimation : MonoBehaviour
 	}
 
 	private void Update() {
+		if (animator == null)
+        {
+			animator = GetComponent<Animator>();
+		}
+
 		if (enemy == null && GameManager.instance.state == GameManager.GameState.OnGoing) {
 			enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
 			enemy.OnHittingPlayer += PlayerGetHitAnimation;
