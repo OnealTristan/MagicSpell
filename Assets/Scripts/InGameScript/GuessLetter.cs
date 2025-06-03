@@ -127,7 +127,7 @@ public class GuessLetter : MonoBehaviour
 
 		word = dictionary.GetRandomWord();
 
-		/*System.Random random = new System.Random();
+		System.Random random = new System.Random();
 		int randomMethod = random.Next(3); // Menghasilkan angka acak 0, 1, atau 2
 
 		List<int> indexToRemove;
@@ -152,9 +152,9 @@ public class GuessLetter : MonoBehaviour
 				indexToRemove = new List<int>();
 				Debug.LogWarning("Metode default dipilih, tidak ada huruf yang dihapus.");
 				break;
-		}*/
+		}
 
-		var indexToRemove = ConsonantRemove(word);
+		//var indexToRemove = ConsonantRemove(word);
 
 		Debug.Log("Huruf random = " + word);
 
@@ -247,7 +247,7 @@ public class GuessLetter : MonoBehaviour
 			}
 		}
 
-		bool isWordValid = dictionary.GetValidWords().Contains(playerInput.ToLower().Trim());
+		bool isWordValid = dictionary.IsWordInDictionarySO(playerInput);
 		if (!isWordValid) {
 			Debug.Log("Kata tidak ditemukan di dictionary");
 		}

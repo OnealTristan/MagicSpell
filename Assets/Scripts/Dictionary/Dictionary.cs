@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Dictionary : MonoBehaviour
 {
+    [SerializeField] private Text text;
+    [SerializeField] private DictionarySO[] dictionarySO;
     private string[] validWords;
 
     void Awake()
@@ -26,13 +29,36 @@ public class Dictionary : MonoBehaviour
         return validWords;
     }
 
-    public string GetRandomWord() {
-        var word = validWords.Where(words => words.Length == 5).ToArray();
+    public bool IsWordInDictionarySO(string wordToCheck)
+    {
+        if (dictionarySO == null || dictionarySO.Length == 0)
+            return false;
 
-		/*Debug.Log("Jumlah kata dengan panjang 5 huruf: " + word.Length);
-		foreach (string kata in word) {
-			Debug.Log("Kata: " + kata);
-		}*/
+        string lowerWord = wordToCheck.ToLower().Trim();
+
+        foreach (var dictSO in dictionarySO) {
+            if (dictSO != null && dictSO.word != null) {
+                if (dictSO.word.Any(w => w.ToLower().Trim() == lowerWord)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    public DictionarySO GetRandomDictionarySO()
+    {
+        if (dictionarySO == null || dictionarySO.Length == 0)
+            return null;
+
+        int randomDictIndex = Random.Range(0, dictionarySO.Length);
+        DictionarySO selectedDict = dictionarySO[randomDictIndex];
+        return selectedDict;
+    }
+
+    public string GetRandomWord() {
+        /*var word = validWords.Where(words => words.Length == 5).ToArray();
 
 		if (word.Length > 0) {
             int randomIndex = Random.Range(0, word.Length);
@@ -40,7 +66,17 @@ public class Dictionary : MonoBehaviour
             return randomWord;
         } else {
             return null;
-        }
+        }*/
+        DictionarySO selectedDictionary = GetRandomDictionarySO();
+        text.text = selectedDictionary.category;
+
+        string[] words = selectedDictionary.word;
+
+        if (words == null || words.Length == 0)
+            return null;
+
+        int randomWordIndex = Random.Range(0, words.Length);
+        return words[randomWordIndex];
     }
 
     private void CountWords() {

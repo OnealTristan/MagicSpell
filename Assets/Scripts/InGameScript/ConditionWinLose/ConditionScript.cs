@@ -6,7 +6,7 @@ public class ConditionScript : MonoBehaviour
 {
     [Header(" References ")]
     private Data data;
-	private AdManager adManager;
+	//private AdManager adManager;
 
     [Header(" Elements ")]
     [SerializeField] private Loader.Scene restartScene;
@@ -14,7 +14,7 @@ public class ConditionScript : MonoBehaviour
 
     private void Start() {
         data = GameObject.FindGameObjectWithTag("Data").GetComponent<Data>();
-        adManager = GameObject.FindGameObjectWithTag("Ad").GetComponent<AdManager>();
+        //adManager = GameObject.FindGameObjectWithTag("Ad").GetComponent<AdManager>();
     }
 
     private IEnumerator IntervalWaitLoad () {

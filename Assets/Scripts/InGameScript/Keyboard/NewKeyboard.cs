@@ -97,85 +97,83 @@ public class NewKeyboard : MonoBehaviour
         {
             return;
         }
-
-        if (dictionary.GetValidWords() != null)
+        // Menguji jika kata yang sudah digunakan tidak dapat digunakan kembali
+        if (usedWords == null || Array.IndexOf(usedWords, txt) == -1)
         {
-            // Menguji jika kata yang sudah digunakan tidak dapat digunakan kembali
-            if (usedWords == null || Array.IndexOf(usedWords, txt) == -1)
-            {
-                if (data.GetProjectMode() == false) {
-                    foreach (string word in dictionary.GetValidWords())
+            // Project Mode = KP
+            if (data.GetProjectMode() == false) {
+                foreach (string word in dictionary.GetValidWords())
+                {
+                    // Equals() diperuntukan 1 kata penuh
+                    // Contains(i[0]) diperuntukan untuk setiap huruf dalam kata
+                    if (word.ToLower().Trim().Equals(txt))
                     {
-                        // Equals() diperuntukan 1 kata penuh
-                        // Contains(i[0]) diperuntukan untuk setiap huruf dalam kata
-                        if (word.ToLower().Trim().Equals(txt))
+                        // Menguji apakah kata tersebut mengandung 2 huruf yang harus di ketik?
+                        if (txt.Contains(letter[0]) && txt.Contains(letter[1]))
                         {
-                            // Menguji apakah kata tersebut mengandung 2 huruf yang harus di ketik?
-                            if (txt.Contains(letter[0]) && txt.Contains(letter[1]))
+                            // Jika benar maka damage akan diterima oleh musuh
+                            Debug.Log("Type: " + txt + " Found!!");
+
+                            data.AchievementCheck(txt);
+
+                            playerAnimation.PlayerAttackAnimation();
+
+                            // Reset interval enemy attack
+                            OnEnterPressed?.Invoke();
+
+                            //player.ActivatedWeapon();
+
+                            if (usedWords == null)
                             {
-                                // Jika benar maka damage akan diterima oleh musuh
-                                Debug.Log("Type: " + txt + " Found!!");
-
-                                data.AchievementCheck(txt);
-
-                                playerAnimation.PlayerAttackAnimation();
-
-                                // Reset interval enemy attack
-                                OnEnterPressed?.Invoke();
-
-                                //player.ActivatedWeapon();
-
-                                if (usedWords == null)
-                                {
-                                    usedWords = new string[0];
-                                }
-
-                                Array.Resize(ref usedWords, usedWords.Length + 1);
-                                usedWords[usedWords.Length - 1] = txt;
-
-                                stringFound = true;
-                                break;
+                                usedWords = new string[0];
                             }
+
+                            Array.Resize(ref usedWords, usedWords.Length + 1);
+                            usedWords[usedWords.Length - 1] = txt;
+
+                            stringFound = true;
+                            break;
                         }
-				    }
-                } else {
-                    if (guessLetter.CheckContainWord(txt)) {
-						// Jika benar maka damage akan diterima oleh musuh
-						Debug.Log("Type: " + txt + " Found!!");
+                    }
+				}
+            } 
+            else {
+                if (guessLetter.CheckContainWord(txt)) {
+					// Jika benar maka damage akan diterima oleh musuh
+					Debug.Log("Type: " + txt + " Found!!");
 
-						data.AchievementCheck(txt);
+					data.AchievementCheck(txt);
 
-						//playerAnimation.PlayerAttackAnimation();
-						// Reset interval enemy attack
-						//OnEnterPressed?.Invoke();
-                        //guessLetter.SpawnBoxHuruf();
-						//player.ActivatedWeapon();
+					//playerAnimation.PlayerAttackAnimation();
+					// Reset interval enemy attack
+					//OnEnterPressed?.Invoke();
+                    //guessLetter.SpawnBoxHuruf();
+					//player.ActivatedWeapon();
 
-                        eventManager.OnEnterPressedCorrect();
+                    eventManager.OnEnterPressedCorrect();
 
-						if (usedWords == null) {
-							usedWords = new string[0];
-						}
-
-						Array.Resize(ref usedWords, usedWords.Length + 1);
-						usedWords[usedWords.Length - 1] = txt;
-
-						stringFound = true;
+					if (usedWords == null) {
+						usedWords = new string[0];
 					}
-                }
-            }
 
-			//Jika salah maka damage akan diterima oleh player
-			if (!stringFound)
-            {
-                Debug.Log("Type: " + txt + " Not Found!!");
-                /*
-                playerAnimation.PlayerIdleAnimation();
-                enemyAnimation.EnemyAttackAnimation();
-				userInputDisplay.DeleteText();
-                */
-                eventManager.OnEnterPressedWrong();
-			}
+					Array.Resize(ref usedWords, usedWords.Length + 1);
+					usedWords[usedWords.Length - 1] = txt;
+
+					stringFound = true;
+				}
+            }
+        }
+
+		//Jika salah maka damage akan diterima oleh player
+		if (!stringFound)
+        {
+            Debug.Log("Type: " + txt + " Not Found!!");
+            /*
+            playerAnimation.PlayerIdleAnimation();
+            enemyAnimation.EnemyAttackAnimation();
+			userInputDisplay.DeleteText();
+            */
+            eventManager.OnEnterPressedWrong();
 		}
 	}
 
