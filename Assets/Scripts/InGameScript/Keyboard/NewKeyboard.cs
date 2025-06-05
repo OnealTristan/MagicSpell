@@ -98,8 +98,8 @@ public class NewKeyboard : MonoBehaviour
             return;
         }
         // Menguji jika kata yang sudah digunakan tidak dapat digunakan kembali
-        if (usedWords == null || Array.IndexOf(usedWords, txt) == -1)
-        {
+        //if (usedWords == null || Array.IndexOf(usedWords, txt) == -1)
+        //{
             // Project Mode = KP
             if (data.GetProjectMode() == false) {
                 foreach (string word in dictionary.GetValidWords())
@@ -162,7 +162,7 @@ public class NewKeyboard : MonoBehaviour
 					stringFound = true;
 				}
             }
-        }
+        //}
 
 		//Jika salah maka damage akan diterima oleh player
 		if (!stringFound)
