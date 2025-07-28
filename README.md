@@ -1,3 +1,3 @@
-# Magic Spell
+<h1 align="center">Magic Spell</h1>
  
 <p>Magic Spell adalah game edukasi Android yang saya program sebagai programmer utama menggunakan C# dan Unity Engine, dirancang untuk siswa SD-SMP. Game ini mengajarkan ejaan dan kosa kata bahasa Inggris (kategori seperti transportasi, buah-buahan, warna) melalui gameplay puzzle interaktif bertema sihir. Pemain mengendalikan kucing penyihir di hutan enchanted, mystical, dan river forest, mengalahkan tikus bermutasi dengan mantra (meteor, sihir es) menggunakan kata-kata dari keyboard dan petunjuk. Dengan 40 level seru, tingkat kesulitan meningkat, koin untuk senjata dan ramuan HP, serta musik latar bertema hutan, game ini mendidik sekaligus menggembirakan!</p>
